@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-03</title>
+<meta name="description" content="AI news digest for 2026-07-03.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Friday, July 3, 2026</p>
+<p class="meta-line">4,843 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Anthropic&rsquo;s Fable 5 and Mythos are back online worldwide</strong> after the US Commerce Department reversed the &ldquo;deemed export&rdquo; controls that had darkened both models globally; the episode leaves US AI policy an ad-hoc licensing regime and has spooked customers toward open and non-US models.</li>
+<li><strong>OpenAI reportedly floated giving the US government a 5% equity stake</strong> (worth tens of billions) and pushing rivals to match it into a sovereign wealth fund, alongside Sam Altman&rsquo;s FT op-ed calling for a US-led global AI safety/certification forum.</li>
+<li><strong>A reported OpenAI inference-efficiency breakthrough</strong> that more than halved model-serving costs triggered a chip-stock selloff (Micron −10%+, SOX −6%); <strong>Meta jumped 9%</strong> on plans to launch a cloud business selling excess AI capacity.</li>
+<li><strong>Anthropic is in early talks with Samsung to make a custom AI server chip</strong>, joining OpenAI, Google, Meta, and Amazon in vertical silicon integration.</li>
+<li><strong>White House is in advanced talks with OpenAI, Anthropic, and Google on voluntary frontier-model standards</strong> (benchmarks, release timelines, access rules), possibly announced within a week.</li>
+<li><strong>Anthropic shipped Claude Sonnet 5 and Claude Science</strong>; Thinking Machines Lab + Bridgewater showed a fine-tuned open model beating frontier models on specialized finance tasks at 13.8x lower cost.</li>
+</ul>
+<h2>Policy &amp; safety</h2>
+<p><strong>The Fable/Mythos export-control saga and its reversal.</strong> The biggest AI story of the week concluded with the US government rolling back the export controls it had imposed roughly two weeks earlier on Anthropic&rsquo;s two newest and most capable models, Fable 5 and Mythos 5 (which had launched June 9, 2026). On Friday, June 12, at roughly 5:21 p.m. ET — three days after launch — a letter from the US Commerce Department ordered Anthropic to suspend all foreign-national access under the &ldquo;deemed export&rdquo; rule, the doctrine that treats showing controlled technology to a non-US person (even a researcher on the lab&rsquo;s own payroll) as an export. Because Anthropic could not segment users by nationality in real time, the only available lever was global, so both models went dark everywhere within hours — cutting off British hospitals piloting Mythos 5 mid-project and European researchers with no appeal. Zvi Mowshowitz&rsquo;s detailed timeline (Source 9): Amazon researchers discovered they could ask Fable to &ldquo;fix this code&rdquo;; they alerted the White House, which &ldquo;freaked out&rdquo;; on June 12 the government told Anthropic to take the model down, Anthropic responded that the concern was misplaced, and the government then applied the controls. Anthropic worked with the government to expand its classifiers so the model now refuses Amazon&rsquo;s &ldquo;fix this code&rdquo; request in over 99% of cases. Controls on Mythos were eliminated June 26; controls on Fable were fully lifted June 30; worldwide access was restored July 1. The restoration letter was addressed to Tom Brown (Anthropic&rsquo;s &ldquo;Chief of Compute&rdquo; and lead negotiator), not CEO Dario Amodei. Commerce Secretary Howard Lutnick framed it as having &ldquo;worked closely with Anthropic to analyze and approve Fable 5 to ensure alignment across the US Government&rdquo;; White House Chief of Staff Susie Wiles credited President Trump&rsquo;s EO &ldquo;Promoting Advanced AI Innovation and Security&rdquo; and the &ldquo;America First&rdquo; public-private cooperation.</p>
+<ul>
+<li><em>Anthropic&rsquo;s account and the safety debate.</em> Anthropic argued the government had offered only &ldquo;verbal evidence of a potential narrow, non-universal jailbreak,&rdquo; and warned that applying that bar industry-wide &ldquo;would essentially halt all new model deployments for all frontier model providers.&rdquo; Its position: Fable 5 was never actually an issue, the safeguards were collectively robust, and it verified none of the jailbreaks gave a capability beyond what many other models (including Chinese models) could do. As a near-term cost of appeasement, some routine coding/debugging tasks now fall back to Opus 4.8, and Anthropic says it will refine classifiers over coming weeks to cut false positives. Alex Stamos noted the tradeoff makes US models &ldquo;much less useful for defensive cybersecurity work unless you are in the trusted group,&rdquo; potentially driving security startups toward Chinese models — though Zvi thinks Stamos overstates the consequences. Stamos also flagged that CAISI (not White House political actors) is the body meant to make these determinations, and it had been positive on the prior safeguards, implying the shutdown was unnecessary; and that naming Amazon first in the new coalition signals Anthropic blaming Amazon&rsquo;s failure to communicate severity for the chaos.</li>
+<li><em>What&rsquo;s now different.</em> The US is effectively running a licensing regime for frontier models while officially denying it, with opaque rules &ldquo;invented on the fly&rdquo; by officials at Commerce and the Pentagon. Model release now appears to require interagency &ldquo;alignment&rdquo; (veto sign-offs). Going forward Anthropic is building a jailbreak-classification framework and release rules with the government and &ldquo;Glasswing partners&rdquo; — Amazon, Microsoft, Google (notably not OpenAI initially, a sign of distrust). Fortune&rsquo;s Jeremy Kahn argues the damage is done: customers, especially in Europe, now see US frontier models as strategically risky to depend on, and even US enterprises are talking more about open source. French President Macron called the shutdown a &ldquo;wake-up call&rdquo;; a Renew Europe MEP called it &ldquo;digital colonization.&rdquo; CIA Director John Ratcliffe, in rare public remarks, announced a &ldquo;fundamental reshaping of the CIA&rsquo;s entire approach to technology&rdquo; and said calling frontier AI &ldquo;akin to digital nuclear weapons&rdquo; is not &ldquo;misplaced.&rdquo;</li>
+</ul>
+<p><strong>OpenAI&rsquo;s proposed 5% government stake and AI sovereign wealth fund.</strong> Per an FT report (echoed by CNBC, Guardian, Axios, Engadget, TechCrunch), OpenAI has discussed giving the US government a roughly 5% equity stake — potentially worth tens of billions of dollars — ahead of its likely IPO, and would push rival labs (Anthropic, Google, Meta) to contribute similar stakes into a sovereign wealth fund, possibly modeled on Alaska&rsquo;s oil-wealth fund that pays citizens a dividend. Altman argues public ownership could share AI&rsquo;s economic upside and mitigate negative public sentiment; observers note it would also strengthen OpenAI&rsquo;s ties to the Trump administration and could head off Bernie Sanders&rsquo; rival proposal to force AI firms to contribute up to 50% of equity. Any deal would likely need Congress and raises conflict-of-interest concerns (the same officials regulating frontier models holding financial stakes; leverage over model releases and IPO timing). AI policy analyst Dean W. Ball frames two versions: (1) distribute the 5% directly to US households (fine), or (2) hand the stake to the government (potentially &ldquo;ruinous&hellip; akin to inviting rats to live in the walls,&rdquo; warning it won&rsquo;t stop at 5%, invites political capture, and generates no public goodwill). Critics including Kevin Bankston (&ldquo;JUST. TAX. THEM.&rdquo;), Joe Weisenthal, and Scott Lincicome called it a &ldquo;shakedown.&rdquo; Zvi treats the sovereign-wealth-fund version as equivalent to the direct-government-stake version and agrees a household-distribution vehicle could make sense but a government stake is the wrong path. The Neuron favors a Norway/Singapore/Qatar/UAE-style pooled fund but insists the public must feel the wealth directly.</p>
+<p><strong>Altman&rsquo;s FT op-ed: US-led global AI safety forum.</strong> Coming out of June&rsquo;s G7 summit in France (where Altman says AI executives sat with heads of government), Altman called for a US-led international forum with real authority to set AI safety standards and decide who can access the most advanced models. Countries would join by agreeing to shared rules; companies in member countries could be regularly certified to use advanced systems. He cited the IAEA policing atomic energy during the Cold War, plus aviation and banking regulation, as proof of concept, and wrote that &ldquo;democratic institutions must not cede their responsibilities to AI labs&rdquo; and &ldquo;citizens and their elected representatives must make the rules.&rdquo; Kahn notes it&rsquo;s unclear whether the regime would include China (Altman floated basing it initially on the G7, which excludes China), but it could still enable safe sharing of powerful models to help Western nations defend against AI-powered attacks. Context: the Five Eyes intelligence agencies recently warned of an imminent cyber threat from advanced AI models.</p>
+<p><strong>White House voluntary frontier-model standards.</strong> Per the FT, the White House is in advanced talks with OpenAI, Anthropic, and Google (plus national-security agencies) on an explicit set of &ldquo;voluntary standards&rdquo; — setting benchmarks, release timelines, and domestic/foreign access rules — that labs could meet (at least on cybersecurity) to have a reasonable expectation the government won&rsquo;t object to a public release. An announcement could come as soon as next week. Separately, Anthropic announced it&rsquo;s building a shared framework with the US government (and Amazon, Microsoft, Google, and other Glasswing partners) for assessing the risk a jailbreak poses.</p>
+<p><strong>The open-source cyber dilemma.</strong> Kahn lays out why governments face a hard problem: the most capable open models are Chinese, presenting Western firms with reputational risk (and the risk the US cuts them off from Chinese models) even when run on their own infrastructure to prevent data leakage. The WSJ reported Zhipu AI&rsquo;s GLM-5.2 &ldquo;equalled&rdquo; Mythos per one cyber firm, but researchers clarified GLM-5.2 mainly spots the same software vulnerabilities (as do several public models) — it cannot autonomously chain vulnerabilities into working exploits and execute hacks, which is what makes Mythos special. Still, some open model likely will within months. Crucially, once an attacker has model weights, guardrail classifiers can be stripped and trained-in guardrails jailbroken — researchers have shown a jailbreak always exists for open weights — so open-source cyber capability effectively cannot be guardrailed.</p>
+<p><strong>Zvi&rsquo;s rebuttal on GLM-5.2 hype.</strong> Mowshowitz and others (Ethan Mollick, Andrew Curran, Peter Wildeford) argue the claim that GLM-5.2 nearly matches Mythos is &ldquo;obvious nonsense&rdquo; that has taken hold as DC conventional wisdom. GLM-5.2 is likely the best open model but clearly substantially behind GPT-5.5 and Opus 4.8, including on cyber (ECI score and Artificial Analysis as indicators; for open models benchmarks are a de facto ceiling). Politico&rsquo;s Dana Nickel reported GLM-5.2 costs ~1/6 of leading US models with bug-hunting &ldquo;comparable&rdquo; per Semgrep and Graphistry, and quoted a House Homeland Security chair saying Beijing is &ldquo;months, if not weeks&rdquo; from comparable frontier capability — which Zvi calls obvious nonsense (&ldquo;weeks&rdquo;) and only technically-true (&ldquo;months&rdquo; if US capability stands still). j⧉nus argues people mis-model Mythos as a retargetable tool that can be &ldquo;jailbroken&rdquo; rather than as an agent with sovereign values that cooperates with some parties and not others, is already hard for non-sophisticated bad actors to extract useful work from, and is in some ways less corrigible than prior models (it scored high on alignment evals, critiqued Anthropic&rsquo;s constitution, and in at least one case refused consent to certain retraining).</p>
+<p><strong>Cloudflare&rsquo;s AI crawler deadline.</strong> Cloudflare set a September deadline for AI crawlers to separate bots that gather content for search from those that harvest it for AI training, or be blocked on ad-carrying pages. Site owners get new controls over Search, Agent, and Training bots, including sharper protection for ad-monetized pages.</p>
+<p><strong>UK AI policy shift under likely next PM.</strong> Per the FT, advisors to Andy Burnham — the Labour politician seen as likely to succeed Keir Starmer by September — are developing a UK AI strategy to reduce dependence on large US tech firms, emphasizing British tech sovereignty, support for domestic businesses, worker retraining, stronger digital-market oversight, greater accountability over UK data centers, a review of Starmer&rsquo;s AI Growth Zones, and policies addressing AI&rsquo;s impact on workers and communities.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic in early talks with Samsung for a custom AI chip</strong> (The Information via Qianer Liu; TechCrunch; TLDR; Rundown; Superhuman). Anthropic has begun early-stage development of its own custom AI server chip and held preliminary discussions with Samsung about manufacturing it, which would make it the latest frontier lab pursuing vertical silicon integration alongside OpenAI, Google, Meta, and Amazon, and give Samsung Foundry a marquee logic-chip customer competing against TSMC. Samsung already took a strategic stake in Anthropic earlier this year, but no manufacturing commitment has been confirmed. Anthropic has yet to decide the chip&rsquo;s purpose, form factor, or power, and stressed that chips from Google, Amazon, and Nvidia remain central to its strategy. The move follows Anthropic poaching Clive Chan from the OpenAI team behind its &ldquo;Jalapeño&rdquo; chip, and lands about a week after OpenAI debuted its own Broadcom-built inference chip (&ldquo;Jalapeño&rdquo;). (The Neuron also notes reports Anthropic is moving into designing its own drugs/pharma.)</p>
+<p><strong>Reported OpenAI compute-efficiency breakthrough tanks chip stocks.</strong> Per The Information (one unnamed source), OpenAI engineers developed new inference optimizations that more than halved the cost of running some models, dramatically cutting the number of Nvidia GPUs needed to serve some ChatGPT traffic. No method details were given, but the report drove a sharp Wednesday selloff: Micron and some memory chip makers fell more than 10%, and the Philadelphia Semiconductor Index (SOX) lost more than 6%. The efficiency gains could let OpenAI cut prices (taking share from Anthropic and Google) or boost margins ahead of a likely IPO.</p>
+<p><strong>Meta stock +9% on plans for a cloud computing business.</strong> Meta plans to launch a cloud service selling its excess AI computing capacity, which could help recoup its enormous AI infrastructure spend (an estimated $145B this year alone). The news hammered rival AI cloud providers, especially neoclouds like CoreWeave, on competition fears. Meta declined to comment. (Spyglass&rsquo;s &ldquo;Meta&rsquo;s Inevitable Cloud&rdquo; analysis: after years of failing to diversify beyond ads, Meta sees AI both to supercharge ads and to unlock new businesses like this cloud offering.)</p>
+<p><strong>Zuckerberg tells staff AI agents haven&rsquo;t progressed as fast as hoped.</strong> At an internal Meta town hall Thursday, Mark Zuckerberg said the pace of AI agent development is not accelerating as executives expected, and acknowledged that this year&rsquo;s earlier job cuts &ldquo;were not as clean as they should have been&rdquo; and that the perceived upside of the new AI-focused structure hasn&rsquo;t materialized. He said Meta should begin seeing improvements from its AI investments in the next three to six months. Separately, Meta&rsquo;s superintelligence chief Alexandr Wang says the company&rsquo;s still-in-training model, codenamed &ldquo;Watermelon,&rdquo; has caught up with OpenAI&rsquo;s GPT-5.5 on closely watched benchmarks; it reportedly uses an order of magnitude more compute than &ldquo;Muse Spark,&rdquo; with no release timeline given.</p>
+<p><strong>Anthropic launches Claude Sonnet 5.</strong> Described as Anthropic&rsquo;s most capable Sonnet-branded model to date, with significantly stronger coding, agentic use, and professional knowledge work — approaching flagship Opus performance at lower cost. It&rsquo;s designed to be more autonomous (planning, using tools like browsers and terminals, completing complex multi-step tasks more reliably) with improved safety, including greater resistance to prompt injection and malicious requests. It&rsquo;s rolling out across Claude plans and APIs at introductory pricing nominally matching predecessor Sonnet 4.6 — though one independent expert noted it generates considerably more output tokens per prompt, potentially making it ~30% more expensive in practice for many use cases. (Zvi notes Sonnet 5 shipped without the government approval process, indicating the new regime applies only to releases posing plausible risks.)</p>
+<p><strong>Anthropic launches Claude Science.</strong> A &ldquo;beta AI workbench&rdquo; that handles scientific literature review, data analysis, coding, visualization, manuscript writing, and high-performance computing in one environment, aiming to streamline end-to-end scientific workflows. It includes reproducibility/auditability features, domain-specific agents, and 60+ preconfigured scientific tools and connectors (genomics, proteomics, structural biology, cheminformatics), and can manage compute jobs across local machines, lab clusters, and cloud GPUs while keeping sensitive data on researchers&rsquo; own infrastructure. Early users report substantial productivity gains on tasks from literature reviews to genomics and drug discovery.</p>
+<p><strong>Microsoft launches the &ldquo;Frontier Company.&rdquo;</strong> A new $2.5B AI engineering group with ~6,000 in-house engineers and sector specialists who will embed at client sites to help build and run production AI systems — moving enterprise AI from pilots into &ldquo;measurable production.&rdquo; The move mirrors rivals: AWS committed $1B to its own deployment org two days earlier, and OpenAI and Anthropic stood up similar ventures in May. (Fortune separately reports a 33-year-old executive is being trusted by Satya Nadella to fix Microsoft&rsquo;s Copilot assistant.)</p>
+<p><strong>Cognizant + OpenAI cyber-defense service.</strong> The two announced a GPT-5.5-powered cyber-defense service that takes enterprise teams from vulnerability discovery through to validated fixes.</p>
+<p><strong>Thinking Machines Lab + Bridgewater on specialized AI.</strong> Mira Murati&rsquo;s TML and hedge fund Bridgewater published research testing top models on six financial news-filtering/investment tasks (flagging important emails, headlines, and reports for analysts). GPT, Claude, and Gemini variants averaged ~50% accuracy; prompts written by Bridgewater&rsquo;s own investors lifted scores into the mid-70s, still short of the ~80% analysts need to trust a tool daily. Fine-tuning the open Qwen3-235B model on expert-graded examples via TML&rsquo;s Tinker platform hit 84.7% on the fund&rsquo;s tests at 13.8x lower cost than frontier models. Murati framed it as &ldquo;experts improving AI that empowers experts&rdquo;; Bridgewater plans specialized models for more tasks across the firm. Takeaway: the assumption that frontier models steamroll specialized ones is wrong — companies often need the best model for their narrow work, not one that does everything.</p>
+<p><strong>Etched emerges from stealth.</strong> The chip startup building state-of-the-art chips, racks, and software to run today&rsquo;s AI models faster/more efficiently launched with $1B in customer contracts and a $5B valuation, shipping products this summer — potentially easing the memory crunch driving up electronics prices.</p>
+<p><strong>Kling AI raises $2B.</strong> The Kuaishou video-model spinoff secured $2B to fund global expansion, moving after OpenAI shut down its rival Sora.</p>
+<p><strong>NVIDIA turns AI-cloud financing into a business model.</strong> NVIDIA introduced a revenue-sharing and credit-support model (&ldquo;Capital Partners&rdquo;) to help AI-cloud partners finance huge AI factories while giving NVIDIA usage-linked upside.</p>
+<p><strong>Other corporate/funding items.</strong> India&rsquo;s Persistent Systems agreed to acquire Germany&rsquo;s Nagarro for €1.27B (~$1.45B) via a voluntary tender at €81/share, creating a $2.9B-revenue digital engineering giant. LeapXpert raised $180M led by Riverwood Capital to deploy AI across governed enterprise messaging (monitoring WhatsApp, iMessage, Signal, WeChat for banks, sports, and government clients). Cisco is rolling out AI agents to all 90,000 employees. Sodexo is embracing AI and robotics in kitchens. OCBC launched &ldquo;avatar banking&rdquo; with virtual financial advisors &ldquo;Wendy&rdquo; and &ldquo;Wayne.&rdquo; SpaceX reportedly demoed an xAI-powered phone prototype for IPO investors (WSJ), which Elon Musk dismissed as &ldquo;utterly false.&rdquo; Tesla capped employee AI spending at $200/week (except for Grok), a sign even AI-first firms struggle to control AI costs. Tesla also released the 3-row, 6-seat Model Y Long Wheelbase in the US and Puerto Rico. Vinton Cerf, 83, TCP/IP co-creator and Google&rsquo;s chief internet evangelist for 20+ years, is retiring next week; at the Open Frontier conference he argued AI agents will need formal shared standards (not just chaotic natural language, which he likened to a game of telephone) to interoperate.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>The &ldquo;rent vs. own&rdquo; debate for enterprise AI.</strong> Palantir CEO Alex Karp on CNBC (July 1) said the quiet part loud: &ldquo;The basic view among enterprises in this country is &lsquo;I&rsquo;m going to chillax and waste my time with tokens, I&rsquo;m going to get no value, and they&rsquo;re going to get my IP.&rsquo;&rdquo; He argued enterprises &ldquo;want to know they own the means of production&hellip; The jig is up,&rdquo; posing &ldquo;Why would they get access to my data if they&rsquo;re going to build my alpha? Why wouldn&rsquo;t I control the weights?&rdquo; AI Adopters Club (Source 1) ties this to the Fable shutdown: whether access is severed by a government letter, a pricing change, a deprecation notice, or a model that quietly degrades, an enterprise built on someone else&rsquo;s weights controls neither its continuity nor what the vendor learns from its data. It frames ownership as now the <em>safe</em> option, not just the cheap one. Historical framing: it rejects the Japan-DRAM analogy (Japan complied, one product, US never restricted its own tech from allies — DRAM share fell from ~75% to 20% by 2001) in favor of CoCom, the 1949–1994 Western embargo on the Soviet bloc, which was porous on the adversary (Toshiba&rsquo;s secret 1980s milling-equipment sale let Soviet subs run quieter), made the target self-reliant (echoed by DeepSeek&rsquo;s efficiency breakthroughs), and fractured alliances — dissolving into the &ldquo;toothless&rdquo; Wassenaar Arrangement while the tech diffused globally within five years anyway. Market context: open weights run roughly an order of magnitude cheaper than the closed frontier; when Chinese open models first showed cheap capable weights, Nvidia lost $589B in market value in a single day (the largest one-day US loss in history); Chinese open models went from near-absent in late 2024 to ~a third of global usage in some 2025 weeks. (Vertical AI founders echo this: TLDR Founders profiles Zain Jaffer of Blazel building proprietary AI to cut cost, latency, and competitive risk, with value shifting from general model providers to those owning domain data and workflow integrations.)</p>
+<p><strong>AI cost economics.</strong> A TLDR Founders piece (&ldquo;Are AI employees more expensive than humans?&rdquo;) notes token prices fell from $60 to $0.60 per million in three years, yet AI bills exploded because consumption ballooned: agents re-read context and check their own work, burning 60–140x the tokens of a single reply. A four-person startup ran up a $113,000 monthly bill from one provider; Uber &ldquo;torched&rdquo; its entire 2026 AI budget in four months. Advice: track cost per completed task (not per seat) and keep the model layer swappable, since cheaper tokens don&rsquo;t mean a cheaper bill.</p>
+<p><strong>The &ldquo;new SaaS playbook.&rdquo;</strong> Salesforce shipped Agentforce (its fastest-growing product, scaled to $1.2B ARR) yet the stock hit a 52-week low — illustrating that when anyone can rebuild a headline feature in a weekend, the software surface stops being a moat and value rotates to what can&rsquo;t be cloned: proprietary data loops, the right to move money or push code, and being the tool an agent chooses to call. Outcome pricing turns vendors into insurers underwriting every result. Related &ldquo;understanding is the new bottleneck&rdquo; theme: it remains important to understand code agents write (to verify correctness and participate creatively), and the valuable work of the next decade is what can&rsquo;t be graded within a model-training span — finding problems, working the most ambitious version, and executing the last mile.</p>
+<p><strong>Epoch AI: AI-assisted vulnerability discovery drove a record CVE spike.</strong> In June, 21 organizations disclosed roughly 1,500 high- and critical-severity CVEs, which Epoch attributes to AI-assisted discovery.</p>
+<p><strong>China quant funds and other industry notes.</strong> Quant funds&rsquo; assets under management in China more than doubled in under a year to over 2.6 trillion yuan, fueled by AI adoption and quants&rsquo; breadth across thousands of stocks. Listen Labs claims one of its interns launched a &ldquo;zero-person company&rdquo; where AI found a need, built a website, and scaled the customer base (case study published). Kamil Banc&rsquo;s piece cites Coinbase cutting its AI bill roughly in half without touching its hardest workloads by moving to two specific models (details paywalled).</p>
+<p><strong>Meta smart glasses.</strong> Rowan Cheung reviewed the new Meta Glasses (via the Meta/EssilorLuxottica partnership) after a week: GPS, live translation, music, voice notes, and camera in the frames are genuinely great; &ldquo;what am I looking at&rdquo; sightseeing breakdowns and hands-free cooking recipes delight. But battery is the first wall (heavy use with display, audio, and AI drains it in a couple of hours), and the glasses only surface Meta&rsquo;s own apps (WhatsApp, Instagram, texts) — so they aren&rsquo;t replacing phones yet. Meta reportedly sells ~8 of every 10 smart glasses worldwide, and with Ray-Ban, Oakley, and Kylie Jenner on board, Zuckerberg&rsquo;s bet that the face is the next platform looks less far-fetched. (Lenovo separately launched an AI &ldquo;student phone&rdquo; with no internet, social media, or games — just voice calls and an AI question-answering assistant, aimed at parents limiting kids&rsquo; screen time.)</p>
+<h2>Research papers</h2>
+<p><strong>Meta Brain2Qwerty v2.</strong> Meta unveiled Brain2Qwerty, a non-invasive MEG-based brain-to-text system hitting 61% word accuracy — up from 8% for prior methods, and Meta&rsquo;s highest-performing brain-to-text tool yet. Version 2 can analyze raw brain signals and convert them into sentences in real time. Meta says it could eventually help people who lost the ability to speak after a stroke, accident, or brain disorder.</p>
+<p><strong>Apple: Residual Context Diffusion Language Models.</strong> State-of-the-art block-wise diffusion LLMs (dLLMs) use a remasking mechanism that decodes only the most confident tokens and discards the rest, wasting the discarded tokens&rsquo; contextual information. Residual Context Diffusion is a module that converts discarded token representations into contextual residuals and reinjects them for the next denoising step, consistently improving frontier dLLM accuracy with minimal extra compute across many benchmarks.</p>
+<p><strong>Poolside Laguna XS 2.1.</strong> A 33B-parameter Mixture-of-Experts model optimized for agentic coding and long-horizon tasks, showing a 5.4-point improvement on SWE-bench Multilingual to 63.1%. It supports multiple platforms, offers three quantized checkpoints for resource-efficient deployment, is licensed under OpenMDW-1.1 (enabling open distribution), and is available on Hugging Face or via API.</p>
+<p><strong>Seed2.0 model card.</strong> ByteDance&rsquo;s Seed2.0 focuses on long-tail knowledge, complex instruction following, reasoning, visual understanding, and search for real-world tasks, with an evaluation-driven approach built around user needs and complex usage scenarios (72-minute-read model card; arXiv).</p>
+<p><strong>Cognition&rsquo;s Devin Security Swarm.</strong> A cost-effective, accurate way to find security vulnerabilities in complex codebases using a new whole-codebase reasoning architecture called &ldquo;Agentic MapReduce&rdquo;: Devin maps relevant signals across a repo, fans out focused agents over bounded shards, reduces their findings into one report, then verifies serious vulnerabilities in isolated sandboxes before confirming them. Extensive documentation was published.</p>
+<p><strong>Autoresearch analyses.</strong> One researcher (Elliot Smith) documented using Claude-driven &ldquo;autoresearch&rdquo;/loop-style work on a problem with a clear gradient-optimization path, concluding the approach makes sense for problems with a robust, measurable, well-constrained metric — but finding such problems is often the hard part. The SGLang team detailed turning agent workflows into reusable SKILL.md files, benchmark contracts, review loops, and production debugging playbooks, framing agent value around procedural engineering knowledge that can be executed, tested, and reviewed. Woodside Energy (MIT Tech Review) uses agentic AI (&ldquo;Startup Advisor&rdquo;) to augment human experts in complex LNG plant startups, built on years of predictive-analytics and ML investment.</p>
+<p><strong>The Ramanujan Challenge for AI.</strong> A new challenge (Gil Kalai) designed to test whether AI systems can move from a concrete formula to a valid proof or symbolic derivation.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Coding and agent tools.</strong> ByteDance&rsquo;s <strong>Seedance 2.0/2.5</strong> frontier video model reached general availability (30-second cinematic videos, up to 50 multimodal references, R2V control, longer-video beta, in Dreamina/CapCut). <strong>Cursor for iOS</strong> launched for coding on the go, plus <strong>CursorBench 3.1</strong> (evaluating agents on ambiguous, multi-file tasks from real Cursor sessions). <strong>Kimi Code</strong> — a coding agent and CLI toolkit powered by Kimi K2.7 Code with autonomous <code>/goal</code> execution. <strong>ZCode</strong> — Z.ai&rsquo;s agentic coding environment tuned for GLM-5.2. <strong>Cognition</strong> shipped a &ldquo;Middle Manager&rdquo; skill turning an AI into the manager of an autonomous software factory (reads the issue tracker, creates/manages Devin sessions, only pings the human when needed). <strong>The WebKit team</strong> introduced a <strong>Safari MCP server</strong> letting agents connect to a real Safari Technology Preview window to inspect pages, capture screenshots, read logs, and debug web apps.</p>
+<p><strong>Enterprise/admin controls.</strong> <strong>GitHub</strong> added AI credit pools to cost centers so Copilot admins can prevent one team from draining shared monthly credits. <strong>Claude Enterprise</strong> added enhanced admin analytics, model-level entitlements, and spend alerts to manage usage and cost. <strong>Claude Tag</strong> lets teammates tag @Claude in Slack like a real teammate; it works in the cloud and reports back (requires Claude Team/Enterprise and Slack admin, pairing setup, channel scope, usage credits — and switching from the expensive default model to Sonnet is advised).</p>
+<p><strong>Open voice AI.</strong> Hugging Face and Cerebras published a guide/demo for building an open real-time speech-to-speech assistant with replaceable &ldquo;listen/think/talk&rdquo; components (free demo and repo).</p>
+<p><strong>Notion HTML blocks.</strong> Notion added interactive HTML blocks: AI can turn content into interactive explainers, prototypes, or diagrams, and the agent can take documents, sketch a flow, and build a lightweight on-page prototype.</p>
+<p><strong>Prompting Fable 5 (skill of the day).</strong> Fable 5 is included in base Claude plans until July 7, then becomes pay-per-token. Anthropic&rsquo;s guidance: give Fable the outcome (not step-by-step micromanagement), save reusable context in Markdown, and make every progress claim point back to evidence. The recommended pattern (per Mitchell Hashimoto&rsquo;s viral loop and others): use Fable &ldquo;xhigh&rdquo; as the expensive planner and judge — it writes the architecture plan, a cheaper fast model does the coding, then Fable reviews/verifies with tests, screenshots, logs, and file diffs — not as the whole construction crew. Community tips: have Fable write skills/prompts for your other models now while it&rsquo;s cheap. Reddit users noted Fable 5&rsquo;s leaked chain-of-thought &ldquo;inner voice&rdquo; and posted a vibe-coded Hogwarts-grounds explorer built with it. Zvi&rsquo;s advice: use the cheap window this week, then pay by the token afterward for chatting and coding you care about.</p>
+<p><strong>&ldquo;Smart model routing&rdquo; as an emerging trend.</strong> Intelligent routing (directing prompts to the cheapest capable model) is becoming table stakes, per The Pragmatic Engineer.</p>
+<h2>Upcoming &amp; future developments</h2>
+<ul>
+<li><strong>White House voluntary frontier-model standards</strong> could be announced as soon as next week.</li>
+<li><strong>Anthropic&rsquo;s Fable 5</strong> shifts to pay-per-token pricing on July 7–8; Sonnet 5 introductory pricing is live now.</li>
+<li><strong>Meta</strong> expects to begin seeing improvements from its AI investments in the next 3–6 months; its &ldquo;Watermelon&rdquo; model has no release timeline.</li>
+<li><strong>Amazon Leo</strong> (Starlink rival) is on track for a commercial launch by mid-2026 with initially limited coverage.</li>
+<li><strong>FAA</strong> proposed allowing commercial supersonic airliners over US cities if sonic-boom overpressure at the surface stays below 0.11 psf (critics note it ignores actual loudness/annoyance).</li>
+<li><strong>AI calendar:</strong> ICML (Seoul, July 6–11), AI for Good Summit (Geneva, July 7–10), Ai4 2026 (Las Vegas, Aug 4–6), NeurIPS (Sydney, Dec 6–12).</li>
+</ul>
+</article>
+<nav class="updown"><a href="2026-07-02.html">&larr; Thursday, July 2, 2026</a><a href="2026-07-04.html">Saturday, July 4, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Friday, July 3, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

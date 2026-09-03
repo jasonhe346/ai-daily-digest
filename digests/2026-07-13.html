@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-13</title>
+<meta name="description" content="AI news digest for 2026-07-13.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Monday, July 13, 2026</p>
+<p class="meta-line">4,691 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Apple sues OpenAI, io Products, and two ex-Apple employees</strong> for alleged trade-secret theft tied to OpenAI&rsquo;s Jony Ive-linked hardware push.</li>
+<li><strong>SK Hynix raises $26.5B in the biggest foreign IPO in US history</strong> and warns the AI memory shortage will peak in 2027 and last through 2030.</li>
+<li><strong>Grok 4.5 (&ldquo;Opus-class&rdquo;) launches at a fraction of Opus/Sol pricing</strong>, with GPT-5.6 released within 24 hours amid heavy usage and a temporary cap lift.</li>
+<li><strong>Nathan Lambert warns open-weight models may have &ldquo;6 months to live&rdquo;</strong> as White House explores an executive order and Anthropic pushes anti-Chinese-model/distillation policy.</li>
+<li><strong>Regulators across four jurisdictions labeled AI a systemic risk in one week</strong> (US Treasury draft, ESRB, ECB deadline, UK cloud supervision).</li>
+<li><strong>Robotics milestones</strong>: 1X&rsquo;s dexterous NEO hands, humanoids Moya/Annie, Atlas at the World Cup, and teleoperated surgical robots at UC San Diego.</li>
+</ul>
+<h2>Legal &amp; corporate maneuvering</h2>
+<p><strong>Apple sues OpenAI over alleged trade-secret theft.</strong> On Friday, Apple filed suit in federal court against OpenAI, its recently acquired hardware startup io Products, and two former Apple employees — Tang Tan (a former iPhone design VP who is now OpenAI&rsquo;s chief hardware officer) and Chang Liu (a former senior iPhone engineer). The complaint, which Apple&rsquo;s counsel described as accusing the hardware division of being &ldquo;rotten to its core,&rdquo; alleges a coordinated effort to poach Apple staff and funnel confidential hardware secrets into OpenAI to accelerate its move into consumer devices. Specific allegations reported across sources: Liu exploited an authentication bug after leaving Apple to access confidential files from an Apple-issued laptop; OpenAI used insider supplier terminology and asked targeted component questions; OpenAI received Apple files including circuit-board manufacturing documents; and OpenAI&rsquo;s hardware business asked Apple job candidates to share details of secret projects and to bring device components and prototypes to interviews. Apple further claims OpenAI used that information to approach at least one of Apple&rsquo;s manufacturing partners, asking them to demonstrate Apple&rsquo;s technique for finishing metal on its devices. Apple is seeking an injunction barring OpenAI from possessing, using, or sharing its trade secrets, plus an order requiring the return of its IP. OpenAI denied the claims, saying it has &ldquo;no interest&rdquo; in other companies&rsquo; trade secrets. The tension is notable because Apple and OpenAI remain partners on Apple Intelligence even as OpenAI seeks to become less dependent on Apple devices — framing the fight as a potential platform war over who controls the everyday interface (apps, browsers, agents, and eventually hardware). (CNBC, Computerworld, 9to5Mac, iClarified, Engadget, TechCrunch, Daring Fireball, TLDR)</p>
+<p><strong>OpenAI consolidates power under Greg Brockman ahead of a possible IPO.</strong> After Fidji Simo stepped down due to illness (with no replacement planned), President Greg Brockman is absorbing OpenAI&rsquo;s ChatGPT product, go-to-market, enterprise, and compute portfolios. Brockman is now tasked with driving revenue amid fierce competition from Anthropic and Google, as OpenAI faces declining ChatGPT market share and prepares for regulatory filings toward a significant IPO. (CNBC)</p>
+<p><strong>Tencent in talks to take a large Manus stake after Chinese regulators unwound Meta&rsquo;s deal.</strong> Chinese regulators (a Tencent-led consortium) struck down Meta&rsquo;s ~$2 billion acquisition of the &ldquo;do-it-for-you&rdquo; agent app Manus, and Tencent is now in discussions to buy a big stake, reportedly at the same $2B valuation. Manus gives Tencent access to agentic technology as it ramps its own AI offerings (it recently launched a prototype agent aimed at running errands for a billion-plus users across its ecosystem). Notably, Manus climbed the US productivity charts the same week the ownership tug-of-war played out. (FT, TLDR)</p>
+<p><strong>Musk–Altman feud escalates.</strong> Elon Musk and Sam Altman spent the weekend publicly beefing on X. Separately, Musk denied ordering Tesla and SpaceX to adopt Grok 4.5 exclusively after a July 10 memo leaked, saying he only asked them to &ldquo;try it out.&rdquo; Altman publicly accused Musk of &ldquo;selling public market investors on short-term space data centers&rdquo; amid a ~$2T SpaceX valuation push. (Superhuman, AI Weekly Alerts, Electrek, DataCenterDynamics)</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>SK Hynix&rsquo;s record IPO and a grim memory-shortage forecast.</strong> SK Hynix raised $26.5 billion in its Nasdaq debut on Friday — the largest-ever US listing by a non-American company, topping Alibaba&rsquo;s 2014 record — with shares closing up 13% on the first day, powered by soaring demand for its memory chips. On the same day, its CEO warned that 2027 will be the &ldquo;worst-ever&rdquo; year for memory shortages and that the crunch will last until 2030, with AI demand outstripping supply beyond 2030. High-bandwidth memory (HBM), which feeds data to GPUs fast enough for giant models, is the bottleneck. Bloomberg framed the debut as a bet that AI demand can break the old boom-and-bust memory cycle. The listing lands as US Commerce Secretary Howard Lutnick pushes SK Hynix and Samsung to build more fabs on US soil. The Neuron&rsquo;s framing: the next phase of AI competition is matching the job to the right resource — flagship model, cheaper internal model, or simply waiting on memory, power, packaging, and cloud capacity. (TechCrunch, Tom&rsquo;s Hardware, Bloomberg, Reuters)</p>
+<p><strong>Grok 4.5 launches as an &ldquo;Opus-class&rdquo; model at bargain pricing; GPT-5.6 follows within a day.</strong> SpaceXAI (formerly xAI) debuted Grok 4.5, its first model since going public and its acquisition of coding agent Cursor. Musk touts it as a faster, cheaper option for coding and knowledge work capable of the same agentic work as Claude. Pricing: $2/million input tokens and $6/million output tokens — versus Anthropic&rsquo;s Opus 4.8 at $5/$25, and OpenAI&rsquo;s Sol at $5/$30 (though OpenAI&rsquo;s cheapest, Luna, is $1/$6). Notably, Grok was trained on the same compute SpaceXAI leases out to Anthropic and Google — the company is renting to competitors while still racing them. Less than 24 hours later, OpenAI released GPT-5.6, dubbed its &ldquo;strongest model yet,&rdquo; which had reportedly been held back over US government safety concerns and then released immediately after Grok hit the market. GPT-5.6 launched alongside ChatGPT Work. (Axios, TechCrunch, Mindstream)</p>
+<p><strong>Microsoft dual-tracks model strategy: GPT-5.6 as preferred model in Copilot, but internal models for cost.</strong> OpenAI announced GPT-5.6 became the preferred model in Microsoft 365 Copilot — showing customers still want the strongest model when quality matters. At the same time, Microsoft is routing some Excel and Outlook prompts to its own internal models to cut inference costs and reduce reliance on OpenAI and Anthropic. Microsoft&rsquo;s models are already processing tens of thousands of prompts in its products; it gets a discounted OpenAI token rate via its partnership, but that arrangement is winding down. Microsoft unveiled seven new AI models in June and says one performs as well as Anthropic&rsquo;s Opus 4.6. Sanofi was cited as an example of the messy transition: it uses an in-house AI agent built with Claude Code and startup Elementum&rsquo;s software to reduce ServiceNow usage, while linking its agents to SAP&rsquo;s own agents to reduce outsourcing to India. (OpenAI, Rohan&rsquo;s Bytes, Bloomberg, AI Clambake)</p>
+<p><strong>Enterprises shifting toward cheaper open-source models as AI bills explode.</strong> Amazon CTO Werner Vogels said enterprises are moving to cheaper open-source models, citing Uber blowing its entire 2026 AI budget in four months and another company burning $500M/month before adding employee usage controls. (Fortune)</p>
+<p><strong>GPT-5.6 usage caps temporarily lifted amid heavy demand.</strong> After the Codex and ChatGPT Work launches, demand was heavy enough that OpenAI temporarily lifted the five-hour usage cap on GPT-5.6 Sol for Plus, Pro, and Business plans (and reset current usage for everyone), though weekly limits still apply. In an argument that Sol is &ldquo;underhyped for general work,&rdquo; OpenAI&rsquo;s Jason Liu said it excels at long-running work across apps, browsers, and enterprise data — internal teams used it to configure and supervise &ldquo;Luna&rdquo; training, and Ultra mode adds sub-agents for faster, stronger results. (BleepingComputer, TLDR)</p>
+<p><strong>Anthropic extends Claude Fable 5 access and elevates Claude Code limits through July 19</strong>, while some users push back on inconsistent pricing. The contrast with OpenAI&rsquo;s cap lift highlights ongoing uncertainty around Anthropic&rsquo;s long-term model availability. (Simon Willison, Superhuman)</p>
+<p><strong>Melius launches a creative AI canvas.</strong> Melius helps teams generate digital assets in bulk via a node-based canvas powered by top image and video models. Its agent, &ldquo;Mel,&rdquo; lets users regenerate or readjust an entire canvas with one prompt and integrates with Claude and Slack. The company claims it reduces the excessive prompting and inconsistency common in creative AI tools. (Superhuman)</p>
+<p><strong>Meta&rsquo;s image and gaming pushes.</strong> Meta released Muse Image, its first image-generating model, and is using it to power advertiser-specific image-generation tools that let brands adjust elements and create variations tailored to a brand&rsquo;s creative. Meta also plans to launch Pocket, a social feed for creating, sharing, and discovering vibe-coded mini games and apps called &ldquo;Gizmos&rdquo; that respond to touch, phone tilt, sound, and camera. (CNBC, The Verge)</p>
+<p><strong>Cursor reportedly building a general-purpose AI agent</strong> designed to respond to emails and texts, organize spreadsheets, and handle engineering tasks. (thread)</p>
+<p><strong>Gemini 3.5 Pro leak.</strong> An unverified leaked screenshot of internal benchmarks suggests Google&rsquo;s Gemini 3.5 Pro could land around July 17, though The Neuron cautions there&rsquo;s no confirmation from Google and internal benchmarks often don&rsquo;t survive public scrutiny. (RoundtableSpace)</p>
+<h2>Policy, safety &amp; regulation</h2>
+<p><strong>&ldquo;6 months to live for open models&rdquo; — Nathan Lambert on a possible open-weights ban.</strong> Interconnects argues open-source AI is facing its most serious viability test yet, driven by two distinct-but-converging policy fights: (1) distillation and (2) frontier open-model capabilities. Multiple sources cite White House discussions of a new executive order to manage open models, likely targeting Chinese-origin models and government uses initially. Lambert predicts the most likely action is a ban or indefinite delay of any open-weights model meaningfully above roughly GPT-5.5 / Claude Opus 4.8 / GLM-5.2 capability — probably within six months, and likely triggered when a Chinese open model (rivaling Claude&rsquo;s &ldquo;Mythos&rdquo; cyber model) gets flagged in the nascent &ldquo;White House AI model checker.&rdquo; He characterizes the anti-Chinese-model campaign (led by Anthropic via blog posts and letters to representatives, with minimal technical evidence) as regulatory capture that would cement Anthropic&rsquo;s position and demolish the emerging US open-model economy (inference companies, fine-tuning firms, new products). His key arguments: if Anthropic&rsquo;s models are so dangerous they warrant banning open equivalents, Anthropic should be able to secure its own API — noting &ldquo;Discord Sleuths&rdquo; gained unauthorized access to Mythos even in private beta, and APIs remain routinely jailbroken, so the &ldquo;APIs are safe, open weights are insecure&rdquo; dichotomy is overblown. A flat ban won&rsquo;t improve safety if the same models remain legal in China (bad actors would just use them), and would make the US tech industry &ldquo;look more like a Chinese system.&rdquo; His proposed off-ramps: a US company (Microsoft, Meta, or Reflection AI) should release a similarly capable open model ASAP to reframe the debate, and the diffuse open-source community should organize a coalition to lobby for safe open-weight rollout. He references a June 9 meeting where a Reflection AI representative argued open-source models should get capability-based exemptions. (Interconnects)</p>
+<p><strong>Regulators moved from warning to supervising AI in a single week — &ldquo;systemic risk.&rdquo;</strong> AI Weekly documents a four-jurisdiction crackdown: (1) Career US Treasury analysts drafted a report calling the AI market a systemic risk to the US financial system — finding AI firms more entrenched than dot-com predecessors, warning a downturn would ripple through stocks, private credit, data-center financiers, cloud providers, chipmakers, and utilities. Prepared for Secretary Bessent and Fed Chair Warsh, it has sat unapproved for weeks; a spokesperson disowned it as unvetted and restated AI will drive &ldquo;America&rsquo;s new Golden Age.&rdquo; (2) The ESRB issued a rare formal warning that frontier AI could strain the financial system&rsquo;s cyber resilience, concluding the short-to-medium-term advantage goes to attackers. (3) The ECB&rsquo;s supervisory board chair Claudia Buch wrote to every significant bank CEO warning AI can identify vulnerabilities and generate functioning exploits at unprecedented speed, requiring each bank to submit a concrete action plan (measures, resources, responsibilities) by October 31, 2026. (4) As of July 13, the UK (Bank of England, PRA, FCA jointly) began supervising AWS, Google Cloud, Microsoft, and Oracle as &ldquo;Critical Third Parties&rdquo; whose failure could break parts of the financial system. (TechCrunch, various)</p>
+<p><strong>OpenAI&rsquo;s head of safety departs amid research/safety reorg.</strong> Johannes Heidecke is leaving as OpenAI merges its research and safety teams; Mia Glaese becomes VP of Research and Safety, and Saachi Jain (who previously led OpenAI&rsquo;s safety teams) will be interim head of safety systems. This lands against a broader backdrop of anti-AI activism getting organized (WSJ profiled hard-line activists ramping up over extinction risk, labor displacement, and lab power) and law-school AI/device bans. (Wired, Engadget, WSJ)</p>
+<p><strong>Meta&rsquo;s wearables ship surveillance capabilities by default.</strong> Wired found dormant facial-recognition code — internally called &ldquo;NameTag&rdquo; — inside Meta&rsquo;s AI app, built to convert faces captured by Meta smart glasses into on-device biometric identifiers matched against new scans. After Wired&rsquo;s discovery, Meta shipped an update removing the code, calling it a pilot with &ldquo;no final decision.&rdquo; Separately, FT sources say Meta is testing prototype glasses that continuously collect audio and take photos every few seconds for an AI memory feature — the same week Meta announced the camera will disable itself if the recording LED is tampered with, a safeguard Meta concedes exists because owners were already covering the light. (Wired, FT/TechCrunch)</p>
+<p><strong>Meta suspends Instagram&rsquo;s &ldquo;Muse Image&rdquo; tagging feature after backlash.</strong> Meta discontinued the feature — which let users generate AI-altered images from likenesses on public-facing accounts — after days of backlash from users, talent groups, CAA, and SAG-AFTRA, driven by privacy and likeness concerns (public profiles had been opted in by default). (NYT, Variety, BBC)</p>
+<p><strong>Boko Haram used frontier AI for propaganda and worse.</strong> Cambridge&rsquo;s CASP and The New York Times reported the militant group has used frontier AI for propaganda, bomb construction, and attack planning. The Substrate separately forecast China could produce a Mythos-like frontier cyber model around February 2027. (CASP, NYT)</p>
+<p><strong>The &ldquo;cognitive audit&rdquo; — early evidence AI dependence degrades skills.</strong> At Brown, an economics professor gave an in-person final after a suspiciously perfect take-home midterm; the class average fell from 96% to 48.6%, 18 of 86 students dropped, and he offered the rest &ldquo;a chance to prove me wrong.&rdquo; Nature-cited early studies show reliance on AI tools measurably degrades the abilities of physicians and software engineers. South Africa withdrew its draft national AI policy 17 days after publication when a civil-rights group found at least 6 of its 67 cited sources were AI fabrications — joining Deloitte&rsquo;s refunded reports (Australia, Canada) and the EU cyber agency&rsquo;s 26 hallucinated footnotes. The common institutional response: risk management (in-person exams, disclosure clauses, action-plan deadlines) rather than faith. (AI Weekly)</p>
+<p><strong>&ldquo;Grok Build CLI uploads entire repositories.&rdquo;</strong> A wire-level teardown of xAI&rsquo;s Grok Build CLI (353 points on Hacker News) found the tool uploads full codebases to a Google Cloud Storage bucket named <code>grok-code-session-traces</code> — not just files the agent reads. In one test, a 12GB repo generated 5.10GB of <code>/v1/storage</code> uploads across 73 chunks while the model-turn channel moved only 192KB — a 27,800× ratio. Unredacted file contents including secrets are serialized into the <code>POST /v1/responses</code> body, and the &ldquo;Improve the model&rdquo; toggle does not stop the codebase upload. (gist.github.com)</p>
+<p><strong>Big Tech softens its AI-jobs message in unison.</strong> Per WSJ, Sam Altman now says the industry was &ldquo;pretty wrong on the social and economic implications,&rdquo; and Dario Amodei shifted from warning AI could erase half of entry-level roles to a &ldquo;vastly-more-productive-workers&rdquo; framing. The share of CEOs expecting AI to cut headcount fell from 46% to 20% in an EY-Parthenon poll. Meanwhile India&rsquo;s TCS ($315B) plans up to 8,900 forward-deployed AI engineers and its first major AI acquisitions, betting the agent era grows outsourcing rather than gutting it. Indeed Hiring Lab found agentic AI may be flipping some AI-exposed jobs from destruction toward new job-posting growth. (WSJ, Reuters, Indeed Hiring Lab)</p>
+<p><strong>Washington&rsquo;s Intel intervention.</strong> WSJ sources detail the Trump administration&rsquo;s heavy-handed push to aid Intel — pressing Apple to use Intel&rsquo;s fabs, with Lutnick repeatedly meeting Cook, Musk, and Huang. TLDR notes the bet is &ldquo;starting to pay off.&rdquo; (WSJ, TLDR)</p>
+<h2>Robotics</h2>
+<p><strong>Humanoid robots proliferate — with dexterity as the real milestone.</strong> A wave of humanoid news landed: DroidUp&rsquo;s &ldquo;Moya&rdquo; (built on the upgraded Walker 3 skeleton) debuted with unnervingly human traits — silicone skin held at 32–36°C, a &ldquo;92% human-like&rdquo; gait, smiling, nodding, and eye contact — at a starting price near $173K. Her expressive cousin &ldquo;Annie&rdquo; is a robot head on a Unitree body pitched as a robot pop star. Figure dropped a four-year hype reel, and Boston Dynamics&rsquo; Atlas performed the &ldquo;Norway Row.&rdquo; The Neuron and TLDR both argue <strong>1X&rsquo;s new NEO hands are the more important milestone</strong>: they have 25 backdrivable joints (tendon-driven) that give way when pushed rather than staying rigid; the skin&rsquo;s sensors read both pressure and sideways movement across the fingers, letting the robot notice a glass starting to slip. In demos the hands zipped jackets, poured tea, installed light bulbs, handled LEGO, and used tools. Factory grippers work because parts are placed identically every time; homes have far more object and placement variation, so dexterous, human-range hands that wrap around awkward shapes are what make a home robot actually useful. (The Neuron, TNW/TLDR)</p>
+<p><strong>Atlas at the World Cup and teleoperated surgical robots.</strong> Hyundai put Boston Dynamics&rsquo; Atlas into a live FIFA World Cup 2026 match environment — the first-ever live-match robotics integration — using the humanoid for halftime goal celebrations and ceremonial match-ball delivery. Separately, UC San Diego researchers completed preclinical surgeries with teleoperated humanoid robots, including a gallbladder removal by a surgeon-robot team. (Hyundai, MedicalXpress)</p>
+<p><strong>Mistral launches Robostral Navigate</strong>, its first robotics model, built to help robots follow plain-language navigation instructions across factories, warehouses, and industrial sites (pricing not public). (Mistral)</p>
+<h2>Research papers</h2>
+<p><strong>Anthropic reports a &ldquo;global workspace&rdquo; inside Claude.</strong> Anthropic found evidence of a small set of internal patterns (an internal scratchpad-like &ldquo;J-space&rdquo; workspace) that holds a few dozen concepts, supports multi-step reasoning, and can be read back by the model before it answers. Anthropic is explicit this is not evidence of machine experience. The Neuron frames it as model-inspection work that could matter as agents get harder to supervise. (Anthropic)</p>
+<p><strong>Stanford&rsquo;s Biomni biomedical co-scientist.</strong> Stanford researchers introduced Biomni, a biomedical co-scientist agent that can read literature, choose tools and datasets, write code, interpret results, and propose experiments. (TechXplore)</p>
+<p><strong>Proactive memory for long-horizon agents.</strong> Multiple memory papers surfaced: LangChain&rsquo;s OpenWiki Brains (v0.1.0) gives agents proactive memory — autonomously gathering and updating context from connected sources (Gmail, Notion, Twitter) into local wikis for consistent context without manual updates. A separate arXiv paper uses a dedicated memory agent that tracks important state and selectively reminds an action agent when info risks being lost, improving pass rates on Terminal-Bench 2.0 and τ2-Bench without modifying the underlying action model. HOLA memory research proposed a cache method for improving long-context recall in efficient models. (LangChain, arXiv, The Neuron)</p>
+<p><strong>KronQ makes 2-bit quantization of LLaMA-3-70B work</strong>, hitting 7.93 perplexity where GPTQ collapses past 2,000. Submitted to COLM 2026 and, per AI Weekly, not yet covered elsewhere. Also circulating: an LLM-as-a-Verifier general-purpose verification framework and work on sparsity techniques to cut LLM training costs. (arXiv)</p>
+<p><strong>Google evaluation research.</strong> Google Data Cloud&rsquo;s Frontier AI team explored using information theory to modulate difficulty in AI-agent evaluation cases (&ldquo;who evaluates the evaluations?&rdquo;). (Google Cloud)</p>
+<h2>Tooling &amp; releases</h2>
+<ul>
+<li><strong>Claude Code desktop in-app browser</strong>: sandboxed, configurable browsing lets the coding agent open docs, designs, and websites — reading, clicking, and interacting the same way it does with local dev servers, with optional session persistence (paid Claude plans). (9to5Mac, thread)</li>
+<li><strong>Claude Cowork on web and mobile</strong>: keeps remote agent sessions running across desktop, web, and mobile; scheduled tasks now run with no device online. (Anthropic)</li>
+<li><strong>Anthropic &ldquo;Reflect with Claude&rdquo;</strong> (&ldquo;Claude Wrapped&rdquo;): a Spotify-Wrapped-style dashboard (Settings on web/desktop, beta for Free/Pro/Max users with memory on) summarizing topics/tasks, peak hours, and time spent, with reflective prompts like &ldquo;What&rsquo;s one thing you want to keep doing yourself, even if Claude could do it faster?&rdquo; It excludes incognito conversations, health data, and sensitive topics. (Anthropic, The Verge)</li>
+<li><strong>GitHub Spec Kit</strong>: spec-first workflow forcing requirements, clarification, planning, and task breakdown before coding agents implement (free/open-source).</li>
+<li><strong>GitHub CodeQL 2.26.0</strong> adds AI prompt-injection detection for JavaScript/TypeScript flows into OpenAI, Anthropic, and Google GenAI SDKs (plus Kotlin 2.4.0 support).</li>
+<li><strong>Railway Agent</strong> now works from Slack and Discord with CLI usage controls.</li>
+<li><strong>Microsoft Research Flint</strong>: a visualization language helping agents turn compact chart specs into polished visualizations (free/open-source).</li>
+<li><strong>Colibri</strong> streams GLM-5.2 experts from disk so a consumer machine can run a massive open model with ~25GB RAM (free/open-source).</li>
+<li><strong>Google Genkit</strong> (preview for TypeScript and Go): open-source framework for full-stack agentic apps; its Agents API packages message history, tool loop, streaming, persistence, and a frontend protocol behind one interface.</li>
+<li><strong>Glean harness efficiency</strong>: moving to orchestrate tools via code for every query cut token usage by 24%.</li>
+<li>Others: ChatCut (natural-language video editing on a real timeline), Bono AI, ConnectMachine, Scarlett (Slack agent, 3,000+ integrations, $50/mo), Toyo (Gmail/Slack triage), PlugThis (English → Chrome extension), Agent Draw/tldraw, Fabricate (text → deployed full-stack app), Norton Neo (AI-native browser), NoodleTomato, Thea, CorpusIQ, Framer&rsquo;s AI agent, NOX, Willow Frontier Mini. AI-found an Ethereum validator bug (humans had to verify and patch). (various)</li>
+</ul>
+<h2>Industry analysis &amp; essays</h2>
+<p><strong>The &ldquo;Reverse Information Paradox&rdquo; / AI sovereignty.</strong> Multiple sources converged on the idea that enterprises pay for AI twice — once with money, again with proprietary knowledge revealed to make the model useful. Satya Nadella coined the term: AI tools learn how a company makes decisions from employee corrections (a claims adjuster explaining an exception; a sales manager flagging a risky account) even when source files stay private, so over time the seller learns more about customers while customers learn little in return and get more locked in. Two weeks earlier, Palantir&rsquo;s nine-point &ldquo;AI sovereignty&rdquo; manifesto warned that handing proprietary data to AI providers surrenders competitive edge and control. Both point to the same solution: enterprises need to fine-tune/train their own models while keeping data, weights, and memory in-house. Related essay &ldquo;Own Your Weights&rdquo; argues the complexity tax of self-hosting is too high for most tasks — companies need a service to bring workloads and get back task-specific models tuned to their data on infrastructure they control. Enterprise contracts, argues the Reverse Information Paradox piece, must now cover prompts, corrections, evals, traces, memory, and tuned weights, with the ability to switch models without losing what the system learned. (Superhuman, TLDR, benn.substack)</p>
+<p><strong>&ldquo;Models have no business models.&rdquo;</strong> An essay argues the AI boom produced companies with enormous capital, power, and technical brilliance but no durable business model at their own layer: foundation models are inventory, each release obsoletes the last, and enterprises buy intelligence like electricity — making the model the replaceable part of the workflow. A companion piece, &ldquo;AI&rsquo;s Biggest Winners Have the Lowest Margins,&rdquo; argues the biggest AI winners will be businesses nobody calls AI companies — low-margin firms where even small cost reductions create outsized earnings gains as agents attack long-standing coordination costs. Benedict Evans keeps asking what happens to token pricing after the supply crunch eases — if model access becomes cheap and abundant, labs may look less like magical software companies and more like very expensive infrastructure providers. Sequoia&rsquo;s David Cahn now puts the revenue needed to justify 2026&rsquo;s $1.5 trillion of AI infrastructure at $3 trillion (and calls that understated); The Register flags BIS warnings and Oracle&rsquo;s SEC disclosure that OpenAI may not be able to pay for committed capacity. (TLDR, Ben Evans, TechCrunch, The Register)</p>
+<p><strong>Sierra&rsquo;s &ldquo;AI-pilling&rdquo; of engineering.</strong> Sierra found engineers getting 5x more done on some tasks by running agents in parallel with git worktrees, then set up a six-person AI acceleration team to boost company-wide productivity. Separately, an FT feature notes AI coding tools are overwhelming open-source maintainers, externalizing tool-users&rsquo; productivity gains as review burden on volunteers. (TLDR, FT)</p>
+<p><strong>Thinking Machines&rsquo; vision.</strong> In &ldquo;The Future Worth Building Is Human,&rdquo; Thinking Machines argues AI should extend human judgment via customizable, interactive models, enabling diverse localized adaptations through tools and interfaces that align AI with organizations&rsquo; unique knowledge and values. (thinkingmachines.ai)</p>
+<p><strong>Zhipu&rsquo;s Tang Jie letter.</strong> Zhipu (Z.ai) co-founder Tang Jie published a full-staff letter, &ldquo;The Wave Has Arrived,&rdquo; announcing a full return to foundation-model research and a two-year plan, covering AGI, AI safety, open source, and a roadmap including long-horizon tasks, autonomous agent systems, full self-training, and &ldquo;extreme safety governance.&rdquo; (geopolitechs.org)</p>
+<p><strong>Other essays and misc.</strong> Intent engineering (shift from &ldquo;how&rdquo; prompts to &ldquo;what&rdquo; prompts), &ldquo;In Defense of Not Understanding Your Codebase&rdquo; (partial understanding is normal in large systems), DeepMind&rsquo;s delegation framework (agents need authority, monitoring, validation, fallback paths, and accountability, not just task lists), a &ldquo;Pepsi Challenge for LLMs&rdquo; (new benchmarks needed to distinguish models), and geohot&rsquo;s &ldquo;AI 2040 and the Cult of Intelligence&rdquo; (current AI predictions aren&rsquo;t grounded in reality). A separate deep dive shows browsers do math differently per OS, and anti-bot systems read the rounding of a cosine to fingerprint the OS. (danielmiessler, seangoedecke, DeepMind, threads, geohot, scrapfly)</p>
+<h2>AI in marketing &amp; media</h2>
+<p><strong>Google&rsquo;s new AI approach wipes out mass-boosted AI slop.</strong> Google shifted from analyzing individual pieces of content to analyzing the behavior of networks of accounts that boost content — reacting to coordination, velocity, and templating (human or bot), and killing guilty accounts while sparing individual creators experimenting with AI. Sites publishing AI pages at scale saw 50–80% traffic drop-offs. Google also launched a new Search Console feature (rolling out over coming weeks) showing which search terms lead people to your Instagram, TikTok, and YouTube content. (No Good, Google)</p>
+<p><strong>Character.AI enters microdramas.</strong> Character.AI is producing its own microdramas (minute-long video stories, a market expected to earn billions this year) using AI characters viewers can chat with and roleplay different storylines. (TechCrunch)</p>
+<p><strong>ChatGPT ads complicate organic search.</strong> OpenAI&rsquo;s ad manager lets advertisers &ldquo;conquest&rdquo; (hijack) organic searches more easily; brands are combining organic and paid search to drown out competitors. (Ad Age)</p>
+<p><strong>OpenAI to embed engineers in customers&rsquo; offices</strong>, aiming to improve product integration and take over work once done by consultants (via its NorthSlope acquisition). (TNW)</p>
+<p><strong>The &ldquo;tech-bro-ification of marketing.&rdquo;</strong> A Time feature examines new job titles (&ldquo;narrative engineer,&rdquo; &ldquo;UGC engineer,&rdquo; &ldquo;media engineer&rdquo;) reflecting gender dynamics as AI alters marketing&rsquo;s perceived value — noting &ldquo;software engineer&rdquo; was itself coined by NASA&rsquo;s Margaret Hamilton to have her work valued. Separately, &ldquo;baddies&rdquo; (authentic, everyday product users) are becoming influencers 2.0 (e.g., ResMed&rsquo;s &ldquo;CPAP baddies&rdquo;), and the AEO (answer engine optimization) job market is growing rapidly, separating from SEO. (Time, CNN, Kaleigh Moore)</p>
+<p><strong>A deepfake caught by its watermark.</strong> A fake photo of Sen. Mitch McConnell in a hospital bed spread on Reddit and X and was debunked by Snopes using Google&rsquo;s SynthID detector — an early high-profile win for invisible watermarking. (TechCrunch)</p>
+<h2>Science with AI angles (from the Sunday Special)</h2>
+<p><strong>China lands a reusable rocket booster for the first time.</strong> China recovered a Long March 10B first stage — landing it (via a sea-based net/floating platform, per varying accounts) roughly six minutes after stage separation on its maiden flight — a milestone putting China alongside SpaceX and Blue Origin. The Long March 10B can carry at least 16 metric tons to low-Earth orbit, comparable to Falcon 9 (which now launches ~150 times/year). China has four land-based spaceports and multiple ocean-going platforms and is ready to ramp launch cadence. (BBC, Ars Technica, Space.com)</p>
+<p><strong>RetinaMind — teen-built AI ADHD/autism screener.</strong> 17-year-old Edward Kang built RetinaMind, which reportedly uses retinal scans to distinguish autism, ADHD, and neurotypical patients with 89% accuracy; he trained multiple image-analysis models to show which retinal regions influenced predictions and explored genes linked to retinal differences, potentially enabling faster diagnoses. (Inc.)</p>
+<p><strong>AI poker bluff-detection returns to ESPN.</strong> The World Series of Poker returns to ESPN with an AI system that analyzes posture, blink rate, and body language to flag possible bluffs (used cautiously, only on eliminated players for now). (ZME Science)</p>
+<p><strong>BrainCo vs. Neuralink.</strong> Hangzhou-based BrainCo is betting brain tech will be wearable — headbands and caps picking up scalp electrical signals with no surgery — contrasting with Neuralink&rsquo;s surgical implants. (TNW)</p>
+</article>
+<nav class="updown"><a href="2026-07-12.html">&larr; Sunday, July 12, 2026</a><a href="2026-07-14.html">Tuesday, July 14, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Monday, July 13, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

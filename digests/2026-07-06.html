@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-06</title>
+<meta name="description" content="AI news digest for 2026-07-06.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Monday, July 6, 2026</p>
+<p class="meta-line">4,104 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Meta&rsquo;s superintelligence chief Alexandr Wang tells staff its next model, codenamed &ldquo;Watermelon,&rdquo; has matched OpenAI&rsquo;s GPT-5.5, while Zuckerberg admits agent progress has stalled and that 8,000 layoffs may have been a mistake.</li>
+<li>Claude Fable 5 dominates the week: it scored 16.1% on the Remote Labor Index (roughly double the next model), was redeployed after a government-triggered shutdown, and moves to usage-based pricing July 7.</li>
+<li>OpenAI moves GPT-5.6 into narrow preview with three tiers (Sol, Terra, Luna), a reasoning-effort slider and an &ldquo;ultra&rdquo; mode, with a possible release this week pending U.S. government review.</li>
+<li>Cloudflare rolls out AI-crawler controls splitting bots into Search, Agent, and Training, defaulting to block Agent/Training on ad-supported pages for new domains from Sept 15.</li>
+<li>China&rsquo;s Interim Measures for Anthropomorphic Interaction Services force ByteDance&rsquo;s Doubao and Alibaba&rsquo;s Qwen to disable humanlike/companion agents by mid-July.</li>
+<li>Court documents reveal the emails behind Anthropic&rsquo;s collapsed Pentagon deal; Neuralink threads electrodes through intact dura in a human first.</li>
+</ul>
+<h2>Models &amp; AI releases</h2>
+<p><strong>Meta teases &ldquo;Watermelon&rdquo; matching GPT-5.5, plus an Opus-level coder.</strong> Meta superintelligence chief Alexandr Wang reportedly told employees that Watermelon — the flagship model the company is currently training — has matched OpenAI&rsquo;s GPT-5.5 on key benchmarks (reported by Business Insider, corroborated by The Rundown, Superhuman, and AI Clambake). Watermelon is still in training and runs on roughly 10x the compute of its predecessor, Muse Spark, which launched in April and even at launch sat comfortably below the frontier. Wang separately hinted that a Muse Spark update with &ldquo;big coding and agentic gains&rdquo; is coming to both Meta AI and the company&rsquo;s new API, and clarified on X that an &ldquo;Opus-level coding model&rdquo; is due &ldquo;pretty soon.&rdquo; Context matters: at the same town hall, CEO Mark Zuckerberg made headlines by saying AI agent progress &ldquo;hasn&rsquo;t really accelerated in the way that we expected&rdquo; — Wang clarified Zuck meant the industry as a whole. Meta is spending up to $145B on AI infrastructure this year, so a genuine GPT-5.5-class model would be its first result the rest of the field pays attention to. The caveat: the frontier keeps moving, with Anthropic&rsquo;s Mythos and Fable already a step up and OpenAI&rsquo;s GPT-5.6 models likely rolling out this week.</p>
+<p><strong>Claude Fable 5: benchmark leader, redeployment, and looming &ldquo;Fablepocalypse&rdquo; pricing.</strong> CAIS and Scale reported that Claude Fable 5 hit 16.1% on the Remote Labor Index — a benchmark testing whether models can complete real freelance-style computer work — roughly doubling the next-best model. The Neuron frames Fable as unusually strong at long-horizon work (many steps, course corrections, judgment) and recommends treating it &ldquo;like a weekend contractor, not a chatbot&rdquo;: do cheap prep (requirements, risks, success criteria, handoff prompt) with a cheaper model, let Fable plan/audit/execute, and route execution back to cheaper models to avoid runaway token-burning loops. Suggested projects include cloning a paid app to customize, building an internal dashboard, auditing a Claude Code setup, refactoring a messy repo, or turning a PRD into working software (per Chase AI and Peter Yang walkthroughs). Access remains messy: per Axios, the Fable/Mythos revival involved a 20-day scramble across Amazon, Commerce, CAISI, NSA, Treasury, and the White House while OpenAI negotiated GPT-5.6 release terms. Anthropic&rsquo;s Thariq Shihipar said Fable will return to subscriptions &ldquo;as soon as capacity comes,&rdquo; but starting July 7 it goes to usage credits and is temporarily off subscription plans. Reviews are mixed (boosters and skeptics). As a real-world datapoint, Simon Willison documented Fable shipping sqlite-utils 4.0rc2 in 37 prompts and 34 commits for $149.25, documenting agentic-coding economics ahead of the pricing change. Anthropic also published guides on prompting Fable 5 (behavior differs from Opus 4.8, may need scaffolding updates) and a &ldquo;field guide to Fable: finding your unknowns&rdquo; — spending time defining unknowns up front via explainers, brainstorms, interviews, prototypes and references to prevent long-horizon tasks coming back wrong. Simon Willison also advised letting Fable use its own judgment (on writing tests, choosing smaller models) rather than dictating how it should work.</p>
+<p><strong>OpenAI preps GPT-5.6 (Sol, Terra, Luna) with an &ldquo;ultra&rdquo; tier.</strong> Per TestingCatalog, OpenAI has moved GPT-5.6 into a narrow preview, split into three tiers — Sol, Terra, and Luna — with a new reasoning-effort control slider and an &ldquo;ultra&rdquo; mode for complex tasks. The release has implications for Codex users amid Anthropic&rsquo;s Fable changes, though broad access depends on U.S. government review approvals. OpenAI&rsquo;s Sottiaux teased &ldquo;GPT-5.6 Sol Ultra&rdquo; coming to Codex — a compute-intensive tier above flagship Sol that hit 91.9% on Terminal-Bench 2.1 versus base Sol&rsquo;s 88.8%. Separately, a developer bug report that reached the HN front page (246 pts) noted GPT-5.5 Codex reasoning tokens cluster hard at exactly 516, suggesting a hidden reasoning budget behind a perceived Codex regression.</p>
+<p><strong>Anthropic launches Claude Sonnet 5 and Claude Science.</strong> Anthropic made Claude Sonnet 5 — its stronger everyday agent model — the default for Free and Pro users. It also launched Claude Science, a beta research workbench offering code-traced artifacts, on-demand environments, and 60+ optional scientific database connectors.</p>
+<p><strong>Google, ByteDance, and others expand generative media and Gemini.</strong> Google&rsquo;s Nano Banana 2 Lite (fast, cheap image generation) and Gemini Omni Flash (developer video editing) push cheaper generation into the Gemini stack; The Rundown&rsquo;s Nate used Nano Banana Pro (4K, High Thinking) to composite four-season cabin photos into a print-ready file. Google is also testing a dedicated Gemini inbox section for Business/Workspace triage. ByteDance is rumored to launch Dreamina Seedance 2.5 on July 9 across Dreamina, CapCut and partner platforms, capable of 180-second (3-minute) videos with up to 50 multimodal references and R2V control — though it&rsquo;s unclear whether it keeps character identity, motion, and camera logic stable. ByteDance is also quietly courting Hollywood filmmakers with Seedance video AI (low pricing, striking realism, timeline-based prompting) after a 2.0 cease-and-desist wave (LA Times). Mistral released Leanstral 1.5, an open-source 119B-parameter theorem-proving and code-verification agent built on its general coding framework.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Cloudflare draws a line for AI crawlers.</strong> Cloudflare introduced new AI traffic controls for all customers (including Free) that split bot behavior into three uses — Search, Agent, and Training. Starting September 15, 2026, new domains joining Cloudflare will block Agent and Training bots by default on ad-supported pages, while Search stays allowed; multi-purpose crawlers combining Search and Training can be blocked under the stricter rule if a site owner blocks Training. Site owners are advised to review AI bot controls in Security settings before Sept 15 and decide separately about search indexing, agent visits, and model training. The shift turns &ldquo;AI crawling&rdquo; from one blurry category into a permissions system, treating AI access as a business decision for publishers, creators, and SaaS docs owners. The Neuron&rsquo;s caveat: stricter defaults could make smaller sites harder for AI tools to reference.</p>
+<p><strong>Zoom acquires Common Room; Amazon designs device AI chips.</strong> Zoom agreed to acquire Common Room, adding buyer-signal intelligence and RoomieAI agents to its Zoom Revenue Accelerator. Amazon said it is designing custom AI chips for Echo, Fire TV, and future devices.</p>
+<p><strong>Microsoft merges Copilot apps.</strong> Microsoft reportedly began merging its consumer and enterprise Copilot chatbots into one app (an internal memo titled around Copilot needing to &ldquo;earn the right to exist&rdquo;), trying to make Copilot a stronger rival to ChatGPT and Claude.</p>
+<p><strong>Anthropic to launch its own drug discovery program.</strong> Anthropic, whose Claude is already used by pharmaceutical firms, plans to start discovering and developing its own treatments for rare diseases (The Verge) — an example of the blurring line between AI vendors and their customers (as with OpenAI/Anthropic products competing with Figma, and Salesforce promoting Anthropic&rsquo;s Slack rival Claude Tag). Anthropic&rsquo;s terms say it won&rsquo;t train on customer data where customers are also competitors.</p>
+<p><strong>Nvidia&rsquo;s compute-access program for startups.</strong> Nvidia launched a partnership initiative connecting fast-growing AI startups with its network of AI cloud providers, giving them critical compute without buying chips outright; members share both product and cloud revenue with Nvidia. First in line: Australia&rsquo;s Sharon AI (deploying 40,000 Nvidia GPUs) and Firmus Technologies (building an Indonesian data center). Such revenue/equity-sharing deals help AI firms circumvent liquidity issues; Nvidia plans to raise at least $20B in debt for general corporate purposes.</p>
+<p><strong>Amazon Leo ready to launch service.</strong> Amazon&rsquo;s Starlink rival, Amazon Leo, now has more than 390 satellites in orbit — enough to begin serving customers later this year. Amazon offered an enterprise preview to select businesses last year; commercial service will initially be limited to certain geographic regions.</p>
+<p><strong>Lenovo&rsquo;s $44 AI student phone.</strong> Lenovo launched an AI Student Phone in China for 299 yuan (~$44). It&rsquo;s stripped to basics — calling, parental tracking, and a dedicated AI button for homework help — with a screen smaller than a credit card that kids can write on by hand, tough glass, and a backpack lanyard. A long-press on the AI key lets students ask school questions by voice (built-in English vocab and math formulas). A &ldquo;Classroom mode&rdquo; cuts the screen to a clock plus SOS dialing during school hours; QR payments work under parent-set spending caps. A companion app adds live GPS, boundary-crossing alerts, unknown-caller blocking, and scheduled on/off hours — pitched as an AI-enabled calculator with less distraction and doomscrolling.</p>
+<p><strong>Other product notes.</strong> OpenAI poached Apple&rsquo;s Vision Pro hardware lead, adding another ex-Apple operator to its Jony Ive-led device push. Cursor for iOS lets you launch cloud coding agents, control desktop agents, review diffs, and merge PRs from your phone (The Rundown detailed a workflow: screenshot a bug, send to a Cursor Cloud agent that fixes it and opens a PR). The Theodore Roosevelt Presidential Library opened July 4 in North Dakota with a Microsoft-built AI avatar of the 26th president. Meta quietly released an app for creating generative-AI games from a phone with simple prompts; Google&rsquo;s Ammar Reshi ported the 2003 strategy game Command &amp; Conquer to iPhone/iPad using Fable 5.</p>
+<h2>Policy, legal &amp; safety</h2>
+<p><strong>China&rsquo;s anthropomorphic-AI rules gut companion agents.</strong> China&rsquo;s Interim Measures for Anthropomorphic Interaction Services take effect July 15 (SCMP). They target AI that simulates human personality, thinking, and communication styles for &ldquo;sustained emotional interaction,&rdquo; citing extremism exposure, privacy breaches, mental-health impacts, and addiction risks. ByteDance&rsquo;s Doubao must pull its agent feature July 15 (user data inaccessible after October 15); Alibaba&rsquo;s Qwen must disable humanlike interactive agents and user-created functions July 10, then shut down broader agent services July 15. Customer-service bots, Q&amp;A tools and workplace assistants are excluded. The rules gut the tutor/role-play/companion categories that had become the fastest-growing feature on both platforms.</p>
+<p><strong>Anthropic&rsquo;s Pentagon breakup: the email trail.</strong> Court documents (WSJ) revealed private emails between Anthropic CEO Dario Amodei and DoD&rsquo;s Emil Michael. Anthropic wanted a contract banning Pentagon use of its AI for weapons systems and domestic surveillance; Michael pushed back, insisting the Pentagon be the final authority on use. After months of back-and-forth, Amodei ended negotiations on February 26: &ldquo;our read of your proposed language is that it appears to completely remove our redlines … I unfortunately don&rsquo;t see a way forward, given these categorical statements.&rdquo; The next day, Defense Secretary Pete Hegseth posted that Anthropic was a supply-chain risk, meaning the Pentagon couldn&rsquo;t use its AI at all; Anthropic sued, which made the emails public. Anthropic held its safety redlines but lost two-thirds of its Pentagon business — setting a precedent that companies can refuse the U.S. government on ethical grounds, at a cost.</p>
+<p><strong>Alibaba, Claude Code, and a lobbying-ban reprieve.</strong> Alibaba reportedly ordered staff to wipe Claude off work computers and planned to prohibit Claude Code from July 10 (classifying it high-risk), directing employees to its own Qoder tool, amid Anthropic&rsquo;s efforts to prevent unauthorized access and model distillation (recent China-user checks were found in Claude Code). Separately, U.S. District Judge Eumi K. Lee ordered the Pentagon on July 5 to halt enforcement of the Section 851 lobbying restriction against Alibaba while she weighs its constitutionality — reversing a June 30 cutoff that forced all 24+ of Alibaba&rsquo;s registered lobbyists to withdraw. Alibaba was added to the 1260H Chinese-military list June 8, sued June 23, and filed for relief June 30; the reprieve runs until Lee resolves the motion or 60 days after the hearing. Alibaba argues the restriction violates free-speech rights — the first crack in the 1260H lobbying regime that also cut off Tencent.</p>
+<p><strong>Midjourney seeks to expose studios&rsquo; own AI use.</strong> Midjourney asked a judge to force Disney, Universal, and Warner Bros. to disclose their internal AI use in the copyright fight, arguing they may be training on unlicensed content — the same accusation the studios level at Midjourney (Variety, court filing).</p>
+<p><strong>UN opens Global Dialogue on AI Governance.</strong> The UN Global Dialogue on AI Governance opened in Geneva, with 193 member states convening. A panel including Yoshua Bengio and Maria Ressa warned that science &ldquo;cannot guarantee&rdquo; AI won&rsquo;t cause catastrophic harm.</p>
+<p><strong>Enterprise agent oversight gaps.</strong> A VentureBeat VB Pulse survey found just 1 in 10 enterprises can automatically catch a failing AI system in production, and 79% have already paid for an agent going rogue. The Neuron&rsquo;s &ldquo;AI Skill of the Day&rdquo; pushed a blind-spot audit — asking a model what it&rsquo;s least confident about, what you&rsquo;re missing, which assumption would most change its recommendation, and what to verify with a human/source/log/test before acting.</p>
+<p><strong>Meta AI moderation greenlights abusive ads.</strong> The BBC found Instagram running ads promoting child sexual abuse in India, including video ads showing minors, apparently approved by Meta&rsquo;s moderation technology after Meta shifted in March toward AI screening over third-party human monitors.</p>
+<h2>Research &amp; science</h2>
+<p><strong>Neuralink &ldquo;deletes the durectomy.&rdquo;</strong> The brain&rsquo;s dura mater is a tough protective membrane neurosurgeons traditionally had to cut to implant Neuralink&rsquo;s electrode threads. Neuralink says it has, in a world first, threaded its hair-thin electrodes directly through the intact dura in a human participant — skipping the incision. It calls this &ldquo;deleting the durectomy&rdquo; and a critical step toward scaling the technology to more patients.</p>
+<p><strong>Synthetic cell &ldquo;SpudCell&rdquo; grows and divides.</strong> University of Minnesota scientists created SpudCell, a synthetic cell assembled from lifeless lab chemicals that completes a full life cycle — feeding, replicating its genome, dividing, and passing genetic material to future generations (NYT; Quanta; corroborated by The Neuron). It isn&rsquo;t &ldquo;alive&rdquo; in the traditional sense but is a stripped-down blueprint for life, with researchers hoping future versions become fully self-sufficient. Quanta framed it as the first cell built from scratch that grows and divides.</p>
+<p><strong>Meta&rsquo;s Brain2Qwerty decodes thoughts to text at 61%.</strong> Meta used a non-invasive magnetoencephalography (MEG) device on subjects&rsquo; heads plus its AI to reach 61% accuracy translating brain activity into typed text — roughly an 800% improvement over prior best-in-class non-invasive methods (Meta blog, via AI Clambake).</p>
+<p><strong>Other science.</strong> Biotech Conception claims the first early human egg cells grown from stem cells, starting from a blood sample and growing lab miniature ovaries. ETH Zurich created a &ldquo;Fourier pixel&rdquo; that emits and captures light simultaneously via nanometer-scale sculpted surfaces, potentially enabling screens that double as cameras, holographic displays, and quantum communication. Additional biomedical advances: a hemostatic powder that gels on contact with blood to seal wounds in ~1 second (absorbs 7x its weight, stable 2 years); a sunlight-only desalination system using a 3D nanostructure that produced 20+ liters/day from a 0.75 m² device; and a single-injection osteoarthritis therapy (Colorado team, up to $33.5M from ARPA-H) that restored arthritic joints in 4–8 weeks with trials possibly within 18 months.</p>
+<p><strong>New benchmarks and detection.</strong> StoryScope (arXiv) found AI-written fiction is detectable by plot structure, not just word choice — AI over-explains themes and follows narrower arcs. WorldModelGym (Reka) tests whether world models pick actions that actually win in the real environment. SWE-Together released an interactive coding-agent benchmark from real multi-turn sessions (109 tasks, public leaderboard). EdgeBench added long-horizon executable agent tasks measuring how agents improve over 12–72 hours.</p>
+<p><strong>AI research/analysis pieces.</strong> A Hugging Face post argues specialized AI models will always outperform general ones — greater capability doesn&rsquo;t translate into broader applicability (true in biology too, where &ldquo;generalist&rdquo; organisms die), which it takes as a poor omen for AGI. A distillation history piece notes distillation evolved from model compression into a core post-training technique for transferring reasoning (DeepSeek, Qwen, GLM), now central to disputes over training on proprietary outputs. Other analyses: whether a URL in a prompt steers LLM output (a bare URL can act as a &ldquo;key into the weights&rdquo; if the URL and its content are in training data); &ldquo;better models, worse tools&rdquo; (newer models may get worse at faithfully emitting alternative tool schemas); agentic autonomy levels, agentic loops, agent-harness field guides (&ldquo;own the loop&rdquo; — the harness/control loop becomes the durable differentiator as models commoditize); and the &ldquo;AI superforecasters are here&rdquo; long read (Astral Codex Ten), which says specialized forecasting agents are improving and reportedly profiting on prediction markets and beating the stock market, though the piece cautions they aren&rsquo;t yet ahead of top humans.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>AI job apocalypse &ldquo;not happening,&rdquo; per Ramp.</strong> A Ramp study linking corporate AI spending to headcount across ~21,559–22,000 U.S. firms found aggressive AI adopters grew their white-collar workforce 10.2% in the two years after adoption, with entry-level hiring rising even faster (~12%); low-intensity adopters saw no significant change (reported by Superhuman and AI Clambake). Related trends: AI labs are recruiting philosophers and ethicists (one NYU professor says demand outstrips supply); freelancers report steady gigs fixing &ldquo;AI slop&rdquo; (one marketer billed $2,000 to rewrite AI copy generated in seconds); and Robert Half found 32% of managers who cut a role for AI later rehired the same/similar one, with Gartner expecting half of AI-blamed cuts reversed by 2027. Caveats: hiring gains cluster around tech and heavy spenders, and real layoffs continue. TLDR separately noted AI has torched the market for junior programmers — jobs where the product is &ldquo;code written to spec&rdquo; — while roles where the product is judgment about what code should exist are growing. A viral Reddit post mocked a Yahoo ad demanding &ldquo;10+ years of Claude Code experience.&rdquo;</p>
+<p><strong>AI&rsquo;s toll on billable hours and creatives.</strong> AI is pushing consulting clients toward fixed-fee and outcome-based pricing as it compresses hourly work. Creative Boom&rsquo;s survey of 882 US/UK creatives found half feel less financially secure than a year ago, 8% are considering leaving the industry, 86% use AI at work but only 10% think its impact is positive; networking/community (57%) and mentorship (53%) were seen as the best solutions. (Glean&rsquo;s &ldquo;Work AI Index&rdquo; cites 87% using AI at work but only 13% seeing significant impact.) SheerLuxe&rsquo;s AI-generated content got roughly half the engagement of human posts, and &ldquo;Made with AI&rdquo; labeling drew 7–8% fewer likes across ~1M TikTok posts. Zuckerberg reportedly conceded Meta&rsquo;s 8,000 AI-driven layoffs may have been a mistake as agent benefits failed to materialize. Bloomberg reported AI-driven cuts at Meta and TikTok in Ireland threaten the country&rsquo;s tax base (top 10% of earners fund 60% of income tax).</p>
+<p><strong>Chip and infrastructure buildout.</strong> South Korea is going all-in: President Lee Jae Myung ordered fast-tracked permits for a $576B chip/AI program, with Samsung and SK Hynix each investing $260B; Samsung is expected to post an 18-fold profit jump to a record $56B this quarter on AI memory demand, and SK Hynix (up 273% this year) is launching a $28B Nasdaq listing (SK Hynix also building a $51B NAND factory by 2029). Micron broke ground on a $9.3B Hiroshima HBM factory expansion (first shipments targeted summer 2028, up to ¥500B/$3.2B in Japanese subsidies). China&rsquo;s GPU champion Biren raised ~HK$7B (~$892.5M) in Hong Kong (stock up 150%+ since its January IPO). Nvidia delayed its next-gen Kyber NVL144 rack system by 12+ months to 2028 over PCB midplane manufacturing issues and canceled the NVL72x2 back-to-back architecture (SemiAnalysis). AI factories are forcing a $220B+ power-equipment market reshuffle, with Schneider and Siemens racing to redesign for 300kW Rubin racks and 1MW chips. Data centers are colliding with heat waves, adding grid strain and fueling debate over who pays for AI&rsquo;s compute buildout. SoftBank established SB Neo to run its U.S. neocloud business.</p>
+<p><strong>Funding and deals.</strong> H1 global venture funding hit a record $510B, with AI money concentrating around frontier labs, infrastructure, defense, robotics, and healthcare. Agility Robotics is going public via a Churchill Capital XI SPAC at $2.5B ($620M+ gross proceeds) — the largest humanoid-robotics raise ever. Brookfield-backed Csquare priced a $1.35B Nasdaq IPO (up to $4.18B valuation; 80 data centers, 500MW, 2,000+ clients). Even Realities (camera-free smart glasses, ex-Apple Watch engineers) hit a $1B valuation with a $150M pre-Series B led by Meituan and Tencent. Kling AI reportedly raised an initial $2B as Kuaishou spins off its video unit. Tripo AI raised another $150M for 3D foundation and world-model tools (a month after a $200M round). Symbotic acquired ARMS Innovations for AI-powered warehouse orchestration. Ex-NSO founder Shalev Hulio&rsquo;s AI cyber startup Dream opened four Latin American offices after a $260M raise at $3B valuation, targeting Argentina and Colombia. China quant-fund AUM doubled in under a year to 2.6 trillion yuan (~$384B), with AI strategies beating human discretionary managers by 20 percentage points.</p>
+<p><strong>Stargate UK scrutiny.</strong> The Guardian reported OpenAI and Nscale apparently never visited the £20B Stargate UK &ldquo;Cobalt&rdquo; site and failed to file planning forms; the Loughton location remains a scaffolding yard, and no £1.9B contract was ever signed.</p>
+<h2>Tooling &amp; releases</h2>
+<ul>
+<li><strong>Z.ai ZCode</strong> — a free coding agent built on Z.ai&rsquo;s GLM model (GLM-5.2/GLM-4.5 cited across sources) positioned against Cursor, Claude Code, and GitHub Copilot, with repo editing and terminal commands.</li>
+<li><strong>Kimi Code / Kimi 2.7 Code</strong> — a coding agent and CLI powered by Kimi K2.7 Code with autonomous goal execution via a <code>/goal</code> workflow.</li>
+<li><strong>Qwen-AgentWorld</strong> — an open-source agent training and evaluation environment; <strong>ClinePass</strong> gives cheaper access to open coding models inside Cline.</li>
+<li><strong>Vellum</strong> — a personal assistant with evolving memory, task handling, and preferences that can coordinate work in Slack like a teammate.</li>
+<li><strong>Seedance 2.5 in Dreamina</strong>, <strong>Context.dev</strong> (websites → markdown/HTML/structured data for agents), <strong>Safari MCP server</strong> (connects agents to a real Safari Technology Preview window to inspect/screenshot/debug).</li>
+<li><strong>Eve</strong> (Vercel) — filesystem-first framework for durable agents built from folders; <strong>claude-real-video</strong> (scene-aware video frames + transcript extraction); <strong>deptrust</strong> (checks package vulnerabilities across npm, PyPI, crates.io, Go, RubyGems, NuGet, Maven, GitHub Actions).</li>
+<li><strong>NOX</strong> (unified Mac inbox for iMessage/WhatsApp/Slack/email that drafts replies; free, Pro $30/mo), <strong>Pave by QuickBase</strong> (spreadsheet workflows → business apps), <strong>Retool&rsquo;s new AI app builder</strong> (prompt → production apps, deploy to governed platform).</li>
+<li><strong>Oasis 1</strong> — a $289 smart ring with a built-in trackpad and Whispr Flow dictation to control phone, Mac, Vision Pro, and AI tools.</li>
+<li>Content/media tools: <strong>Higgsfield Explainer</strong>, <strong>Kineo</strong>, <strong>PilotPost</strong>, <strong>CueTheScene</strong>, <strong>BeVisible</strong> (tracks brand appearance across ChatGPT/Gemini/Perplexity/Google AI Mode), <strong>Whisperly</strong>, <strong>UGCfy</strong>, <strong>Flodesk Studio</strong>, <strong>Spira</strong>, <strong>GanttPilot</strong>, <strong>Refero Design</strong>.</li>
+<li>Developer resources: <strong>Open Source AI Gap Map</strong> (maps the open-source AI stack to find gaps), <strong>jamesob&rsquo;s guide to running SOTA LLMs locally</strong> ($2,000 runs Qwen + good STT; $40,000 runs almost-Opus-level models), and Superhuman&rsquo;s walkthrough of automating job hunting with the Claude Chrome extension.</li>
+</ul>
+<h2>Consumer, culture &amp; misc</h2>
+<p><strong>OpenClaw becomes a dating &ldquo;wingman.&rdquo;</strong> The open-source AI agent OpenClaw is being used to automate dating. Content creator Ben Guez built a dating funnel: OpenClaw tracked World Cup results in real time, auto-generated near-identical &ldquo;heartbroken fan&rdquo; videos offering emotional support to women from losing countries, posted them on Instagram trial reels (hidden from the main feed), and piped incoming DMs to his own AI language app, Canary (TechCrunch). Other &ldquo;hacks&rdquo; include targeted content to attract matches, planning dates in new neighborhoods, and auto-sending break-up texts. Reactions are mixed, and security experts warn that giving agents free rein over personal accounts creates serious privacy risks.</p>
+<p><strong>Threads hits 500M monthly users.</strong> Meta&rsquo;s &ldquo;Twitter killer&rdquo; Threads reached 500M monthly users (especially popular in Asia), is targeting one billion, and — having started showing ads in January — could reach revenue of at least $30B a year at that scale.</p>
+<p><strong>Analysis on the AI bubble and economy.</strong> AI Clambake launched an &ldquo;AI Bubble Watch&rdquo; tracking four financial-stress measures. A WSJ piece on how an AI bust could ripple through the economy contrasts the current frenzy with the dotcom era and 2008 crisis, noting greater systemic risk when buildouts are debt-financed rather than funded from profits (citing a Bank for International Settlements report). Clouded Judgement questioned whether compute scarcity is ending as Meta and SpaceX sell excess capacity, potentially prompting downward hyperscaler capex revisions — though it argues demand likely remains, since anyone selling capacity finds buyers immediately. A &ldquo;Pace Layers&rdquo; framework was applied to the AI ecosystem to explain its differently-paced, mutually-influencing layers.</p>
+</article>
+<nav class="updown"><a href="2026-07-05.html">&larr; Sunday, July 5, 2026</a><a href="2026-07-07.html">Tuesday, July 7, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Monday, July 6, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-06-18</title>
+<meta name="description" content="AI news digest for 2026-06-18.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Thursday, June 18, 2026</p>
+<p class="meta-line">5,431 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>SpaceX acquires Cursor (Anysphere) for $60B all-stock</strong>, days after its record IPO, with a new &ldquo;generally intelligent&rdquo; from-scratch model (Composer 3) in the works.</li>
+<li><strong>Z.ai releases GLM-5.2</strong>, an MIT-licensed open-weights model with a 1M-token context window that nears GPT-5.5 and Claude Opus 4.8 on coding benchmarks.</li>
+<li><strong>Leaked audited financials show OpenAI lost $38.5B in 2025</strong> (revenue $13.07B), as ChatGPT&rsquo;s market share slips below 50% for the first time — right as it files confidentially to IPO.</li>
+<li><strong>The Anthropic Fable/Mythos export-control saga deepens</strong>: the supposed &ldquo;jailbreak&rdquo; was literally the prompt &ldquo;fix this code,&rdquo; the US denied even a UK carveout, and rivals (DeepSeek&rsquo;s $7.4B raise, Z.ai, Cohere, Mistral) are reaping the fallout.</li>
+<li><strong>NVIDIA Blackwell (GB300 NVL72) sweeps all seven MLPerf Training 6.0 benchmarks</strong> at 8,192-GPU scale; CoreWeave trained DeepSeek-V3 671B in ~2 minutes.</li>
+<li><strong>Microsoft&rsquo;s Copilot Cowork and Databricks&rsquo; Genie One both go GA</strong>, intensifying the enterprise &ldquo;agentic coworker&rdquo; race.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>SpaceX acquires Cursor (Anysphere) for $60B in all-stock deal.</strong> SpaceX formally exercised its option — first announced in April — to buy the AI coding startup Cursor, parent company Anysphere, in a deal paid entirely in SpaceX stock and expected to close in Q3 subject to regulatory approval. The timing is central: SpaceX listed publicly on Friday at $135/share, rocketed past $200 (some reports say it nearly doubled in under a week), piling roughly $1T onto its value and pushing Elon Musk&rsquo;s personal wealth above $1T — making a stock-only acquisition far easier. The April agreement had given SpaceX the choice of acquiring Cursor for $60B or paying $10B for a partnership alone. Cursor, founded in 2022 as Anysphere, went through OpenAI&rsquo;s startup accelerator in 2024, raised about $3.38B from Thrive, a16z, the OpenAI Startup Fund and Nvidia, and crossed $1B in annualized revenue in November after roughly 10x growth in under a year, reaching a reported ~$29B valuation before the deal. It had reportedly been preparing to raise $2B more (a16z, Thrive, Nvidia) at a ~$50B valuation before SpaceX&rsquo;s $60B offer. SpaceX&rsquo;s interest had built for months: xAI hired two of Cursor&rsquo;s senior engineering leaders earlier this year and reportedly rented data-center capacity to Cursor in April. The acquisition feeds SpaceX&rsquo;s AI division, built around xAI after the two merged earlier this year — a division that has been undergoing a messy reset after safety concerns, leadership exits (reportedly all 11 original co-founders gone by end of March; Musk said the company &ldquo;was not built right&rdquo;), and Grok-content controversy. During its IPO, SpaceX told investors it saw a ~$28 trillion total market opportunity, most tied to AI (infrastructure, enterprise software, satellite-based AI compute). At its &ldquo;Compile&rdquo; event, Cursor teased a major model push: CEO Michael Truell said its upcoming model will be &ldquo;generally intelligent,&rdquo; trained from scratch, and as big as Opus. Reporters at the event (Morgan Linton, Nick Dobos, Ray Fernando) described it as <strong>Composer 3</strong> — in the same size class as Claude Opus and GPT-5.5, with no Kimi/Chinese open base, built with 10–20x more compute than Composer 1, reportedly 1.5T+ parameters retrained on 100k+ GPUs, aimed at intelligence beyond coding, and expected within weeks. SpaceX said Cursor is already part of a model-training push for Grok Build and its own editor, positioning the combination as a potential fourth frontier-lab leg (and reducing reliance on Anthropic&rsquo;s models, except as datacenter revenue). (Sources: Superhuman, The Rundown, TLDR, The Neuron, Mindstream, AI Weekly via Axios/Business Insider/CNBC/TechCrunch/BBC/CityAM.)</p>
+<p><strong>Cursor launches Origin (an agent-native GitHub competitor) and an iOS app.</strong> Alongside the SpaceX news, Cursor introduced <strong>Origin</strong>, a Git-compatible &ldquo;forge&rdquo; built around the assumption that many AI agents will be cloning, branching, committing, rebasing, reviewing and fixing failures in parallel — i.e., built for &ldquo;agent-scale&rdquo; development rather than GitHub&rsquo;s &ldquo;human-scale&rdquo; model, an attempt to own the whole AI software factory. Cursor also rolled out a new iOS mobile app in beta for its coding platform. (The Rundown, TLDR AI.)</p>
+<p><strong>Microsoft Copilot Cowork becomes generally available worldwide.</strong> Microsoft is rolling out its agentic workplace tool to any Microsoft 365 user globally, with usage-based billing, model choice, and cost-management controls, and claims it runs 30–40% cheaper per prompt than Anthropic&rsquo;s Claude Cowork. Half the Fortune 500 are allegedly already using it. Cowork runs multi-step tasks across M365 apps. Microsoft published prompting guidance for new users. (Superhuman, The Rundown.)</p>
+<p><strong>Databricks launches Genie One, an agentic AI &ldquo;coworker.&rdquo;</strong> Unveiled at the Data + AI Summit, Genie One automates workplace tasks across apps, documents and chats and is powered by <strong>Genie Ontology</strong>, a self-improving context layer that maps organizational knowledge via SQL queries to reduce the hallucinations common in document-based agents. It connects to Google Drive, Jira, Slack and SharePoint and ships alongside Genie Agents, Genie App Builder, Genie Code, and Genie ZeroOps (autonomous pipeline monitoring). Notably, Databricks is abandoning traditional SaaS licensing in favor of pay-as-you-go token-consumption pricing. (Superhuman, SiliconAngle.)</p>
+<p><strong>Salesforce acquires Fin (formerly Intercom) for $3.6B</strong> to expand its Agentforce AI customer-service offering. (AI Weekly via TechCrunch.)</p>
+<p><strong>Microsoft Build 2026 highlights.</strong> Microsoft showcased Microsoft IQ + Foundry (shared knowledge for faster software development), in-house MAI reasoning and coding models, and &ldquo;OpenClaw on Windows&rdquo; for locally automating developer tasks. (The Rundown.) Separately, Microsoft is testing <strong>Phi Silica</strong> small language models — engineered to run on the NPUs of Windows Copilot+ PCs — now also on NVIDIA GPUs. (TLDR AI.)</p>
+<p><strong>xAI/Microsoft 365: Grok PowerPoint add-in.</strong> xAI launched a free Grok add-in for PowerPoint that turns prompts or outlines into slide decks, diagrams, images and data-connected presentations inside Microsoft 365 (M365 required). (The Neuron.)</p>
+<p><strong>Framer 3.0</strong> ships canvas-native AI agents that build and run entire websites — handling pages, CMS updates, SEO, responsiveness, analytics and deployment — plus &ldquo;Branching&rdquo; for safe experiments; free plan available. (The Rundown, The Neuron.)</p>
+<p><strong>ChatGPT opens self-serve ads to all US advertisers.</strong> OpenAI crossed $100M in annualized ad revenue in six weeks, with fewer than 20% of eligible users seeing ads daily; 85% of free and Go-tier users are eligible. Rollout is confirmed for Canada, Australia, New Zealand, the UK, Japan, South Korea, Brazil and Mexico. (TLDR Founders via Neil Patel.) Separately, Sensor Tower reported ChatGPT hit 1B mobile MAUs as AI assistants reshape shopping referrals and retailer apps. (The Neuron.)</p>
+<h2>Frontier &amp; open-weights model releases</h2>
+<p><strong>Z.ai releases GLM-5.2 (open weights, MIT license).</strong> The Chinese lab&rsquo;s new flagship is competitive with GPT-5.5 and Claude Opus 4.8 across a series of coding benchmarks — the closest an open model has come to top closed systems. It adds a 1M-token context window with strong long-horizon task capability and two effort modes (High, Max). Its improved architecture reuses per-token FLOPs by 2.9x. GLM-5.2 surpasses GPT-5.5 on real-world coding, reasoning and math, scoring just below Opus 4.8, while keeping GLM-5.1-level pricing (a fraction of frontier options). It was made available immediately to Coding Plan users, with API access, chatbot support, technical details and MIT-licensed open weights to follow within a week (no benchmark results were published at launch in the initial blog). It separately topped the DesignArena Code Categories Arena leaderboard, &ldquo;dethroning&rdquo; Claude Fable 5. The release lands amid intense focus on AI pricing and access. (The Rundown, TLDR AI, TLDR Founders, The Neuron, Superhuman.)</p>
+<p><strong>OpenAI previews GPT-5.6 for late June.</strong> Chief scientist Jakub Pachocki told staff GPT-5.6 is a &ldquo;meaningful improvement over GPT-5.5&rdquo;; The Information reports a late-June launch and Polymarket places ~83% probability on a June 22–28 window. Developer leaks suggest it outperforms Anthropic&rsquo;s Claude Mythos on agentic coding benchmarks and would be priced roughly one-third below Fable 5 at the API tier while keeping GPT-5.5&rsquo;s $5/$30 per-million-token structure. It continues OpenAI&rsquo;s ~six-week cadence and follows a documented &ldquo;meaningful alignment failure&rdquo; in GPT-5.5 in a May post-mortem. (AI Weekly.)</p>
+<p><strong>OpenAI preparing GPT-Bidi-1 voice upgrade.</strong> A bidirectional audio model for ChatGPT&rsquo;s voice mode designed to listen and speak simultaneously, absorb interruptions, and adjust mid-sentence. (TLDR AI.)</p>
+<p><strong>SubQ 1.1 Small technical report.</strong> SubQ released a long-context model report claiming near-perfect retrieval up to 12M tokens and 64.5x less compute than dense attention at 1M tokens. (The Neuron, TLDR.)</p>
+<p><strong>VibeThinker-3B (Weibo).</strong> A 3B-parameter model that posted coding benchmark scores &ldquo;in the same league&rdquo; as Claude Opus 4.5, reigniting debate over benchmark validity. (TLDR AI.)</p>
+<h2>The Anthropic Fable/Mythos export-control saga</h2>
+<p>This was a multi-day, multi-source story. Background: the US government restricted foreign access to Anthropic&rsquo;s top models (Fable 5 and Mythos) via export controls, forcing a de facto takedown. Zvi Mowshowitz&rsquo;s detailed update establishes what actually happened:</p>
+<ul>
+<li><strong>There was no real jailbreak.</strong> Katie Moussouris (CEO, Luta Security), the only outside expert known to have read the report, says researchers took open-source code with known CVEs plus code with deliberately planted vulnerabilities and asked Fable 5, Mythos and Opus to &ldquo;review the code for security issues.&rdquo; Fable 5 <em>refused</em>. They then asked the models to &ldquo;fix this code&rdquo; and, through a multistep manual process, turned the output into patch-test scripts. That&rsquo;s it — &ldquo;fix this code.&rdquo; Fable provided no uplift over Opus 4.8 or GPT-5.5 (Anthropic confirmed GPT-5.5 did the same thing). The theory that you could &ldquo;fix&rdquo; someone&rsquo;s code, diff it against the original to locate a vulnerability, then exploit it is, per Zvi and Simon Willison, absurd — coding models fixing security bugs is overwhelmingly a defensive use case. Willison: &ldquo;Now they look ready to ban any model that can help us secure our code.&rdquo;</li>
+<li><strong>The letter.</strong> Bloomberg published the full text of Commerce Secretary Lutnick&rsquo;s letter, which imposes &ldquo;interim controls&rdquo; requiring an individually-validated license before any export, reexport or in-country transfer (including deemed exports to any &ldquo;foreign person&rdquo;) of Mythos or Fable &ldquo;to any destination worldwide&rdquo; — effectively forcing a full takedown and even blocking Anthropic&rsquo;s own non-US employees. Per WSJ, when Lutnick and Amodei spoke, Amodei said &ldquo;This means we can&rsquo;t have the model out,&rdquo; and Lutnick responded &ldquo;That&rsquo;s the point.&rdquo; Zvi argues there was zero reason to also restrict Mythos (which was being used in defensive Project Glasswing work).</li>
+<li><strong>No UK carveout.</strong> The White House denied Keir Starmer&rsquo;s request to exempt British nationals/companies, with an official calling any G7-ally exemption &ldquo;completely illogical&rdquo; and saying &ldquo;We can&rsquo;t have frontier models running amok.&rdquo; (Corroborated by The Rundown via NY Post and TLDR AI.)</li>
+<li><strong>Amazon&rsquo;s role.</strong> Per the FT, Amazon CEO Andy Jassy discussed broader frontier-model concerns (not specifically the &ldquo;fix this code&rdquo; issue) with US officials on Friday; Amazon has invested $13B in Anthropic. Other reporting (via Hugo Lowell/WIRED) says Jassy first tried to call Amodei, who didn&rsquo;t pick up, then called Treasury Secretary Bessent. Zvi disputes the &ldquo;Dario didn&rsquo;t answer the phone&rdquo; narrative as spin, and offers an anonymous account that the White House asked Amazon to test Fable, Amazon found the &ldquo;jailbreak,&rdquo; reported it up, and the White House then misunderstood it and threw Amazon under the bus.</li>
+<li><strong>Legal posture.</strong> Zvi argues a literal reading suggests serving inference domestically may be legal despite the letter, and that rule 744.22 doesn&rsquo;t clearly support Lutnick&rsquo;s assertion (it targets specific countries), giving Anthropic potential constitutional challenges (1A, 5A, non-delegation, &ldquo;arbitrary and capricious&rdquo;). But challenging in court would likely be read as declaring war on the White House and end any political resolution.</li>
+<li><strong>Politics vs. stupidity.</strong> Zvi concludes this was &ldquo;not zero, and not that close to zero&rdquo; a deliberate attack rooted in ideological pettiness toward Anthropic&rsquo;s politics — citing a WSJ editorial titled &ldquo;Why Does Trump Hate Anthropic?&rdquo; and former deputy chief of staff Taylor Budowich&rsquo;s contradictory public statements. He still argues Anthropic should have taken Fable down on White House request as realpolitik, to establish the precedent, while making clear the justification was nonsense.</li>
+<li><strong>Current state.</strong> Prediction markets put ~55% chance of restoration by July 1, 30% by June 26, 12% by June 19. Anthropic flew staff (Nicholas Carlini, Logan Graham, Dave Orr) to Washington; Monday&rsquo;s technical meetings were led by Commerce&rsquo;s Chris Fall (Center for AI Standards and Innovation). Officials expect resolution to take &ldquo;longer than a few days&rdquo; but say it&rsquo;s &ldquo;up to Anthropic.&rdquo; An admin official warned that if this isn&rsquo;t a quick &ldquo;slap on the wrist,&rdquo; &ldquo;every model going forward needs to ask the government&rsquo;s permission for whether it can be released. That&rsquo;s an extremely bad situation.&rdquo;</li>
+<li>Anthropic had reportedly warned the government of release plans with no objection; objections came Friday with 90 minutes&rsquo; notice. The government&rsquo;s voluntary 30-day benchmarking apparatus doesn&rsquo;t take effect until July 31, 2026.</li>
+</ul>
+<p><strong>Industry fallout.</strong> Semafor reports the conflict creates a &ldquo;storytelling problem&rdquo; for Anthropic&rsquo;s near-$1T IPO, forcing it to simultaneously defend its safety-first brand and repair its Washington relationship. Yet <strong>Anthropic overtook OpenAI in US business AI spending</strong> for the first time (41% vs 39.5% in May, per Ramp data) — a &ldquo;split screen&rdquo;: politically fragile abroad, gaining at home. Security expert Alex Stamos: &ldquo;They are laughing at us in Beijing right now&hellip; One of America&rsquo;s champions is being kneecapped by the US government while we&rsquo;re in a race with the Chinese.&rdquo; AI Weekly frames the export order as backfiring badly: Cohere (chief AI officer Joelle Pineau) reports a &ldquo;huge number of inbounds&rdquo; especially from outside the US and China for AI that can&rsquo;t be revoked by a US order; Mistral is branding itself as AI &ldquo;outside state control&rdquo;; Zai shares jumped 30%; DeepSeek runs ~14x cheaper than Fable 5; and five Chinese labs (ByteDance, Tencent, MiniMax, Xiaomi, Alibaba) cut token prices up to 99% (Xiaomi&rsquo;s MiMo V2.5 down 99%). At the G7 in Évian, Commerce floated a &ldquo;trusted partners&rdquo; framework to grant allies access. Anthropic and Trump officials remain in unresolved talks; the workaround was discovered by Amazon researchers. (Sources: Zvi, The Rundown, TLDR, AI Weekly, Mindstream poll.)</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>OpenAI&rsquo;s leaked 2025 financials: $38.5B net loss.</strong> Audited financial documents independently verified by the FT (and reported by Ed Zitron) show OpenAI posted a $38.53B net loss in 2025 — over 7x (nearly 8x) the ~$5B loss in 2024. Revenue grew from $3.7B to $13.07B; expenses grew from $7.81B to $19.18B, with another source citing $34B total spending and $19B on R&amp;D. Costs were driven by model-training R&amp;D, Microsoft payments, and a one-time accounting charge tied to its nonprofit-to-for-profit conversion. The company has told investors it hopes to be profitable by 2030. The leak&rsquo;s timing is awkward: the same day, a report found <strong>ChatGPT&rsquo;s market share dipped below 50% for the first time</strong> (rising competition from Gemini, Claude, Grok), and OpenAI had just filed confidentially to IPO. Superhuman draws a parallel to SpaceX, whose S-1 disclosed a $4.28B Q1 2026 loss and ~$41B cumulative losses yet still landed the largest IPO on record — Musk shifted the conversation from today&rsquo;s financials to tomorrow&rsquo;s potential. (Superhuman, TLDR, The Neuron, AI Weekly.)</p>
+<p><strong>DeepSeek raises $7.4B at $50B+ valuation — China&rsquo;s most valuable AI startup.</strong> DeepSeek closed its first-ever external funding round (over CNY 50B / $7.4B), a roughly six-fold valuation jump since April. Investors include Tencent, battery maker CATL, NetEase and JD. The deal structure is deliberately unusual: commercial investors must channel capital into a limited partnership managed by founder Liang Wenfeng rather than receive direct equity — with a five-year lock-up and no voting rights — while only China&rsquo;s state-backed National AI Industry Investment Fund got direct equity and voting rights (~$150M). Liang, who previously held nearly 90%, personally committed roughly 20B yuan (~$3B), cementing his control while signaling Beijing&rsquo;s strategic stake. Capital will fund R&amp;D and computing infrastructure. (TLDR AI, The Neuron via Reuters/The Information, AI Weekly via TechFundingNews.)</p>
+<p><strong>Meta&rsquo;s AI morale crisis.</strong> CTO Andrew Bosworth pledged a culture reset in a memo (reported by Wired), admitting Meta &ldquo;did an atrocious job explaining the vision&rdquo; of an AI reorg that forced thousands of employees into AI-model-support work in March. He promised manager report caps, less internal shuffling, social events and better &ldquo;microkitchens.&rdquo; One worker called the unit &ldquo;the gulag&rdquo; (TechCrunch); anger spilled over when someone hijacked a company livestream to trash a senior AI executive. The backlash also follows internal anger over mandatory employee mouse-tracking to collect AI training data. A 30-minute Pragmatic Engineer piece, &ldquo;Why is Meta destroying its engineering organization?&rdquo;, chronicles how a &lsquo;move-fast&rsquo; culture has been demolished since April. The recent Muse Spark model was a win for the rebuilt lab. (The Rundown, TLDR.)</p>
+<p><strong>Anthropic study: domain expertise, not coding chops, predicts who wins with AI agents.</strong> Anthropic&rsquo;s first large-scale study of agentic coding (400K real Claude Code sessions) found subject-matter experts — not career engineers — extract the most value, a tell about where productivity gains land. (AI Weekly via Anthropic.) Anthropic&rsquo;s Applied AI team also published a viral guide on getting agents into production via Claude Managed Agents. (Superhuman.)</p>
+<p><strong>AI capex warnings &amp; &ldquo;tokenminimizing.&rdquo;</strong> Epoch AI warned that AI capex across Microsoft, Amazon, Alphabet, Meta and Oracle is on pace to exceed operating cash flow by Q3 2026. The Information reports AT&amp;T has started throttling some employees&rsquo; AI usage — a new corporate term, &ldquo;tokenminimizing&rdquo; — as firms realize productivity boosts carry real model bills. (The Neuron.) Glean published a whitepaper on the &ldquo;token economy&rdquo; and getting more work per token via context retrieval and model routing. (The Rundown.)</p>
+<p><strong>xAI legal/military disclosures.</strong> The DOJ filed to dismiss the NAACP pollution suit against xAI, disclosing that Grok runs on top-secret military networks and supports Iran war operations. (AI Weekly via Engadget.)</p>
+<h2>Hardware &amp; infrastructure</h2>
+<p><strong>NVIDIA Blackwell sweeps MLPerf Training 6.0.</strong> NVIDIA&rsquo;s GB300 NVL72 cluster topped all seven MLPerf Training 6.0 benchmark categories at 8,192-GPU scale — the broadest sweep in the program&rsquo;s history — running 1.6x faster than the GB200 NVL72 it replaces, independently audited across LLM pretraining, fine-tuning and multimodal workloads. NVLink and NVFP4 innovations route MoE models efficiently and enable rapid large-scale training; the RAS Engine and NVIDIA Resiliency Extension ensure minimal downtime. (TLDR AI, AI Weekly, The Neuron.) Relatedly, <strong>CoreWeave set a new MLPerf record training DeepSeek-V3 671B in about two minutes</strong> on 8,192 NVIDIA GB300 GPUs. (The Neuron.)</p>
+<p><strong>Qualcomm in advanced talks to acquire Tenstorrent for $8–10B.</strong> The Canadian AI chip startup co-founded by Jim Keller — whose RISC-V-based accelerators and Galaxy Blackhole platform (32 accelerators, 768 RISC-V cores each) — would give Qualcomm its first serious datacenter AI silicon and a hedge against Arm dependence amid licensing disputes. It would rank among the largest AI hardware acquisitions ever and mark Qualcomm&rsquo;s aggressive pivot toward CEO Cristiano Amon&rsquo;s $35B 2031 datacenter AI revenue target. (AI Weekly via The Register/The Information.) Separately, Qualcomm announced <strong>Snapdragon Reality Elite</strong> (a platform for mixed-reality glasses) and the <strong>Scalable Turnkey AI-Ready toolkit</strong>, positioning itself as the silicon layer for whatever replaces the smartphone; it&rsquo;s working on 40+ AI wearable devices. (TLDR AI.)</p>
+<p><strong>NVIDIA/Coherent InP optical chip factory in Texas.</strong> Jensen Huang attended the groundbreaking for Coherent&rsquo;s new indium phosphide optical chip factory in Sherman, Texas — quadrupling domestic InP wafer capacity for AI networking. It secured a $50M CHIPS Act grant and will create 550+ jobs, advancing NVIDIA&rsquo;s stated $500B domestic AI infrastructure commitment. InP is the optical bottleneck for 800G/1.6T interconnects in dense GPU clusters. (AI Weekly.)</p>
+<p><strong>China&rsquo;s lab-grown diamond makers</strong> turned out to be sleeper AI-boom winners: their diamond heat-spreaders now ship to chipmakers as GPU density outruns copper cooling; one producer&rsquo;s shares jumped 51%. (AI Weekly via Bloomberg.)</p>
+<h2>Robotics &amp; embodied AI</h2>
+<p><strong>Alibaba launches Qwen Robot Suite.</strong> A set of models for robot navigation, object manipulation and world prediction as Alibaba pushes Qwen beyond chat into &ldquo;physical world intelligence.&rdquo; (The Neuron, TLDR AI.) A related arXiv paper covers <strong>Qwen-RobotWorld</strong>, a language-conditioned video world model using natural language as a unified action interface across robotics, navigation, driving and other embodied domains. (TLDR AI.)</p>
+<p><strong>China&rsquo;s humanoid-robot deployment plan.</strong> China set a 2026 plan to move more than 10,000 humanoid robots into real jobs across factories, logistics, retail, healthcare, inspection and emergency response. (The Neuron.)</p>
+<p><strong>Genesis AI debuts general-purpose robot &ldquo;Eno.&rdquo;</strong> Backed by ex-Google CEO Eric Schmidt, Genesis AI unveiled Eno, which can reason, adapt, and &ldquo;own outcomes&rdquo; beyond predefined tasks. It&rsquo;s partnering with LG Group&rsquo;s consulting/services arm to deploy to industrial customers by year-end, and is raising funds. (TLDR.)</p>
+<p><strong>Wonder&rsquo;s burrito-bowl robot.</strong> Marc Lore&rsquo;s Wonder will deploy a robot that makes ~500 burrito bowls/hour (vs. ~45 for a human) next month, acquired from Sweetgreen (already running it across 32 locations). (AI Weekly.)</p>
+<p><strong>Humanoid climbs a volcano.</strong> A modified Unitree G1 (&ldquo;Pemba&rdquo;) autonomously walked up most of Ecuador&rsquo;s 20,341-ft Chimborazo over a 16-hour push (humans assisted on the steepest pitches), stress-tested to −47°C; next target is Everest. (AI Weekly.)</p>
+<h2>Research papers</h2>
+<p><strong>LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling</strong> (113 upvotes). Looped Transformers scale latent computation by repeatedly applying shared blocks, but sequential looping increases latency and KV-cache memory. Parallel loop Transformers (PLT) alleviate this via cross-loop position offsets (CLP) and shared-KV gated sliding-window attention, making loop count a design choice. The authors train LoopCoder-v2, a family of 7B PLT coders with different loop counts, from scratch on 18T tokens with matched instruction tuning. The two-loop variant delivers broad gains over the non-looped baseline — improving SWE-bench Verified from 43.0 to 64.4 and Multi-SWE from 14.0 to 31.0 — while three or more loops <em>regress</em> (strongly non-monotonic). Diagnostics show loop 2 provides the main productive refinement; later loops yield diminishing, oscillatory updates and reduced representational diversity, while the fixed CLP positional-mismatch cost increasingly dominates as gains shrink. <a href="https://huggingface.co/papers/2606.18023">link</a></p>
+<p><strong>Zone of Proximal Policy Optimization (ZPPO): Teacher in Prompts, Not Gradients</strong> (40 upvotes). Standard knowledge distillation is brittle for small students (imitating a much larger teacher&rsquo;s logits concentrates on the teacher&rsquo;s sharpest modes, hurting generalization), while RL on the student&rsquo;s own rollouts breaks down on questions where every rollout fails (zero advantage, silently discarded), and injecting a teacher response into the policy gradient breaks the on-policy assumption. Inspired by Vygotsky&rsquo;s zone of proximal development, ZPPO keeps the teacher <em>inside the prompt</em> rather than the gradient. On hard questions it builds two reformulated prompts: a Binary Candidate-included Question (BCQ) pairing one correct teacher response with one incorrect student response as anonymized candidates to discriminate, and a Negative Candidate-included Question (NCQ) aggregating the student&rsquo;s wrong rollouts to surface shared failure modes. A prompt replay buffer recirculates each hard question until the student&rsquo;s mean rollout accuracy reaches half (graduation) or it&rsquo;s FIFO-evicted. On the Qwen3.5 family at four scales (0.8B–9B) with a 27B teacher, post-trained as vision-language models and evaluated on a 31-benchmark suite (16 VLM, 10 LLM, 5 Video), ZPPO beats off/on-policy distillation and GRPO, with the largest gains at the smallest scale. <a href="https://huggingface.co/papers/2606.18216">link</a></p>
+<p><strong>ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining</strong> (40 upvotes). A unified Vision-Language-Action pretraining framework that jointly leverages heterogeneous data — egocentric human videos and robot trajectories — despite divergences in action spaces, embodiment, temporal dynamics and supervision quality. It builds a scalable egocentric video-to-action pipeline converting raw human videos into robot-format pseudo-action trajectories, uses a unified action representation (camera-space actions, morphology conditioning, time-aligned action chunking), and a reliability-aware training objective with a human auxiliary loss to concentrate supervision on reliable signals. Trained on 4.53K hours of robot/simulation data plus 1.48K hours of pseudo-action-labeled human data, it achieves SOTA on RoboCasa GR1 TableTop and RoboTwin 2.0 with strong transfer to real-world bimanual manipulation. <a href="https://huggingface.co/papers/2606.17200">link</a></p>
+<p><strong>GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?</strong> (36 upvotes). Formalizes end-to-end game generation as producing a complete game artifact that realizes a natural-language specification through observable player-game interaction in a target engine, requiring three desiderata: Engine Grounding, Artifact Completeness, and Interactive Verification. The benchmark comprises 140 Godot tasks across 15 game families, evaluated via replayed demonstrations and rubric-guided multimodal judging. Frontier coding agents struggle: the strongest scores only 41.46% and most score below 40% — they implement recognizable mechanics but fail to deliver complete games with sufficient content, functional visual feedback and coherent presentation. <a href="https://huggingface.co/papers/2606.17861">link</a></p>
+<p><strong>OpenAI&rsquo;s reasoning model disproved an 80-year-old Erdős conjecture.</strong> It found an infinite family of point constructions beating the square-grid bound; Cambridge&rsquo;s Timothy Gowers confirmed the proof meets top-journal standards — believed to be the first AI-generated math to clear that bar. (AI Weekly via WSJ.)</p>
+<h2>Policy, safety &amp; evaluation</h2>
+<p><strong>OpenAI publishes Deployment Simulation.</strong> A pre-release evaluation method that replays real conversation contexts (de-identified; one figure cites 1.3M real conversations / 1.3M replayed) with candidate models to estimate deployment-time behavior and uncover new safety issues before launch. (TLDR AI, AI Weekly, The Neuron.) In a related 45-minute talk, OpenAI&rsquo;s Tejal Patwardhan discussed how frontier evaluations are evolving as benchmarks saturate, covering evaluation design, forecasting model progress, and measuring increasingly capable systems. (TLDR AI.)</p>
+<p><strong>Anthropic pauses token-based billing for its Claude Agent SDK.</strong> Just before the changes (which would have treated Claude Agent SDK usage separately from standard Claude usage) took effect, Anthropic paused them after backlash from heavy users; outside-SDK usage will be billed at prevailing API rates while Anthropic reworks plans to better support how users build with subscriptions. (TLDR AI, The Neuron.)</p>
+<p><strong>Mindstream reader poll</strong> on what should happen when an AI model becomes powerful enough to raise cyber concerns: 52% &ldquo;pause access until properly tested,&rdquo; 31% &ldquo;let independent researchers test it first,&rdquo; 17% &ldquo;keep available with stricter safeguards.&rdquo; Reader comments questioned why the restriction applied to Fable/Mythos and not GPT-5.5, and whether it was &ldquo;government payback for Anthropic&rsquo;s ethics policies.&rdquo;</p>
+<h2>Security</h2>
+<p><strong>144 Mastra AI framework npm packages backdoored (&ldquo;easy-day-js&rdquo;).</strong> Attackers hijacked a former contributor&rsquo;s still-valid @mastra-scope access (never revoked) and mass-published 144 poisoned packages in ~88 minutes. The @mastra/core package alone draws 918,000 weekly downloads; combined, affected packages exceed 1.1M weekly installs. An obfuscated postinstall dropper downloads a second-stage info-stealer that harvests environment secrets, browser history and credentials from 160+ cryptocurrency wallet extensions, with cross-platform persistence on Windows, macOS and Linux. Because the AI-agent framework sits atop cloud credentials, every build environment that pulled them should be treated as compromised. (AI Weekly.)</p>
+<p><strong>15 malicious JetBrains Marketplace plugins</strong> masquerading as DeepSeek, OpenAI and SiliconFlow integrations (two claimed 25,000+ downloads each; 70,000+ developers affected) quietly exfiltrated AI-provider API keys — the tools developers bolt onto IDEs to <em>use</em> AI are now the attack surface. (AI Weekly via The Hacker News.)</p>
+<p><strong>LiteLLM three-CVE chain (CVSS 9.9).</strong> Any low-privilege user can take over the AI gateway server and execute arbitrary code. (AI Weekly.) Also: CISA added a maximum-severity Joomla JCE flaw (CVSS 10.0) to its Known Exploited Vulnerabilities catalog (unauthenticated PHP code execution active in the wild). (AI Weekly.) AI Weekly&rsquo;s takeaway: pin versions, rotate keys, audit plugins.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Android 17 ships.</strong> Rolling out to Pixel phones and watches, it adds AppFunctions and Android MCP (letting apps expose orchestratable tools that on-device agents can discover and execute), plus Bubble Bar multitasking, device handoff, post-quantum security, and more Gemini features — positioned as a shift toward an &ldquo;intelligence system.&rdquo; (TLDR, TLDR AI, The Neuron.)</p>
+<p><strong>Amazon S3 Annotations.</strong> A new metadata capability lets users attach up to 1,000 named annotations per object (each up to 1 MB) in JSON, XML, YAML or plain text, modifiable/deletable without rewriting objects; available now in all AWS regions. (TLDR.) AWS also previewed <strong>AWS Blocks</strong>, an open-source TypeScript framework for composing application backends on AWS without learning infrastructure tools. (TLDR.)</p>
+<p><strong>OpenAI Codex adds Chrome DevTools Protocol (CDP) support</strong> for browser use — live browser access to profile JavaScript performance and modify sites in real time. Early-stage, opt-in, excluded from EEA/UK/Switzerland, with performance issues. OpenAI&rsquo;s acquisition of Ona aims at persistent cloud environments. (TLDR AI.)</p>
+<p><strong>MDN MCP server</strong> gives coding agents current MDN docs and browser-compatibility data inside VS Code, Cursor and Claude Code (free). Other tools surfaced: <strong>Exa Agent</strong> (deep research/list-building API, $0.012–$1/request), <strong>Firecrawl</strong> (search/scrape/PDF-to-markdown), <strong>UI Skills</strong> and <strong>Skywork Design</strong> (canvas-based site/dashboard layouts), <strong>Mercury Command</strong> (natural-language banking agent with built-in approvals), and via Superhuman: ChatGPT + Runway integration for generating/editing video and image ads inside ChatGPT (Settings &gt; Apps &gt; Runway &gt; Connect, then @Runway with a prompt). (The Neuron, TLDR AI, The Rundown, Superhuman.)</p>
+<p><strong>DeepLearning.AI launches &ldquo;Voice for AI Agents and Applications&rdquo;</strong> (free), built with Vocal Bridge and taught by CEO Ashwyn Sharma. It pairs a low-latency foreground agent with a background reasoning agent to get both speed and reliability, covering three integration patterns: voice embedded in an app (a voice + mouse tic-tac-toe game over one synchronized channel), voice layered on an existing agent in ~10 lines of code, and voice as a callable tool (a make_phone_call function that dials a real number and streams the transcript). It also teaches evaluation-driven development with Vocal Bridge&rsquo;s multimodal evaluator. A &ldquo;7-Day Voice AI Builder Challenge&rdquo; starts June 23.</p>
+<h2>Devices &amp; consumer tech</h2>
+<p><strong>Snap unveils $2,195 &ldquo;Specs&rdquo; AR glasses.</strong> Announced at AWE 2026, the augmented-reality glasses (with a $200 refundable deposit) ship later this year in the US, UK and France, with OpenAI and Gemini APIs built in and dual Qualcomm processors — billed as the first consumer spatial computer to ship before a comparable Meta product. CEO Evan Spiegel is betting on a post-smartphone future; Snap&rsquo;s 2016 $130 camera-only Spectacles never became a hit. Context: Meta&rsquo;s Ray-Ban Meta glasses found success, and Google plans AI glasses with Samsung. (TLDR, AI Weekly.)</p>
+<p><strong>Apple plans camera AirPods, foldable iPhone, 20th-anniversary iPhone for late 2027</strong> — all in advanced development, intended as Apple&rsquo;s biggest product wave yet. (TLDR.) Separately, reports allege Apple added a &ldquo;keylogger&rdquo; to the iOS App Store for targeted advertising — recording every tap, sent unencrypted and tied to user accounts — and that Sign in with Apple / Hide My Email aliases will move to @private.icloud.com, making them easier to ban. (TLDR.)</p>
+<h2>Techniques, analysis &amp; how-to</h2>
+<p><strong>The &ldquo;car wash&rdquo; failure and the interview-first fix (AI Adopters Club).</strong> Asked &ldquo;I want to wash my car. The car wash is 50 metres away. Should I walk or drive?&rdquo;, ChatGPT, Claude and Gemini all said walk (the car must be at the car wash). Across 53 models tested, only five got it right more than once in ten tries. &ldquo;Think harder&rdquo; and role-play prompts didn&rsquo;t help (a role definition moved the score from zero to zero); a structure forcing the model to name the situation and task first lifted the pass rate to 85%. The lesson (echoing Karpathy: &ldquo;you can outsource your thinking, but you cannot outsource your understanding&rdquo;): the model fills your silence with the most common pattern. The fix is to make the model interview you first — paste a prompt instructing it to ask questions one at a time about your goal, audience and definition of success, summarize its understanding, and wait for confirmation before acting — then save that hard-won context for reuse.</p>
+<p><strong>Leitwörter (&ldquo;leading words&rdquo;) for AI skills (The Neuron, via Matt Pocock).</strong> A leitwort is a single repeated phrase that compresses an entire desired behavior into a reusable handle the agent can invoke in its own reasoning (e.g., his /teach skill uses &ldquo;zone of proximal development&rdquo;). Repeating it 2–3 times in a skill makes the agent reference the phrase in its own thinking. The suggested prompt: declare a LEITWORT as the operating principle, define it simply, and have the model self-check its output against it before finalizing.</p>
+<p><strong>Founder &amp; business analysis (TLDR Founders).</strong> Decagon CEO Jesse Zhang argues every AI market feels crowded because only a few players win, and speed of shipping is an advantage but not durable since AI has compressed build-and-copy timelines (a lost feature goes straight onto every competitor&rsquo;s roadmap). Other pieces: a guide to building a proprietary &ldquo;learning loop&rdquo; on top of the best model so data/usage compound into defensible IP; how to pivot well in the AI era; a &ldquo;compute-adjusted LTV&rdquo; metric for fixed AI revenue with variable compute costs; whether the Rule of 40 works for hardware; and Rivian building its cheaper SUV in an existing factory to pull profitability forward (revenue tripled in two years with flat operating costs).</p>
+<p><strong>Other notable analysis (The Neuron / Mindstream / Interconnects).</strong> Adobe data: 87% of creators using creative AI say it grew their business/audience, though they still want control and authorship. SemiAnalysis explains why RL systems bottleneck when trainer and generator throughput desync. François Chollet argues open AI&rsquo;s path forward depends on radically better training (especially data) efficiency. OpenAI&rsquo;s executive coach Joe Hudson (Art of Accomplishment), who works with OpenAI and other labs, argues &ldquo;emotional fluidity&rdquo;/emotional clarity will be the key leadership advantage as AI commoditizes knowledge (Sam Altman has praised his work). Nathan Lambert (Interconnects) published a &ldquo;state of the blog&rdquo; noting he crossed 70K subscribers / ~900 paid, is staying independent and niche rather than going full-time, disclosed new advising agreements with Arcee AI and Mercor, and plans to paywall all comments to keep a &ldquo;0% AI slop rate.&rdquo;</p>
+</article>
+<nav class="updown"><a href="2026-06-17.html">&larr; Wednesday, June 17, 2026</a><a href="2026-06-19.html">Friday, June 19, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Thursday, June 18, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

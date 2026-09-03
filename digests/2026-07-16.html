@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-16</title>
+<meta name="description" content="AI news digest for 2026-07-16.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Thursday, July 16, 2026</p>
+<p class="meta-line">3,900 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>OpenAI&rsquo;s first consumer hardware is reportedly a portable, screenless ChatGPT smart speaker (cameras, sensors, GPT-Live voice, moving parts) aimed at 2027; it also shipped a $230 Codex Micro keypad for steering coding agents.</li>
+<li>Thinking Machines (Mira Murati) released Inkling, its first open-weight model: a 975B-parameter MoE with 41B active params, 1M-token context, multimodal reasoning, customizable via Tinker.</li>
+<li>Anthropic, Blackstone and Hellman &amp; Friedman officially launched &ldquo;Ode with Anthropic,&rdquo; a $1.5B enterprise AI-implementation JV, as Anthropic reportedly moves toward a mega-IPO after a $65B raise at a $965B valuation.</li>
+<li>OpenAI unveiled GPT-Red, an automated red-teamer that cut prompt-injection success on GPT-5.6 from 90%+ to under 23%; researchers separately reported experimental evidence of recursive self-improvement.</li>
+<li>AI Weekly published a 159-deployment &ldquo;AI Use-Case Library&rdquo; documenting real enterprise wins and six halted projects, amid an &ldquo;audit era&rdquo; of ballooning AI bills.</li>
+<li>A $500M philanthropic initiative (Intercept) backed by Stripe, Anthropic, OpenAI, Gates and Jane Street aims to end respiratory infections.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>OpenAI&rsquo;s screenless ChatGPT smart speaker (and Codex Micro keypad).</strong> According to Bloomberg (corroborated by The Verge, Fortune and MacRumors), OpenAI&rsquo;s first consumer hardware device is shaping up to be a portable, screenless smart speaker built as an &ldquo;AI companion&rdquo; rather than a phone, glasses or laptop. It is described as rechargeable and movable around the home, using cameras and sensors to understand its surroundings, natural voice conversation (reportedly powered by GPT-Live, OpenAI&rsquo;s latest voice model), and moving mechanical parts intended to make interactions feel more lifelike. Users could ask questions, play media, control smart-home devices, and reply to messages. The device is reportedly planned for around 2027 and is one of about five devices OpenAI is developing with former Apple designer Jony Ive, who joined last year. The concept signals OpenAI&rsquo;s bet that the next computing layer moves out of the app window and into rooms — voice and vision instead of typing, physical companions instead of software assistants — while raising obvious privacy questions about placing an always-on camera/sensor device in intimate home spaces. The product is entangled in Apple&rsquo;s lawsuit accusing OpenAI of stealing hardware trade secrets; NBC News reported Apple&rsquo;s lawyer mixed up two OpenAI employees while pressing the case, suggesting Apple may have sued without a clean picture of who did what, so the case may hinge on discovery of internal emails, files and hiring records. OpenAI said it is not aware of evidence supporting the claims. Separately and shipping now, OpenAI released <strong>Codex Micro</strong> (the kbd-1.0-codex-micro, made with Work Louder / Supply Co.), a $230 customizable mini-keyboard for steering Codex coding agents. It has command/status keys and shortcuts, status lights, a joystick to launch common workflows, a button to prompt Codex verbally, and a dial/knob to adjust the model&rsquo;s reasoning effort. The release video drew 2M+ views. The near-term thesis: put AI controls under your fingers instead of burying them in menus and chat boxes.</p>
+<p><strong>Thinking Machines releases Inkling.</strong> After 17 months of building, Mira Murati&rsquo;s Thinking Machines Lab shipped its first model, Inkling — a 975-billion-parameter mixture-of-experts model with 41B active parameters, multimodal reasoning, and a one-million-token context window. It&rsquo;s pitched as a broad, balanced foundation model designed to trade cost against performance rather than chase raw power, and is built to be downloaded and modified directly by companies. It can be customized through Tinker, the cloud-based fine-tuning tool Thinking Machines released last year, and shipped alongside a smaller preview version. It&rsquo;s positioned as a notable strategy shift for a US lab and reportedly a leading US open-weight model, at a time when most open-weight releases have come from China (GLM 5.2, DeepSeek V4 Pro, Kimi K2.6). The Neuron described it as built around &ldquo;customization-first&rdquo; with controllable reasoning effort.</p>
+<p><strong>&ldquo;Ode with Anthropic&rdquo; enterprise JV launches; Anthropic eyes IPO.</strong> The $1.5B Anthropic/Blackstone/Hellman &amp; Friedman AI-implementation joint venture announced in May officially launched as &ldquo;Ode with Anthropic,&rdquo; a standalone enterprise AI services firm. Anthropic, Blackstone and H&amp;F each contributed roughly $300M, Goldman Sachs about $150M, with additional backing from General Atlantic, Leonard Green, Apollo, GIC and Sequoia. It&rsquo;s run by ex-Fractional AI founders Chris Taylor (CEO) and Eddie Siegel (CTO), fielding ~100 engineers alongside Anthropic&rsquo;s applied AI team, deploying into mid-sized banks, regional health systems and manufacturers on a &ldquo;Claude-first&rdquo; principle. The goal is to move organizations from experimenting with AI to integrating it into operations. Anthropic CFO Krishna Rao: &ldquo;Enterprise demand for Claude is significantly outpacing any single delivery model.&rdquo; Separately, CNBC reported Anthropic is preparing investor meetings for a potential IPO later this year, with Goldman Sachs, Morgan Stanley and JPMorgan Chase leading. The company recently closed a $65 billion funding round at a $965 billion valuation, surpassing OpenAI&rsquo;s $852 billion; the IPO would test public-market appetite ahead of OpenAI.</p>
+<p><strong>Stripe and Advent bid for PayPal.</strong> Stripe and private-equity firm Advent International made a joint takeover bid for PayPal, proposing $60.50 a share in a deal valuing the fintech at around $53 billion (up from ~$42 billion as of the prior Friday). PayPal is in the early stages of a turnaround under a newly appointed CEO. There&rsquo;s no guarantee PayPal will be receptive; its stock previously peaked at more than $300 a share.</p>
+<p><strong>Apple Intelligence cleared for China with Alibaba&rsquo;s Qwen.</strong> China&rsquo;s Cyberspace Administration on July 15 registered Apple Intelligence for use in mainland China, using Alibaba&rsquo;s Qwen as the underlying model — clearing the last major regulatory hurdle for Apple&rsquo;s on-device generative AI features on iPhones sold in Greater China. Qwen will power Apple Intelligence across iOS, iPadOS, macOS and visionOS for Chinese users, including text and image generation. Apple had reportedly evaluated Baidu, DeepSeek and ByteDance before settling on Qwen. Alibaba&rsquo;s US-listed shares rose about 4% on the news.</p>
+<p><strong>Funding and business moves.</strong> Indian AI coding startup <strong>Emergent</strong> became a unicorn with a $130M Series C at a $1.5B post-money valuation, bringing total funding to $230M, as ARR reached $120M and its paying customer base topped 200,000. <strong>Walden Robotics</strong>, a Toyota-backed industrial-humanoid startup, came out of stealth with roughly $300M in funding and a $1.1B valuation. <strong>Thomson Reuters</strong> confirmed up to 500 engineering layoffs (1.8% of its workforce, 5.2% of ops/tech) as it deploys AI across legal, tax and regulatory workflows, while planning to hire 250+ net-new senior &ldquo;AI-native&rdquo; engineers over two years. Anthropic also committed $10M CAD to eight Canadian research institutions — including Mila, Vector, Amii and the University of Toronto — via Claude credits and startup access.</p>
+<h2>Research papers &amp; technical work</h2>
+<p><strong>GPT-Red automated red-teamer.</strong> OpenAI unveiled GPT-Red, an internal automated red-teaming LLM used to adversarially train GPT-5.6 (Sol) against prompt injection using self-play to find attacks and harden frontier models. Prompt-injection attacks that succeeded over 90% of the time on GPT-5 now work under 23% on GPT-5.6 — reported as a roughly sixfold reduction in failures on a difficult prompt-injection benchmark. The tool achieves an 84% attack success rate versus 13% for human red-teamers on a 2025 benchmark. GPT-Red discovered a previously unknown &ldquo;fake chain of thought&rdquo; injection attack class and even compromised a vending-machine agent in testing (per OpenAI researcher Dylan Hunn). OpenAI says it will not release the model publicly, citing the compute required to reproduce it, and notes it still struggles with multi-turn and image-based attacks.</p>
+<p><strong>Experimental evidence of recursive self-improvement.</strong> Researchers ran an autoresearch agent on an autoresearch agent over eight days, and the fully autonomous result beat a harness that humans had hand-tuned for two years on held-out benchmarks. The system had an inner loop that optimized code against an eval, and an outer loop that optimized the inner-loop agent&rsquo;s harness code against the inner loop&rsquo;s average score across different benchmarks. It designed a novel search algorithm, reduced prompt size by 16x, and built a layered system against reward hacking.</p>
+<p><strong>How GPT-5.6 Sol learned design taste.</strong> Per Design Arena, GPT-5.6 Sol ranks first overall on the Web Design Arena — a significant jump from predecessor GPT-5.5, which ranks 18 places lower. The new model appears to recognize and actively compress common AI design anti-patterns, and combines strong templates with unusually high personalization.</p>
+<p><strong>NVIDIA Cosmos 3 Edge world model and Jetson Thor.</strong> NVIDIA introduced Cosmos 3 Edge, a 4B-parameter Nemotron-based world model that runs on-device for vision reasoning and robot-policy generation across Jetson (including new Blackwell-powered T2000/T3000 modules), RTX GPUs and DGX systems; developers can adapt it to a specific robot, vehicle or sensor in about a day. Twenty-two Japanese robotics and manufacturing leaders — AIRoA, Classmethod, Enactic, FANUC, Fujitsu, GROOVE X, Hitachi, Honda R&amp;D, Kawasaki Heavy Industries, Kubota, Mitsui, Mitsubishi, Mujin, NEC, Preferred Networks, SoftBank, Sony, Telexistence, TIER IV, TRON, Turing and Yaskawa — announced they will join the NVIDIA Cosmos Coalition to co-build open physical-AI foundation models. New Metropolis libraries claim to speed vision-AI system development at least 6x. NVIDIA&rsquo;s Jetson Thor edge platform (T3000/T2000) had already attracted adoption from Amazon Robotics, Boston Dynamics, FANUC and 1X.</p>
+<p><strong>Diffusion-model creativity explained.</strong> Google Research argued that diffusion-model creativity comes from learning smoothed score functions that interpolate along the data manifold, rather than simply memorizing training images.</p>
+<p><strong>Systolic arrays and model routing.</strong> A deep dive noted systolic arrays handle over 95% of modern AI-chip compute by moving matrix data locally between processing elements to reduce memory traffic; larger arrays raise peak throughput but are harder to saturate, so compiler scheduling often determines whether chips reach useful utilization. Separately, an IBM Research piece argued model routing is deceptively hard: caching, workload interactions and serving infrastructure often affect cost and latency more than base model pricing or perceived task difficulty, so effective routing optimizes across multiple axes for the whole system, not just picking the &ldquo;best&rdquo; model per task. A related short course from DeepLearning.AI and Cerebras (taught by Zhenwei Gao, Sebastian Duerr and Sarah Chieng) covers the memory-to-compute bottleneck: because much of LLM latency comes from moving weights from off-chip memory to compute units, Cerebras&rsquo; plate-sized Wafer-Scale Engine (WSE-3) keeps a model&rsquo;s weights on-chip, producing tokens several times faster than a typical GPU setup and enabling real-time apps like live translation and voice agents.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>AI Use-Case Library and the &ldquo;audit era.&rdquo;</strong> AI Weekly published a free, searchable AI Use-Case Library documenting 159 real, named AI deployments across 21 industries, with tools, vendors and reported outcomes on 77 of them; six deployments were halted or reversed. Documented wins where the task is narrow and measurable include: OpenAI now runs on its own agents, with <strong>97.9% of OpenAI employees using its Codex agent</strong> (up from ~40% last August, now including Legal and Recruiting); the <strong>NHS</strong> reading chest X-rays with AI at national scale, a £20M expansion already helping over 4 million patients get faster lung-cancer diagnoses/all-clears and cutting analysis of complex cases from eight days to four; <strong>Wonder</strong> deploying a bowl-making robot bought from Sweetgreen that makes ~500 bowls an hour versus ~45 for a human line cook; <strong>Momenta&rsquo;s</strong> urban Navigate-on-Autopilot software in 680,000–900,000+ production vehicles from Toyota, Mercedes-Benz, BYD, GM and Audi; <strong>Pinterest&rsquo;s</strong> AI-powered Performance+ ad campaigns hitting a first $1B quarter and driving ~30% of lower-funnel revenue (adopters grew spend at nearly twice the rate of non-adopters); and <strong>China Post</strong> sorting up to 1,200 parcels an hour with humanoids at a Guangzhou hub that moves 6.5 million pieces a day. The six halted entries are framed as the cheapest lessons — AI fails on institutional knowledge, edge cases and confident errors: <strong>Ford</strong> rehired 350 quality inspectors after automated systems produced defects only experienced humans reliably caught; <strong>Waymo</strong> paused robotaxis across Atlanta, San Antonio, Dallas and Houston after a car drove into an Atlanta flood and sat stuck ~an hour; <strong>Meta</strong> saw abusive/racist posts targeting US legislators triple within six months of switching to a Community Notes moderation model; a <strong>federal judge</strong> threw out DOGE&rsquo;s AI grant cuts (ChatGPT flagged ~$100M in NEH grants as &ldquo;DEI-related,&rdquo; including labeling a Holocaust-literature anthology, in a 143-page ruling finding unconstitutional viewpoint discrimination); and <strong>Wake County schools</strong> banned AI detectors after a student given a zero on a detector flag appealed and had the grade changed to 100 when a second teacher found no AI use. The &ldquo;audit era&rdquo; framing: Amazon CTO Werner Vogels told Fortune enterprises are shifting to cheaper open-source models as bills got real — citing Uber burning its entire 2026 AI budget in four months, and another company running through half a billion dollars in a single month before capping employee usage. Bloomberg reported OpenAI, Meta and xAI racing to undercut Anthropic on price as buyers scrutinize invoices; 404 Media documented Amazon, Adobe, Atlassian and Citi throttling employee AI use, with one firm&rsquo;s monthly spend tripling past $15 million.</p>
+<p><strong>AI is becoming the norm in healthcare.</strong> A survey by healthcare-AI company Heidi of 1,823 clinicians across 25 countries found 86% now use AI daily or several times a week, while fewer than 2% have never used it. The driver is administrative burden: ~76% said workload has increased in recent years, more than 8 in 10 spend over an hour a day on admin outside patient care, and documentation was named the biggest challenge by 88%. Nearly three-quarters said admin reduces patient time, and 78% regularly work beyond manageable hours; more than half adopted AI mainly to save time on admin. Notably, experienced clinicians (21+ years) reported higher daily AI use than those with five years or less. But 83% use AI without employer guidance on approved tools, safety or governance. Accuracy is the top concern (68%), followed by patient privacy (59%), yet 75% said patients are generally open to AI in their care. On retention, 73% said AI could help them stay in healthcare longer and 56% said it supports better patient follow-up. Heidi says organizations now need clearer rules, safer systems and better staff support.</p>
+<p><strong>Robots vs. jobs.</strong> Hyundai&rsquo;s auto workers in South Korea went on a partial strike — reportedly the first time a humanoid-robot dispute shut down a car factory — demanding pre-emptive job security against future industrial shifts. Hyundai plans to deploy its Atlas humanoid robot by 2028 at its nonunionized Metaplant complex in Georgia, and says it is committed to constructive engagement with the union. In education, the rural Salamanca City Central School District in upstate New York (on the Seneca Nation reservation) will deploy a Realbotix M-Series humanoid and an AI teacher&rsquo;s assistant called Optio this fall for ~500 high-school students, as part of its own AI-and-robotics curriculum — described as a landmark but still single-district test.</p>
+<p><strong>Uber vs. Waymo, and self-driving policy fights.</strong> Nominal partners Waymo and Uber are trading thinly veiled jabs in a gathering lobbying battle. At a DC council hearing on autonomous vehicles, Uber pushed to require AV companies to participate in &ldquo;hybrid networks&rdquo; (like Uber) offering both AVs and human-driven vehicles — reportedly wanting human drivers to serve up to 85% of rides — while emphasizing that its drivers spend earnings and pay taxes locally versus robotaxi profits flowing to companies elsewhere. Waymo conceded robotaxis mean job losses but noted rideshare companies control and skim drivers&rsquo; earnings. Council member Charles Allen appeared skeptical of Uber&rsquo;s ask. DC&rsquo;s likely next mayor, Janeese Lewis George, asked pointed questions and reportedly leans against allowing Waymo unless it doesn&rsquo;t reduce rideshare jobs. Zvi noted the irony that Uber — once the anti-regulatory hero (roon and Patrick Hedger recalled Uber&rsquo;s proud anti-regulatory campaigns) — is now seeking regulatory moats, and argued forcing Waymo temporarily onto Uber/Lyft would only advertise Waymo to Uber&rsquo;s best customers. Blind advocate Claire Stanley testified that riding an AV in Phoenix gave her &ldquo;freedom,&rdquo; since she&rsquo;d repeatedly been denied rides by human drivers over her guide dog despite federal law.</p>
+<p><strong>AI-generated film rides The Odyssey&rsquo;s wave.</strong> Christopher Nolan&rsquo;s The Odyssey opens with a 97% Rotten Tomatoes score (his career best), a $250M budget, ~100 days of filming and stars Matt Damon, Tom Holland and Anne Hathaway. AI filmmaker Ash Koosha released a trailer for a rival 135-minute feature, ODYSSEUS: The Fall, generated almost entirely with AI (primarily Kling) for actors, sets and cameras, with Koosha handling script and character voices — total cost in the mid-five figures. Directors remain split: Scorsese, Peter Jackson and George Lucas view AI as a storytelling tool; many others avoid it. Trailer comments suggest the public isn&rsquo;t lining up for the AI version.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Grok Build open-sourced.</strong> xAI released Grok Build as open source — a terminal-based AI coding agent that can understand codebases, edit files, execute shell commands, search the web, and handle long-running tasks; it supports interactive use, headless scripting/CI, and editor integration via the Agent Client Protocol.</p>
+<p><strong>Perplexity SPACE secure sandboxes.</strong> Perplexity&rsquo;s SPACE is a sandbox platform for AI agents handling sensitive tasks. It uses ephemeral sandboxes destroyed after task completion, plus a Control Plane and Node-level Services to manage and protect credential access, with credential isolation, rolling snapshots and encrypted storage, enabling on-prem and offline operation.</p>
+<p><strong>Other launches and tools.</strong> OpenAI&rsquo;s <strong>GPT-5.6 prompting guide</strong> has gone viral, with a counterintuitive tip that simplifying prompts lets the model pick the most efficient path. <strong>Oak</strong> stepped out of stealth ($60M funding) offering an identity-control plane for managing humans, apps and AI agents. <strong>Rime</strong> raised a $24M Series A for enterprise customer-call handling using voice models trained on conversational data. <strong>Goodfire&rsquo;s Silico</strong> (private beta) runs interpretability and model-behavior experiments — e.g., replicating &ldquo;J-space&rdquo; on GLM 5.2, training reward models to reduce hallucinations, and explaining cancer-prediction features. <strong>NVIDIA</strong> expanded the Jetson Thor edge lineup. Other releases: <strong>RoboTTT</strong> (NVIDIA research preview) brings test-time training to robot policies, stretching robot context to 8K timesteps without added inference latency; <strong>Open Interpreter</strong> runs coding agents locally and tests web/native app interfaces; <strong>ReactBench v1</strong> evaluates coding agents on realistic React work; <strong>Vercel&rsquo;s AI Gateway leaderboard</strong> now offers open, shareable production-usage data. Google Play will begin distributing rival third-party app stores next week (with full default access to the Play catalog) as the Epic settlement is withdrawn; Google can charge reasonable review fees, and stores can be removed if more than 2% of attempted installs appear to be malware. Developer commentary circulating: &ldquo;Why we stopped using SDKs&rdquo; (AI has flipped the cost curve, so tailored REST clients — and shipping &ldquo;agent skills&rdquo; that teach agents to call APIs — beat vendor packages), &ldquo;The marginal cost of correctness&rdquo; (agents let anyone write correct code, shifting value to taste/judgment), and a $110/month self-improving Claude Code pipeline that triages a backlog, decomposes tasks, implements, runs tests and opens PRs.</p>
+<h2>Policy, safety &amp; governance</h2>
+<p><strong>FTC and oversight questions.</strong> The FTC opened public comment on a policy statement on AI accuracy — the docket to watch if you sell or deploy AI to consumers. Knight Columbia&rsquo;s &ldquo;AI as Social Technology&rdquo; argues for treating AI as a social technology with civil-rights and regulatory implications. Google DeepMind CEO Demis Hassabis published a framework piece arguing for mitigating AI&rsquo;s risks without stifling innovation, raising the question of who should test the most powerful AI systems as frontier models may outpace conventional evaluations and outside oversight, and saying the coming months will determine civilization&rsquo;s next phase.</p>
+<p><strong>Meta parent alerts for at-risk teens.</strong> Meta is rolling out parent alerts for teen suicide and self-harm conversations with the Meta AI chatbot in the US, UK, Australia and Canada. A dedicated detection system flags ambiguous intent, all flagged chats are manually reviewed before notification, and Meta is also building an emergency-services contact path for at-risk users of any age. Separately (per Zvi), a jury found Meta and Google liable for &ldquo;social media addiction,&rdquo; a verdict both companies are appealing; Zvi argues it is likely to be reversed or superseded, but warns of a possible wave of lawsuits and clumsy congressional fixes.</p>
+<p><strong>China regulates chatbot romance.</strong> China introduced regulations forbidding companionship chatbots from encouraging emotional reliance and from having relationships with minors, and now requires companies to alert a person&rsquo;s emergency contact if they detect an emotional crisis — part of Beijing&rsquo;s push to raise birth rates.</p>
+<p><strong>Suno breach exposes training data.</strong> A hacker using the handle &ldquo;ellie.191&rdquo; breached generative-music startup Suno via the Shai-Hulud npm supply-chain worm and released internal files showing Suno trained on 2,013,545 YouTube Music clips (113,879 hours), 12,287 hours from Deezer, 17,615 hours from Genius, 62,117 hours from Pond5, IMSLP scores, and ~420,000 podcasts totaling ~1M hours. Suno told 404 Media its training data &ldquo;includes essentially all music files of reasonable quality that are accessible on the open internet&rdquo; — handing RIAA copyright plaintiffs direct evidence of the alleged &ldquo;stream ripping&rdquo; from YouTube.</p>
+<p><strong>ID and age-verification creep.</strong> Discord is restricting account access unless users verify age via Persona, which requires a face or ID scan; Discord&rsquo;s claim that &ldquo;facial scans never leave your device&rdquo; was challenged after users discovered scans are handled by third-party Persona. The UK is moving toward requiring ID to use VPNs (a measure to keep children off VPNs), which was voted down for now; Zvi frames it as police-state territory that likely won&rsquo;t fully work but will deter most casual users, like the Great Firewall.</p>
+<h2>Philanthropy &amp; the economics of AI wealth</h2>
+<p><strong>Intercept: a $500M initiative to end respiratory infections.</strong> A new philanthropic initiative called Intercept, led by Nan Ransohoff, launched with $500M to make respiratory infections (colds, flu, RSV, COVID) &ldquo;a thing of the past.&rdquo; Anchor funders include Stripe, Anthropic, The Flu Lab, the OpenAI Foundation and individuals from Jane Street; Sheel Mohnot also credited Gates. The rationale: most people spend ~5% of their lives sick from these viruses, they kill ~1 million people a year, cost ~$600B annually in productivity, and periodically threaten civilization via pandemics. After convening ~40 scientists, pharma R&amp;D leaders, biotech investors and regulatory experts, organizers identified two blockers — technical difficulty (hundreds of mutating strains across families, though recent breakthroughs help) and chronic underfunding of broad-spectrum solutions. Intercept will make equity investments in broad-spectrum preventatives ready to reach phase 2 within 4 years, fund basic research not yet commercially viable, and prove out air-cleaning tech like far-UVC in schools and workplaces. Anthropic&rsquo;s Sholto Douglas (and colleagues) donated, praising the diffuse, hard-to-capture benefits (poorly served by capital markets) and the potential for self-sustaining equity returns. Some noted it is effectively a biorisk-defense project — including a future AI-enabled engineered pandemic — that also delivers ordinary cold/flu benefits.</p>
+<p><strong>Deploying Anthropic/OpenAI employee wealth.</strong> Zvi covered reporting (via Andrew Fedorov) on a race to wisely deploy tens of billions in expected donations from Anthropic and OpenAI employees, much of it along Effective Altruist lines and centered socially on Lighthaven. Concerns raised: default routing/capture by the semi-formal EA ecosystem, distortion, and &ldquo;blood in the water&rdquo; attracting grifters (memories of the FTX-era &ldquo;griftmaxxing&rdquo;). Keller Scholl argued delaying the announcement of incoming money reduces corrosive effects; Andy Masley noted &ldquo;schmooziness&rdquo; re-emerging. Oliver Habryka warned the influx will drastically disrupt the Lighthaven scene and its high-trust epistemic environment, and that billionaires often grow cynical when everyone hovering seems to want a check. Zvi argued that for those who believe AI could be existentially dangerous, the highest-leverage use of AI wealth is funding responsible AI development first. Separately, a debate over MacKenzie Scott&rsquo;s giving: Max Ghenis/Nathan modeled her blended portfolio at ~$148k per QALY versus GiveWell&rsquo;s ~$200/QALY (a ~500× or up to ~1,500× gap), while Habryka and Richard Ngo objected that the model omits left-tail harms (she funded radical tenant-rights, labor and social-justice advocacy) and that collapsing disparate impacts into one number is misleading.</p>
+</article>
+<nav class="updown"><a href="2026-07-15.html">&larr; Wednesday, July 15, 2026</a><a href="2026-07-17.html">Friday, July 17, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Thursday, July 16, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

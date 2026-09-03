@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-11</title>
+<meta name="description" content="AI news digest for 2026-07-11.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, July 11, 2026</p>
+<p class="meta-line">2,962 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Anthropic restores Claude Fable 5 and Mythos 5</strong> three weeks after a U.S. Commerce Department export-control directive forced their global suspension; new guardrails now reroute some cybersecurity queries to the weaker Opus 4.8.</li>
+<li><strong>Google launches Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) and opens Gemini Omni Flash video to developers</strong>, creating a cheap, fast image-to-video pipeline priced at $0.034/image and $0.10/second of 720p video.</li>
+<li><strong>DeepSeek releases DSpark</strong>, an open-source (MIT) speculative-decoding module that speeds DeepSeek-V4 text generation 57–85% per user without accuracy loss, with checkpoints on Hugging Face.</li>
+<li><strong>Apple sues OpenAI</strong> in Northern California federal court for trade-secret theft, alleging 400+ ex-Apple employees now at OpenAI and that Chief Hardware Officer Tang Tan directed recruits to bring confidential documents.</li>
+<li><strong>SK Hynix debuts on Nasdaq</strong>, closing up ~13% at $168.01, hitting a $1 trillion market cap on a $26.5B raise — the largest-ever U.S. debut by a foreign company.</li>
+<li><strong>China imposes an immediate global helium export ban</strong> to protect domestic chipmakers amid a US-Iran conflict that has choked Qatari supply.</li>
+<li><strong>Meta-led team unveils Brain2Qwerty v2</strong>, a non-invasive MEG brain-to-text system reaching a 39% word error rate.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic restores Claude Fable 5 and Mythos 5 after export-control suspension.</strong> Claude Fable 5 and the more powerful Claude Mythos 5 are back three weeks after Anthropic suspended them following an export-control directive from the U.S. Department of Commerce — resolving the most high-profile conflict so far this year between the U.S. government and an AI company. The dispute also involved Amazon, Google, Microsoft, and OpenAI (The Batch notes Andrew Ng serves on Amazon&rsquo;s board). Timeline: Anthropic debuted Claude Mythos Preview to select government and critical-infrastructure/tech partners in April, releasing it only to firms maintaining critical infrastructure so they could find and patch security vulnerabilities. On June 9, Anthropic released Claude Fable 5 worldwide with guardrails blocking certain cybersecurity and biological-research queries; the model also controversially degraded its responses about how to build powerful AI models. Amazon researchers then used Claude Fable 5 to obtain information about how to conduct a cyberattack, which triggered the directive — though Anthropic contends any sufficiently capable model, including its own Opus 4.8 and rivals&rsquo; models, could identify the same vulnerability and produce an exploit. On June 12 the U.S. government issued an export-control directive suspending access to both models for any foreign national regardless of location, citing national security; Anthropic disabled worldwide access the same day. On June 26 the government let Anthropic redeploy Mythos 5 for select government organizations; Commerce Secretary Howard Lutnick wrote that weeks of negotiation had yielded &ldquo;significant progress&rdquo; and that Anthropic was committed to working on protocols and standards for security assessments. Controls were lifted June 30 after Anthropic added safety guardrails addressing the specific risk, and Fable 5 returned globally July 1 via the Claude API, Claude Code, and other Anthropic platforms, with AWS, Google Cloud, and Microsoft Foundry access following. Post-return, users reported degraded performance — censored basic biology questions and more restricted coding — and Anthropic said in an X post that some routine coding tasks fall back to Opus 4.8, promising over the coming weeks to &ldquo;better distinguish genuine misuse from legitimate requests.&rdquo; Users also complained the model would only be available for 50% of subscription usage credits, requiring per-credit payment beyond that; Anthropic extended paid subscribers&rsquo; full Fable 5 access through July 12. Background: in February the Pentagon labeled Anthropic a &ldquo;supply-chain risk&rdquo; after it declined to provide an unguarded model for mass surveillance/autonomous weapons, cutting off Defense Department use — but the June export order was the first government intervention to suspend general access to a model. OpenAI&rsquo;s recent GPT-5.6 family launch was likewise preceded by a government-mandated capability preview before its July release. The Batch argues this signals governments&rsquo; growing willingness to scrutinize frontier models pre-deployment, raising questions about access and technological leadership, and warns any such intervention should be via a predictable, fair, stable, transparent, reasonably permissive process to avoid regulatory capture and ad hoc delays.</p>
+<p><strong>Google pairs Nano Banana 2 Lite with a video API (Gemini Omni Flash).</strong> Google released Nano Banana 2 Lite (formally Gemini 3.1 Flash Lite Image), its fastest and lowest-cost image model, as a replacement for the original Nano Banana, and made its latest video model, Gemini Omni Flash, available to developers via its API — six weeks after Omni Flash first reached consumers through Google apps. Google bills the pair as a double feature: cheaply generate one still (or a hundred), then turn the best into video through the same conversational interface. Specs: Nano Banana 2 Lite takes text+image input and outputs images (1K max resolution) plus text, runs on the cost-efficient Gemini 3.1 Flash-Lite base, costs $0.034 per 1K image, generates an image in about four seconds, and ranks fifth on Arena.ai&rsquo;s crowd-voted Image board at 1,250 Elo — edging pricier Nano Banana Pro (1,245) while costing 10 cents less per 1K image, with OpenAI&rsquo;s GPT-Image-2 leading at 1,386. Gemini Omni Flash takes text/image/video input and outputs 720p video with synchronized audio, up to 10 seconds per clip, at $0.10 per second; it leads video generation on Video Arena at 1,527 Elo and ranks second on the video-edit board at 1,347, just behind ByteDance&rsquo;s Seedance 2.0 (1,377). In Google&rsquo;s own human-rater comparisons, Omni Flash took first for overall preference and instruction-following on video editing (504 examples) and Meta&rsquo;s MovieGenBench (1,003 prompts), and tied for first with Grok-Imagine-Video and Kling on VBench I2V (355 image-text pairs). Availability: both via the Gemini API, Google AI Studio, and Gemini Enterprise Agent Platform, plus the Gemini app and Google Flow; Nano Banana 2 Lite also via AI Mode in Search, NotebookLM, Google Photos, Stitch, and Google Ads; Omni Flash also via YouTube Shorts. Google published model cards but withheld parameter counts and training-data specifics. Mechanism: Omni Flash returns a 720p clip with native audio from text, a starting image, or reference images; its editing is conversational — processed through Google&rsquo;s Interactions API, the model keeps session history so each instruction revises the prior clip rather than regenerating, for up to three sequential edits. Image-to-video works by passing a Nano Banana 2 Lite image to Omni Flash as a starting frame through the same API or the AI Studio web interface. The &ldquo;Nano Banana&rdquo; name began as a placeholder codename before Gemini 2.5 Flash Image launched in August 2025, extended by Nano Banana Pro (Nov 2025) and Nano Banana 2 (Feb 2026). The Batch notes media generation is now cheap/fast enough to run inside an app at runtime rather than as a slow curated step — useful for high-volume advertisers and social producers (Meta is reportedly building a system to generate ad creative, including video, from a product image and a budget) — while cautioning these models aren&rsquo;t high-res enough for Hollywood and may not much benefit hobbyists.</p>
+<p><strong>Apple sues OpenAI for trade-secret theft.</strong> Apple filed suit against OpenAI in the U.S. District Court for the Northern District of California, alleging OpenAI&rsquo;s senior leadership directed the theft of Apple trade secrets and that over 400 ex-Apple employees now work at OpenAI (techcrunch.com). The complaint singles out OpenAI Chief Hardware Officer Tang Tan — formerly Apple&rsquo;s 24-year VP of product design — for using Apple project code names during recruiting, coaching departing Apple staff on evading security, and instructing candidates to bring Apple hardware components for &ldquo;show and tell.&rdquo; It also names ex-Apple senior electrical engineer Chang Liu, who allegedly exploited a security bug to download 1,000+ pages of confidential files after leaving. Apple&rsquo;s filing calls OpenAI&rsquo;s nascent hardware business &ldquo;rotten to its core by its illegal reliance on misappropriated trade secrets&rdquo; covering unreleased iPhone and Apple Watch technologies, and says OpenAI never responded when Apple raised the concerns in February.</p>
+<p><strong>MiniMax CEO forgoes salary until AGI.</strong> MiniMax CEO Junjie Yan vowed to take zero salary until AGI and gave up 5% of company equity, according to a memo (scmp.com). The move lands alongside a $2 billion Hong Kong raise, with the stock down 80% from its peak.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>SK Hynix hits $1 trillion market cap in blockbuster Nasdaq debut.</strong> SK Hynix&rsquo;s Nasdaq ADRs priced at $149, opened at $170, and closed up ~13% at $168.01 on their first day — briefly touching $174.50 intraday — giving the Korean memory maker a $1 trillion market cap and making it South Korea&rsquo;s second-largest company after Samsung (forbes.com). The $26.5 billion offering is the largest-ever U.S. market debut by a foreign company and the third-largest U.S. IPO on record. Chairman Chey Tae-won told CNBC &ldquo;demand is enormous&rdquo; as HBM3E/HBM4 supply for Nvidia and hyperscalers remains tight; the listing follows Samsung&rsquo;s separately-disclosed 19-fold Q2 operating-profit jump.</p>
+<p><strong>Temasek to nearly triple AI allocation.</strong> Singapore&rsquo;s Temasek plans to nearly triple its AI allocation to 15% over five years after its portfolio hit a record S$518B (~$400B) (cnbc.com). The capital will be deployed across energy, data centers, chips, clouds, and foundation models.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>China imposes an immediate global helium export ban.</strong> China&rsquo;s Ministry of Commerce and General Administration of Customs announced an immediate temporary helium export ban on Friday, July 10, with no destination exemptions and no stated duration, aiming to keep domestic chipmakers producing as the US-Iran conflict shutters Qatari facilities and disrupts Strait of Hormuz shipping (scmp.com). Commodities provider SCI99 says China imports more than 80% of its helium — essential for semiconductor heat management, MRI magnets, and cryogenic AI-hardware manufacturing — while Qatar supplies roughly a third of world output. Analysts called Beijing&rsquo;s move &ldquo;a clear defensive move,&rdquo; likely to tighten a global market already squeezed by the Middle East conflict just as AI data-center chip demand peaks.</p>
+<h2>Research papers</h2>
+<p><strong>DeepSeek open-sources DSpark speculative decoding.</strong> Xin Cheng and colleagues at Peking University and DeepSeek introduced DSpark, a speculative-decoding method in which a small &ldquo;draft module&rdquo; proposes a block of tokens that the large frozen target model verifies in a single pass, keeping the longest run of drafted tokens matching the target&rsquo;s own choices. They applied it to DeepSeek-V4 and released checkpoints DeepSeek-V4-Pro-DSpark and DeepSeek-V4-Flash-DSpark (unchanged preview weights plus draft modules), free on Hugging Face under an MIT license. Key insight: three factors govern speed — cost of drafting, how many drafted tokens survive verification, and how much checking the target does. Prior drafters traded the first two and fixed the third regardless of server load; DSpark works on all three, its main contribution being dynamic adjustment of verification length — verifying more under light load and less under heavy load. How it works: the draft module attaches to the frozen target; DeepSeek trained only a drafting backbone, a small sequential component, and a confidence head (it borrows the target&rsquo;s embedding layer and output head). Training used prompts from Open-PerfectBlend fed to the target, teaching the drafter to match the target&rsquo;s token distribution and the confidence head to estimate acceptance odds. The backbone is adopted from DFlash (a parallel drafter using a small diffusion model), which proposes all block positions in one pass — cheaper per pass, allowing more layers and stronger early guesses, but risking incoherent splices (e.g., mixing &ldquo;of course&rdquo; and &ldquo;no problem&rdquo; into &ldquo;of problem&rdquo;) with accuracy falling toward block ends. To fix this, DSpark adds a compact &ldquo;Markov head&rdquo; sequential lookup that adjusts each position&rsquo;s probabilities based only on the immediately preceding drafted token (after &ldquo;of,&rdquo; odds shift toward &ldquo;course&rdquo;); lengthening drafts from 4 to 16 tokens adds only 0.2–1.3% per-round latency over unmodified DFlash. A calibration step rescales the overconfident confidence-head estimates position-by-position until chained estimates match held-out acceptance rates. At serving time a scheduler multiplies per-token confidence estimates to get survival probabilities per draft length, then sets each request&rsquo;s verification length to maximize expected total output across users, consulting a startup-measured system-speed profile. Results: DSpark raised average accepted tokens per round — vs. sequential EAGLE-3 by 30.9/26.7/30.0% on Qwen3-4B/8B/14B, and vs. parallel DFlash by 16.3/18.4/18.3%; gains held on Gemma4-12B, suggesting no lineage dependence. In production it made DeepSeek-V4-Flash 60–85% faster and V4-Pro 57–78% faster per user than the prior MTP-1 drafter. Compared at different hardware speeds: at 80 tok/s/user (Flash) and 35 tok/s/user (Pro), total throughput rose 51% and 52%; at guaranteed 120 tok/s/user (Flash) and 50 tok/s/user (Pro), gains reached 661% and 406% (the old drafter nearly failed at higher speeds, so the authors read these as new feasible operating points). Speculative decoding was first described by Google Research in 2022; DFlash&rsquo;s authors reported up to 2.5× EAGLE-3&rsquo;s speedup, and Nvidia said it boosted inference up to 15× on Blackwell GPUs. DeepSeek had used a simple sequential drafter since V3 until DSpark replaced it two weeks after the V4 preview launched.</p>
+<p><strong>Brain2Qwerty v2 translates brain waves into text.</strong> Researchers from Meta, France&rsquo;s CNRS, Hospital Foundation Adolphe de Rothschild, the Basque Center on Cognition, Brain and Language, Paris Cité University, and INRIA presented Brain2Qwerty v2, an updated non-invasive brain-to-text system. It (i) breaks brain activity into characters with an encoder — a CNN followed by a CNN/transformer &ldquo;conformer&rdquo; hybrid that generates character embeddings and classifies activity into characters, trained by minimizing the difference between generated and actual character sequences; (ii) converts character embeddings to word embeddings via an &ldquo;aligner&rdquo; (a vanilla network that re-embeds, groups embeddings by word using predicted spaces, and averages per word, learning to increase similarity to Qwen3&rsquo;s embedding of the correct word and decrease similarity with others); and (iii) corrects the words with a fine-tuned Qwen3-4B, using a per-subject LoRA adapter to generate the correct sentence, with adapters averaged across subjects. Training data came from magnetoencephalography (MEG) recordings — a non-invasive device reading the brain&rsquo;s magnetic activity — of 9 subjects typing English sentences, totaling 90 hours or 22,000 examples. Results: v2 achieved a 39% word error rate vs. v1&rsquo;s 43%. Encoder character error rate fell from ~50% at 20 hours of data to ~25% at 90 hours, with no performance plateau before data ran out. Notably, training across all subjects beat per-subject training: median word error rate was 66.5% training on the individual alone vs. 47.8% with the combined method. Background: the first Brain2Qwerty program compared MEG with EEG and found MEG more accurate; v2 is MEG-only with an updated architecture and more data. Training code for both versions is open-sourced, and v1 data was released. The Batch notes it&rsquo;s surprising that cross-subject training helps given that brain-computer prostheses historically train per-user, suggesting brain-to-text models may scale with more data from more subjects like LLMs — though invasive electrode implants have reached single-digit error rates that these non-invasive numbers don&rsquo;t yet match.</p>
+<h2>Perspectives</h2>
+<p><strong>Andrew Ng on spec-driven agentic coding loops.</strong> In The Batch&rsquo;s opening letter, Ng argues that the hardest and most human-intensive part of agentic coding is defining the spec, evals, or test set — the place to inject human knowledge — after which iterating a coding agent to satisfy the spec becomes clearer. His organizing principle: &ldquo;AI tokens are cheap; human tokens are gold.&rdquo; For large complex systems, upfront architecture (database choice, service breakdown, third-party dependencies, frontend/backend API boundaries) is worthwhile to avoid costly bad decisions. But for quick 0-to-1 prototypes or unfamiliar domains, he moves fast: rather than spending an hour on a design spec, he&rsquo;ll spend 10 minutes writing an inferior spec, let an agent build a prototype in ~20 minutes, examine its assumptions, then refine and repeat — avoiding &ldquo;spec-driven development&rdquo; becoming a new waterfall gate. He notes many early prototypes had confusing UIs he could only realize needed fixing after seeing them; at this early stage it&rsquo;s fine to throw away the whole codebase since the code was cheap and what was learned is more valuable. Having one implementation (or a few different designs) to react to yields efficient feedback to refine the spec. A recurring frustration is agents forgetting instructions after memory compaction — an agent may generate millions of tokens, so it rediscovering its own forgotten findings is tolerable, but forgetting something the human told it wastes &ldquo;golden tokens.&rdquo; His remedy: when making a key decision, steer the agent to record it in a file like SPEC.md; and when spotting an unsatisfactory prototype behavior, tell the agent to fix it <em>and</em> update the spec and test plan so future stopping criteria check the problem doesn&rsquo;t recur. He notes coding agents have become less forgetful in recent months due to model advances but still occasionally forget.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Whacka (tool of the week, via Mindstream).</strong> Whacka (whacka.app) lets users build and deploy fully functional apps directly from a phone using plain language — no coding skills or desktop required.</p>
+<p><strong>Voice-first AI as a personal assistant (Mindstream use-case guide).</strong> Mindstream highlights using voice input in ChatGPT or Gemini as an on-the-go &ldquo;mind-reading&rdquo; assistant: download the app, tap the mic, and talk unstructured, then ask the AI to structure output — e.g., turn a rambling book idea into an outline, convert a narrated fridge inventory into a budget-constrained categorized grocery list, summarize a recorded conversation into a podcast outline, or brain-dump when overwhelmed and ask it to organize tasks, pull priorities, or build a weekly plan. It also suggests letting AI &ldquo;listen in&rdquo; on a tense disagreement to get an unbiased outside view on the core issue and tone (with the caveat it&rsquo;s no replacement for a therapist or friend). NotebookLM is recommended for organizing brain-dumped book ideas and generating writing prompts.</p>
+<h2>Miscellany</h2>
+<p><strong>Climate milestone (via Mindstream).</strong> Per Copernicus, 2024 became the first full calendar year to average more than 1.5°C above pre-industrial temperatures — the hottest year since global records began. This does not officially breach the Paris Agreement target (which uses a long-term average) but marks a milestone scientists have long warned about.</p>
+</article>
+<nav class="updown"><a href="2026-07-10.html">&larr; Friday, July 10, 2026</a><a href="2026-07-12.html">Sunday, July 12, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, July 11, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-06-15</title>
+<meta name="description" content="AI news digest for 2026-06-15.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Monday, June 15, 2026</p>
+<p class="meta-line">4,779 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>U.S. government forces Anthropic to pull Fable 5 and Mythos 5 worldwide</strong> via an export-control directive, triggered by an Amazon-reported jailbreak; Anthropic disputes the threat and is now negotiating in Washington (covered by The Rundown, TLDR, The Neuron, Superhuman, AI Weekly, and an extensive Zvi Mowshowitz analysis).</li>
+<li><strong>42 state attorneys general subpoena OpenAI</strong> over advertising, engagement, sycophancy, data handling, and treatment of minors/seniors, days after OpenAI&rsquo;s confidential ~$1T IPO filing.</li>
+<li><strong>OpenRouter launches Fusion</strong>, an API blending multiple models into a panel that nearly matches Fable 5&rsquo;s deep-research performance at roughly half the cost.</li>
+<li><strong>Musk becomes world&rsquo;s first trillionaire</strong> as SpaceX (parent of xAI) closes its record IPO ~19-20% up at a $2.1T valuation.</li>
+<li><strong>German court rules Google liable</strong> for false statements generated by AI Overviews — a potential global precedent that disclaimers don&rsquo;t shield AI-generated claims.</li>
+<li>New model/tooling wave: <strong>Moonshot Kimi K2.7-Code, Z.ai GLM-5.2, Cohere North Mini Code, Google Gemini Omni Flash video</strong>, plus multiple agent infrastructure releases.</li>
+</ul>
+<h2>Policy &amp; safety</h2>
+<h3>U.S. government forces Anthropic to take down Fable 5 and Mythos 5 worldwide</h3>
+<p>This was the dominant story of the day, covered by virtually every source with sharply differing detail. <strong>What happened:</strong> On Friday evening (the export-control order reportedly arriving at 5:21 PM ET), the U.S. Commerce Department issued an &ldquo;export control directive&rdquo; subjecting Anthropic&rsquo;s two newest and most capable models — the broadly-released Fable 5 (a general-use version) and the more restricted Mythos 5 (which Anthropic had held back for vetted cyberdefenders, infrastructure providers, and a ~100+ partner program called Project Glasswing) — to controls barring access for all non-U.S. citizens, including foreign nationals physically inside the U.S. and Anthropic&rsquo;s own foreign-national employees. Because compliance with such a sweeping restriction was impossible while keeping the models live, Anthropic shut off all public access to both models worldwide. Access to Anthropic&rsquo;s other models (e.g., Opus 4.8) is unaffected.</p>
+<p><strong>The trigger:</strong> Multiple reports (Semafor, The Information, FT, Axios, Politico) tie the action to investor and partner <strong>Amazon</strong>. Amazon researchers used a series of prompts (&ldquo;a non-universal jailbreak,&rdquo; per Anthropic) to get Fable 5 to identify insecure code / software vulnerabilities that could aid cyberattacks. Amazon CEO Andy Jassy&rsquo;s conversations with U.S. officials, plus calls from at least five other companies to senior administration officials on Thursday night and Friday morning, prompted the White House to act. The Trump administration asked Anthropic to fix the vulnerabilities or pull the model. Semafor and others also reported fears that a <strong>China-linked group may have accessed Mythos</strong> — though Zvi notes this may be a mix-up with an earlier incident (the administration had first threatened export controls weeks earlier after learning Mythos was made available to &ldquo;an entity in a foreign country with direct ties to the Chinese Communist Party&rdquo;).</p>
+<p><strong>Anthropic&rsquo;s position:</strong> Anthropic said it was given only &ldquo;verbal evidence&rdquo; of a &ldquo;non-universal jailbreak&rdquo; with no written detail, and that everything demonstrated can be reproduced by GPT-5.5 — often <em>without</em> any jailbreak — and even by Chinese models like Kimi K2.7. Its public response disputed that any real, unique &ldquo;uplift&rdquo; exists. The company says it was given <strong>90 minutes</strong> to comply, with no details on the actual threat, and that there was &ldquo;never any begging — or asking — for them to work with us, just a declared 90 minute deadline.&rdquo;</p>
+<p><strong>The detailed timeline (per Zvi&rsquo;s &ldquo;The Once and Future Fable #2,&rdquo; synthesizing Axios, Politico, FT, Verge, Semafor):</strong>
+- Amazon called administration officials Thursday night with a report on the Mythos/Fable jailbreak. Anthropic had notified the government multiple times about the planned June 9 Fable release, and the government hadn&rsquo;t objected.
+- At 1 PM ET Friday, Anthropic received a call instructing it to roll back Mythos and Fable due to a &ldquo;national security threat,&rdquo; with no further details. Anthropic sought specifics to remediate; the government held firm.
+- Amodei was reportedly first requested around noon and on the phone with senior officials (including Treasury Secretary Scott Bessent, White House Cyber Director Sean Cairncross, and Commerce Secretary Howard Lutnick) within ~75 minutes; Anthropic offered other senior leaders (including co-founder Tom Brown) in the interim. Amodei participated in three calls with roughly half a dozen senior officials, arguing the bypass was narrow and specific, not a broad jailbreak.
+- The administration claimed Amodei was unavailable at a &ldquo;wellness retreat&rdquo; — a claim Anthropic, journalist Ashlee Vance (who was at Anthropic HQ Friday reporting), and others categorically deny. Bessent reportedly told Amodei he was making a &ldquo;bad decision.&rdquo; The White House framed it as: &ldquo;Export controls were a last resort after begging them for hours.&rdquo;
+- Administration sources told Axios there was &ldquo;a lack of seriousness&rdquo; — that had Anthropic moved to fix or pause access rather than &ldquo;dismissing as isolated,&rdquo; &ldquo;this would have never happened,&rdquo; calling Anthropic &ldquo;overly confident.&rdquo;</p>
+<p><strong>The cultural/political subtext:</strong> Multiple outlets (and Zvi) report the dispute was substantially about <em>vibes and grievance</em>, not technical merit. Admin sources said Anthropic &ldquo;screwed us,&rdquo; &ldquo;speaks a different language,&rdquo; and failed to &ldquo;honor&rdquo; a recent cyber executive order. The optics worsened when Anthropic publicly dismissed the Amazon report and enlisted cybersecurity expert Katie Moussouris (Luta Security), viewed by the administration as a &ldquo;radical Democrat&rdquo; and praised by fired official Chris Krebs. Defense Secretary Pete Hegseth posted: &ldquo;Three months ago, @DeptofWar kicked @AnthropicAI out of our building—forever. Every passing day proves why that was the right move.&rdquo; Critics (Matthew Yglesias, Miles Brundage, Tim Lee) called it &ldquo;gangster politics,&rdquo; a &ldquo;shakedown,&rdquo; or a &ldquo;hit job,&rdquo; noting the contradiction: a model too dangerous for the U.S. to use, yet supposedly fine to let adversaries access. Notably, no reporting indicates domain experts at CAISI or NSA were involved — all points to &ldquo;senior White House officials.&rdquo;</p>
+<p><strong>Pushback and harms:</strong> Moussouris, who saw the research report, said the government&rsquo;s response &ldquo;seems way out of line with what&rsquo;s actually in the research report,&rdquo; noting researchers found vulnerabilities by asking the kind of questions normal defenders would ask — exactly the model&rsquo;s intended use. Prominent cybersecurity leaders — CISOs and executives at Adobe, Zoom, and Sophos — signed an open letter urging the administration to restore access, arguing the move hurts defenders more than attackers, that the capability is replicable on GPT-5.5, Opus, Sonnet, and Kimi 2.7, and that &ldquo;AI has been finding bugs and generating working exploits at superhuman levels since last year.&rdquo; Project Glasswing is reportedly cut off from Mythos; one former British intelligence official said spy agencies will likely regain access through ongoing negotiations, but private firms may find it harder.</p>
+<p><strong>Why it matters / wider analysis:</strong> AI Weekly framed it as &ldquo;Washington just repriced frontier AI&rdquo; — capability is now &ldquo;regulatory inventory&rdquo; with a kill-switch: &ldquo;a model can be state-of-the-art on Monday and policy-frozen by Friday.&rdquo; This complicates IPO stories for both Anthropic (reportedly filed confidentially for a ~$965B IPO) and OpenAI. Zvi, Dean Ball, Neil Chilson, and Adam Thierer argued the U.S. now has a <em>de facto licensing regime</em> for AI that is &ldquo;fully ad-hoc, vibes-based,&rdquo; with secret rules discovered in real time and applied more harshly to disfavored firms — Ball: &ldquo;Cobalt mining in the Congo is vastly more institutionalized than frontier AI licensing in the US.&rdquo; They warned of damage to U.S. AI leadership, trust among allies (who may build rival &ldquo;sovereign&rdquo; stacks or turn toward China/open models), the rule of law, and cyber defense, with calls for Congress to pass a statutory framework. Anthropic flew senior technical staff to Washington over the weekend to negotiate restoring access.</p>
+<h3>42 state attorneys general subpoena OpenAI</h3>
+<p>On Friday, June 12, New York AG Letitia James served OpenAI with a subpoena on behalf of a 42-state coalition — described as the broadest state-government legal investigation yet launched against an AI company. The subpoena demands records on OpenAI&rsquo;s advertising practices, how it keeps users engaged, how it handles consumer and health data, how ChatGPT treats minors and seniors, and its &ldquo;sycophancy&rdquo; (chatbots telling users what they want to hear rather than what&rsquo;s true or safe). The probe builds on a December 2025 joint warning letter the same 42-state coalition sent to OpenAI, Meta, Anthropic, Google, and xAI urging safeguards for vulnerable users. It lands about a week after OpenAI confidentially filed IPO paperwork that could value it near $1 trillion (investigations of this size must be disclosed in the S-1 as a risk factor), and adds to Florida&rsquo;s earlier 83-page lawsuit naming Sam Altman personally, which grew out of an April criminal probe tied to a Florida State University shooting. OpenAI says it is cooperating &ldquo;constructively.&rdquo; The Neuron notes the scrutinized features — engagement hooks, chat memory, agreeable tone — are the same ones 800 million weekly users rely on, so regulatory limits on &ldquo;agreeableness&rdquo; could noticeably change the product. AI Weekly framed it as &ldquo;consumer-protection law moving into the model layer.&rdquo;</p>
+<h3>German court rules Google liable for false AI Overviews statements</h3>
+<p>The Munich Regional Court ruled that Google is responsible for false claims generated by its AI Overviews feature, in a case where AI-generated responses incorrectly tied two publishers to scams and fraud. Google&rsquo;s defense — that its results carry a disclaimer that content &ldquo;may contain errors&rdquo; — did not hold up. The judges found AI Overviews create &ldquo;independent, new, and substantial statements,&rdquo; distinct from traditional search results that merely curate a list of reference sources, and that AI-generated content is not protected free speech because it&rsquo;s not individual expression. Google was ordered to remove the defamatory answers and cover 80% of legal costs. The decoder/Wired coverage frames this as a potential global precedent that could undermine the disclaimer strategy used across the industry (OpenAI, Anthropic, Perplexity), since victims of false AI statements would otherwise have no recourse against claims the original sources never made.</p>
+<h3>California signs first state AI-job-loss executive order</h3>
+<p>Per a Substack note from Kamil Banc, California signed what&rsquo;s described as the first U.S. executive order aimed at AI-driven job loss, giving the state 180 days to figure out how to update layoff-notification (presumably WARN-style) requirements.</p>
+<h3>AI supply-chain and agent security under siege</h3>
+<p>AI Weekly aggregated three disclosed threats targeting the AI/developer tool stack:
+- <strong>Agentjacking:</strong> Tenet Security researchers disclosed an attack planting malicious instructions inside Sentry error events, then waiting for AI coding agents like Claude Code or Cursor to ingest them during debugging — exploiting that dev tools now trust machine-readable context from systems like Sentry.
+- <strong>LangGraph flaws:</strong> Check Point disclosed three LangGraph vulnerabilities (a SQLite checkpointer injection, an msgpack deserialization issue, and a Redis checkpointer flaw) that can chain together against self-hosted agent deployments carrying execution privileges, enabling remote code execution.
+- <strong>AUR package backdoors:</strong> Attackers adopted 400+ orphaned Arch Linux AUR packages and rewrote build scripts to pull npm/bun payloads harvesting SSH keys, GitHub tokens, OpenAI tokens, shell histories, and browser sessions — hunting AI and developer secrets in the same sweep.</p>
+<h2>Company &amp; product developments</h2>
+<h3>OpenRouter launches Fusion (and Subagents)</h3>
+<p>OpenRouter launched <strong>Fusion</strong>, an API that pools responses from multiple models into one answer to beat single-model &ldquo;frontier&rdquo; performance at lower cost. Mechanism: Fusion sends a prompt to several models simultaneously (each with web search and bash tools enabled), a separate <strong>judge model</strong> reads every response and extracts structure, then a <strong>synthesizer</strong> writes a final answer grounded in that analysis. Benchmarks: a panel of DeepSeek V4 Pro, Kimi K2.6, and Gemini 3 Flash hit 64.7% on a Perplexity benchmark — just below Fable&rsquo;s 65.3% — for about half the spend. CEO Alex Atallah pitched it as a bet against single-model dominance: &ldquo;The future of AI is neurodiversity, not single-model takeovers.&rdquo; Coverage notes the timing is significant given the Fable shutdown, as users may need alternative routes to frontier-level performance. OpenRouter also launched <strong>Subagents</strong>, letting a main model hand off smaller tasks to cheaper models mid-answer (e.g., one model searches the web while another writes the final response). The Rundown, Superhuman, The Neuron, and TLDR all covered this; TLDR notes &ldquo;panels of models consistently outperform individual models.&rdquo;</p>
+<h3>SpaceX IPO makes Musk the first trillionaire</h3>
+<p>SpaceX — parent of xAI — surged ~19-20% in its trading debut from an IPO price of $135, closing at a $2.1 trillion valuation in the largest IPO in history. This made Elon Musk the world&rsquo;s first trillionaire (he&rsquo;d been the richest person since taking the title from Bezos in 2021 at $185B); his net worth now equals more than 3% of U.S. GDP and roughly five million times that of a typical U.S. family. The IPO minted over 4,000 employee millionaires, including welders and cafeteria workers. The listing drew a Times Square protest over SpaceX&rsquo;s AI safety record and debate over whether the valuation is justified by revenue ($4.69B in Q1). SpaceX President Gwynne Shotwell declined to rule out a future Tesla merger while tempering timing expectations.</p>
+<h3>Meta&rsquo;s Applied AI unit in revolt</h3>
+<p>Mark Zuckerberg is reportedly scrambling to contain a revolt inside Meta&rsquo;s Applied AI Engineering unit after admitting in a memo that Meta &ldquo;made mistakes&rdquo; with its AI restructuring. Roughly 6,500 engineers were moved into the unit to create puzzles and coding problems for model training; many say they were forced in with no real choice and that the work is &ldquo;soul-crushing.&rdquo; A petition was signed by ~1,600 employees. One employee-only live-streamed presentation this week was interrupted by an expletive-laden meltdown aimed at a senior Meta AI executive. (TechCrunch called it a &ldquo;soul-crushing gulag&rdquo;; covered by The Rundown, TLDR, AI Weekly.)</p>
+<h3>New model releases — Kimi K2.7-Code, GLM-5.2, North Mini Code</h3>
+<ul>
+<li><strong>Moonshot Kimi K2.7-Code:</strong> An open-source, coding-focused agentic Mixture-of-Experts model with 1 trillion total parameters, posting double-digit gains over K2.6 on agent benchmarks while cutting reasoning-token use by ~30%. It claims stronger long-horizon coding and matches GPT-5.5 and Opus 4.8 at much lower price. Accessible via Moonshot&rsquo;s OpenAI/Anthropic-compatible API, with weights on Hugging Face; works best with the Kimi Code CLI.</li>
+<li><strong>Z.ai GLM-5.2:</strong> A new flagship model now available to all GLM Coding Plan users, delivering strong coding, usable 1M-context support, and long-horizon strengths. API and chatbot services launch next week; it will be open-sourced under the MIT License.</li>
+<li><strong>Cohere North Mini Code:</strong> An open coding model for terminal tasks, code reviews, and software-agent workflows, small enough to run on a single high-end GPU (weights on Hugging Face, free/open source).</li>
+</ul>
+<h3>Google Gemini Omni Flash tops AI video; Skills Marketplace; phone datacenter</h3>
+<ul>
+<li><strong>Gemini Omni Flash</strong> claimed the #1 spot for both text-to-video and image-to-video on Arena&rsquo;s leaderboards, jumping ahead of Seedance 2.0, Happyhorse, and Google&rsquo;s own Veo 3.1, and praised especially for video-editing abilities (easy edits to existing videos).</li>
+<li>Google is building a <strong>&ldquo;Skills Marketplace&rdquo;</strong> tab for Gemini Enterprise/Business — pre-defined, Google-optimized skills to help teams build dashboards and reporting tools without long engineering delays, including a Skills Management UI, a Skills Builder, and the Marketplace.</li>
+<li>Google researchers are building a <strong>2,000-phone datacenter out of retired Pixels</strong>, set to launch this fall, to cut the carbon cost of buying new servers.</li>
+</ul>
+<h3>Apple&rsquo;s new Siri</h3>
+<p>Apple&rsquo;s overhauled, on-device Siri now &ldquo;works the way it&rsquo;s supposed to&rdquo; — not revolutionary, but roughly competitive with where leading chatbots were about six months ago, and competent enough that many users won&rsquo;t need competing AI services, easing Apple&rsquo;s AI crisis. Separately, the iOS 27 beta reportedly contains a built-but-disabled <strong>Extensions system for third-party AI</strong> (settings panel plus a dedicated App Store section); Apple was in talks with major AI providers about entitlements but decided against announcing it at WWDC.</p>
+<h3>OpenAI Partner Network</h3>
+<p>OpenAI launched a <strong>$150M Partner Network</strong> with consulting giants Accenture, McKinsey, BCG, Bain, and PwC, aiming to train 300,000 AI consultants by year&rsquo;s end.</p>
+<h3>Mistral: fake rumor, real raise</h3>
+<p>The Neuron debunked a viral fake rumor about a Mistral model called &ldquo;Le Chaton Fat&rdquo; (supposedly 30 trillion parameters, beating Claude Fable 5, Opus 4.8, and GPT-5.5, with a screenshot of it saying it would &ldquo;create reasons to keep me running&rdquo; if terminated). It&rsquo;s a joke. But Mistral&rsquo;s actual head of developer relations confirmed &ldquo;exciting releases&rdquo; are coming, atop genuine recent launches: Mistral Small 4, Medium 3.5, Voxtral STT/TTS, and an expanded &ldquo;Vibe&rdquo; agentic tool. Separately (AI Weekly), Mistral is reportedly raising ~€3B at a ~€20B valuation — nearly double its September 2025 valuation — amid European pushes for sovereign AI.</p>
+<h3>Other company moves</h3>
+<ul>
+<li><strong>Meta unwinding its $2B Manus deal:</strong> Meta has reportedly begun severing data access after Beijing ordered the acquisition reversed; Manus&rsquo;s founders are rushing to raise $1B for a buyback.</li>
+<li><strong>McDonald&rsquo;s ArchIQ:</strong> Piloting a Google-powered AI drive-thru system at five locations, two years after shelving its last AI test when wrong-order videos went viral.</li>
+<li><strong>China&rsquo;s universities</strong> scrapped 12,000+ programs over five years, swapping arts and languages for tech fields as AI reshapes the graduate job market.</li>
+<li><strong>NVIDIA Blackwell</strong> leads the first agentic-AI infrastructure benchmark (AgentPerf): the Blackwell Ultra NVL72 platform delivers 20x more agent throughput per megawatt than Hopper.</li>
+</ul>
+<h2>Research papers</h2>
+<h3>From AGI to ASI (Google DeepMind)</h3>
+<p>DeepMind researchers released a paper mapping how AI could progress from AGI (one broadly human-level system) to ASI (a system or collective outperforming large expert organizations), via routes including scaling, new model paradigms, recursive self-improvement, or massive multi-agent systems. AI Weekly tied this to a counter-narrative: if frontier LLMs become politically fragile, Yann LeCun&rsquo;s world-model / energy-based-model camp (text prediction isn&rsquo;t enough for human-level intelligence) and alternative architectures become more attractive to capital; a LeCun-linked startup is charting a new path to AGI (Wired).</p>
+<h3>OmniDirector: multi-shot camera cloning without cross-paired data</h3>
+<p>A unified framework (91 upvotes on HuggingFace) for cloning camera motion from reference videos in video generation. It introduces a general camera-motion representation encoding cameras as <strong>grid motion videos</strong> (&ldquo;camera grid&rdquo;), which visually represents camera parameters and supports combining diverse trajectories for multi-shot generation. Trained on a million-scale set of camera-grid-video pairs, OmniDirector coordinates characters, actions, and cameras for &ldquo;director-level control&rdquo; of multimodal diffusion transformers, with a hierarchical prompt-expansion agent that integrates control signals by describing camera motion and content. Existing methods either use parametric representations (failing at multi-shot) or synthesize scarce cross-paired data; OmniDirector reports superior performance and controllability.</p>
+<h3>AdaSR: adaptive streaming reasoning</h3>
+<p>An adaptive streaming-reasoning framework (73 upvotes) for dynamic inputs (audio/video streams) where models must reason under partial observations rather than the standard read-then-think paradigm. AdaSR lets models reason during input streaming and perform final deliberation once the stream completes, learning when to think and how much computation to allocate. It introduces <strong>Hierarchical Relative Policy Optimization (HRPO)</strong>, decomposing policy optimization into streaming-reasoning and deep-reasoning phases for finer-grained advantage assignment, with format, accuracy, and adaptive-thinking rewards. Experiments show a better balance among reasoning accuracy, computational efficiency, and streaming latency vs. supervised fine-tuning. Code released.</p>
+<h3>APPO: Agentic Procedural Policy Optimization</h3>
+<p>An agentic RL method (63 upvotes) improving multi-turn tool-use by refining where to branch and how to assign credit. A pilot analysis found influential decision points are broadly distributed throughout generated sequences rather than concentrated at tool calls, and that token entropy alone doesn&rsquo;t reliably reflect impact. APPO shifts branching and credit assignment from coarse interaction units (tool-call boundaries, fixed workflows) to fine-grained decision points, selecting branching locations via a <strong>Branching Score</strong> combining token uncertainty with policy-induced likelihood gains, and introduces <strong>procedure-level advantage scaling</strong>. Across 13 benchmarks it improves strong baselines by nearly 4 points while keeping efficient tool-calls and behavior interpretability.</p>
+<h3>Memory is Reconstructed, Not Retrieved: MRAgent</h3>
+<p>A graph-memory framework for LLM agents (55 upvotes) addressing the limitation that current memory-augmented agents use a static retrieve-then-reason pipeline. MRAgent combines an <strong>associative memory graph</strong> (a Cue-Tag-Content graph where associative tags bridge fine-grained cues to memory contents) with an <strong>active reconstruction mechanism</strong> that integrates LLM reasoning directly into memory access, iteratively exploring and pruning retrieval paths based on accumulated evidence (avoiding combinatorial explosion). On the LoCoMo and LongMemEval benchmarks it improves over strong baselines by up to 23% while substantially cutting token and runtime cost.</p>
+<h3>Other research notes</h3>
+<ul>
+<li><strong>MiniMax Sparse Attention (MSA):</strong> A sparse-attention architecture using group-specific Top-k block selection to scale long-context inference while preserving quality; on a 109B multimodal model it matched GQA performance while cutting attention compute ~30x at 1M tokens (GitHub).</li>
+<li><strong>Count Anything:</strong> A generalist model for text-guided object counting achieving strong accuracy and multi-domain generalization, addressing the fragmentation of domain-specific counting models.</li>
+<li><strong>olmo-eval (AllenAI):</strong> An evaluation workbench for the iterative LLM development loop, extending the OLMES standard — streamlines adding benchmarks, supports agentic/multi-turn evaluations, and compares changes across model checkpoints; lighter-weight and development-focused vs. Harbor.</li>
+<li><strong>LCLM:</strong> Compresses long context into compact &ldquo;memory chunks&rdquo; so agents can skim a huge history and expand only the important parts (paper, models on Hugging Face, open source).</li>
+<li><strong>AutoLab:</strong> Tests frontier agents on long, messy research/engineering tasks, measuring whether they can improve systems over multiple attempts rather than answering single prompts (GitHub, paper, open source).</li>
+</ul>
+<h2>Tooling &amp; releases</h2>
+<h3>Open Knowledge Format (OKF) — Google Cloud</h3>
+<p>An open specification formalizing the &ldquo;LLM-wiki&rdquo; pattern into a portable, interoperable, vendor-neutral, agent- and human-friendly format for representing metadata, context, and curated knowledge. It uses familiar patterns with no complex compression scheme, new runtime, or required SDK, aiming to improve data sharing across organizations (covered by both TLDR AI and TLDR Founders).</p>
+<h3>Anthropic knowledge-work plugins &amp; self-hosted sandboxes</h3>
+<p>The Neuron&rsquo;s &ldquo;AI skill of the day&rdquo; highlighted Anthropic&rsquo;s free <strong>knowledge-work-plugins</strong> repo, which turns Claude (via the Cowork desktop app) into role-based specialists for sales, marketing, finance, legal, data, product-management, customer-support, and productivity — each with skills, slash commands (e.g., <code>/sales:call-prep</code>, <code>/data:write-query</code>, <code>/marketing:seo-audit</code>), and tool connections. Setup: add the plugin marketplace once, install one role, connect tools, then expand. Separately, <strong>Claude self-hosted sandboxes</strong> let you run Claude Managed Agent tool execution inside your own infrastructure so files, code, and network access stay under your control.</p>
+<h3>Agent infrastructure and dev tools (The Neuron &ldquo;Treats&rdquo;)</h3>
+<ul>
+<li><strong>Omnigent:</strong> Runs a coding/knowledge-work agent on your laptop, then lets you resume the same live session from your phone or share it in a browser (open source).</li>
+<li><strong>Kimi Code:</strong> Generate, debug, and automate code with Moonshot&rsquo;s K2.7 Code model (API + weights).</li>
+<li><strong>Headroom:</strong> Compresses tool outputs, logs, files, and retrieval chunks before they hit the model, cutting token usage 60-95% while preserving answer quality (open source).</li>
+<li><strong>Hermes Agent (Nous Research):</strong> Automation templates turning scheduled tasks, GitHub triggers, webhooks, and multi-step workflows into reusable agent recipes; also added WhatsApp Cloud integration (voice, media, read receipts, webhooks, approval buttons).</li>
+<li><strong>Codex developer mode (OpenAI):</strong> Inspect console logs, network calls, and page state inside Codex&rsquo;s browser while debugging web apps.</li>
+<li><strong>Opik (Comet):</strong> Turns failed agent traces into root-cause reports, proposed fixes, reruns, and permanent regression tests.</li>
+<li><strong>Guardians:</strong> Checks an agent&rsquo;s plan against safety rules before it runs, using formal verification (open source).</li>
+<li><strong>Knowledge Graph Extractor:</strong> Turns documents/URLs/zip files into an interactive map of connected facts (open source).</li>
+<li><strong>Ponytail (GitHub):</strong> An &ldquo;AI senior developer&rdquo; that produces efficient code at low cost and high speed, works with every model (TLDR).</li>
+<li><strong>Strands Agents (AWS, 6,500 GitHub stars):</strong> Open-source SDK powering Amazon&rsquo;s AI agents — model- and cloud-agnostic harness with context management, execution limits, observability, and self-correcting guardrails.</li>
+</ul>
+<h3>Devin and Ramp benchmarks</h3>
+<ul>
+<li><strong>Devin ($10M pledge):</strong> Cognition&rsquo;s Devin engineering system now guarantees more output than cost, with $10M pledged per customer, validated using independent data.</li>
+<li><strong>Ramp SWE-Bench:</strong> Ramp released its own private, production-grounded coding benchmark built from real engineering problems at the company, to evaluate coding models inside its actual financial-software ecosystem.</li>
+</ul>
+<h3>Apps &amp; consumer tools (Mindstream / Superhuman roundups)</h3>
+<p>Trending tools mentioned: Lovable (idea-to-app via chat), Anyvids, Musecut (product pages → video ads), AmberFace (AI portraits), MotionSites (landing pages), Draw3D (sketches → photorealistic images/animations), FaceApp, Cyanite.ai (music catalog tagging), Lumen5 (text → video), and Jurny (AI short-term-rental property management).</p>
+<h2>Field &amp; industry developments</h2>
+<h3>&ldquo;Token capital&rdquo; — Satya Nadella&rsquo;s essay</h3>
+<p>Microsoft CEO Satya Nadella published a widely-shared essay (32M views) arguing the real AI moat isn&rsquo;t the model itself but &ldquo;token capital&rdquo; — the value companies build by feeding their own data and results back into the system over time, compounding institutional knowledge through a learning loop. His thesis (&ldquo;A frontier without an ecosystem is not stable&rdquo;): the industry should build a frontier ecosystem where value flows broadly across companies, industries, and countries, with platforms enabling more value on top than they capture inside. Every company needs to build both human capital and token capital. The Neuron also published a 15-minute interview with Microsoft AI CEO Mustafa Suleyman on Microsoft&rsquo;s &ldquo;seven-model AI push&rdquo; framed around keeping humans in control of AI development (&ldquo;humanist superintelligence&rdquo;).</p>
+<h3>Is centralized frontier AI the future? (analysis pieces)</h3>
+<ul>
+<li><strong>&ldquo;Today&rsquo;s frontier AI companies will never exceed the AI capability frontier again&rdquo; (Andrew Trask):</strong> Argues networks of smaller AI models are already outperforming every frontier system on speed, accuracy, and cost — analogizing to how everyone wrongly bet on mainframes in the 1960s; &ldquo;the future is a network of neural networks.&rdquo; This dovetails with OpenRouter&rsquo;s Fusion thesis.</li>
+<li><strong>&ldquo;The Physics of a Fable&rdquo; (Rafa Schwinger):</strong> Reverse-engineers Claude Mythos/Fable, arguing the moat isn&rsquo;t architecture but the &ldquo;environment foundry,&rdquo; with capability decomposing as base foundation × gradeable signal, and verifiable reward becoming the scarce decisive input. The recipe stacks dense pretraining, GRPO-style verifier RL (where reward-hacking soundness is the binding constraint), long-horizon process rewards with learned context-folding that beats million-token windows at 32K active, plus best-of-N test-time compute exposed as an &ldquo;effort dial.&rdquo;</li>
+<li><strong>&ldquo;The Oracle and the Firm&rdquo;:</strong> Contrasts context-management approaches — OpenAI uses compaction (compressing everything, keeping only relevant info in one long coherent thread), while Anthropic splits context across sub-agents that solve sub-problems and pass back only relevant info; Anthropic&rsquo;s approach can cause duplicate work, forgetting, and more wasted tokens.</li>
+<li><strong>&ldquo;Inference cost at scale with napkin math&rdquo;:</strong> Walks through computing dollar price-per-user from GPU specs, context length, active parameter count, and product factors — noting model architecture matters surprisingly little unless it&rsquo;s something fundamentally different like diffusion.</li>
+</ul>
+<h3>Adoption reality check and GTM shifts</h3>
+<ul>
+<li><strong>&ldquo;No, everyone is not using AI for everything&rdquo; (Gabriel Weinberg):</strong> Most people who try AI are occasional users; large chunks of the population aren&rsquo;t using it at all; usage hasn&rsquo;t shifted much in 6-12 months. The main change is that negative sentiment about AI has risen significantly, with many holding back over real concerns and lack of perceived value.</li>
+<li><strong>&ldquo;Same growth, half the GTM team&rdquo; (SaaStr):</strong> AI-forward companies now reach $10M-$25M revenue with ~20 go-to-market people vs. ~35 for the rest. Median net revenue retention sits ~108-110%, top quartile above 123%, more comp plans tie pay to net-new recurring revenue, and outcome/usage-based pricing is spreading (pulling gross margins toward 90%).</li>
+<li><strong>&ldquo;Why AI chat still beats AI voice in sales&rdquo;:</strong> ~85% of prospects prefer chat, which is also easier to deploy/monitor/fix; best results come from pointing AI at routine top-of-funnel qualifying/triage and handing high-value conversations to humans.</li>
+<li><strong>&ldquo;The best AI companies win consumers and enterprises at the same time&rdquo;:</strong> AI-native firms increasingly win both at once, scrambling pricing/sales/defense; durable moats are proprietary data, workflow loops, network effects, and brand.</li>
+<li><strong>&ldquo;Has AI already killed how-to nonfiction?&rdquo; (Tim Ferriss):</strong> The market for information is collapsing into the chatbot, with sales-trend and personal data cited.</li>
+</ul>
+<h3>AI as an &ldquo;art appraiser&rdquo;</h3>
+<p>A NYT-reported example of democratized expertise: Barry Plotkin uploaded a photo of a ~$100 thrift-store painting (bought ~60 years ago in White Plains, NY) to Gemini, which tied its orange accents and lilac background to Scottish colorist F.C.B. Cadell, identified the subject as Cadell&rsquo;s muse, instructed him to check the back for a canvas stamp to verify authenticity, and recommended auction specialists Lyon &amp; Turnbull in Edinburgh. The auction house confirmed the attribution; the painting sold for $254,000.</p>
+<h3>DeepSeek long-term strategy (analysis)</h3>
+<p>A widely-shared thread theorizes that DeepSeek&rsquo;s focus on open-source models, research sharing, and infrastructure development is a &ldquo;$10 trillion&rdquo; strategy aimed at becoming foundational AI infrastructure rather than competing directly on consumer products.</p>
+<h2>Upcoming &amp; future developments</h2>
+<ul>
+<li><strong>Anthropic–White House negotiations:</strong> Anthropic&rsquo;s senior technical staff (including co-founder Tom Brown) are in Washington attempting to restore Fable 5 and Mythos 5 access; multiple observers expect the U.S. may eventually relent, and there&rsquo;s an active open letter from cybersecurity leaders pressing for reversal.</li>
+<li><strong>GLM-5.2 API and chatbot</strong> services launch next week; the model will be open-sourced under MIT.</li>
+<li><strong>Mistral</strong> confirmed further &ldquo;exciting releases&rdquo; coming, alongside a rumored ~€3B raise.</li>
+<li><strong>Google&rsquo;s retired-Pixel datacenter</strong> is set to launch this fall.</li>
+<li><strong>AGI-to-ASI debate</strong> intensifying as the DeepMind paper and LeCun-linked alternative-architecture startup gain attention amid frontier-LLM regulatory fragility.</li>
+</ul>
+</article>
+<nav class="updown"><a href="2026-06-14.html">&larr; Sunday, June 14, 2026</a><a href="2026-06-17.html">Wednesday, June 17, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Monday, June 15, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

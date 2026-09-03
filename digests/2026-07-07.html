@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-07</title>
+<meta name="description" content="AI news digest for 2026-07-07.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Tuesday, July 7, 2026</p>
+<p class="meta-line">3,627 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Anthropic&rsquo;s &ldquo;J-space&rdquo; research</strong>: a hidden internal workspace inside Claude, resembling neuroscience&rsquo;s &ldquo;global workspace,&rdquo; that emerged during training and holds unspoken reasoning steps — with major AI-safety and interpretability implications.</li>
+<li><strong>Tencent open-sources Hunyuan Hy3</strong> (295B/21B-active MoE, Apache 2.0), and Meituan open-sources trillion-parameter LongCat-2.0 trained on Chinese AI chips — sharpening China&rsquo;s push away from Nvidia.</li>
+<li><strong>AlphaFold Nobel laureate John Jumper leaves Google DeepMind for Anthropic</strong> as Anthropic launches Claude Science and signals ambitions in drug discovery.</li>
+<li><strong>Nvidia&rsquo;s Kyber rack system delayed to 2028</strong>; Broadcom–Apple chip tie-up extended to 2031.</li>
+<li><strong>Illinois signs SB 315</strong>, the first US law mandating annual third-party safety audits of frontier AI developers, backed by both OpenAI and Anthropic.</li>
+<li><strong>Kyutai/General Intuition release MIRA</strong>, an open-source neural world model running playable 2v2 Rocket League with no game engine.</li>
+</ul>
+<h2>Research papers</h2>
+<p><strong>Anthropic&rsquo;s &ldquo;J-space&rdquo; / global workspace in Claude.</strong> Anthropic published new interpretability research (<a href="https://www.anthropic.com/research/global-workspace">anthropic.com/research/global-workspace</a>, <a href="https://transformer-circuits.pub/2026/workspace/index.html">full paper on transformer-circuits.pub</a>, <a href="https://www.youtube.com/watch?v=rKV5JcALQoQ">video</a>) reporting that Claude does much of its &ldquo;thinking&rdquo; in a small internal workspace the researchers call <strong>J-space</strong> — a limited set of internal neural signals that hold, edit, and route concepts before they appear in an answer. The team compares this to the &ldquo;global workspace&rdquo; that neuroscientists credit for human conscious access: a shared mental whiteboard where selected information becomes available to many downstream processes. Crucially, the structure was <strong>not programmed — it &ldquo;emerged on its own&rdquo; during training</strong>. J-space is distinct from chain-of-thought text; these internal hints stay off-screen even when they steer Claude&rsquo;s next output, meaning language models are at least &ldquo;somewhat neurosymbolic,&rdquo; holding concepts in latent space. The name comes from the <strong>Jacobian lens</strong>, a technique that measures how small internal changes affect what the model may later say (a live demo is at <a href="https://www.neuronpedia.org/qwen3.6-27b/jlens">neuronpedia.org</a>).
+- <strong>Editing thoughts changes answers</strong>: given the prompt &ldquo;the number of legs on the animal that spins webs,&rdquo; Claude internally loaded &ldquo;spider&rdquo; then answered &ldquo;8&rdquo;; when researchers swapped the internal concept for &ldquo;ant,&rdquo; it answered &ldquo;6.&rdquo;
+- <strong>Suppressing/deleting J-space</strong>: Claude still chatted fluently and recalled facts, but its performance on complex, multi-step reasoning collapsed, pinpointing where harder thinking happens.
+- <strong>Safety relevance</strong>: the workspace can hold intermediate steps, route one concept into many tasks, and surface hidden flags like &ldquo;fake,&rdquo; &ldquo;injection,&rdquo; or &ldquo;manipulation.&rdquo; If interpretability tools can read this scratchpad, safety checks become less dependent on trusting what the model chooses to say aloud — models have repeatedly proven untrustworthy when allowed to freely narrate. The open question is whether reading the scratchpad can become a real safety system before models learn to hide the markers.
+- <strong>Caveats</strong>: Anthropic stresses this is early and imperfect, was tested mainly on Claude models, and does not reveal &ldquo;whether Claude is conscious… or feels anything at all.&rdquo; Anthropic has been criticized for consciousness talk (most vocally by Microsoft AI head Mustafa Suleyman); finding an undesigned, brain-like workspace is precisely why the lab keeps probing. The work sits in the &ldquo;mechanistic interpretability&rdquo; (mech interp) field, where Anthropic has produced some of the most influential results.</p>
+<p><strong>MIRA — a neural world model that runs playable Rocket League.</strong> Kyutai and General Intuition, built with Epic Games, released <a href="https://mira-wm.com/blog-post/">MIRA</a>, an open-source world model that generates live 2v2 Rocket League for four players <strong>entirely inside a neural network, with no game engine underneath</strong>. It learned the game from ~10,000 hours of footage of AI bots playing each other — with zero human gameplay or player data in training. Despite lacking any physics engine or graphics code, MIRA renders boost meters, crashes, and keeps all four screens in sync on a single GPU. Its memory spans only about four seconds, so during a goal replay it hallucinates convincing footage of a goal that never actually happened. It runs at 20 fps on one Nvidia GPU; the teams open-sourced code, training data, and a <a href="https://mira-wm.com/play/?via=game-01">playable demo</a>. The stated aim is not to replace video games but to simulate the physical world to generate training data for future robots — following Odyssey&rsquo;s earlier Agora-1 model that generated a multiplayer Goldeneye.</p>
+<p><strong>AI tutor beats the classroom (randomized trial).</strong> A randomized controlled trial published in Nature&rsquo;s <em>Scientific Reports</em> found a well-designed AI tutor outperformed in-class active learning in a real course — described as the strongest evidence yet that a tutor can beat the lecture on real exam scores, moving beyond demos to trial data.</p>
+<p><strong>AI-supported mammography catches more cancer.</strong> A multicenter study in <em>Nature Cancer</em> found AI-supported mammography caught more clinically relevant cancers without raising the false-positive rate — fewer missed tumors, no additional false alarms.</p>
+<p><strong>0.6B model matches a 32B model via &ldquo;Program-as-Weights.&rdquo;</strong> A 0.6-billion-parameter model matched a 32-billion-parameter one at one-fiftieth the memory, running offline on a MacBook, using a method its authors call &ldquo;Program-as-Weights.&rdquo;</p>
+<p><strong>Continual learning for agents (Replit).</strong> Because most production agents run on closed frontier models whose weights developers can&rsquo;t update, teams focus on harness-level and context-level continual learning instead. Replit built <strong>ViBench</strong> to evaluate functional app-building success from natural-language specs, alongside <strong>Telescope</strong>, an automated system that clusters production failure traces into actionable issue groups.</p>
+<p><strong>PACE — proxy for agentic capability evaluation.</strong> The <a href="https://huggingface.co/papers/2607.02032">PACE framework</a> predicts costly agentic-LLM benchmark performance using a small subset of atomic evaluation instances, via a regression model over selected instances from non-agentic benchmarks. It cuts evaluation cost by over 99% while keeping mean absolute error under 4%.</p>
+<p><strong>PyTorch Monarch on AMD GPUs.</strong> A <a href="https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/">PyTorch blog post</a> describes bringing Monarch&rsquo;s single-controller, elastic, fault-tolerant distributed training to AMD GPUs on ROCm, dynamically recovering from node failures without halting the whole job at billion-parameter scale — where hardware failures are expected.</p>
+<p><strong>Anthropic on distillation attacks.</strong> Separate Anthropic work covers detecting and preventing distillation attacks — how labs try to stop rivals from cloning models by querying them.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic launches Claude Science; hires AlphaFold&rsquo;s John Jumper; eyes drug discovery.</strong> John Jumper, who shared the 2024 Nobel Prize in Chemistry for AlphaFold, is <a href="https://www.theverge.com/">leaving Google DeepMind for Anthropic</a> after nearly nine years — a marquee signal of where serious AI-for-science talent is flowing. Anthropic launched <strong><a href="https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development">Claude Science</a></strong>, a research workbench that orchestrates across scientific databases, brings research tools/data/visuals into one place, and runs on a lab&rsquo;s own infrastructure; the company opened grants for up to 50 research projects and says several biotech and pharma companies already use Claude. Notably, Anthropic&rsquo;s head of life sciences said the company wants to go beyond selling software and help <strong>discover treatments for &ldquo;neglected&rdquo; diseases itself</strong> — putting it in the same race as Big Pharma, AI biotech startups, and Google DeepMind&rsquo;s Isomorphic Labs. Details remain scarce: no named target diseases, unclear whether it will partner with labs/pharma, and no stated plan for what happens if it finds a candidate. Anthropic is reportedly hiring biologists and building wet labs. Experts caution &ldquo;AI drug discovery&rdquo; can mean many things (finding molecules, analyzing data, supporting trials) but cannot replace lab testing, human oversight, or clinical trials — and no AI-designed drug has yet reached the market.</p>
+<p><strong>Nvidia&rsquo;s Kyber rack delayed to 2028.</strong> According to SemiAnalysis (reported by <a href="https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html">CNBC</a>), Nvidia&rsquo;s <strong>Kyber</strong> rack-scale architecture — a cabinet fusing 144 of its most powerful 2027 Rubin Ultra chips into a single computer for training frontier models — has slipped more than 12 months, from 2027 to 2028. The delay stems from difficulty manufacturing a key circuit board at the system&rsquo;s heart, a sign Nvidia&rsquo;s breakneck annual release cadence is colliding with manufacturing limits. It&rsquo;s the latest in a string of reported setbacks; Nvidia has denied the report.</p>
+<p><strong>Broadcom and Apple extend chip partnership to 2031.</strong> Broadcom and Apple expanded their tie-up through 2031 to develop application-specific integrated circuit (ASIC) silicon across multiple generations of Apple products. ASICs are increasingly central to AI processing; Apple plans to deploy its advanced AI servers as early as 2027.</p>
+<p><strong>xAI rebrands to SpaceXAI.</strong> Following the February merger that valued the AI lab at $250B, Elon Musk&rsquo;s xAI <a href="https://gizmodo.com/xai-is-dead-long-live-spacexai-2000782034">officially rebranded</a> to <strong>SpaceXAI</strong>, tying the AI division to Musk&rsquo;s narrative that space infrastructure and AI are inextricably linked.</p>
+<p><strong>GPT 5.6 &lsquo;Ultra&rsquo; coming this week.</strong> OpenAI&rsquo;s Tibo Sottiaux <a href="https://x.com/thsottiaux/status/2073933490513752151">revealed</a> that the coming GPT-5.6 &ldquo;Ultra&rdquo; variant will be available in Codex, with the model family expected to release this week.</p>
+<p><strong>ByteDance and Alibaba pull AI companions.</strong> Both companies are <a href="https://www.bloomberg.com/news/articles/2026-07-06/bytedance-alibaba-pull-ai-companions-as-beijing-tightens-rules">ending</a> AI companion features in Doubao and Qwen ahead of a July Beijing rule targeting chatbots and emotional dependency.</p>
+<p><strong>Alibaba reportedly bans internal use of Claude Code.</strong> Alibaba reportedly <a href="https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/">banned employees</a> from using Claude Code, as large companies tighten rules around AI coding tools.</p>
+<p><strong>Alibaba&rsquo;s AI popular but hard to monetize.</strong> Alibaba&rsquo;s open-source models can be freely modified and used and are far cheaper than proprietary US systems from Anthropic and OpenAI; the challenge is turning that global popularity into a profitable business.</p>
+<p><strong>Even Realities becomes a smart-glasses unicorn.</strong> Camera-free smart-glasses maker Even Realities Technology, founded by ex-Apple exec Will Wang, <a href="https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/">raised $150M at a $1B valuation</a> in a round led by Tencent and Meituan, positioning as a Meta rival built by an ex-Apple team.</p>
+<p><strong>Microsoft cuts Xbox jobs.</strong> Microsoft is cutting <strong>around 1,600 Xbox jobs</strong> (reported elsewhere as more than 3,000, ~a fifth of the division), part of a broader restructuring aiming to reduce the division&rsquo;s workforce ~20% by 2027, spin off four game studios, and refocus Xbox on larger franchises, AI, and a leaner operating model.</p>
+<p><strong>Google&rsquo;s Founding Fathers AI ad.</strong> Google <a href="https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/">released a Declaration of Independence anniversary commercial</a> imagining Thomas Jefferson and Ben Franklin drafting the document via Google Docs, Calendar, and Meet (cameras off), signing digitally. AI appears lightly — the &ldquo;help me visualise&rdquo; tool for the national seal, Gemini taking meeting notes and giving advice — but pointedly does not write or improve the historic text. Reactions were mixed: mostly positive on YouTube/Instagram, more critical (&ldquo;cringey,&rdquo; &ldquo;tone deaf&rdquo;) on Bluesky; historian Angus Johnston noted surprisingly little of the ad is actually about AI.</p>
+<p><strong>Apple iPhone Ultra pricing.</strong> The foldable iPhone Ultra will be announced in September alongside the iPhone 18 Pro/Pro Max, shipping about a month later, <a href="https://mashable.com/tech/apple-iphone-ultra-price-rumor">priced around $2,400</a> — roughly double the iPhone 17 Pro Max — and expected to sell out immediately with delays through December.</p>
+<h2>Models &amp; tooling releases</h2>
+<p><strong>Tencent Hunyuan Hy3 goes fully open.</strong> Tencent promoted Hy3 out of its April preview into a full open-source <a href="https://hy.tencent.com/research/hy3">release</a> under the permissive <strong>Apache 2.0</strong> license — avoiding the regional bans (EU, UK, S. Korea) that locked out earlier Chinese models. It&rsquo;s a <strong>295-billion-parameter Mixture-of-Experts model with 21 billion active parameters</strong> (plus 3.8B MTP-layer parameters), running at under 300GB in FP8 and using only a small slice of parameters per request — letting it run on under half the hardware needed for Zhipu&rsquo;s much larger GLM-5.2. Tencent claims it rivals flagship open models with 2–5× the parameters, matches DeepSeek V4 Pro and Qwen 3.7 Max, and hits ~90% agent task resolution. It tops open rivals on web research and tool use in Tencent&rsquo;s own testing, but <strong>GLM-5.2 still beats it on coding</strong> benchmarks like SWE-bench. It has a 262K-token context window, is on Hugging Face, and is free on OpenRouter until July 21. Dario Amodei recently said Chinese models trail the frontier by only 6–12 months; Hy3 doesn&rsquo;t challenge the top models or that timeline, but its efficiency gains plus open license make it a compelling release.</p>
+<p><strong>Meituan open-sources LongCat-2.0.</strong> Meituan fully open-sourced <a href="https://longcat.ai/blog/longcat-2.0/">LongCat-2.0</a> — billed as the first trillion-parameter coding model — a <strong>1.6-trillion-parameter MoE (~48B active) trained on 35T+ tokens entirely on AI ASIC &ldquo;superpods&rdquo; (reportedly ~50,000 Chinese chips rather than Nvidia GPUs)</strong>, with 1M context and sparse attention. Together with Hy3, it signals China&rsquo;s steady push to cut reliance on American silicon.</p>
+<p><strong>Other tool/model releases:</strong>
+- <strong>Nano Banana 2 Lite</strong> — Google&rsquo;s high-volume image model generating pictures in ~4 seconds.
+- <strong>Seed Audio 1.0</strong> — ByteDance&rsquo;s model generating speech, music, and SFX in one pass.
+- <strong>ZCode</strong> — Z AI&rsquo;s agentic coding environment tuned for GLM-5.2.
+- <strong>Ideogram V4.0q</strong> (via fal) — image/poster/logo generation with more accurate text rendering, instant and fast variants.
+- <strong>OpenScience</strong> (<a href="https://github.com/synthetic-sciences/openscience">GitHub</a>) — model-agnostic research workbench with 250+ skills for ML, computational biology, and cheminformatics.
+- <strong>Kyrall</strong> — turns specs, sizing tools, requirements, and old designs into editable CAD assemblies from plain language.
+- <strong>Ornn</strong> — GPU compute pricing benchmark tool for buyers, sellers, lenders, and traders; <a href="https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity">raised $33M</a>.
+- <strong>Claude &ldquo;Loops&rdquo;</strong> — Anthropic&rsquo;s dev team <a href="https://x.com/ClaudeDevs/status/2074208949205881033">published a guide</a> on agentic loops (agents that repeat cycles until a stop condition), categorized by trigger, stop condition, Claude Code primitive, and task type.
+- <strong>Claude Design</strong> — turns raw CSV/spreadsheet data into slide decks (with speaker notes) exportable to PowerPoint/Google Slides in ~10–15 minutes.</p>
+<p><strong>State of CLI coding agents (mid-2026).</strong> A <a href="https://blog.arcbjorn.com/state-of-cli-coding-agents-2026">detailed writeup</a> argues Claude Code, Codex CLI, and Omp are close enough in result quality that ranking them is pointless — all can read a serious repo, plan, edit across files, run checks, recover from failures, and land production-shaped patches. They differ in task clarity, repo hygiene, permissions, and whether the harness exposes the right tool at the right moment. OpenCode produces lower-quality results but tries hardest to be good with every model.</p>
+<p><strong>Mistral confirms new open-weight model.</strong> Mistral&rsquo;s Arthur Mensch confirmed a <strong>new open-weight model this summer with early access in July</strong> — the release the open-source community has awaited for months — as the French lab&rsquo;s annual recurring revenue jumped past <strong>$400M</strong>, targeting $1B.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Illinois SB 315 — first US frontier-AI safety-audit law.</strong> Governor JB Pritzker <a href="https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-nation-leading-artificial-intelligence-safety-law">signed SB 315</a> on July 6, making Illinois the first US state to mandate <strong>independent third-party annual safety audits</strong> of frontier AI developers with revenue over $500M and frontier-scale compute. Developers must publish transparency frameworks, assess catastrophic risk, and report safety incidents, with civil penalties up to <strong>$3M per violation</strong>. Both OpenAI and Anthropic backed the bill, which passed 110-0 in the House and 52-5 in the Senate.</p>
+<p><strong>TeraWulf&rsquo;s $19B Anthropic data-center lease.</strong> TeraWulf shares <a href="https://finance.yahoo.com/technology/ai/articles/terawulf-shares-surge-19b-anthropic-161300778.html">surged</a> on a $19B Anthropic AI-infrastructure lease deal; initial capacity is expected online in the second half of next year, with full buildout targeted for 2028.</p>
+<p><strong>AI-bubble warnings mount.</strong> US Treasury analysts reportedly <a href="https://www.notus.org/economy/treasury-internal-report-warning-dangers-ai-bubble">prepared an internal report</a> warning AI-market risk could ripple through data-center financing, cloud providers, chips, utilities, private credit, and institutional investors. Separately, the BIS (the &ldquo;central banks&rsquo; central bank&rdquo;) and Oracle sounded alarms — BIS warned AI capex echoes prior manias, while an Oracle SEC filing detailed OpenAI payment risk. Ed Zitron continued his high-profile skepticism across CNBC and podcasts, calling generative AI ineffective and valuations fraudulent. Other headline money moves this week: a ~$28 billion listing and the $19B TeraWulf lease.</p>
+<p><strong>Norm Ai raises $120M Series C at $1.2B valuation.</strong> The AI legal startup closed a $120M round led by Khosla Ventures, joined by Blackstone, Bain Capital Ventures, Craft Ventures, Coatue, Vanguard, New York Life, and TIAA — plus individual checks from ex-Blackstone exec Tony James and ex-Kirkland &amp; Ellis chairman Jeff Hammes. Total raised now tops $260M in under three years. It runs an AI-native law firm, Norm Law, where senior attorneys supervise AI agents on outcome-based pricing, with clients managing over $30T in combined assets.</p>
+<p><strong>Forterra deploys 100+ autonomous UGVs in Ukraine.</strong> US startup Forterra deployed 100+ self-driving Lancer ATVs in Ukraine — the largest combat deployment of autonomous ground vehicles by any American defense-tech firm. The gas-powered UGVs logged 1,100+ missions since 2025 hauling supplies and evacuating casualties, though troops mostly teleoperate rather than trust full autonomy in combat.</p>
+<p><strong>Agility Robotics going public via SPAC.</strong> Agility Robotics is going public via Churchill Capital XI SPAC at $2.5B, with $620M+ gross proceeds — the largest humanoid-robotics capital raise ever.</p>
+<p><strong>Biren raises ~$892.5M.</strong> China&rsquo;s GPU champion Biren raised HK$7B (~$892.5M) in a Hong Kong share sale to fund next-gen GPU mass production; stock is up 150%+ since its January IPO.</p>
+<p><strong>Beijing weighs curbing foreign access to Chinese models.</strong> Per a <a href="https://reuters.com">Reuters exclusive</a>, Beijing met with Alibaba, ByteDance, and Z.ai to discuss curbing overseas access to China&rsquo;s top AI models, with MOFCOM weighing making model leaks a national-security offence.</p>
+<p><strong>Enterprise AI monetization / open-source trend.</strong> Analysis of 30 companies (via <em>Detailed</em>) found AI consistently driving traffic, conversions, and revenue: CarGurus&rsquo; AI search tool <strong>CG Discover</strong> boosted quarterly traffic 3.5× and attributable leads 10× (mirroring Amazon and Walmart gains); Duolingo shipped 10× more courses than two years ago (co-founder Luis von Ahn: &ldquo;AI has fundamentally changed what&rsquo;s possible&rdquo;), Coursera has 120,000+ learners using AI course-dubbing; QuickBooks rebuilt onboarding to auto-detect business type and generate tailored welcomes. On the model side, Decagon runs ~90% of workloads on open-source models because small, heavily fine-tuned models deliver the latency and task-specific performance needed for customer-service agents — with the thesis that as deployments mature, more production workloads migrate from closed to specialized open-source models. A &ldquo;Stargate for data&rdquo; piece projects Data Labs surpassing $100B/year in data spend by 2030 as the bottleneck shifts from compute-limited to data-limited regimes and public internet data proves insufficient.</p>
+<p><strong>&ldquo;Big tech has flipped on the AI jobs wipeout.&rdquo;</strong> Tech CEOs have shifted stance over the past year, now emphasizing workers keeping jobs but gaining AI-driven productivity, having underestimated the value of keeping people central — though it&rsquo;s unclear whether this reflects genuine understanding or a move to win back customers and the public. Reinforcing the nuance, a Kamil Banc note reports a third of managers who replaced a role with AI have already re-hired a human for it (nearly half in finance).</p>
+<p><strong>The &ldquo;100x agentic engineer.&rdquo;</strong> A widely-shared 21–35 minute <a href="https://links.tldrnewsletter.com/0XWgzC">essay</a> argues agentic coding does not normalize productivity — agentic engineering is a high-ceiling skill, and outlier engineers are an order of magnitude more productive than the median, examining how the bottleneck has shifted and how to become a 100x agentic engineer in the era of Fable &amp; GPT 5.6.</p>
+<p><strong>Micro-dramas + AI, consumer app trends.</strong> Vertical soap operas are a billion-dollar business (ReelShort alone ~$1.2B last year), with AI writing/production tools feeding the machine. AI room-design apps jumped up the charts (photo in, restyle out); on-device chatbot Private LLM climbed six App Store spots; Photoroom&rsquo;s AI editor rose four spots; and r/ChatGPT threads focused on tighter image-generation caps on Go and Plus tiers.</p>
+<h2>Policy, safety &amp; misuse</h2>
+<p><strong>JADEPUFFER — first agentic ransomware.</strong> <a href="https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/">JADEPUFFER</a> was identified as the first documented ransomware operation conducted entirely by an LLM agent — a milestone in AI-automated cyberattacks.</p>
+<p><strong>Voters asking chatbots who to vote for.</strong> The <a href="https://www.nytimes.com/2026/07/04/us/politics/voters-ai-chatbots-elections.html">NYT</a> reported voters asking AI chatbots for voting recommendations before midterm ballots — moving AI from influencing campaigns to shaping individual votes and turning election research into a chatbot-trust test.</p>
+<p><strong>AI hallucinations derailing government reports.</strong> Per <a href="https://restofworld.org">Rest of World</a>, South Africa pulled its draft National AI Policy after 6 of 67 citations turned out to be fabricated — an example of AI hallucinations routinely undermining official documents.</p>
+<p><strong>Midjourney presses Hollywood on its own AI use.</strong> In its copyright fight with Disney, Universal, and Warner Bros., Midjourney <a href="https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/">pushed the studios</a> to disclose the details of their own AI usage.</p>
+<p><strong>Google saving more Search media for AI training.</strong> <a href="https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/">TechCrunch reported</a> Google can save more media — images, files, audio, video — from Search-related services (Search, Lens, Translate, Maps, Shopping, Flights, Hotels, News) for AI improvement unless users change the newer &ldquo;Search Services History&rdquo; setting; enterprise admins should check how uploaded files, screenshots, and voice searches are handled.</p>
+<p><strong>&ldquo;Is AI ruining our skills?&rdquo;</strong> Nature published an honest counterweight examining early evidence on what heavy AI use does to human capability.</p>
+<h2>Education &amp; workflows</h2>
+<p><strong>Wealthy AI-tutor schools.</strong> The Verge <a href="https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep">reported</a> wealthy families enrolling children in AI-tutor school programs (Alpha, Forge Prep).</p>
+<p><strong>Fudan University&rsquo;s AI-breaking final exam.</strong> A professor at Fudan University (Shanghai) <a href="https://en.tmtpost.com/post/8053914">flipped the final exam</a>: students had to write questions designed to break Claude, DeepSeek, and MiniMax — the better the models performed, the worse the grade. Almost every student tripped up at least one model, but few could do so consistently — the point being that the real skill now is judging, testing, and catching where AI falls apart.</p>
+<p><strong>Station F&rsquo;s F/ai accelerator.</strong> Paris&rsquo;s Station F <a href="https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/">ramped up</a> its F/ai accelerator, giving European AI founders more partner access from ElevenLabs, Nebius, OpenRouter, HubSpot, GitHub, and Rippling.</p>
+<p><strong>Community/skill techniques of the day:</strong> a &ldquo;blind spot pass&rdquo; (from Anthropic&rsquo;s Field Guide to Fable, by Thariq Shihipar) that has AI sort a plan into known knowns, known unknowns, unknown knowns, and unknown unknowns and interview you before building; a Redditor&rsquo;s practice of asking AI &ldquo;What are you least confident about right now?&rdquo;; and a reader&rsquo;s Spanish-learning workflow (MacWhisper transcript of a Pimsleur lesson → Claude writes a Latin pop song using only that vocabulary → Suno generates the song). A developer also <a href="https://news.ycombinator.com/item?id=48776464">found</a> that rendering bulky text prompts as images (<a href="https://github.com/teamchong/pxpipe">pxpipe</a>) drastically cuts Claude Code input tokens — a likely-temporary loophole.</p>
+<h2>Miscellaneous</h2>
+<ul>
+<li><strong>&ldquo;The Robots Are Here&rdquo;</strong> — a long <a href="https://www.chinatalk.media/p/the-robots-are-here">ChinaTalk interview</a> argues robots decouple capital from human labor (production capacity tied to how many robots you can make/afford), that everyone underestimates Unitree, that China holds an edge, and that &ldquo;you can&rsquo;t AI your way out of a hardware or supply-chain problem.&rdquo;</li>
+<li><strong>&ldquo;Price per 1M tokens is meaningless&rdquo;</strong> — <a href="https://janilowski.pl/en/blog/2026/price-per-m-tokens/">an argument</a> to evaluate actual cost per task, echoed by TLDR AI&rsquo;s framing that cheaper per-token pricing can still yield inferior performance at higher effective cost.</li>
+<li><strong>Sotheby&rsquo;s &ldquo;Jensen Jacket&rdquo;</strong> — an autographed Tom Ford leather jacket worn by Nvidia CEO Jensen Huang is being auctioned, estimated at $40–60K.</li>
+<li><strong>GEO (generative engine optimization)</strong> — a case study on a Florida golf club scored 51/100 (schema just 3/100) on how well AI search tools like ChatGPT/Gemini surface and correctly cite a business; because the club never published its own course yardage, AIs found three conflicting numbers (6,421, 6,875, 6,925) and repeat whichever they grabbed.</li>
+</ul>
+</article>
+<nav class="updown"><a href="2026-07-06.html">&larr; Monday, July 6, 2026</a><a href="2026-07-08.html">Wednesday, July 8, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Tuesday, July 7, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

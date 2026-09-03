@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-19</title>
+<meta name="description" content="AI news digest for 2026-07-19.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, July 19, 2026</p>
+<p class="meta-line">2,252 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>White House now controls distribution of frontier AI models</strong> from OpenAI and Anthropic, requiring government approval before labs add partners.</li>
+<li><strong>Demis Hassabis publishes &ldquo;A Framework for Frontier AI&rdquo;</strong> calling for a FINRA-style Frontier AI Standards Body, drawing praise and sharp criticism that it&rsquo;s &ldquo;too little, too late.&rdquo;</li>
+<li><strong>Alex Turner resigns from Google DeepMind</strong> after DeepMind signed an &ldquo;all lawful use&rdquo; deal with the Department of War, breaking its 2018 no-autonomous-weapons pledge.</li>
+<li><strong>OpenAI&rsquo;s GPT-Red internal attack model</strong> cracks 84% of new security scenarios vs. 13% for human red-teamers; Grok 4.5 and GPT-5.6 launch within a day of each other.</li>
+<li><strong>Sakana ships backprop-free training</strong> working on CNNs and RL; Ring-Zero pushes zero-RL to 1T parameters with emergent reasoning.</li>
+</ul>
+<h2>Policy &amp; safety</h2>
+<p><strong>White House takes control of frontier-model distribution.</strong> CNBC reports (2026-07-17) that the Trump administration is now dictating which partners can access frontier AI models from OpenAI and Anthropic, extending its oversight beyond the recently launched &ldquo;Gold Eagle&rdquo; cyber clearinghouse into distribution decisions that were previously held by the labs themselves. Anthropic&rsquo;s Project Glasswing (which governs access to its Mythos cybersecurity model) and OpenAI&rsquo;s Daybreak partner rosters will now require explicit government approval before any new customer can be added. A White House official characterized engagement as &ldquo;voluntary,&rdquo; but the administration&rsquo;s leverage is already evident: in June it blocked Claude Mythos 5 and Fable 5 over national-security concerns, reinstating access only after weeks of negotiation with Anthropic, and OpenAI&rsquo;s GPT-5.6 Sol was similarly gated to Trump-approved customers at launch. In a related product-side move, Anthropic is reportedly capping Fable 5 access to Max and Team Premium tiers at half the usual limits starting July 20 (the-decoder.com).</p>
+<p><strong>Demis Hassabis proposes a Frontier AI Standards Body.</strong> Google/DeepMind CEO Demis Hassabis published an essay, &ldquo;A Framework for Frontier AI and the Dawning of a New Age,&rdquo; arguing that we are &ldquo;standing in the foothills of the singularity.&rdquo; He describes AGI as unprecedented — &ldquo;more akin to the discovery of electricity or fire,&rdquo; noting &ldquo;we&rsquo;ve essentially found a way to make sand think&rdquo; — and predicts an impact &ldquo;perhaps 10x of the Industrial Revolution at 10x the speed,&rdquo; potentially reaching an era where &ldquo;resources are no longer the limiting factor for human progress.&rdquo; His central ask is a <strong>Frontier AI Standards Body inside the US government, modeled on FINRA</strong>, that would govern &ldquo;frontier labs&rdquo; (any company producing a frontier model based on technical benchmarks). Under the proposal, frontier labs would initially <em>voluntarily</em> share models with the body for review up to 30 days before release; evaluations would be updated regularly, vulnerabilities addressed before and after release, and the regime &ldquo;could be ratcheted up if the seriousness of the situation demands, including coordinating a slowdown in development among the Frontier Labs if deemed necessary.&rdquo; He frames this as technically focused, pro-innovation, and a way of &ldquo;giving us options, including for a slowdown,&rdquo; while warning that &ldquo;as a field and as a wider society, we aren&rsquo;t&rdquo; giving ourselves the time and space to get the next step right, and flags the need for &ldquo;robust safeguards to maintain control of increasingly agentic, recursively self-improving systems.&rdquo;</p>
+<p>Reactions, as compiled by Zvi Mowshowitz, were mixed. Anthropic&rsquo;s Jack Clark endorsed it (&ldquo;everyone at the frontier… agrees that third-parties should test AI systems&rdquo;). Samuel Hammond noted it&rsquo;s &ldquo;striking to see leadership at Google, Anthropic, OpenAI and Microsoft all fairly independently sounding warning alarms.&rdquo; But critics argued it doesn&rsquo;t match the danger Hassabis implies. Nate Soares (MIRI) welcomed the acknowledgment of a &ldquo;pivotal moment&rdquo; and &ldquo;extremely intense&rdquo; race but faulted the plan for having &ldquo;no plan for what to do once&rdquo; models are found dangerous, and for glossing over that expert disagreement spans a &ldquo;~5% or ≥50% chance of total catastrophe.&rdquo; Aaron Scher called it &ldquo;far too little too late,&rdquo; saying experts range from 5% to 40% to 90% on extinction and that the correct response is to &ldquo;halt the creation of ASI,&rdquo; not adopt voluntary standards; he also stressed the proposal appears to cover only <em>public</em> deployment and pre-deployment testing, leaving <em>internal</em> deployment — &ldquo;where much of the risk is&rdquo; — unaddressed, and doubted the body could verify or enforce a slowdown. Eli Tyre raised the same internal-deployment loophole: a company that never releases a frontier model but uses it internally to build more powerful systems would be exempt. Connor Leahy argued we should &ldquo;prohibit superintelligence, not give industry regulatory power.&rdquo; Zvi agreed with Peter Wildeford that FINRA is a poor model (regulatory-capture risk) and that &ldquo;you need an SEC to your FINRA&rdquo; — a self-regulatory organization is a supplement, not a substitute, for binding government action. Zvi filed the essay overall under &ldquo;high praise… &lsquo;the least you could do.&rsquo;&rdquo; Timothy Lee dissented on the capability thesis, arguing more than 10% of the value of superior intelligence was already captured by 1945; Noah Smith noted that &ldquo;10x the Industrial Revolution in 1/10th the time&rdquo; implies a 50x rise in living standards in 10 years — a 48% annual GDP growth rate. Zvi flagged Coinbase CEO Brian Armstrong&rsquo;s &ldquo;AI is like software so existing laws are fine&rdquo; as the &ldquo;stupid dissent.&rdquo;</p>
+<p><strong>DeepMind bioresilience statement.</strong> Alongside the essay, DeepMind released a three-page statement on &ldquo;bioresilience&rdquo; built on three pillars: prevent threat actors from misusing models, detect new outbreaks quickly, and respond decisively to outbreaks. On misuse prevention they use &ldquo;defense-in-depth&rdquo; but are vague on specifics; Zvi notes a tension with Anthropic&rsquo;s much more aggressive classifier-based countermeasures (either DeepMind&rsquo;s methods don&rsquo;t work, only work because Gemini is weaker, or Anthropic is over-investing). DeepMind positions detection and response as things the world should already be doing but mostly isn&rsquo;t, calls on policymakers to legislate/act on both, and asks for a federal framework to judge risk-benefit tradeoffs in bio for frontier models — presented as a complement to Hassabis&rsquo;s standards-body proposal.</p>
+<p><strong>Alex Turner resigns over DeepMind&rsquo;s Department of War contract.</strong> In the second half of his post, Zvi covers the resignation of Alex Turner from Google DeepMind after Google signed an &ldquo;all lawful use&rdquo; deal with the Department of War, selling AI to the military with no restrictions against autonomous weapons or mass spying. This directly contradicts the 2018 Lethal Autonomous Weapons Pledge (signed by 5,218 people, including DeepMind as an organization, Hassabis, cofounder/Chief AGI Scientist Shane Legg, VP of Research Raia Hadsell, Google AI leader Jay Yagnik, and Chief Scientist Jeff Dean), which stated signers &ldquo;will neither participate in nor support the development, manufacture, trade, or use of lethal autonomous weapons.&rdquo; DeepMind employee Andreas Kirsch laid out the governance timeline: 2014 independent ethics board (reportedly a condition of the Google sale); 2015 one informal meeting then effective abandonment; 2018 AI Principles excluding weapons and surveillance; 2025 those exclusions dropped; 2026 the Pentagon contract. Kirsch noted Hassabis had bet on &ldquo;trust instead of governance&rdquo; (&ldquo;Safety isn&rsquo;t about governance structures&rdquo;), and called the Pentagon deal &ldquo;the litmus test of that bet.&rdquo; Over 600 colleagues signed an open letter asking Google not to sign; a lawyer noted the contract&rsquo;s restriction terms are effectively meaningless and the government can do whatever it wants.</p>
+<p>Turner recounted his failed lobbying campaign: he organized a petition to Jeff Dean signed by over 250 GDM employees, got Dean to sign an amicus brief backing Anthropic (which had defended its own red lines when the Pentagon threatened it), proposed Dean head a potential Review Body, and directly messaged Hassabis — who redirected him to two senior policy staff who &ldquo;let the proposal wilt unattended until Google signed the deal.&rdquo; Turner also described the International Association for Safe and Ethical AI (IASEAI) taking a near-unanimous member show-of-hands vote to support Anthropic, only for the vote to &ldquo;vanish&rdquo; and the organization to go silent for two months. Turner said the honest paths for pledge-signers were to explain, renounce the pledge, or quit — &ldquo;Silence isn&rsquo;t one of them&rdquo; — and criticized Hassabis for co-authoring the post that removed the weapons prohibition while claiming &ldquo;nothing&rsquo;s changed about our principles.&rdquo; Zvi holds Hassabis blameworthy for insisting DeepMind&rsquo;s principles are unchanged, credits Dean for going further than most (signing the brief) even while ultimately not using his full leverage, and argues the episode shows DeepMind&rsquo;s self-governance mechanisms failed — with likely long-run damage to recruiting and retention as Google/DeepMind lose ground to OpenAI and Anthropic. So far Turner is the only person to have quit in response.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Grok 4.5 and GPT-5.6 launch within a day.</strong> SpaceXAI debuted <strong>Grok 4.5</strong>, described as an &ldquo;Opus-class&rdquo; coding model priced at $2 per million input tokens. Less than 24 hours later, OpenAI followed with the full launch of <strong>GPT-5.6</strong>, setting up a direct one-week rivalry between the two. (Separately, per Source 1, GPT-5.6 Sol Pro is credited with closing a 30-year convex optimization gap, per a Medium writeup.)</p>
+<p><strong>Anthropic launches Reflect (&ldquo;Wrapped&rdquo; for Claude).</strong> Anthropic released Reflect, a Spotify-Wrapped-style dashboard that shows Claude subscribers how they use the product — peak usage hours, topic breakdowns, and reflective prompts such as &ldquo;what&rsquo;s one thing you want to keep doing yourself, even if Claude could do it faster?&rdquo;</p>
+<p><strong>Apple sues OpenAI.</strong> Apple filed suit against OpenAI, accusing former Apple employees of taking internal files before joining the lab, and alleging that job candidates were asked to bring real Apple product parts to interviews for &ldquo;show and tell.&rdquo; The report frames the OpenAI–Apple partnership as having turned sour.</p>
+<p><strong>Meta pulls Muse Image tagging feature.</strong> Meta removed the photo-tagging feature from its Muse Image product within days of launch, after backlash over using public Instagram photos without notifying the account owners.</p>
+<p><strong>OpenAI&rsquo;s screenless smart speaker.</strong> OpenAI is reportedly developing a screenless smart speaker powered by ChatGPT, equipped with cameras, sensors, and mechanical moving parts designed to feel more natural. It is one of five devices being developed with Jony Ive and is planned for 2027.</p>
+<p><strong>General Compute&rsquo;s $400M inference-chip-backed loan.</strong> General Compute landed a $400M loan collateralized by inference chips (techcrunch.com) — an example of AI hardware being used as loan collateral.</p>
+<h2>Research papers &amp; tooling</h2>
+<p><strong>Sakana ships backprop-free training.</strong> Sakana released a backpropagation-free training method that reportedly works on CNNs and reinforcement learning (marktechpost.com), a notable departure from standard gradient-based training.</p>
+<p><strong>Ring-Zero scales zero-RL to 1T parameters.</strong> A paper (arxiv.org) describes Ring-Zero pushing &ldquo;zero-RL&rdquo; to 1 trillion parameters with emergent reasoning capabilities.</p>
+<p><strong>Nvidia Nemotron 3 Embed 8B tops RTEB.</strong> Nvidia&rsquo;s Nemotron 3 Embed 8B embedding model topped the RTEB retrieval leaderboard (marktechpost.com).</p>
+<p><strong>LongStraw scales GRPO past 4M tokens.</strong> LongStraw scales GRPO post-training to context lengths beyond 4 million tokens on just 8 GPUs (huggingface.co).</p>
+<p><strong>OpenAI&rsquo;s GPT-Red red-teaming model.</strong> OpenAI created GPT-Red, an internal model whose entire job is to automatically attack other GPT systems to find security flaws before launch. It successfully cracked 84% of new scenarios, compared with 13% for human red-teamers.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Clinicians using AI without governance.</strong> A survey of 1,823 clinicians found that 86% now use AI daily — mostly to cut administrative time — while 83% do so without any employer guidance on approved tools, safety, or governance, highlighting a large gap between adoption and oversight.</p>
+<p><strong>AI flags likely paper-mill cancer research.</strong> An AI tool flagged over 250,000 cancer research papers as showing writing patterns linked to paper mills. Suspicious studies rose from about 1% in the early 2000s to over 16% by 2022, and three journals are already testing the tool before peer review — effectively a &ldquo;spam filter for scientific papers.&rdquo;</p>
+<p><strong>Satya Nadella&rsquo;s &ldquo;paying twice&rdquo; warning.</strong> Microsoft CEO Satya Nadella warned that businesses using proprietary AI models are effectively paying twice — once with money and once with their internal knowledge, processes, and workflows — because the AI provider retains both.</p>
+<p><strong>Neuroscience finding on decision-making.</strong> Scientists at the University of Illinois found that decision-making begins earlier in the brain than previously thought, relying on feedback loops rather than a linear path — findings that could eventually inspire more energy-efficient AI architectures.</p>
+<h2>Thought leadership</h2>
+<p><strong>Amir Netz (Microsoft Azure Data CTO) on AI as a &ldquo;teammate.&rdquo;</strong> In a Mindstream interview, Netz argued the key breakthrough isn&rsquo;t better models but <em>context</em>: &ldquo;The difference between consumer AI and enterprise AI is context. Context is what turns AI from a chatbot into a teammate.&rdquo; He described <strong>Microsoft IQ</strong>, built on the idea that every effective teammate — human or AI — needs three kinds of context: an understanding of the people they work with, of how the organization operates, and of what&rsquo;s happening in the business right now; giving an agent that context makes it &ldquo;stop behaving like a standalone AI system and start behaving like a member of the team.&rdquo; His guiding automation principle: &ldquo;automate repetition, elevate judgment&rdquo; — let machines handle repetitive, rules-based work, but keep humans in the loop for accountability, tradeoffs, and consequential decisions. He identified <strong>judgment</strong> as the human skill becoming most valuable (&ldquo;For years, expertise was about knowing more… it will be about deciding better&rdquo;), argued most organizations have &ldquo;a fragmentation problem, not a data problem&rdquo; (quoting a CIO: &ldquo;I don&rsquo;t want to be the Chief <em>Integration</em> Officer&rdquo;), and cited his long-standing bet on democratization (as with Power BI). On the bubble question, he acknowledged real hype but insisted &ldquo;the underlying change is real,&rdquo; comparing AI&rsquo;s impact on how we work to what the internet did for communication and the cloud did for deployment. He predicted that in five years AI will make developers and data teams feel &ldquo;unstoppable,&rdquo; freeing them from integration and data-plumbing work to focus on inventing, creating, and problem-solving.</p>
+</article>
+<nav class="updown"><a href="2026-07-18.html">&larr; Saturday, July 18, 2026</a><a href="2026-07-20.html">Monday, July 20, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, July 19, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

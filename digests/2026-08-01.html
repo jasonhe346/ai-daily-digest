@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-08-01</title>
+<meta name="description" content="AI news digest for 2026-08-01.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, August 1, 2026</p>
+<p class="meta-line">1,217 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>LG AI Research ships K-EXAONE 2.0, a 750B open-weights mixture-of-experts model (37B active) under Apache 2.0 with strong benchmark numbers.</li>
+<li>Practical playbook for finding AI micro-SaaS startup ideas by mining the boring, high-frequency workflows inside your own job.</li>
+<li>How-to guide on using AI (Zillow, Rightmove, ChatGPT, Perplexity) to assist real estate searches, plus a new social-media automation tool, Spira.</li>
+</ul>
+<h2>Tooling &amp; releases</h2>
+<p><strong>LG AI Research releases K-EXAONE 2.0, a 750B open-weights MoE.</strong> LG AI Research has published K-EXAONE 2.0 on Hugging Face, a 750-billion-parameter mixture-of-experts model with 37B active parameters, 256 experts (8 activated per token), and a 262,144-token context window, released under the permissive Apache 2.0 license. The model supports 10 languages including Korean, English, Spanish, German, and Japanese. On benchmarks it posts 83.5 on MMLU-Pro, 92.3 on AIME 2026, 68.2 on SWE-Bench Verified, and 94.4 on OpenAI-MRCR — the last representing a large jump over the predecessor&rsquo;s 52.3 on long context, signaling a major improvement in long-context handling. To ease deployment, LG shipped FP8 and NVFP4 quantizations alongside the base weights and supports speculative decoding (via MTP and DSpark) for a claimed 3–5x inference speedup. The Apache 2.0 licensing puts a very large, competitive open-weights MoE into the hands of practitioners, notable both for its scale and its multilingual (especially Korean) focus. (<a href="https://huggingface.co">huggingface.co</a>)</p>
+<p><strong>Spira — autonomous social-media content agent.</strong> Featured as Mindstream&rsquo;s tool of the week, <a href="https://spira.ai/">Spira</a> monitors real-time trends across TikTok, Instagram, and YouTube, then autonomously builds and executes a content strategy that learns from what performs, positioned as a way to run a social presence without a full content team behind it.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Using AI as a real estate &ldquo;agent.&rdquo;</strong> Mindstream published a practical walkthrough of how AI now assists home searches, framing the current state as helpful pre-filtering rather than a &ldquo;house-picking robot.&rdquo; Key points:
+- <strong>Zillow</strong> has used AI behind the scenes for years but now exposes Natural Language Search directly in its normal search bar — no dedicated &ldquo;AI mode&rdquo; button. Users can type prompts like &ldquo;3 bedroom homes under $400k near parks in NYC&rdquo; or &ldquo;a fixer-upper in an up-and-coming neighborhood in Philly, for under $200k.&rdquo; The feature reportedly works more fluidly in the mobile app and functions as a &ldquo;smart pre-filter.&rdquo;
+- <strong>UK portals Rightmove and Zoopla</strong> are quietly adding AI features that recognize keywords and features (balconies, period homes) in listings and photos so you can filter by them, and that personalize recommended homes based on your viewing/saving behavior. Smaller platforms like <strong>OnTheMarket</strong> are experimenting with true natural-language search that interprets descriptive phrases.
+- <strong>General assistants (ChatGPT, Perplexity)</strong> are weak at finding specific live listings but strong at deciding <em>where</em> to look — e.g., finding areas within three hours of NYC under a price point, factoring in described lifestyle, and pulling local context like businesses, news, safety data, demographics, and schools to compare towns side by side. A suggested workflow: use AI to choose an area (questions like &ldquo;Best towns within 90 minutes of London under £400k,&rdquo; &ldquo;Family-friendly UK towns with walkable centres and rail access,&rdquo; &ldquo;Areas similar to Brighton but cheaper&rdquo;), then switch to property portals for actual listings. A pro-tip: paste a listing link into an AI to flag potential issues, suggest design improvements, and weigh trade-offs. Caveats: AI is not good at live inventory, precise per-street pricing, or spotting listing-level issues.</p>
+<h2>Perspectives &amp; analysis</h2>
+<p><strong>A &ldquo;boring&rdquo; method for finding AI micro-SaaS startup ideas.</strong> Kamil Banc (AI Adopters Club) argues that with AI, writing functional software has become cheap — he spends 10–12 hours a day in Claude Code and says shipping something functional stopped being the hard part — so the real bottleneck has flipped to <em>picking</em> a workflow worth automating. He cites Freemius data showing the revenue spread in micro-SaaS is brutal: roughly 70% earn under $1,000 MRR, another 18% sit between $1,000 and $5,000, and only the top 1% clear $50,000. Most failures, he argues, aren&rsquo;t builds gone wrong but choices of workflows nobody was actually suffering over, discovered too late.</p>
+<p>The piece leans on David Heacock, who took over his family&rsquo;s failing Alabama machinery business and turned it into air-filter company Filterbuy, now doing north of $250M/year, bootstrapped. Heacock&rsquo;s framing: in software AI improves something already built to scale, but in a physical business it changes the arithmetic — one operator doing work that used to require layers of staff — and he pointed AI at scheduling, forecasting, and error rates rather than the factory floor.</p>
+<p>Banc&rsquo;s thesis is that the valuable knowledge lives with people mid-task — an insurance broker rekeying renewal data across three carrier portals into one spreadsheet, a construction admin assembling certified payroll from timesheets, union rates, and subcontractor emails by hand, a food distributor updating allergen specs across 200 product sheets every time a supplier swaps an ingredient. The shape is always: high frequency, low judgment, expensive when wrong, and invisible to anyone who hasn&rsquo;t done the job. His test: if you can&rsquo;t name the workflow and the person who does it without looking anything up, you don&rsquo;t know it well enough to build for it.</p>
+<p>He notes readers often already hold the best hand — domain knowledge, access to the people doing the work, a salary while figuring it out, and an employer who&rsquo;ll be the first free user (citing Bessemer&rsquo;s vertical-AI playbook observation that Shopify and others began as internal tools). His recommended process: pick the ugliest recurring thing on your team, build the smallest version that handles the ordinary case, put it in front of the person and watch them use it without you, and don&rsquo;t add anything until someone asks twice — overbuilding ahead of proof kills these. Validate demand by charging the moment another company asks (free pilots teach you nothing about willingness to pay). Crucially, he warns that asking a model to size a workflow returns confident but fabricated hours/error-cost numbers — fine as hypotheses, useless as evidence. The remedy is ten conversations with people doing the task, opening with &ldquo;Walk me through the last time you did this,&rdquo; then listening for the workaround, shadow spreadsheet, or 7am step done before the system slows down. Three of ten describing the same workaround signals a real problem; ten different answers is just a preference. His seven-day assignment: write down ten painful workflows in your own function, rank by number of people × frequency, and book three conversations about the top one. The accompanying five-prompt pack runs in sequence (narrow to an industry → surface hidden workflows in workers&rsquo; own words → pressure-test top five against existing software → pick a winner and name your first ten customers → check whether it survives or gets shipped as a feature by someone bigger next quarter), with every estimate returned with a confidence label to be confirmed or killed via real calls.</p>
+<h2>Odds &amp; ends</h2>
+<p><strong>Wild wolf appears to use a tool.</strong> Researchers in Canada filmed a wild wolf repeatedly pulling the rope of a crab trap until it reached shore and then eating the bait inside. Scientists are debating whether this is the first evidence of tool use in a wild wolf or an impressive bit of clever problem-solving. (Not AI, but flagged in Mindstream&rsquo;s &ldquo;That&rsquo;s actually wild&rdquo; segment.) (<a href="https://www.sciencenews.org/article/crab-trap-tool-wolves-indigenous">sciencenews.org</a>)</p>
+</article>
+<nav class="updown"><a href="2026-07-31.html">&larr; Friday, July 31, 2026</a><a href="2026-08-02.html">Sunday, August 2, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, August 1, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

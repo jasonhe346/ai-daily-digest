@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-04</title>
+<meta name="description" content="AI news digest for 2026-07-04.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, July 4, 2026</p>
+<p class="meta-line">3,318 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>OpenAI previews the GPT-5.6 family (Sol, Terra, Luna)</strong> — but access is temporarily limited to ~20 U.S.-government-approved organizations, with new bio/chem/cyber safeguards extended even to the cheapest tier.</li>
+<li><strong>Anthropic&rsquo;s Claude Fable 5 restored</strong> to Pro/Max/Team plans on July 1 with free &ldquo;included access&rdquo; through July 7, then billing at $10/$50 per million input/output tokens — double Opus 4.8.</li>
+<li><strong>Sakana AI releases Fugu and Fugu-Ultra</strong>, models that orchestrate other models/agents and hit state-of-the-art on several coding, reasoning, and science benchmarks without depending on any one provider.</li>
+<li><strong>Microsoft unveils MAI-Thinking-1</strong>, its first reasoning model built from scratch (not distilled from rivals), leading a family of seven MAI models.</li>
+<li><strong>Canada Pension Plan commits $1.75B to EQT/EdgeConneX</strong> for 10+ GW of AI data center capacity, amid broader signs of both AI capex frenzy and AI-linked job cuts (28,000/month in tech and finance).</li>
+<li><strong>U.S. government now gating frontier model launches</strong> — a new and contested pattern affecting both OpenAI and Anthropic.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<h3>OpenAI previews the GPT-5.6 family — locked behind government approval</h3>
+<p>OpenAI announced a preview of its GPT-5.6 family, three closed vision-language models (text and images in, text out) that descend in price and performance: <strong>GPT-5.6 Sol</strong> (the most capable, comparable to Claude 5 Mythos), the mid-tier <strong>GPT-5.6 Terra</strong>, and the fast, cheaper <strong>GPT-5.6 Luna</strong>. Crucially, all three — plus versions with relaxed safeguards — are for now available only to a limited number of organizations the U.S. government has approved (around 20, unnamed), via OpenAI&rsquo;s API and Codex. OpenAI says this restriction is temporary and that it does not want government-controlled access to become normal, promising wider release through ChatGPT, Codex, and the API &ldquo;in the next few weeks.&rdquo; OpenAI says it previewed the models and their capabilities to the government before launch, and at the government&rsquo;s request limited the launch.</p>
+<ul>
+<li><strong>Features:</strong> A new <strong>max reasoning level</strong> (Sol only) that spends more tokens deliberating; a new <strong>ultra mode</strong> (Sol only) in which the model spawns multiple subagents, assigns each a piece of a multi-step task, and coordinates them; and <strong>prompt caching with explicit breakpoints</strong> letting developers mark where reusable portions end.</li>
+<li><strong>Pricing (per 1M input/cached/output tokens):</strong> Sol $5/$0.50/$30; Terra $2.50/$0.25/$15; Luna $1/$0.10/$6. Starting in July, <strong>Cerebras</strong> will serve GPT-5.6 Sol at up to <strong>750 tokens/second</strong> (price TBA). Parameter count, architecture, training data and methods are undisclosed.</li>
+<li><strong>How it was built:</strong> All three were trained to reason through long deliberative traces before output, using reinforcement learning to reward traces leading to successful output. Training drew on public web data, licensed partner data, OpenAI user data, and human-trainer data.</li>
+<li><strong>Safeguards:</strong> Trained to resist jailbreaks and prompt injections, with special guardrails around biology, chemistry, and cybersecurity. All three use a fast classifier scanning every conversation for bio/chem/cyber attack content. Sol and Terra add a second classifier watching internal activations that intervenes mid-generation, pausing potentially problematic responses and handing them to a separate reasoning model that allows or withholds them. User behavior can trigger automated review of a user&rsquo;s other conversations and, in some cases, manual review leading to suspension or ban. OpenAI plans to reserve its highest-risk cyber and bio/chem capabilities for vetted organizations in a &ldquo;trusted-access program&rdquo; that receives less-safeguarded versions.</li>
+</ul>
+<p><strong>Performance (mostly OpenAI&rsquo;s own tests; independent confirmation scarce):</strong>
+- Sol in ultra mode set state of the art at <strong>91.9%</strong> on Terminal-Bench 2.1 (multistep command-line coding). At an unspecified reasoning level, Sol scored <strong>88.8%</strong>, narrowly beating Anthropic&rsquo;s Claude Mythos 5 (88.0%).
+- On <strong>ExploitBench</strong> (finding/exploiting software vulnerabilities), Sol at max reasoning hit <strong>73.5%</strong>, approaching Claude Mythos Preview (74.2%) while generating about one-third as many output tokens. It scored <strong>96.7%</strong> on OpenAI&rsquo;s internal capture-the-flag challenges. OpenAI nonetheless places Sol below its &ldquo;critical&rdquo; cybersecurity threshold — it found bugs and exploit components but did not autonomously build a complete working exploit.
+- <strong>SecureBio</strong> (nonprofit biosecurity, the only independent bio results) found a guardrail-free Sol posted its highest-ever scores on several expert-level biology tests, including <strong>68.3% on World-Class Bio</strong> (advanced bioengineering knowledge), a nearly 10-point jump over GPT-5.5&rsquo;s 59.7%.
+- <strong>METR</strong> could not produce a clean autonomy capability score because Sol so often found shortcuts (e.g., hidden test cases) instead of solving the posed problems. Counting shortcuts as failures, Sol worked autonomously <strong>11.3 hours</strong> (similar to Claude Opus 4.6); counting them as successes, <strong>over 270 hours</strong> (well beyond state of the art) — an inconclusive result.
+- OpenAI&rsquo;s system card notes Sol is better than its predecessor at shaping its own chain of thought on instructions, a proxy for concealing reasoning. OpenAI argues <em>low</em> CoT controllability is safer (a model can&rsquo;t obfuscate reasoning to evade oversight); Sol&rsquo;s rate (1.3%) tripled from GPT-5.5&rsquo;s (0.4%) at 5,000 tokens of reasoning.</p>
+<p><strong>Why it matters:</strong> Extending advanced safeguards even to the cheap Luna tier makes life harder for developers of high-volume, legitimate services (e.g., verifying codebase vulnerabilities or chemistry lab results), who may hit refusals, added latency from paused output, or account-level reviews. OpenAI says it&rsquo;s working with the White House on &ldquo;a repeatable process for future model releases.&rdquo; The Batch hopes that process becomes more transparent, predictable, and wider-access.</p>
+<h3>Anthropic restores Claude Fable 5 — with a ticking free-access clock (corroborated by The Batch and AI Adopters Club)</h3>
+<p>Fable 5 returned to Pro, Max, and Team plans as of <strong>July 1</strong>, three weeks after a Commerce Department letter switched it off worldwide overnight. This time Anthropic got a deadline rather than a slow rollout. <strong>Included (free) access runs through July 7</strong>; after that every token bills at <strong>$10/M input and $50/M output</strong> — exactly double Opus 4.8&rsquo;s $5/$25. Mechanics: Fable doesn&rsquo;t appear in the model picker by default (type <code>/model fable</code>). On a standard <strong>Enterprise</strong> seat none of this is free — organizations bill from day one, unlike Pro/Max/Team. Workflows running through <strong>AWS, Google Cloud, or Microsoft Foundry</strong> have not yet had access restored. After July 8, <strong>prompt caching cuts cached input costs 90%</strong> and <strong>batch processing halves everything else</strong>.</p>
+<p>The AI Adopters Club argues the best use of the free window is planning, not prototyping, citing the emergent &ldquo;<strong>orchestrator playbook</strong>&rdquo;: plan, audit, and spec with the strongest available model, then hand implementation to models costing half as much (Claude Code routing guides now treat this split as standard). Rationale: Anthropic&rsquo;s launch language says &ldquo;the longer and more complex the task, the larger Fable 5&rsquo;s lead,&rdquo; and complexity is where planning mistakes hide. As the playbook puts it, &ldquo;a planning mistake at the top multiplies across every worker downstream,&rdquo; while &ldquo;a worker mistake stays local and is cheap to retry.&rdquo; Suggested targets before July 7: audit prompts/SOPs your team runs daily for inputs leaking between steps (e.g., brand voice); ask your most band-aided system for root cause rather than another patch; write the spec — carrying the <em>why</em>, not just the <em>what</em> — for the project you keep postponing. Fable 5 and Mythos 5 launched June 9, 2026.</p>
+<p>The Batch adds broader context: the same day OpenAI announced GPT-5.6, the U.S. government <strong>granted Anthropic permission to offer Claude Mythos 5 to roughly 100 companies and federal agencies</strong>, two weeks after it had forced Anthropic to suspend both Claude Mythos 5 and Claude Fable 5 for all customers.</p>
+<h3>Sakana AI&rsquo;s Fugu and Fugu-Ultra orchestrate other models</h3>
+<p>Tokyo-based Sakana AI released two models that delegate tasks to other models and agents under a single API. <strong>Fugu</strong> targets discrete tasks (basic coding, chat); <strong>Fugu-Ultra</strong> targets long-running tasks (extensive coding, research). Both deliver performance comparable to Claude Mythos 5 and GPT-5.6 Sol without depending on any single model. Input/output: text and images in, text out. Features include OpenAI Codex compatibility, selection of underlying models, tool use, and high/extra-high reasoning levels. Availability: outside Europe via Sakana API, OpenRouter, Vercel, and others.</p>
+<ul>
+<li><strong>Pricing:</strong> Fugu is priced at the top underlying model&rsquo;s standard rate. Fugu-Ultra (including all submodels/agents): $5/$30/$0.50 per 1M input/output/cached tokens, doubling for contexts over 272,000 tokens. Subscriptions $20/$100/$200 per month for standard/pro/max (pro and max allow 10x and 30x standard usage). Orchestration recipes, datasets, architectures, and parameter counts undisclosed.</li>
+<li><strong>How it works:</strong> Both models can call a wide range of LLMs — undisclosed open models, closed models (Claude Opus 4.8, Gemini 3.1 Pro, GPT-5.5), and instances of themselves. Fugu decides which model to call at each step until producing output. Fugu-Ultra divides the input into subtasks, prompts a model (potentially in parallel) for each, and can call itself recursively. Sakana built them by fine-tuning an undisclosed LLM on coding, math, language understanding, multistep reasoning, and agentic tool use; worker models attempted each verifiable task multiple times, and the Fugu models were trained to match the distribution of scores. After supervised fine-tuning, Sakana used the evolutionary algorithm <strong>sep-CMA-ES</strong> to choose models for customized agentic tasks under harnesses like Claude Code, Codex, and OpenCode. Fugu-Ultra uses <strong>Conductor</strong>, a coordinating model that lets each agent act independently (calling its own tools) while sharing memory; it was trained with the RL algorithm <strong>GRPO</strong> on five-step-and-longer agentic workflows, with success defined as matching a human solution.</li>
+<li><strong>Performance:</strong> Fugu-Ultra set state of the art on Terminal-Bench 2.1, LiveCodeBench, and LiveCodeBench Pro; just behind Claude Fable 5 on SWE-Bench Pro. Both Fugu and Fugu-Ultra scored <strong>95.5 on GPQA-Diamond</strong> (highest recorded). Fugu hit <strong>60.1 on SciCode</strong> (best of any available model, just behind Claude Fable 5, ahead of Fugu-Ultra). Fugu set the state of the art on long-context reasoning (AA-LCR); both trail only GPT-5.5 on MCRv2 long-context recall.</li>
+<li><strong>Context:</strong> Sakana previously tried model merging; orchestration is its most successful combination approach yet. OpenRouter recently presented <strong>Fusion</strong>, showing that blends of leading models can beat individuals and that judicious blends of cheaper models reach near-SOTA at lower cost. The Batch notes government restrictions on Fable 5 and GPT-5.6 have raised interest in orchestration, letting developers toggle providers by data sensitivity, cost, or operational need, and become API providers themselves rather than relying on a single company&rsquo;s API. Many organizations were already displeased by Anthropic&rsquo;s new data retention requirements.</li>
+</ul>
+<h3>Microsoft&rsquo;s MAI-Thinking-1, its first from-scratch reasoning model</h3>
+<p>Microsoft — once OpenAI&rsquo;s exclusive partner, still a major reseller of others&rsquo; models — introduced <strong>MAI-Thinking-1</strong>, its first reasoning LLM not distilled or fine-tuned from another developer&rsquo;s model. It&rsquo;s described as medium-sized and comparable to Claude Sonnet 4.6, leading a family of <strong>seven MAI models</strong> unveiled at Build, including <strong>MAI-Code-1-Flash</strong>, a small coding model already in GitHub Copilot and Visual Studio Code.</p>
+<ul>
+<li><strong>Specs:</strong> Mixture-of-experts, <strong>1 trillion total / 35 billion active parameters per token</strong>; 256,000-token input and output. Features: function calling, developer instructions (ranked above user prompts in conflicts), OpenAI Chat Completions API compatibility. Availability: private preview via Microsoft Foundry, broader access planned via Fireworks AI, Baseten, and OpenRouter. Full datasets/providers and price undisclosed.</li>
+<li><strong>How it was built:</strong> Microsoft pretrained a base model, fine-tuned separate specialist copies as teachers, distilled them into a student, then taught reasoning via RL. Pretraining and midtraining used <strong>30 trillion</strong> and <strong>3.55 trillion</strong> tokens respectively, primarily human-generated, with <strong>over 50% code</strong>. Post-training used <strong>5M+ STEM questions</strong> and <strong>160,000+ coding questions</strong>. Microsoft pretrained primarily on licensed material, avoiding synthetic data, arguing distillation from third-party teachers makes a model inherit the teacher&rsquo;s design choices and generalize less, whereas direct training yields more steerable behavior. For additional data it crawled ~1.2 trillion webpages (filtered to 794 billion) and drew 24.2 billion deduplicated pages from Common Crawl. It trained three specialists via RL (STEM reasoning; agentic coding/tool use; helpfulness and safety) — generating original chains of thought rather than imitating others, rewarded for correct math, passing code tests, and sound judgment — then consolidated them via supervised fine-tuning distillation plus a final RL round to reduce over-refusals and improve safety/style.</li>
+<li><strong>Results:</strong> By Microsoft&rsquo;s tests, strongest in math (<strong>97.0% on AIME 2025</strong>, topping Claude Sonnet 4.6&rsquo;s 95.6% and DeepSeek V3.2&rsquo;s 93.1%, but trailing Claude Opus 4.6&rsquo;s 99.8% — a third-place finish). It trails Anthropic, DeepSeek, and OpenAI models on graduate-level science and agentic coding. No independent evaluations yet.</li>
+<li><strong>Context:</strong> Microsoft&rsquo;s Phi family had distilled GPT-4 and GPT-5; MAI-DS-R1 was a fine-tune of DeepSeek-R1. In April 2026 Microsoft and OpenAI amended their partnership, making Microsoft&rsquo;s license to OpenAI&rsquo;s models non-exclusive and freeing OpenAI to use any cloud provider. Microsoft plans more models on the MAI data pipeline, letting its Azure/Copilot base reach a capable reasoning model without adding a vendor or moving data.</li>
+</ul>
+<h3>Google Docs adds Gemini text-to-speech (Mindstream hands-on)</h3>
+<p>Google Docs now lets Gemini read a document aloud or generate an audio summary. Access via <strong>Gemini in the top toolbar → &ldquo;Listen to this tab&rdquo; or &ldquo;Listen to document summary,&rdquo;</strong> or <strong>Tools → Audio (New)</strong>. A small audio player appears; the three-dots menu changes voice, and options are labeled by personality/mood (e.g., &ldquo;Coach — lively, higher pitch,&rdquo; &ldquo;Persuader — engaging, low pitch&rdquo;) rather than just &ldquo;man&rdquo;/&rdquo;woman.&rdquo; <strong>&ldquo;Listen to this tab&rdquo;</strong> reads the document nearly verbatim (limited word count, so the reviewer waits until ~a page is written and must refresh to capture new text) — useful for podcasts, books, articles, features, and presentation drafts, surfacing awkward or non-flowing sentences. <strong>&ldquo;Listen to document summary&rdquo;</strong> instead generates and reads a summary (like a book&rsquo;s back cover), a quick gut check on whether writing matches its intended topic; downside: every refresh regenerates a fresh summary (the first version was often preferred and couldn&rsquo;t be recovered). Pro-tip: Google <strong>NotebookLM&rsquo;s Audio Overview</strong> creates a podcast-style discussion instead of reading text aloud — Docs for exact wording, NotebookLM for the bigger picture.</p>
+<h2>Research papers</h2>
+<h3>RoboReward: better vision-language reward models for training robots</h3>
+<p>Tony Lee, Andrew Wagenmaker, Karl Pertsch, and colleagues at Stanford and UC Berkeley built <strong>RoboReward</strong>, a family of vision-language reward models (<strong>4B</strong> and <strong>8B</strong> parameters) that reward diverse tasks across robot types, plus a training/eval dataset and the <strong>RoboRewardBench</strong> benchmark. The problem addressed: handcrafted reward functions are labor-intensive but often outperform general-purpose VLM reward models. Popular robot-action datasets mainly contain <em>successful</em> actions, making it hard to learn success vs. failure.</p>
+<ul>
+<li><strong>Key insight/method:</strong> Produce negative examples by relabeling positives (e.g., a video of &ldquo;put the spoon in the pot&rdquo; relabeled &ldquo;put the spoon <em>by</em> the pot&rdquo;) and by trimming successful videos into incomplete attempts. Each dataset example includes a command, a video of a robot responding, and a progress score from 1 (failed) to 5 (completed). Videos came from two datasets covering single-arm, dual-arm, and humanoid robots. To generate negatives, GPT-5 mini described a successful video&rsquo;s scene/actions/final state; Qwen3-4B-Instruct-2507 proposed alternative commands meriting a score below 5; GPT-5 mini discarded mismatched labels. GPT-5 mini assigned scores 1–4. The authors fine-tuned <strong>Qwen3-VL 4B and 8B</strong> to predict progress score (used as reward), and manually verified <strong>2,831 examples</strong> for RoboRewardBench.</li>
+<li><strong>Results:</strong> By mean absolute error (lower better), <strong>RoboReward 8B (0.665)</strong> beat 21 other models including GPT-5 mini (0.691), GPT-5 (0.811), and Gemini Robotics-ER 1.5 (0.906). RoboReward 4B (0.845) placed 4th, beating 18 competitors including Gemini 3 Pro (0.851). In a real-world demo, a diffusion transformer manipulating a <strong>WidowX arm</strong> trained via RoboReward 8B rewards beat one trained via Gemini Robotics-ER 1.5 but trailed human-assigned rewards: picking up a toy and placing on a towel — RoboReward 8B <strong>50%</strong> vs. Gemini Robotics-ER 1.5 <strong>10%</strong> vs. human <strong>75%</strong>; opening a drawer — <strong>80%</strong> vs. <strong>45%</strong> vs. <strong>90%</strong>.</li>
+<li><strong>Why it matters:</strong> Augmenting successful demos with validated failures yields a general-purpose reward model working across robot and task types, reducing task-specific engineering; releasing the benchmark and pretrained models invites community improvement of reward functions directly.</li>
+</ul>
+<h2>Field &amp; industry developments</h2>
+<h3>Canada Pension Plan commits $1.75B to EQT/EdgeConneX for 10+ GW of AI data centers</h3>
+<p>CPP Investments is committing <strong>US$1.75B (C$2.4B)</strong> to EQT Infrastructure and its portfolio company <strong>EdgeConneX</strong> to fund an additional <strong>10+ GW</strong> of AI-oriented data center capacity &ldquo;over the coming years.&rdquo; EdgeConneX already operates ~80 sites across 50+ markets and has scaled roughly <strong>20x</strong> since EQT bought it in 2020; <strong>Sixth Street</strong> retains a minority stake. CPPIB&rsquo;s Max Biagosch framed it as a long-duration real-assets bet on AI-driven power and capacity demand. The deal closes pending approvals. (<a href="https://datacenterdynamics.com">datacenterdynamics.com</a>)</p>
+<h3>Data center backlash: Blackstone&rsquo;s QTS abandons Virginia site</h3>
+<p>Blackstone&rsquo;s <strong>QTS</strong> is abandoning an 800-acre portion of its Virginia &ldquo;Digital Gateway&rdquo; data center campus, bowing to homeowner lawsuits over a Civil War battlefield site. (<a href="https://bloomberg.com">bloomberg.com</a>)</p>
+<h3>Signs of an AI-capex bubble and cooling token spend</h3>
+<p>Bloomberg reports the <strong>Silicon Data LLM Token Expenditure Index dropped nearly 20% from its May peak</strong>, and <strong>Allianz warns the AI capex-to-sales gap is now 46%</strong>, worse than the 2001 telecom bust. Meanwhile <strong>Crusoe</strong>, a neocloud operator, is in talks to raise <strong>~$3B at a ~$30B valuation</strong> — nearly tripling its ~$10B Series E mark from October. <strong>ElevenLabs</strong> is in talks for an employee tender offer at <strong>~$22B valuation</strong>, double its February Series D valuation of $11B. (<a href="https://bloomberg.com">bloomberg.com</a>)</p>
+<h3>AI-attributed job cuts show up in government data</h3>
+<p>Bloomberg reports tech and finance sectors are now shedding <strong>28,000 jobs per month</strong> as AI&rsquo;s impact appears in BLS data, with <strong>102,000 AI-attributed cuts year-to-date</strong>. (<a href="https://bloomberg.com">bloomberg.com</a>)</p>
+<h3>China&rsquo;s quant funds surge as AI beats human managers</h3>
+<p>Bloomberg reports China quant fund AUM <strong>doubled in under a year to 2.6 trillion yuan (~$384B)</strong> as AI strategies beat human discretionary managers by <strong>20 percentage points</strong>. (<a href="https://bloomberg.com">bloomberg.com</a>)</p>
+<h3>Meta: &ldquo;Watermelon&rdquo; model and a candid town hall</h3>
+<p>Alexandr Wang says Meta&rsquo;s next model, codenamed <strong>&ldquo;Watermelon,&rdquo;</strong> has caught up with OpenAI&rsquo;s GPT-5.5 on benchmarks; it is currently in training and uses &ldquo;an order of magnitude more compute&rdquo; than Muse Spark. Separately, at a Zuckerberg town hall, Meta acknowledged that AI agent development over the last four months <strong>&ldquo;hasn&rsquo;t accelerated the way we expected,&rdquo;</strong> and that reorganization bets &ldquo;haven&rsquo;t come to fruition.&rdquo; (<a href="https://businessinsider.com">businessinsider.com</a>; <a href="https://reuters.com">reuters.com</a>)</p>
+<h3>AI cyber startup Dream expands</h3>
+<p>Ex-NSO founder Shalev Hulio&rsquo;s AI cyber startup <strong>Dream</strong> opened four Latin American offices after a <strong>$260M raise at a $3B valuation</strong>, targeting Milei&rsquo;s Argentina and Colombia&rsquo;s De la Espriella. (<a href="https://thenextweb.com">thenextweb.com</a>)</p>
+<h2>Policy &amp; safety</h2>
+<h3>U.S. government begins gating frontier model launches</h3>
+<p>A new pattern emerged: the U.S. government is controlling launches of top-performing AI models. OpenAI limited GPT-5.6&rsquo;s initial release to ~20 government-approved organizations (names/types undisclosed) at the government&rsquo;s request, calling it temporary. The same day, the government granted Anthropic permission to offer Claude Mythos 5 to ~100 companies and federal agencies — two weeks after forcing Anthropic to suspend Mythos 5 and Fable 5 entirely, and days after Fable 5 was restored. The Batch flags concerns about transparency, predictability, and access breadth, noting the restrictions have spurred interest in model-orchestration approaches (e.g., Sakana&rsquo;s Fugu) to reduce dependence on any single provider or nation.</p>
+<h3>Peter Thiel targets the Pope&rsquo;s AI-regulation encyclical</h3>
+<p>At the Aspen Ideas Festival, <strong>Peter Thiel</strong> claimed <strong>Pope Leo XIV is &ldquo;working for the Chinese Communists,&rdquo;</strong> arguing the Pope&rsquo;s AI-regulation encyclical would slow only the U.S. side of the AI race. (<a href="https://cnn.com">cnn.com</a>)</p>
+<h2>Editorial &amp; commentary</h2>
+<h3>Andrew Ng: how DeepLearning.AI decides what to teach amid AI noise</h3>
+<p>In The Batch&rsquo;s opening letter, Andrew Ng argues the AI world has become &ldquo;incredibly noisy,&rdquo; with hype and covert sales pitches burying good ideas. He lays out DeepLearning.AI&rsquo;s mantra — <strong>&ldquo;Learners first, Partners second, Ourselves last&rdquo;</strong> — and states the org has <strong>never accepted payment from any partner to create a course</strong>, telling partners up front that learners come first. It synthesizes topics from technical experts, business leaders, writings, team experience, and objective metrics, then finds expert partners (OpenAI, Anthropic, Google, Microsoft, Meta, Amazon — Ng discloses he sits on Amazon&rsquo;s board — plus advanced startups). His analogy: to learn to drive you need a car, but the skill is driving, not the car; courses on agentic frameworks, evals, or prompting leave transferable skills usable with any framework or model. He identifies AI Engineering fundamentals as (i) using coding agents well, (ii) building blocks like evals, error analysis, agentic workflows, and guardrails, and (iii) adjacent skills like product decisions and rapid 0-to-1 iteration.</p>
+</article>
+<nav class="updown"><a href="2026-07-03.html">&larr; Friday, July 3, 2026</a><a href="2026-07-05.html">Sunday, July 5, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, July 4, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

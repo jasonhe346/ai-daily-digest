@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-05</title>
+<meta name="description" content="AI news digest for 2026-07-05.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, July 5, 2026</p>
+<p class="meta-line">1,790 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Weave Robotics unveils Isaac 1, an $8,000 (or $449/month) home humanoid that folds laundry, tidies and makes beds, shipping this fall from California.</li>
+<li>New CNN report casts doubt on China&rsquo;s humanoid robot rental boom — robots still need human operators and UBTECH&rsquo;s best hits only ~80% of human productivity.</li>
+<li>Apptronik launches &ldquo;Robot Park&rdquo; data factory to train its Apollo 3 commercial humanoid, expected next year for industrial customers.</li>
+<li>Builder.ai post-mortem: the &ldquo;AI app builder&rdquo; valued at $1.5B was largely 700+ human engineers; it collapsed into bankruptcy after inflating revenue.</li>
+<li>OpenAI unveils custom &ldquo;Jalapeño&rdquo; ASIC chip (with Broadcom) and previews GPT-5.6 as three models — Sol, Terra, Luna.</li>
+<li>Waymo opens Nashville robotaxi rides; Tesla begins public testing of production Cybercab in Austin.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Weave Robotics unveils the $8,000 Isaac 1 home humanoid.</strong> Weave Robotics <a href="https://www.weaverobotics.com/isaac-1">unveiled</a> Isaac 1, a humanoid robot built specifically for the home that can fold clothes, tidy up living spaces, and make the bed each morning. It is priced at $8,000 upfront or $449 a month, significantly undercutting competitors on price. The robot can adjust its height from 3 feet to nearly 6 feet depending on the task, but may occasionally require remote human assistance to complete certain tasks. Shipping begins this fall, starting in California, with pre-orders open now and a demo video <a href="https://www.youtube.com/watch?v=m7pZr90BQw4">available here</a>. The launch signals the growing race toward affordable consumer-grade home robots.</p>
+<p><strong>Apptronik launches &ldquo;Robot Park&rdquo; data factory and previews Apollo 3.</strong> Apptronik CEO Jeff Cardenas offered a blunt assessment that today&rsquo;s humanoid robots are all essentially prototypes. The company&rsquo;s <a href="https://www.reuters.com/technology/apptronik-launches-robot-training-hub-unveils-apollo-2-humanoid-robot-2026-06-30/">answer</a> is Robot Park, a flagship data factory where robots work real shifts in logistics and manufacturing, feeding training data into the AI models that will power Apollo 3 — Apptronik&rsquo;s first commercial-grade humanoid robot. Apollo 3 is expected next year and will target industrial customers first. The strategy reflects a broader industry theme: humanoid robots need vast amounts of real-world operational data before they can move beyond the prototype stage.</p>
+<p><strong>Figure AI returns to BMW&rsquo;s Spartanburg factory.</strong> Figure AI has <a href="https://www.figure.ai/news/f-03-at-bmw">returned</a> to BMW&rsquo;s Spartanburg factory with its F.03 robot in a more complex logistics role than before, signaling growing confidence in deploying real-world factory robots for practical manufacturing tasks.</p>
+<p><strong>Vorwerk Thermomix TM7 – &ldquo;robot of the week.&rdquo;</strong> Vorwerk&rsquo;s Thermomix TM7, while not fully autonomous, is described as the closest thing to a reliable robot chef on the market. The countertop device blends, steams, bakes, proofs, and weighs ingredients, and can even order groceries via Instacart — all from a single touchscreen. Prep work and cleanup remain human tasks for now. <a href="https://www.vorwerk.com/gb/en/c/home/products/thermomix/thermomix-tm7">Product page</a>.</p>
+<p><strong>OpenAI builds custom &ldquo;Jalapeño&rdquo; AI chip with Broadcom.</strong> OpenAI <a href="https://www.mindstream.news/p/meet-the-hottest-chip-in-tech-right-now">built</a> its own AI chip, called Jalapeño, in partnership with Broadcom. It is a task-specific ASIC designed to cut the company&rsquo;s dependence on Nvidia and move OpenAI toward full vertical integration — timed just ahead of its planned IPO.</p>
+<p><strong>OpenAI previews GPT-5.6 as three models.</strong> OpenAI <a href="https://www.mindstream.news/p/meet-sol-terra-and-luna">previewed</a> GPT-5.6, which will come in three variants: Sol (optimized for power), Terra (balanced), and Luna (optimized for speed). The models feature stronger cybersecurity skills and additional safeguards, with tiered pricing to match the different capability levels.</p>
+<p><strong>Suno launches &ldquo;Spark&rdquo; artist support programme.</strong> Suno <a href="https://www.mindstream.news/p/the-good-vibes-only-clause">launched</a> Spark, an artist support programme offering grants and mentorship to unsigned musicians. The fine print includes a controversial &ldquo;Good Vibes Only&rdquo; clause that bars recipients from saying anything negative about the company.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>CNN report casts doubt on China&rsquo;s humanoid robot success.</strong> China has over 153,000 robot-rental-related businesses, forming a thriving market where robots can be hired on a daily wage — a scale that has made China look years ahead of the rest of the world on robot deployment. However, a new CNN <a href="https://edition.cnn.com/2026/06/30/tech/china-humanoid-robot-ai-rental-intl-hnk-dst">report</a> exposes an uncomfortable reality: Chinese robots still need human operators to function and cannot yet replace workers on factory floors. Even leading manufacturer UBTECH&rsquo;s most advanced models can reportedly achieve only 80% of human productivity, and only in certain constrained tasks. The report punctures the narrative that China has decisively pulled ahead in practical robot autonomy.</p>
+<p><strong>Google losing top AI researchers to Anthropic and OpenAI.</strong> Google is <a href="https://www.mindstream.news/p/why-google-keeps-losing-its-best-people">watching</a> its best AI researchers — including a Nobel Prize winner — depart for pre-IPO equity at Anthropic and OpenAI. The reporting frames the issue as compensation structure: restricted stock options tied to Google&rsquo;s roughly $4 trillion market cap cannot compete with the upside of a pre-IPO &ldquo;lottery ticket&rdquo; at fast-rising rivals.</p>
+<p><strong>Vinton Cerf retires from Google after 20 years.</strong> Vinton Cerf, co-creator of TCP/IP and often called a founding father of the internet, <a href="https://www.mindstream.news/p/google-s-internet-legend-is-stepping-down">stepped down</a> from Google at age 83 after two decades at the company. On departure he warned that AI agents will need formal communication standards, arguing that plain English is too chaotic to be reliably trusted for agent-to-agent coordination.</p>
+<p><strong>Ford rehires 300+ human quality engineers after AI inspection failures.</strong> Ford <a href="https://www.mindstream.news/p/ai-quality-checks-needed-adult-supervision">rehired</a> more than 300 veteran quality engineers after AI cameras failed to match human expertise in factory inspections. Following the move, Ford topped the JD Power quality rankings for the first time since 2010 — a pointed example of AI automation falling short of skilled human judgment in a real production setting.</p>
+<p><strong>Builder.ai / Engineer.ai collapse — AI startup was mostly human labor.</strong> Mindstream reopened the story of British startup Builder.ai (formerly Engineer.ai), founded in 2016 by Sachin Dev Duggal as an &ldquo;assembly line for software&rdquo; that promised anyone could build an app with no coding — Duggal&rsquo;s analogy was ordering a pizza by picking features from a menu, with AI claimed to build 80% of every order and humans just adding finishing touches. Engineer.ai reported $24M in gross revenue and named clients including the BBC, Virgin Airlines, and the San Francisco Giants, closing a Series A with SoftBank in 2019. A <a href="https://www.wsj.com/articles/ai-startup-boom-raises-questions-of-exaggerated-tech-savvy-11565775004">Wall Street Journal exposé</a> reported that employees, not algorithms, were doing the heavy lifting. Rather than address it, Duggal rebranded the platform as Builder.ai and continued raising money. By 2024 the company was valued at $1.5B and claimed $220M in revenue, though its books showed closer to $50M; over 700 engineers in Asia and Eastern Europe were manually building every app. In May 2025, new CEO Manpreet Ratia told a remote town hall the company had run out of money, was filing for bankruptcy, and everyone was being let go. Investors including Microsoft and the Qatar Investment Authority had poured in as much as $445 million. Duggal — who styled himself &ldquo;Chief Wizard&rdquo; — stepped down as CEO in 2025; the company filed for insolvency, leaving roughly $5M in restricted funds. Authorities had also pursued a money-laundering summons, dramatized at a Vietnam party celebrating a $250M round in summer 2023. The <a href="https://www.bloomberg.com/news/features/2025-07-30/startup-builder-ai-goes-from-1-5-billion-unicorn-to-bankruptcy">Bloomberg feature</a> traces the unicorn-to-bankruptcy arc. The takeaway offered: what Builder.ai promised can now genuinely be done with tools like Claude Code and ChatGPT Codex — Duggal simply wasn&rsquo;t patient enough for the technology to catch up.</p>
+<h2>Autonomous vehicles</h2>
+<p><strong>Waymo opens Nashville to the public.</strong> Waymo has <a href="https://waymo.com/blog/shorts/nashville-june2026">opened</a> robotaxi rides to the general public in Nashville, its 11th US market, following months of app-based testing.</p>
+<p><strong>Tesla begins public Cybercab testing in Austin.</strong> Tesla has begun <a href="https://x.com/Tesla/status/2071810353156194719">testing</a> its production Cybercab on Austin streets, putting the wheel-and-pedal-free two-seater on public roads with a safety monitor onboard.</p>
+<p><strong>Waymo and Uber end Phoenix pilot.</strong> Waymo and Uber have <a href="https://www.cnbc.com/2026/06/29/waymo-uber-robotaxi-pilot-phoenix.html">ended</a> their limited Phoenix robotaxi pilot. Waymo is shifting those vehicles back into its own fleet and DoorDash delivery operations.</p>
+<p><strong>Wayve lets employees cash out $85M.</strong> Wayve is letting employees <a href="https://wayve.ai/thinking/wayve-announces-employee-tender-offer">cash out</a> $85M in equity via a tender offer while maintaining its $8.5B valuation, as it prepares for robotaxi pilots with Uber.</p>
+<h2>Robots in the real world</h2>
+<p><strong>Pudu Robotics to open first fully robot-serviced hotel.</strong> China&rsquo;s Pudu Robotics is opening what it calls the world&rsquo;s first fully robot-serviced hotel in 2027. Every guest-facing function — reception, concierge, cleaning, and food delivery — will be handled by a fleet of specialized robots powered by a single AI platform. It is described as the most <a href="https://newatlas.com/ai-humanoids/luxury-hotel-staffed-robots-shenzhong/">ambitious real-world test</a> yet of whether robots can deliver a seamless end-to-end service experience. <a href="https://www.youtube.com/watch?v=nDwZ8Wq_YXw">Concept video</a>.</p>
+<p><strong>Robotic spacecraft LINK to rescue NASA&rsquo;s Swift telescope.</strong> NASA&rsquo;s Swift Observatory, a 22-year-old gamma-ray telescope, is falling toward Earth after strong solar activity accelerated its orbital decay. A private robotic spacecraft called LINK is <a href="https://www.sciencenews.org/article/space-telescope-rescue-mission-nasa-swift">preparing</a> to grab Swift and tug it back to a safe altitude of 600 kilometers. If successful, Swift could gain roughly another decade of observations, and the technique could potentially be used to save other aging telescopes.</p>
+<p><strong>MORFO drone reforests cattle-farmed land in Brazil.</strong> French-Brazilian startup MORFO has reportedly <a href="https://x.com/alex_verem/status/2072001777487196662">transformed</a> a patch of compacted, cattle-farmed land in Brazil into a thriving ecosystem using a single drone. The system scans terrain, analyzes soil and moisture data, selects from over 300 native plant species, and fires biodegradable seed pods at 180 capsules per minute — enabling forest replanting at a scale impractical for humans alone.</p>
+<p><strong>NASA&rsquo;s ERNEST prototype rover clears a boulder field.</strong> ERNEST, NASA/JPL-Caltech&rsquo;s four-foot prototype rover, <a href="https://www.youtube.com/watch?v=RhHQoyxVAdE">navigated</a> a field of boulders that would have stopped Curiosity and Perseverance, autonomously sizing up obstacles and climbing over them. Today&rsquo;s Mars rovers travel just 500–1,000 feet per hour and sit idle between communication windows; ERNEST is designed to change that, paving the way for future lunar rovers that could cover 1,200 miles over four years.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>China&rsquo;s Zhipu AI releases open-weight GLM-5.2.</strong> China&rsquo;s Zhipu AI <a href="https://www.mindstream.news/p/washington-has-a-new-ai-headache">released</a> GLM-5.2, an open-weight model that matches top US systems in some cybersecurity bug-finding tasks. Because anyone can download and modify it, the release creates a genuinely tricky problem for Washington around export controls and the proliferation of capable open models.</p>
+<p><strong>Anthropic restores Fable 5 after export controls lifted.</strong> Anthropic <a href="https://www.mindstream.news/p/fable-5-is-back-on-the-menu">restored</a> access to its Fable 5 model after the US Department of Commerce lifted export controls. The restoration followed new safety training that blocks the previously flagged jailbreak method in over 99% of cases, plus a commitment to complete more government paperwork before future launches.</p>
+<p><strong>Sam Altman calls for a US-led global AI safety forum.</strong> After a G7 summit in France, Sam Altman <a href="https://www.mindstream.news/p/the-race-might-need-a-few-speed-bumps">called</a> for a US-led global forum to set safety standards for advanced AI, arguing that Silicon Valley should not be writing the rules, &ldquo;marking its own homework,&rdquo; and handing itself a gold star.</p>
+<h2>Research papers</h2>
+<p><strong>CIGaRS — AI tool measures dark energy from supernova images.</strong> Astronomers <a href="https://www.mindstream.news/p/the-cosmos-gets-crunchy">built</a> CIGaRS, an AI tool that analyzes supernovae from images to measure dark energy up to four times more accurately than prior methods. The motivation is scale: the Vera Rubin Observatory is about to generate more cosmic data than any human team could sort through manually, making automated analysis essential.</p>
+</article>
+<nav class="updown"><a href="2026-07-04.html">&larr; Saturday, July 4, 2026</a><a href="2026-07-06.html">Monday, July 6, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, July 5, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

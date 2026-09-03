@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-12</title>
+<meta name="description" content="AI news digest for 2026-07-12.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, July 12, 2026</p>
+<p class="meta-line">2,719 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>The AI 2027 team publishes <strong>&ldquo;AI 2040: Plan A,&rdquo;</strong> a detailed positive-vision scenario proposing a US–China coordinated slowdown of superintelligence via compute monitoring and mutually-assured-compute-destruction — drawing wide endorsements and pointed authoritarianism critiques.</li>
+<li><strong>1X unveils remarkably human-like tendon-driven hands for its NEO humanoid</strong>, while <strong>Hyundai&rsquo;s Atlas</strong> performs live at the 2026 FIFA World Cup and <strong>Mistral</strong> launches its first robotics model, Robostral Navigate.</li>
+<li>A <strong>compromised jscrambler npm package</strong> drops a Rust infostealer specifically targeting config files of AI coding tools (Claude Desktop, Cursor, Windsurf, VS Code, Zed).</li>
+<li><strong>OpenAI</strong> merges its research and safety teams as safety head Johannes Heidecke departs; separately claims <strong>GPT-5.6 &ldquo;Sol Ultra&rdquo;</strong> produced a machine-verified proof of the Cycle Double Cover Conjecture.</li>
+<li>Massive AI-infrastructure financial moves: hyperscalers added ~$350B debt in five years; a $35B Anthropic/Broadcom TPU private-credit deal begins trading; SK Hynix warns of the &ldquo;worst-ever&rdquo; 2027 memory shortage.</li>
+</ul>
+<h2>Policy, safety &amp; governance</h2>
+<p><strong>AI 2040: &ldquo;Plan A&rdquo; — the AI 2027 team&rsquo;s positive-vision scenario.</strong> The group behind AI 2027 (Daniel Kokotajlo, Eli Lifland, Romeo Dean, Thomas Larsen, with Scott Alexander and others contributing) has released Plan A, a follow-up that, unlike AI 2027&rsquo;s two outcome scenarios, offers a concrete &ldquo;positive vision&rdquo; / optimistic forecast of how the transition to superintelligence could go well. Zvi Mowshowitz stresses he is <em>not</em> endorsing it as-is but thinks it deserves serious consideration and further work. There is also an unofficial visual-novel version. Track-record framing: Kokotajlo&rsquo;s &ldquo;What 2026 Looks Like&rdquo; proved remarkably accurate, and Ryan Greenblatt (Redwood Research chief scientist) was the #2 most accurate AI forecaster of 2025 out of 413 entries.</p>
+<ul>
+<li><strong>The core proposal.</strong> Plan A updates from the present situation rather than being a pure prediction. Its implementation: America and China reach a mutually beneficial deal to slow AI development and share research information; joint control is established over existing and new chip supply, with common knowledge of chip concentrations and universal auditing of data centers, so both sides can verify compliance. A key pillar is <strong>total research transparency</strong> (Kokotajlo made a diagram illustrating why he weights this so heavily). The plan uses <strong>&ldquo;mutually assured compute destruction&rdquo; (MAIM-style)</strong> — which Vitalik Buterin notes effectively gives one of 2–5 actors the ability to trigger a global &ldquo;compute winter,&rdquo; an improvement over letting 1–5 actors selectively disenfranchise chosen &ldquo;baddies.&rdquo; During the transition America sees explosive economic growth, funding a rapidly rising <strong>&ldquo;Citizen&rsquo;s Dividend&rdquo;</strong> (a generous UBI) plus a small fraction for &ldquo;defensive acceleration.&rdquo; In 2040 the &ldquo;torch is passed to the AIs&rdquo; and the singularity proceeds — the hope being alignment was gotten right on the first try. Notably, the plan&rsquo;s baseline/default (without the herculean coordination) has this happening in <strong>2030</strong>, so 2040 is already the <em>slowed</em> version.</li>
+<li><strong>The five-word compression.</strong> Zvi predicts most people will reduce it to: (1) slow down AI development; (2) make a deal with China; (3) monitor the world&rsquo;s major compute; (4) use mutually assured compute destruction; (5) things still happen fast (ASI by 2040 with vast prior economic growth). Axios&rsquo;s Ashley Gold compressed it as &ldquo;slow everything down.&rdquo;</li>
+<li><strong>Alternative plans described.</strong> Plan B: fight/sabotage China to buy a buffer. Plan C: &ldquo;burn the lead&rdquo; (roughly AI 2027, with more awareness). Plan D: race to ASI (the current path). Plan S: shut it all down — the authors are sympathetic but reject it as unstable and hard to get buy-in for. They forecast the 2028 US election being all about AI, with a plan (hopefully A) implemented in 2029.</li>
+<li><strong>Endorsements.</strong> Buck Shlegeris (&ldquo;best summary of the spectrum of possible plans&rdquo;), Greenblatt (&ldquo;best plan anyone&rsquo;s written up… robust to partial/lower-quality implementation; the core—verification and very strong transparency—suffices to go pretty far&rdquo;), Eli Tyre (&ldquo;single most thorough and thoughtful plan&rdquo;), Jeffrey Ladish, Steven Adler, Marius Hobbhahn (mapped his &ldquo;too many low-probability things&rdquo; reaction to &ldquo;it&rsquo;s the SOTA plan for a hard problem&rdquo;), and OpenAI&rsquo;s Boaz Barak (loves the push for increased transparency and diffusion rather than lockdown). Nate Soares (MIRI): &ldquo;the best concrete vision of a positive future I&rsquo;ve ever seen spelled out, bar none,&rdquo; but doubts it works as written — his hope is it produces evidence convincing leaders to switch to Plan S; his critique is that humans working with AIs on alignment likely converge on wrong answers, and the honest answer (&ldquo;pushing to superintelligence with modern methods is fucked; back off&rdquo;) is one humans are unlikely to heed.</li>
+<li><strong>Critiques Zvi engages.</strong> <em>Selective optimism</em> (Richard Ngo): as an optimistic forecast it&rsquo;s hard to tell which parts are aspirational vs. included for realism; Ngo would prefer a slower handoff (so would Zvi and the authors), wanted dates removed, and challenged the &ldquo;race with China&rdquo; framing. Zvi defends keeping dates (a scenario without them draws the opposite criticism) and the race framing (that&rsquo;s how DC thinks now). <em>Economic optimism</em>: Zvi concedes the diffusion/growth projections are optimistic but argues (with Shakeel Hashim) that slower diffusion doesn&rsquo;t change the central recommendations. <em>China won&rsquo;t accept inferiority</em> (Yishan, Prakash): China might accept AI <em>equality</em> but not enshrined American superiority, potentially making any Plan A DOA / no zone-of-possible-agreement; the plan does try to rebalance robot share etc. <em>Politics naive</em> (Kyle Corbitt): e.g. Canadian voters wouldn&rsquo;t let China build thousands of datacenters in 2030 — Zvi counters that seemingly-impossible concessions get signed when impetus arrives, citing COVID&rsquo;s sudden acceptance of lockdowns, cash handouts, and vaccine mandates.</li>
+<li><strong>The authoritarianism objection.</strong> Ramez Naam argued Plan A&rsquo;s restrictions violate the spirit of the 1st and 4th Amendments and are &ldquo;a recipe for authoritarianism,&rdquo; saying he&rsquo;d change his mind only given evidence of fast takeoff + loss-of-control + antisocial volition + a believable software-only-singularity model. Zvi responds that (a) equating compute controls with 20th-century fascism/communism is hyperbolic; (b) comparing Plan A to a hypothetical no-restrictions world where nothing goes wrong is not a fair baseline; (c) the plan is explicitly designed to <em>minimize</em> authoritarianism (Vitalik agrees it improves on power-concentration dimensions and even mandates open source); (d) the real crux is whether superintelligence is coming — Séb Krier (Google DeepMind AGI policy lead) and Vitalik both note the debate hinges almost entirely on future AI capability levels. Vitalik&rsquo;s own position: he&rsquo;s genuinely uncertain which world we live in, favors d/acc (defensive tech good in both worlds), but concedes there&rsquo;s no &ldquo;escape the tradeoff&rdquo; button on pause/slowdown, and proposes pre-agreed &ldquo;serious shit&rdquo; triggers (super-pandemics, &gt;25% unemployment, slaughterbots) that both camps could accept.</li>
+<li><strong>The framing Zvi emphasizes:</strong> either humans can collectively steer the future or they can&rsquo;t; if AI reaches AI-2027/Plan-A capability levels and humans don&rsquo;t steer, the equilibrium is that AIs end up in charge (without tricking anyone or firing a shot) because the alternative is being outcompeted — &ldquo;and that&rsquo;s the good version.&rdquo; He also flags that Plan A treats alignment mostly as a control/game-theory problem (making deals with potentially-misaligned AIs) rather than genuine cooperative alignment — a point John Wittle strongly criticized (&ldquo;you don&rsquo;t get mutual cooperation by programming it into your adversaries by force; that&rsquo;s defection&rdquo;).</li>
+</ul>
+<p><strong>Compromised jscrambler npm package targets AI coding tools.</strong> The Hacker News reported (July 11) that jscrambler&rsquo;s official npm package was compromised across five releases (8.14.0, 8.16.0, 8.17.0, 8.18.0, 8.20.0). A preinstall hook dropped a cross-platform <strong>Rust infostealer</strong> targeting cloud credentials, browser data, crypto wallets — and, notably, the config files of <strong>Claude Desktop, Cursor, Windsurf, VS Code, and Zed</strong>, reflecting how AI dev tools are now high-value credential targets. Later releases embedded the dropper in main code to bypass npm&rsquo;s <code>--ignore-scripts</code> flag. Jscrambler confirmed the attacker used compromised publishing credentials; Socket flagged the release six minutes after publication, and <strong>8.22.0 is the confirmed clean release</strong>.</p>
+<p><strong>OpenAI merges research and safety teams; safety head departs.</strong> Wired reports OpenAI Head of Safety <strong>Johannes Heidecke</strong> is leaving as the company merges its research and safety organizations, with <strong>Mia Glaese</strong> becoming VP of Research and Safety.</p>
+<p><strong>Generative AI in terrorism.</strong> The NYT documented how terrorist groups, including Boko Haram, are using generative AI to plan attacks, recruit, and produce propaganda — with Nigerian officials and US counterterrorism analysts documenting real-world battlefield impact.</p>
+<p><strong>China drops urban job-creation target.</strong> Bloomberg reports China&rsquo;s 15th Five-Year Plan omits a numerical urban job-creation target for the first time since the 1990s, explicitly citing uncertainty over AI-driven job displacement.</p>
+<h2>Robotics &amp; embodied AI</h2>
+<p><strong>1X unveils human-like hands for the NEO humanoid.</strong> Norwegian robotics startup 1X went viral this week with a demo of new hands for its NEO consumer humanoid that may be the most capable and human-feeling robot hands shown to date. They use <strong>tendon-driven motion and fingertip tactile sensors that detect pressure in real time</strong>, enabling delicate tasks like picking grapes and installing light bulbs, and even communicating in sign language. Superhuman calls it &ldquo;possibly the first time robot hands have felt genuinely human.&rdquo; (Bernt Bornich and 1X posted demo clips.)</p>
+<p><strong>Hyundai&rsquo;s Atlas makes its live World Cup debut.</strong> The Hyundai/Boston Dynamics Atlas humanoid performed at halftime of the Norway vs. Brazil match at the 2026 FIFA World Cup, walking onto the pitch before a packed stadium to reenact goal celebrations from Erling Haaland, Harry Kane, and Son Heung-min. It then collected the ceremonial match ball and delivered it to the referee — a demonstration that the robot can operate reliably in a live, high-pressure, global-audience environment (the first such live-match robotics integration).</p>
+<p><strong>Mistral launches its first robotics model.</strong> French AI startup Mistral released <strong>Robostral Navigate</strong>, its first robotics model, marking a push into factories, warehouses, and industrial automation. It&rsquo;s built to work across hardware from multiple suppliers, signaling Mistral&rsquo;s ambition to compete in physical AI alongside Nvidia and Google DeepMind. The launch follows Mistral&rsquo;s acquisition of Austrian robotics-AI startup <strong>Emmi AI</strong>.</p>
+<p><strong>Other robotics developments.</strong>
+- <strong>Northstar:</strong> Ex-Tesla scientist Rémi Cadène unveiled Northstar, a faceless humanoid robot that learns tasks from demonstrations, targeting European factories.
+- <strong>Waymo</strong> is launching fully driverless rides in San Diego, Las Vegas, Tampa, and Denver, expanding its robotaxi network past a dozen cities.
+- <strong>Tesla</strong> urged New Jersey owners to lobby against a proposed bill it says would effectively block deployment of fully driverless vehicles in the state.
+- <strong>US regulators</strong> ordered AV companies to fix how vehicles respond to emergencies, warning robotaxis must stop interfering with first responders.
+- <strong>The Netherlands</strong> opened a humanoid robotics center to accelerate Europe&rsquo;s robot industry and narrow the gap with China and the US.
+- <strong>South Korea</strong> is turning to unstaffed robot-run businesses (coffee shops, noodle bars, clothing boutiques now numbering in the thousands) to cope with a shrinking workforce and one of the world&rsquo;s lowest birth rates; one café chain reports profit margins above 40%, more than triple staffed equivalents.
+- <strong>RoboCup 2026</strong> drew participants from 45 countries; China&rsquo;s Tsinghua University won the Humanoid League for the second straight year. The competition&rsquo;s stated long-term goal is a robot team that can beat the FIFA World Cup champions by 2050.
+- <strong>UC San Diego</strong> researchers completed the first-ever surgeries using teleoperated humanoid robots in a preclinical trial, including a gallbladder removal by a surgeon–robot team; the robots used standard surgical instruments and needed no purpose-built OR, making them far more deployable than existing surgical-robot systems.
+- <strong>Consumer robot of note:</strong> Lissome&rsquo;s R1 countertop dishwasher uses AI water sensing to adjust pressure, spray direction, and detergent based on how soiled dishes are, with a built-in tank and auto detergent dispenser — aimed at small kitchens, RVs, and studios.
+- A viral Indonesian clip of a humanoid appearing to &ldquo;go rogue&rdquo; and lunge at office workers turned out to be a fully pre-programmed, choreographed mobility demo.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>OpenAI GPT-5.6 rollout and math claim.</strong> After a security delay and government approval, OpenAI is launching GPT-5.6, with the Sol, Terra, and Luna variants rolling out following extra testing (Mindstream). Separately, OpenAI posted a PDF claiming <strong>GPT-5.6 &ldquo;Sol Ultra&rdquo; produced a machine-verified proof of the Cycle Double Cover Conjecture</strong>, a long-open graph-theory problem — the claim hit the Hacker News front page.</p>
+<p><strong>Anthropic product and research moves.</strong> Anthropic launched <strong>Claude Science</strong>, a research workbench for scientists, and quietly signaled it wants to pursue drug discovery for neglected diseases itself, not merely sell tools to researchers. It also expanded <strong>Claude Cowork</strong> to mobile and web, letting tasks keep running in the cloud even when a user&rsquo;s laptop is closed. Separately, court documents revealed the exact emails between Dario Amodei and the Pentagon that ended Anthropic&rsquo;s government contract, including Amodei&rsquo;s line &ldquo;I unfortunately don&rsquo;t see a way forward.&rdquo;</p>
+<p><strong>Google / Gemini.</strong> Google added AI video editing to <strong>Google Photos via &ldquo;Gemini Omni,&rdquo;</strong> letting users change backgrounds, add cinematic lighting, and apply styles (watercolour, oil painting) directly from their camera roll. Google also released a Declaration of Independence ad imagining the founding fathers using Google Docs, Google Meet (cameras off), and Gemini for meeting notes — broadly well-received except on Bluesky.</p>
+<p><strong>Meta Muse Image.</strong> Meta launched Muse Image, a free AI image generator that can pull photos from other people&rsquo;s public Instagram profiles without notifying them — a capability the company reportedly anticipated would draw attention.</p>
+<p><strong>Musk / Grok / SpaceX.</strong> Elon Musk denied ordering Tesla and SpaceX to adopt Grok 4.5 exclusively, saying (after a July 10 memo leaked) he only asked them to &ldquo;try it out.&rdquo; Sam Altman publicly accused Musk of &ldquo;selling public market investors on short-term space data centers&rdquo; amid a $2T SpaceX valuation push.</p>
+<p><strong>Consumer / culture.</strong> A UK studio cast AI-generated actor <strong>Tilly Norwood</strong> in a film titled <em>Misaligned</em> about AI identity and memory; SAG-AFTRA does not consider her a real actor. A content creator, Ben Guez, used <strong>OpenClaw</strong> to auto-generate &ldquo;heartbroken fan&rdquo; videos targeting women from losing World Cup countries and pipeline their DMs into an AI app; others used OpenClaw to auto-send break-up texts.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>AI infrastructure financing and debt.</strong> Bloomberg reports Alphabet, Amazon, Meta, Microsoft, and Oracle have collectively added roughly <strong>$350B of debt over five years</strong> to fund the US data-center buildout, with AI capex now outpacing operating cash flow at multiple hyperscalers. Separately, <strong>Apollo and Blackstone&rsquo;s $35B Anthropic/Broadcom AI-chip private-credit deal</strong> is set to begin trading — a debt package financing TPU purchases via an SPV, with about $15B available to institutional buyers by early 2027.</p>
+<p><strong>Memory-chip supply crunch.</strong> SK Hynix&rsquo;s CEO warned of the &ldquo;worst-ever&rdquo; memory shortage in 2027, saying AI demand will outstrip supply beyond 2030 — comments made on the day of the company&rsquo;s Nasdaq debut. In the same vein, Samsung forecast a <strong>19x jump in quarterly profits</strong> driven by AI memory chip demand, yet its shares fell 7% as investors deemed record-breaking results insufficient.</p>
+<p><strong>Trump administration intervention for Intel.</strong> The WSJ detailed the administration&rsquo;s heavy-handed effort to aid Intel, including pushing Apple to use Intel&rsquo;s fabs, with Commerce Secretary Lutnick repeatedly meeting Tim Cook, Elon Musk, and Jensen Huang.</p>
+<h2>AI leadership perspective (interview)</h2>
+<p><strong>Sarika Garg (HubSpot Revenue Hub GM/VP, former Cacheflow CEO) on where AI value really lies.</strong> In a Mindstream interview, Garg argued front-office AI stalls until back-office data is fixed: &ldquo;your AI is stalling because your data is a mess, and no amount of clever prompting fixes dirty infrastructure.&rdquo; Key points: (1) the overlooked opportunity is untangling duplicates, dirty data, and disconnected/unmapped processes — AI excels at producing clean, connected, contextual data at scale, and front-office AI stalls until that&rsquo;s done. (2) The roles changing most in revenue operations are the <strong>deal desk and reporting analyst</strong>, shifting from mechanically building quotes/reports/Excel forecasts to <em>architecting the data model and revenue system</em> and applying judgment. (3) The signal that a company builds real AI value vs. just &ldquo;AI features&rdquo;: whether AI is woven into the business process and can run jobs autonomously versus merely helping one person work faster. (4) Advice to founders: start with a genuinely painful problem and solve it 100x–1000x better (which requires AI doing a <em>full job</em>, not just a task). (5) The rising human skill is <strong>systems thinking</strong> — humans become &ldquo;architects of the business, not task executers.&rdquo; (6) She rejects mass joblessness fears — &ldquo;every job will change… but that&rsquo;s not the same as disappearing&rdquo; — predicting a &ldquo;golden era&rdquo; once busywork is removed. She personally uses a series of agents that listen daily across community chatter, CSAT, support tickets, Gong prospect calls, and the CRM, summarizing signals she used to gather only quarterly.</p>
+</article>
+<nav class="updown"><a href="2026-07-11.html">&larr; Saturday, July 11, 2026</a><a href="2026-07-13.html">Monday, July 13, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, July 12, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

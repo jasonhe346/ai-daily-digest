@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-09</title>
+<meta name="description" content="AI news digest for 2026-07-09.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Thursday, July 9, 2026</p>
+<p class="meta-line">6,035 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>OpenAI ships GPT-Live</strong>, a full-duplex voice model that listens and speaks simultaneously, offloads hard reasoning to GPT-5.5, and rolls out across Free/Go/Plus/Pro tiers.</li>
+<li><strong>SpaceXAI and Cursor release Grok 4.5</strong>, the first jointly-trained model post-acquisition — &ldquo;Opus-class&rdquo; per Musk, 80 tok/s, 4× more token-efficient, priced at $2/$6 per million tokens.</li>
+<li><strong>GPT-5.6 &ldquo;Sol&rdquo; cleared for public launch</strong> (with Terra and Luna) after a Commerce Department restriction lifted; early testers describe Sol + Fable as opening a large gap over all other models.</li>
+<li><strong>A wave of funding and infrastructure moves</strong>: Prime Intellect ($130M/$1B), Ollama ($65M), SambaNova ($11B valuation), Anthropic&rsquo;s $50B US data-center commitment, plus China clearing Alibaba/ByteDance/DeepSeek to buy capped H200 orders.</li>
+<li><strong>New image/robotics/coding models</strong>: ByteDance Seedream 5.0 Pro, Meta Muse Image (and privacy backlash), Mistral Robostral Navigate, Cognition SWE-1.7.</li>
+<li><strong>Zvi&rsquo;s long analysis on kids, phones, screens and EdTech</strong>, plus AI&rsquo;s effects on writing, jobs, education cheating, and systemic financial risk.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<h3>OpenAI launches GPT-Live (full-duplex ChatGPT Voice)</h3>
+<p>OpenAI rolled out <strong>GPT-Live</strong>, a new family of voice models built on a &ldquo;full-duplex&rdquo; architecture that can <strong>listen and speak at the same time</strong>, a departure from prior turn-based systems that strung together separate models and forced you into a rigid &ldquo;you talk, it waits, it answers&rdquo; loop. GPT-Live processes input continuously, injects natural conversational fillers like &ldquo;mhmm,&rdquo; &ldquo;yeah,&rdquo; and &ldquo;that&rsquo;s right,&rdquo; and can handle interruptions, wait through pauses, and maintain conversational flow for <strong>at least a full hour</strong>. When a query needs deeper reasoning, Live delegates the harder work to <strong>GPT-5.5</strong> in the background while the dialogue keeps flowing, and it can surface visual cards/widgets alongside spoken answers, use search and memory, and do real-time translation.</p>
+<p><strong>Rollout and tiers:</strong> GPT-Live-1 becomes the default Voice model for <strong>Go, Plus, and Pro</strong> users; <strong>free users get GPT-Live-1 mini</strong>. Business, Enterprise, and Edu do <strong>not</strong> get Live at launch. It works on iOS, Android, and ChatGPT.com, but <strong>not yet</strong> in Temporary Chats, the desktop app, Work, Codex, or custom GPTs. To use it: update the ChatGPT app or go to ChatGPT.com, tap the Voice icon, allow mic access, then Settings → Voice to pick Live, Advanced, or Standard. API access is &ldquo;coming soon&rdquo; via a registration form; current Realtime API pricing lists gpt-realtime-2.1 audio at <strong>$32/1M input and $64/1M output tokens</strong>.</p>
+<p><strong>Reception and caveats:</strong> In OpenAI&rsquo;s own head-to-head tests, users preferred GPT-Live over the old Advanced Voice Mode in <strong>roughly 3 of 4</strong> comparisons, with expert science scores <strong>nearly doubling</strong>. Sam Altman said it &ldquo;feels magical and &lsquo;real&rsquo;&rdquo; and predicted his own preference will shift from typing to talking to AI; Zvi remains skeptical that voice beats text for his use cases and cannot imagine coding by voice, though he grants voice has niches. The Neuron flags an open concern from the livestream: Live keeps interjecting &ldquo;mm/yeah&rdquo; at every pause, which would be maddening if you want it to silently monitor a meeting and only speak when called on. OpenAI says you can tell Live to &ldquo;wait until I ask you to respond,&rdquo; but warns long pauses or background speech may still trigger it. Sources: OpenAI, The Rundown, The Neuron, TLDR, Superhuman, AI Weekly, Zvi.</p>
+<h3>SpaceXAI + Cursor release Grok 4.5</h3>
+<p><strong>SpaceXAI</strong> (the company&rsquo;s new name after rebranding from xAI) launched <strong>Grok 4.5</strong>, the <strong>first model built jointly with Cursor</strong> following its <strong>$60B acquisition</strong> — effectively a hard reset for the Grok line, which had lagged the frontier and become &ldquo;somewhat of a punchline.&rdquo; Grok 4.5 has <strong>1.5 trillion parameters</strong> and posts strong benchmarks on coding, agentic, and knowledge-work tasks in &ldquo;similar ranges&rdquo; to Claude Opus 4.8 and GPT-5.5. It runs at <strong>~80 tokens/second</strong> (rivaling flash models) and claims a <strong>4× efficiency gain</strong> over models like Opus 4.8. <strong>Pricing: $2/$6 per million input/output tokens</strong> (the &ldquo;fast&rdquo; version $4/$18), versus $5/$25 for Opus 4.8, and it&rsquo;s temporarily <strong>free inside Cursor and Grok Build</strong>. It plugs into Microsoft Word, PowerPoint, and Excel. Musk pitched it as &ldquo;an Opus-class model, but faster, more token-efficient and lower cost,&rdquo; with an <strong>even bigger model coming next month</strong>.</p>
+<p><strong>Skeptical read (Zvi):</strong> SpaceXAI &ldquo;shared almost nothing else&rdquo; — only four cherry-picked benchmarks, no broad detail — which suggests the model will underperform what those numbers imply; if they had something truly at Opus 4.8/GPT-5.5 level &ldquo;they&rsquo;d be louder about it,&rdquo; and outside reactions have been muted. Token efficiency is a real edge given rising token-cost anxiety, and the lower price gives it possible uses, but Zvi expects it to fall short of GPT-5.6-Sol and Fable and is waiting for positive signals. Pliny jailbroke it, as expected. Sources: SpaceXAI/x.ai, The Rundown, Superhuman, TechCrunch/TLDR, Zvi. (The Neuron notes Grok 4.5 as xAI&rsquo;s new flagship coding/office model, free in Grok Build for a limited time.)</p>
+<h3>GPT-5.6 &ldquo;Sol&rdquo; cleared for launch; early-tester reactions</h3>
+<p>OpenAI&rsquo;s <strong>GPT-5.6 family (Sol, Terra, Luna, plus a Sol Pro tier)</strong> was cleared for broad public rollout after the <strong>US Commerce Department ended a weeks-long restriction</strong> (extra testing that had also briefly pulled early access to both Sol and Fable). Launch was set for Thursday July 9. A reported scoop claims <strong>GPT-5.6 will be OpenAI&rsquo;s last 5.x release, with GPT-6 landing in ~a month</strong>, built on a bigger pretrain than the ~4T &ldquo;Spud&rdquo; base under 5.5/5.6; the reported motivation is matching Anthropic&rsquo;s Fable 5 and upcoming Fable 5.1.</p>
+<p>Early testers (a self-selected, biased group, as Roon cautioned) were strikingly consistent:
+- <strong>Ethan Mollick:</strong> Sol and Fable both &ldquo;represent jumps over previous models and have opened a large gap with the next-best AIs&rdquo;; Fable works self-directed at its own pace, Sol is faster and works &ldquo;with you in steps.&rdquo; He switched between them by task — Sol for back-and-forth/underspecified work, Fable for long defined tasks, Sol Pro for really hard problems.
+- <strong>Peter Gostev (most detailed):</strong> Fable is a &ldquo;wise owl,&rdquo; fundamentally smarter and a better writer even at low reasoning; Sol is &ldquo;a rottweiler that grabs the problem by the throat,&rdquo; extremely diligent and reliable — give it 8 tasks and they get done. Fable crafts better UIs but misses key things; Sol&rsquo;s frontend is a big jump but still not as good overall. Sol wins on robustness/reliability, token efficiency, speed, video editing, computer use, sub-agent management, adhering to existing code patterns, and multi-day <code>/goal</code> runs. His &ldquo;swear meter&rdquo; (rudeness to Codex) dropped from 4-5% on 5.5 to 1-2% on Sol, then spiked to 7% back on 5.5. Verdict: on pure intelligence, no, Sol isn&rsquo;t better than Fable, but it&rsquo;s the workhorse &ldquo;you can give any task to and just expect it to be done&rdquo; — best to use both.
+- <strong>Dan Shipper:</strong> GPT-5.6 is a much better writer than Fable, one-shotting marketing emails Fable botches (Fable too verbose, prone to &ldquo;its own private language&rdquo;).
+- <strong>prinz:</strong> Sol Pro &ldquo;saturates prinzbench&rdquo; and can replace an associate at legal research when all relevant authorities are online.
+- <strong>Mitchell Hashimoto:</strong> Sol is his default — faster, plans/judges as well as Fable, better overall work; Fable reserved for targeted debug/security/performance. Metaphor: Sol is &ldquo;a charismatic, efficient, talented coworker you&rsquo;re jealous of&rdquo;; Fable &ldquo;a genius recluse&hellip; brilliant at its fixations but doesn&rsquo;t go out, doesn&rsquo;t date.&rdquo; Altman quipped &ldquo;tbh i dont think sol gets that many dates either.&rdquo;
+- <strong>Jay:</strong> Uniquely unbiased comparison — team got &ldquo;depressed&rdquo; when Sol was pulled, and even with Fable back &ldquo;it&rsquo;s immediately clear [Sol is] just way better.&rdquo;
+- <strong>Dean W. Ball / Tyler Cowen</strong> vouched for Sol&rsquo;s &ldquo;excellent judgment&rdquo;; Tim praised end-to-end Next.js refactors from short prompts.</p>
+<p>Sources: The Neuron, Superhuman, Zvi.</p>
+<h3>ByteDance releases Seedream 5.0 Pro</h3>
+<p>ByteDance rolled out <strong>Seedream 5.0 Pro</strong>, a multimodal image model pitched to &ldquo;understand design&rdquo; rather than just generate one-shot images. It improves text rendering, structure, and alignment (strong infographics and professional work), and adds <strong>&ldquo;precision editing&rdquo; with layer separation for editable designs</strong>, plus draw/replace/combine operations. It handles multilingual input/output natively across <strong>10+ languages</strong>, including some right-to-left layouts and accents, targeting creators, designers, marketers, educators, product teams, and developers. The Rundown frames it as the first release nearing the frontier held by OpenAI&rsquo;s Images 2.0, and notes the broader trend of the post-generation &ldquo;tool layer getting eaten&rdquo; by more agentic, proactive systems. It arrives ahead of ByteDance&rsquo;s anticipated <strong>Seedance 2.5 video model</strong> expected this month (2.0 still near the top of leaderboards). Sources: ByteDance/Seed, The Rundown, TLDR AI.</p>
+<h3>Meta launches Muse Image (privacy backlash) and previews Muse Video</h3>
+<p>Meta launched <strong>Muse Image</strong>, an AI image generator built by Meta Superintelligence Labs, free in the Meta AI app, Instagram Stories, and WhatsApp. It creates and edits images from text prompts — filters, object removal, placing yourself in new locations, multi-reference composition, room redesigns — and Meta positions it for practical uses like <strong>custom ads, home-design previews (e.g. seeing a secondhand couch in your garage, tied to Facebook Marketplace), and Story effects</strong>. Muse reportedly <strong>outranked every image model except GPT-Image-2</strong> on leaderboards. Generated images carry an <strong>invisible watermark</strong>, and Meta previewed a <strong>detector for Muse-generated media</strong> using those watermarks (rate limits apply). A <strong>Muse Video</strong> tool is in development.</p>
+<p><strong>Controversy:</strong> Muse can generate AI images from <strong>another person&rsquo;s public Instagram photos</strong> simply by tagging that account; users can opt out in settings but <strong>are not notified</strong> if their content is used — raising alarms given Meta&rsquo;s history (Cambridge Analytica, facial-recognition concerns). Sources: TechCrunch, TLDR AI, Mindstream, The Neuron, Superhuman.</p>
+<h3>Anthropic brings Claude Cowork to web and mobile; publishes usage data</h3>
+<p>Anthropic expanded <strong>Claude Cowork</strong> (previously Mac/Windows-desktop-only) to <strong>iOS, Android, and web</strong>, starting with <strong>Max subscribers</strong> (others in coming weeks). Cowork sessions now <strong>run in the cloud by default</strong>, letting tasks continue across devices or keep running with your laptop closed; the full desktop version retains local-file access, and Claude can notify you when something needs review/approval. Doubled Cowork usage limits are extended to <strong>August 5</strong>.</p>
+<p>Alongside, Anthropic analyzed <strong>1.2M anonymized May sessions</strong>, revealing that Cowork is used far less for coding than expected: <strong>just 8.7% of sessions are coding</strong>, while <strong>business operations account for 33.4%</strong> (building trackers, consolidating scattered updates into reports, onboarding checklists) and <strong>content creation 16%</strong> (decks, posts, proposals) — with ~50% of work from those top two categories. Superhuman frames this as &ldquo;the work around the work&rdquo; — cross-team tracking/communication tasks that belong to no one&rsquo;s job description — and as a deliberate repositioning of Cowork as an &ldquo;agentic background worker&rdquo; rather than a full replacement, part of labs &ldquo;walking back doom talk.&rdquo; Sources: TechCrunch, The Verge/Mindstream, Superhuman/Claude blog, The Neuron.</p>
+<h3>Cognition ships SWE-1.7</h3>
+<p>Cognition released <strong>SWE-1.7</strong>, an in-house coding model for its <strong>Devin</strong> agent, built on <strong>China&rsquo;s open-source Kimi K2.7</strong>. It reaches near-frontier intelligence (approaching GPT-5.5/Opus-level scores) at far lower cost, via broad improvements across Cognition&rsquo;s RL pipeline — better infrastructure, more stable training, higher-quality data, and new long-horizon task techniques. Available now in Devin on web, desktop, and CLI. Sources: Cognition, The Rundown, TLDR AI.</p>
+<h3>Mistral&rsquo;s Robostral Navigate — single-camera robot navigation</h3>
+<p>Mistral released <strong>Robostral Navigate</strong>, an <strong>8B, hardware-agnostic</strong> robot navigation model that uses <strong>only a single RGB camera and natural-language instructions — no LiDAR or depth sensors</strong> — and runs on wheeled, legged, and flying robots. Trained on <strong>~400K simulation trajectories across 6,000 scenes</strong> with prefix-caching that cuts training tokens <strong>22×</strong>, it hits <strong>79.4% success on R2R-CE seen and 76.6% unseen</strong>, beating single-camera SOTA by <strong>9.7pp</strong>. It marks Mistral&rsquo;s first move into physical-AI foundation models. Sources: Mistral, AI Weekly, TLDR AI.</p>
+<h3>Monogram emerges from stealth with visual-first AI</h3>
+<p><strong>Monogram</strong>, from Udemy co-founder <strong>Eren Bali</strong>, launched from stealth with a <strong>$40M seed round</strong>, pitching an iOS app that <strong>swaps text-based chat for an interactive UI generated on the fly</strong> to answer requests — aimed at everyday use cases like finding movies, brainstorming recipes, or planning trips feeling more natural. Sources: Monogram, The Rundown, Superhuman.</p>
+<h3>Other model/product notes</h3>
+<ul>
+<li><strong>Meituan LongCat-2.0</strong>: a <strong>1.6-trillion-parameter MoE (~48B active)</strong> trained on <strong>35T+ tokens entirely on AI ASIC superpods</strong>, with 1M context and sparse attention (Hugging Face).</li>
+<li><strong>Microsoft Copilot</strong> is reportedly replacing some OpenAI/Anthropic model calls with <strong>in-house MAI models</strong> in apps like Excel and Outlook to cut costs (the-decoder).</li>
+<li><strong>MiniMax</strong> is reportedly targeting a <strong>Q3 release of a 2.7-trillion-parameter open-source model</strong> — 6× its current flagship and larger than any current open model — pressuring closed-frontier pricing.</li>
+<li><strong>DeepSeek</strong> reportedly has an imminent V4 GA plus a bigger model to challenge MiniMax&rsquo;s 2.7T Pro.</li>
+<li><strong>Google Photos</strong> added a <strong>Gemini Omni-powered &ldquo;Video Remix&rdquo;</strong> tool (relight clips, replace backgrounds, apply watercolor/sketchbook/oil styles); <strong>Gemini API Managed Agents</strong> gained background execution, remote MCP support, and custom functions for longer-running agents.</li>
+<li><strong>Cohere Transcribe Arabic</strong>: an Arabic speech-recognition model with open weights and hosted API.</li>
+<li><strong>Mira</strong> (General Intuition + Kyutai with Epic Games): an interactive world model letting you play multiplayer video games against AI on demand.</li>
+<li><strong>Anthropic</strong> raised Platform API rate limits and simplified its tiers.</li>
+</ul>
+<h2>Funding, deals &amp; industry moves</h2>
+<h3>Prime Intellect raises $130M Series A at $1B valuation</h3>
+<p><strong>Prime Intellect</strong> closed a <strong>$130M Series A led by Radical Ventures at a $1B valuation</strong>. The open-source-training / &ldquo;full-stack&rdquo; platform lets enterprises build their own AI agents (compute access, an RL framework, evaluation tools) and reports crossing <strong>$100M annualized revenue in its first year</strong>, with customers including <strong>Ramp and Zapier</strong>. Sources: TechCrunch, The Rundown, The Neuron.</p>
+<h3>OpenAI Deployment Company acquires Northslope</h3>
+<p><strong>OpenAI Deployment Company</strong> agreed to acquire <strong>Northslope</strong>, an applied-AI startup founded by ex-Palantir engineers that raised a $22M Series A in January (terms undisclosed, pending regulatory approval). It&rsquo;s the deployment arm&rsquo;s <strong>second acquisition</strong> after Tomoro, drawing on the <strong>$4B in acquisition capital</strong> OpenAI seeded the unit with at its May launch. The deal adds <strong>&ldquo;hundreds of forward-deployed engineers&rdquo;</strong> who embed with enterprise customers — mirroring Palantir&rsquo;s forward-deployment playbook and escalating competition with <strong>Microsoft&rsquo;s $2.5B Frontier Company</strong> and <strong>AWS&rsquo;s $1B FDE org</strong>. Timed alongside GPT-5.6 launch day. Sources: Axios, thenextweb/TLDR AI, The Neuron.</p>
+<h3>Chip and infrastructure capital</h3>
+<ul>
+<li><strong>SambaNova</strong> raised <strong>$1B at an $11B valuation</strong> as investors back Nvidia challengers; its inference-chip business (sold as server-rack units) is scaling fast, and it&rsquo;s strongly considering an <strong>IPO in 2027</strong> (CNBC/TLDR AI).</li>
+<li><strong>Iluvatar CoreX</strong> (Shanghai GPU maker) priced a Hong Kong share sale for <strong>~$850M-$902M</strong> after a <strong>257% post-IPO rally</strong> since its January IPO (~$475M), bringing total public capital to ~$1.3B. It&rsquo;s in talks to sell <strong>ByteDance at least 50,000 GPUs this year</strong> (primarily inference). It generated only ~$148M in 2025 revenue, almost entirely from GPUs, and is expanding from government to commercial customers as US export limits tighten (thenextweb).</li>
+<li><strong>Ollama</strong> closed a <strong>$65M Series B led by Theory Venture</strong> (total funding $88M after a $15M Benchmark-led Series A). The local open-weight LLM runner reports <strong>~9M monthly active developers, 176K GitHub stars, presence in 85% of the Fortune 500, and just 14 employees</strong>; founders previously built Docker Desktop (TechCrunch).</li>
+<li><strong>Temasek</strong> plans to <strong>nearly triple its AI allocation to 15% over five years</strong> after its portfolio hit a record <strong>S$518B (~$400B)</strong>, deploying across energy, data centers, chips, clouds, and foundation models (CNBC).</li>
+<li><strong>Anthropic</strong> committed <strong>$50B to new US data centers</strong>, including custom facilities in <strong>Texas and New York built with Fluidstack</strong>, to meet Claude demand. It also plans to lease the full <strong>16-story 330 Hudson Street building in Manhattan</strong> and <strong>double its local workforce to ~1,000</strong> (OpenAI has 90,000 sq ft of NYC office space; Google has thousands of NYC engineers).</li>
+<li><strong>Blue Origin</strong> (Bezos) is raising its first outside funding round at a <strong>$130B valuation</strong>, with Bezos contributing <strong>$2B</strong>; it aims to return New Glenn to flight by year-end after a late-May launch-pad explosion (CNBC/TLDR).</li>
+</ul>
+<h3>Philanthropy &amp; safety funding</h3>
+<p><strong>Coefficient Giving</strong> granted <strong>$160M to Geoffrey Irving&rsquo;s new venture Resolution</strong> (briefly named Sequent), which aims to combine theory and automation so AI safety can catch up to capabilities. Resolution is hiring and taking additional donations. Zvi calls it an &ldquo;excellent pick.&rdquo; Sources: Zvi.</p>
+<h3>Personnel</h3>
+<p><strong>Joshua Achiam</strong>, OpenAI&rsquo;s chief futurist, is leaving after nine years (&ldquo;a decade where centuries happened&rdquo;), joining in 2017 as a 25-year-old intern; last day July 24. His departure note is upbeat on OpenAI&rsquo;s trajectory and stresses &ldquo;everything is at stake&rdquo; but &ldquo;everything is possible.&rdquo; Zvi notes the recurring puzzle of why senior people leave to do safety work with more leverage &ldquo;from outside the walls.&rdquo; Also: <strong>Nat Purser</strong> joins Miles Brundage and the AI Verification and Evaluation Research Institute as Director of US Policy. Sources: Zvi, The Rundown.</p>
+<h3>Nvidia&rsquo;s slide, and the AI-bubble debate</h3>
+<p><strong>Nvidia lost roughly $1 trillion in market value in under two months</strong>, dragging its valuation back to pre-AI-boom levels (Bloomberg). Meanwhile the <strong>BIS</strong> (&ldquo;central banks&rsquo; central bank&rdquo;) and <strong>Oracle</strong> sounded AI-bubble alarms — BIS warning AI capex &ldquo;echoes every prior mania,&rdquo; an Oracle SEC filing detailing OpenAI payment risk (The Register). A <strong>US Treasury Department review</strong> found the AI industry poses <strong>systemic risk to the financial system</strong>, comparing it to the dotcom crash. Zvi thinks an industry-wide collapse is unlikely (even if current models are near-peak, cheaper/faster &ldquo;Fable-level&rdquo; swarms are a year out and demand is high), but grants that the US &ldquo;has in large part become a leveraged bet on AI&rdquo;; his deeper worry remains recursive self-improvement outpacing safety. <strong>AI companies are racing toward custom chips</strong>, but fab, memory, and packaging bottlenecks keep supply tight (Axios). Sources: The Neuron, The Register, Zvi.</p>
+<h3>San Francisco AI-wealth housing &ldquo;hysteria&rdquo;</h3>
+<p>AI wealth is distorting San Francisco&rsquo;s housing market: some homeowners accept <strong>shares of OpenAI or Anthropic as payment</strong>, prices surge as buyers bet today&rsquo;s overpayment will look cheap tomorrow, landlords evict tenants to sell into the hotter market, and many properties close <strong>at least $1M above last month&rsquo;s asking</strong> (FT/TLDR).</p>
+<h2>Policy, geopolitics &amp; safety</h2>
+<h3>China to allow capped Nvidia H200 purchases</h3>
+<p>Chinese officials told <strong>Alibaba, ByteDance, and DeepSeek</strong> they may soon get permission to buy Nvidia <strong>H200 chips</strong>, with <strong>total approvals capped under 200,000 units</strong> — less than half of what the firms requested — to offset an acute domestic compute shortage. Earlier this year Commerce cleared ~10 Chinese firms for up to 75,000 H200s each, but <strong>no deliveries have shipped</strong> as Beijing&rsquo;s new supply-chain rules kept the deal in limbo. Sources: The Information/AI Weekly.</p>
+<h3>US moves against Chinese AI models</h3>
+<p>The <strong>US House Homeland Security and Select China Committees</strong> are weighing <strong>federal procurement bans and contractor warnings</strong> to curb US companies&rsquo; use of Chinese AI models (CNBC).</p>
+<h3>EU cybersecurity + AI action plan</h3>
+<p>The <strong>European Commission</strong> unveiled an EU Action Plan on Cybersecurity and AI, featuring <strong>pre-market model evaluation</strong>, a <strong>&ldquo;structured access&rdquo; blueprint</strong>, and an <strong>EU Grand Challenge</strong> for homegrown cyber-AI (commission.europa.eu).</p>
+<h3>Nobel laureate Omar Yaghi leaves Berkeley for Tsinghua</h3>
+<p><strong>Omar Yaghi</strong> — 2025 Nobel Chemistry co-laureate (metal-organic frameworks) and a Berkeley professor since 2012 — joined <strong>Tsinghua University</strong> to launch and direct the <strong>AI for Chemistry and Materials Science Research Center</strong> (announced July 4). Yaghi, 61, aims to use AI to shorten materials-discovery cycles &ldquo;by orders of magnitude,&rdquo; focusing early on water scarcity and carbon capture. Nature (July 9) framed it as US science cuts colliding with Beijing&rsquo;s talent-recruitment push; ~half of his ~200 trained researchers were Chinese nationals. Sources: SCMP/Nature/AI Weekly.</p>
+<h3>Off-switch for dual-use knowledge (GRAM)</h3>
+<p>Anthropic published research on <strong>GRAM (Gradient-Routed Auxiliary Modules)</strong>, which delivers the benefits of training many separately-filtered models at the cost of training only one. GRAM gives a model dedicated, <strong>removable compartments for each category of dual-use knowledge</strong>, updating those compartments only when learning from dual-use data — so parts of the model&rsquo;s knowledge can be <strong>deleted after training</strong>, offering a stronger model-safety framework. Sources: Anthropic, TLDR AI.</p>
+<h3>Deepfakes, watermarks, and offensive security</h3>
+<ul>
+<li><strong>Google&rsquo;s SynthID watermark</strong> debunked its <strong>first high-profile deepfake</strong> — Snopes used it to identify a fake hospital photo of Sen. McConnell after it spread on Reddit and X (TechCrunch).</li>
+<li><strong>Pliny</strong> introduced <strong>T3MP3ST</strong>, a &ldquo;full offensive-security harness&rdquo; that bolts onto an existing AI agent (nominally white-hat/authorized-use-only; Zvi notes red-team and actual offense look nearly identical).</li>
+<li><strong>Hugging Face</strong> was sued for alleged copyright infringement over hosting/distributing copyrighted images; Zvi notes HF and Civitai seem unenthusiastic about taking down nudification/deepfake models, calling it a &ldquo;losing battle.&rdquo;</li>
+</ul>
+<h3>FTC right-to-repair settlement</h3>
+<p>The <strong>FTC</strong> reached a settlement requiring <strong>John Deere</strong> to give farmers and independent repair providers the same repair resources it provides authorized dealers, for the next <strong>10 years</strong> (Engadget/TLDR).</p>
+<h2>Research papers &amp; benchmarks</h2>
+<h3>Auditing coding benchmarks — SWE-Bench Pro is ~30% broken</h3>
+<p>OpenAI examined <strong>SWE-Bench Pro</strong>&rsquo;s construction, model failures, and task metadata and concluded <strong>roughly 30% of its public tasks were broken</strong>, showing how flawed evaluations can distort assessments of coding ability, safety, and model progress. Sources: OpenAI, TLDR AI.</p>
+<h3>NEvo — generating videos that maximally excite brain regions</h3>
+<p>An EPFL project (<strong>NEvo</strong>, arXiv 2607.02317, model card on Hugging Face) showed it&rsquo;s possible to <strong>computationally generate videos that maximally excite an arbitrary brain region</strong> via a search-based algorithm: given a target ROI, it evolves text prompts over a structured space (30 attribute categories, 614 options) in a loop — prompts→videos→predicted ROI response→evolved prompts — as a new way to probe what a brain region represents (in silico for now). Zvi urges thinking about the implications of what a sufficiently advanced AI could do to a human brain with advanced versions of this. Sources: Zvi.</p>
+<h3>Self-evolving agents taxonomy</h3>
+<p>Shilong Liu proposed a taxonomy classifying <strong>self-evolving agents</strong> into three categories — <strong>artifact optimization, harness self-improvement, and model learning</strong> — distinguishing whether evolution happens in outputs, agent infrastructure, or model weights, to give emerging agent research a common language (TLDR AI).</p>
+<h3>EBR-bench — learning from mistakes in a board game</h3>
+<p>Epoch AI introduced <strong>EBR-bench</strong>, where AIs play the (out-of-print) cooperative game <strong>Earthborne Rangers</strong> and try to learn from mistakes via a notepad. <strong>None of the AIs improve over time</strong>, and even a full strategy guide only modestly helps; models mostly don&rsquo;t explore and struggle with both deckbuilding and tactics. Also noted: on <strong>EldenRingCorruptedSaveFileBench</strong>, Fable scores 100% (up from everyone&rsquo;s 0%); July Fable underperforms June Fable on many benchmarks (e.g. losing ~half its APEX-SWE advantage over Opus 4.8) because it more often falls back to Opus 4.8. Sources: Zvi.</p>
+<h3>NVIDIA — open/synthetic data for agents</h3>
+<p>NVIDIA argued open and synthetic data are key to robust AI agents, highlighting the <strong>Nemotron datasets</strong> for enhancing reasoning and tool use, and noting open data aids transparency and reproducibility by letting developers inspect agent behavior (Hugging Face/TLDR AI).</p>
+<h3>Can AI writing evade detectors? (RL vs Pangram)</h3>
+<p>On the recurring idea of RL-training a model against a detector&rsquo;s API (e.g. Pangram) as a reward signal to minimize AI-detected %: Benjamin Glickenhaus confirmed it&rsquo;s been done — &ldquo;yes we&rsquo;ve done this, yes it works, no you can&rsquo;t have it, it potentially made the model evil,&rdquo; noting the resulting model did worse on alignment benchmarks than the base (possibly a base effect from any RL). Zvi argues you can only optimize so many things at once — forcing distinct writing degrades other measures — and that in a fair fight <strong>detection defense beats offense</strong> (contra earlier consensus), since every mind leaves a distinctive pattern (Fable can name authors of short passages). Sources: Zvi.</p>
+<h2>Tooling &amp; developer releases</h2>
+<h3>Rewriting Bun in Rust with AI agents</h3>
+<p>A <strong>Bun</strong> developer, facing many use-after-free/double-free/&rdquo;forgot to free&rdquo; bugs (compiler errors in safe Rust with RAII/Drop cleanup), experimentally used <strong>Anthropic&rsquo;s new models to rewrite Bun in Rust</strong> — a task normally taking a small team a full year. The result was a runtime that was <strong>faster, smaller, and used less memory</strong>; the 64-minute writeup details lessons and tricks from the agentic development process. Sources: bun.com/TLDR.</p>
+<h3>TypeScript 7.0</h3>
+<p>Microsoft announced <strong>TypeScript 7.0</strong>, bringing <strong>native-code speed, shared-memory multithreading, and optimizations yielding typically 8×-12× speedups on full builds</strong> (devblogs.microsoft.com/TLDR).</p>
+<h3>Entire — distributed Git for AI coding agents</h3>
+<p>Ex-GitHub CEO <strong>Thomas Dohmke</strong> launched <strong>Entire</strong>, a <strong>distributed Git hosting network built for AI coding agents</strong> and those overseeing them, handling <strong>570K clones/hour</strong> with regional nodes in the US, EU, and Australia — designed for the &ldquo;age of vibe coding&rdquo; (siliconangle, The Register, TLDR).</p>
+<h3>Other tools noted</h3>
+<ul>
+<li><strong>Nylas Agent Accounts</strong> — give an AI agent a real email inbox (dedicated address, app password, IMAP/SMTP) without needing Gmail (Superhuman tutorial).</li>
+<li><strong>DuckDuckGo browser</strong> can now block video ads, including YouTube&rsquo;s, using uBlock Origin community filter lists (Engadget/TLDR).</li>
+<li><strong>Cloudflare Meerkat</strong> — an experimental global-consensus service for managing small pieces of control-plane state.</li>
+<li>Community/tool mentions: <strong>ViewGen</strong> (open-source Unreal Engine + ComfyUI plugin), LemonLime, Framer&rsquo;s live-canvas AI agent, Elentaria, Gobii, ForthWrite, htmlslides, Duply, Spinach AI, Higgsfield (CGI VFX via Gemini Omni Flash).</li>
+</ul>
+<h2>Field &amp; future developments</h2>
+<h3>Waymo expands fully autonomous service</h3>
+<p><strong>Waymo</strong> launched fully autonomous service in <strong>Denver, Las Vegas, San Diego, and Tampa</strong>, and added the <strong>Hyundai IONIQ 5</strong> as the first new vehicle platform for its <strong>6th-generation Driver</strong> (waymo.com).</p>
+<h3>Meta&rsquo;s always-on recording smart glasses</h3>
+<p>Meta is testing a smart-glasses prototype with <strong>always-on recording</strong> to help users remember their day. Notably, the prototype would <strong>lack a light-up LED recording indicator</strong>; there are internal disagreements over whether captured data should be stored on Meta&rsquo;s servers and used to train AI, and battery/technical challenges remain. Separately, Meta is updating existing glasses to <strong>disable the camera if it detects the privacy LED has been tampered with or removed</strong>, amid reports of people modifying glasses to record covertly. Sources: Gizmodo/TLDR, FT, The Verge/Mindstream, The Neuron.</p>
+<h3>Nuclear power in space — City Labs BOHR</h3>
+<p>Miami-based <strong>City Labs</strong> launched <strong>BOHR</strong> (Betavoltaic Orbital High-Reliability), billed as the <strong>world&rsquo;s first commercial nuclear-powered satellite</strong>, on a SpaceX rideshare (alongside 80 other payloads) into a <strong>350-400 mile orbit</strong>. It&rsquo;s powered by electricity from the <strong>decay of tritium</strong>; the betavoltaic systems are far too small to power even a smartphone but represent an early step for nuclear power in space (Ars Technica/TLDR).</p>
+<h3>Engineering essays on human accountability in the agent era</h3>
+<p>Two widely-shared pieces argue humans must &ldquo;own the outer loop&rdquo;: agents can write code, but someone must explain what changed, why it was safe, and what happens if wrong — humans remain required in the constraints, sampling, audit, and ownership loops, and the scarce resource is <strong>human judgment informed by quality signals</strong> (logs, tests). A companion &ldquo;Ownership&rdquo; essay defines ownership as solving a problem end-to-end &ldquo;from &lsquo;we have a problem&rsquo; to &lsquo;we don&rsquo;t have to think about it again.&rsquo;&rdquo; A &ldquo;You&rsquo;re Not Ambitious Enough with Claude&rdquo; post argues Claude delivers most leverage on high-impact work, not routine automation. Sources: registerspill/TLDR, links.</p>
+<h2>AI, writing, jobs &amp; education (analysis — Zvi)</h2>
+<h3>AI writing, &ldquo;slop,&rdquo; and taste</h3>
+<p>Zvi&rsquo;s AI #176 documents AI writing (especially Claude/Fable&rsquo;s) becoming ubiquitous and, to some, grating. Key threads:
+- <strong>roon&rsquo;s hypothesis:</strong> LM writing styles are &ldquo;basically fine&rdquo; and weren&rsquo;t better before — we&rsquo;re just annoyed because we use them so much; nobody complained about the &ldquo;Claude lexicon&rdquo; six months ago (they preferred it to &ldquo;gptslop&rdquo;), but heavy daily use bred irritation. Danel Eth notes em-dashes, groups of three, and &ldquo;it&rsquo;s not X, it&rsquo;s Y&rdquo; are fine devices that grate when overused. Chase Brower disagrees, arguing LM prose is genuinely &ldquo;mode-collapsed&rdquo; and often bad, unlike specific humans he talks to more often without irritation. Zvi sides mostly with Brower: fine in small doses, too repetitive at current volume, and the &ldquo;meta-irritation&rdquo; is the real trouble.
+- <strong>Dean W. Ball:</strong> &ldquo;Slop isn&rsquo;t that which is bad — it&rsquo;s that which is common&rdquo;; any recent LM output shown to your past self as your future teen&rsquo;s writing would seem genius.
+- <strong>Teddy Brown:</strong> Most writing is functional and &ldquo;essentially fake&rdquo; (written to exist, to be referenced, not consumed); AI clears that bar, threatening freelancers who paid bills with unenjoyable content work. Even &ldquo;storyteller/narrative&rdquo; roles may not survive a downturn because &ldquo;taste isn&rsquo;t as vital as site reliability engineering.&rdquo;
+- <strong>Jodie Foster on &ldquo;F1&rdquo;:</strong> She said Apple&rsquo;s F1 &ldquo;seemed like it was made by AI,&rdquo; with school-textbook structure and lines delivered exactly as a computer would write them. Zvi calls F1 &ldquo;well-executed, zero-perplexity, hallucination-filled not-technically-AI slop&rdquo; and predicts bifurcation: generic low-perplexity media will let AI &ldquo;cook,&rdquo; while high-perplexity work will use AI only cautiously, with &ldquo;not AI&rdquo; being part of the experience.
+- On the <strong>Myra Cheng paper</strong> (AI affirms users ~50% more than humans): Zvi cautions the context was Reddit AITA/OEQ posts (where you post expecting to be wrong) and the model tested was <strong>GPT-4o</strong>, &ldquo;the poster boy for sycophancy.&rdquo;
+- Chamath Palihapitiya and the LA Review of Books cited as examples of obvious AI-written content; Zvi argues popular taste tolerates or even likes AI writing, though exposure tends to reduce that tolerance over time.</p>
+<h3>Jobs — is AI net-killing them?</h3>
+<p>Zvi disputes claims that AI isn&rsquo;t killing jobs. A new paper (Ara Kharazian / Ramp / Revelio Labs, 21K firms) found firms with heavy AI adoption (~$33/employee spend) <strong>grew headcount ~10% over two years</strong> (even entry-level +12%), low adopters flat. Zvi and Erik Brynjolfsson argue this only shows AI-adopting firms <strong>outgrow non-adopters by taking market share</strong> — it doesn&rsquo;t establish net job creation, and early losses come mostly from <strong>failure to hire</strong> in dead-end roles. He reframes the &ldquo;myths&rdquo; more precisely: work expands with diminishing returns; machines doing tasks kills the <em>specific</em> job; cheaper (quality-controlled) things get used more but total spend can rise or fall; <strong>labor is paid well only if it&rsquo;s the scarce resource</strong> — the central question. He also notes two coexisting truths: employees refusing to use AI often <em>should</em> be fired, yet AI cannot yet fully replace them. Musk&rsquo;s &ldquo;AI+Robots&hellip; universal high income, work optional&rdquo; cited as clear writing.</p>
+<h3>Education — cheating and the learning paradox</h3>
+<ul>
+<li><strong>Brown University scandal:</strong> Economist Rodrigo Serrano switched to take-home, closed-book midterm/final for the first time in 34 years; <strong>86 students enrolled</strong> (vs usual ≤30), midterm average was <strong>96/100 with 40 perfect scores</strong>, and graders flagged answers matching ChatGPT output. When he ran the final <strong>in-person, scores collapsed</strong>; <strong>~50 students</strong> were implicated, but the university treated it as a &ldquo;wake-up call&rdquo; and sided with students, since evidence was circumstantial. Zvi: you can no longer give unproctored take-homes; ironically ChatGPT makes cheating <em>easier to catch</em> than mere textbook use. At <strong>UC Berkeley, the number of A&rsquo;s is up 30%</strong>, rendering GPAs near-meaningless.</li>
+<li><strong>Zvi&rsquo;s thesis:</strong> &ldquo;LLMs are the best tool ever invented with which to learn things&hellip; and the best tool ever invented with which to <em>not</em> learn things.&rdquo; He notes free MIT courses online produced no learning renaissance (too many trivial inconveniences, genuinely hard), whereas easier YouTube made people smarter or dumber depending on use. Yishan: learning is energetically expensive; educational systems exist to motivate/trick/force brains, and &ldquo;AI is good at explaining things&rdquo; is a couple steps short of that.</li>
+</ul>
+<h3>UK AI strategy</h3>
+<p>Andy Burnham floated a UK AI strategy prioritizing &ldquo;British companies and workers&rdquo; and &ldquo;tech sovereignty.&rdquo; Zvi argues courting American firms failed given UK conditions (restricted speech, unwelcome capital, un-buildable housing/energy, internet/VPN restrictions), and that framing questions like &ldquo;what&rsquo;s the point and who&rsquo;s it for?&rdquo; about London driverless cars (worrying about black-cab and Uber drivers) signals a losing posture. Seán Ó hÉigeartaigh offered constructive competitiveness advice. Also: Meta&rsquo;s Alexandr Wang claimed a new 10×-more-compute Meta model &ldquo;caught up to GPT-5.5&rdquo; — but on claimed benchmarks only, which Zvi reads as <em>not</em> caught up in practice.</p>
+<h2>Children, phones &amp; screens (analysis — Zvi)</h2>
+<h3>EdTech: the i-Ready backlash</h3>
+<p>Zvi&rsquo;s &ldquo;Childhood and Education #20&rdquo; centers on a viral, angry parental account (Ryan Moulton) of <strong>i-Ready</strong>, the district math software that turned his previously math-loving first-grader miserable (&ldquo;hated math&rdquo;; kids hiding in bathrooms to avoid it; likened to CIA-style repetition torture). The core complaint: i-Ready assumes students can&rsquo;t read, reads instructions aloud slowly and <strong>unskippably</strong> (still doing so for an 8th grader), forces identical lessons repeatedly, and gives students no control — &ldquo;software&hellip; thoughtlessly cruel&rdquo; in ways a human teacher never would be. <strong>i-Ready is used by ~14 million students</strong>; a usedgov site allegedly marketed it on a flawed pandemic-era study. Matthew Yglesias&rsquo;s defense (his son&rsquo;s school uses it better) Zvi calls damning of how bad school already is. Broad point: choosing a school increasingly means choosing EdTech, which may matter more than the school; good EdTech (Zvi is &ldquo;especially excited&rdquo; for Alpha School&rsquo;s bespoke, high-support version) is possible but most kids get a worse-than-improvised version. Non-EdTech screen abuse is also rampant — parents report kids watching <strong>5 hours/day of YouTube Shorts on school laptops</strong>, and kindergartners (Croton-Harmon district) reciting ad jingles despite &ldquo;15 minutes/day&rdquo; assurances.</p>
+<h3>Social media bans: don&rsquo;t do blanket age bans</h3>
+<p>Zvi opposes fixed-age (usually 16) social-media bans: age verification is easy to evade, leaks private data, violates speech/communication, and has swept in sites like <strong>LinkedIn and Substack</strong>. <strong>Australia&rsquo;s ban isn&rsquo;t going well</strong> — it failed to hit critical mass, so everyone assumes everyone else is circumventing it and does likewise (a smart Aussie 15-year-old told Tyler Cowen it&rsquo;s ineffective but he &ldquo;can no longer access LinkedIn&rdquo;). On the &ldquo;why is 16 vs 15-and-364-days different&rdquo; objection, Zvi notes we draw lines for drinking/voting/consent too. He cites a <strong>Reason</strong> writeup of a study finding a <strong>U-shaped</strong> relationship: both abstinence and heavy use link to poorer well-being, <strong>moderate use best</strong>; for girls, no use is best in grades 4-6 but moderate best from grade 7 on (high use consistently worst); for boys, nonuse becomes <em>increasingly</em> harmful from mid-adolescence, exceeding high-use risk by late adolescence. Caveats: reverse causation/third factors plausible; data covered <strong>2020-2022</strong> (worst time to be offline); and &ldquo;moderate&rdquo; was defined generously — <strong>up to 12.5 of the 15 weekday hours between 3-6pm</strong>.</p>
+<h3>Some kids&rsquo; media is genuinely great</h3>
+<p>Zvi and others praise whitelisted YouTube and modern kids&rsquo; shows — <strong>Numberblocks</strong> (credited with kids spontaneously doing addition; rated far above Bluey/Paw Patrol in one review), <strong>Bluey, Daniel Tiger, Curious George</strong> — plus audiobooks and music. The problem is attractor-state slop: e.g., <strong>Spotify adding short-form video</strong> (&ldquo;bait-and-switch&rdquo;); fixes include screen-less devices (Google Home), turning off &ldquo;Videos and Canvas&rdquo; in settings (video ads require paying up), or migrating playlists to a competitor (all majors have similar issues).</p>
+<h3>Phone bans in schools: contested evidence, common-sense support</h3>
+<ul>
+<li><strong>Allcott et al</strong> (unpublished, lockable pouches): first-year disciplinary incidents rise and well-being falls (short-term disruption), but well-being turns positive and discipline effects fade in later years; <strong>average test-score effects ~zero</strong> (modest high-school gains, especially math; small middle-school negatives); little effect on attendance, attention, or online bullying. Christopher Ferguson critiques the authors&rsquo; &ldquo;naive frequentist&rdquo; approach and thumb-on-the-scale framing; coauthor Thomas Dee still told press it supported bans.</li>
+<li><strong>Henry Saffer</strong> study: school bans showed <strong>no clear evidence of reduced screen time or improved well-being</strong> — Zvi&rsquo;s read: bans mostly aren&rsquo;t enforced. A <strong>Brazil (Rio) 2023</strong> policy banning non-pedagogical phone use cut phone use substantially but improved test scores only <strong>0.06 SD</strong>.</li>
+<li>Zvi&rsquo;s meta-point (echoing Tyler Cowen): if banning phones doesn&rsquo;t move academics much, that&rsquo;s evidence school itself doesn&rsquo;t do much — and phones may be <em>more</em> interesting/instructive than dull classes. He calls it &ldquo;beyond vile&rdquo; to force kids physically into school (on pain of truancy enforcement) only to let them scroll AI-generated video there. Counter (Kelsey Piper): COVID school closures caused massive learning loss, and schools do teach literacy, numeracy, and invisible background knowledge; zoom school was actively destructive.</li>
+<li><strong>Anecdotal wins:</strong> Kevin Roose cites a NY Magazine piece (Anya Kamenetz) — after NYC&rsquo;s ban, kids &ldquo;act like kids again,&rdquo; playing board/card games and sports; a Stuyvesant junior found printing study guides works better than phones (&ldquo;I don&rsquo;t get distracted by notifications&rdquo;). Arnold Kling notes phones make teachers feel disrespected, so bans raise aggregate utility if they don&rsquo;t harm students.</li>
+</ul>
+<h3>Device controls and physical freedom</h3>
+<p>Zvi&rsquo;s prescription: (1) get phones out of schools regardless of whether kids must stay; (2) give parents <strong>real device-level controls</strong> (Tim Sweeney&rsquo;s Apple proposal — parents set up kids&rsquo; accounts and pass decisions to apps without demanding &ldquo;identity papers&rdquo; — praised over leaky age-verification laws that don&rsquo;t even address short-form-video &ldquo;slop&rdquo;); (3) give kids back physical freedom. He amplifies complaints that Apple&rsquo;s Screen Time &ldquo;doesn&rsquo;t work as advertised,&rdquo; and that many parents are &ldquo;abusively controlling&rdquo; — surveilling teens while forbidding independent real-world play, then removing their last online freedoms, leaving them nothing.</p>
+</article>
+<nav class="updown"><a href="2026-07-08.html">&larr; Wednesday, July 8, 2026</a><a href="2026-07-10.html">Friday, July 10, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Thursday, July 9, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

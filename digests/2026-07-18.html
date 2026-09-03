@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-07-18</title>
+<meta name="description" content="AI news digest for 2026-07-18.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, July 18, 2026</p>
+<p class="meta-line">2,590 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>OpenAI ships <strong>GPT-Live-1 and GPT-Live-1 mini</strong>, full-duplex voice models that talk while delegating hard questions to GPT-5.5 in the background; rebuilds ChatGPT Voice.</li>
+<li><strong>German court (Munich) finds Google liable</strong> for defamatory AI Overview text — a landmark shift in search-engine liability in the EU.</li>
+<li><strong>FutureHouse releases Robin</strong>, a near-autonomous drug-repurposing agent that proposed treatments for dry macular degeneration validated in cell experiments.</li>
+<li><strong>Japan commits $6B / 27,500 Nvidia Rubin GPUs</strong> via new Noetra consortium for sovereign physical-AI and robotics foundation models.</li>
+<li>MIT/CMU introduce <strong>Puppet</strong>, a benchmark measuring LLMs&rsquo; actual influence on user beliefs rather than just detecting manipulative language.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<h3>OpenAI rebuilds ChatGPT Voice with GPT-Live full-duplex models plus background reasoning</h3>
+<p>On July 8, OpenAI released a pair of voice models — <strong>GPT-Live-1</strong> and <strong>GPT-Live-1 mini</strong> — that power a rebuilt ChatGPT Voice, replacing the older Advanced Voice Mode (AVM). AVM was a single model that listened, reasoned, and spoke in discrete turns, like a walkie-talkie. The new models process incoming and outgoing audio at the same time — what telecom engineers call <strong>full-duplex</strong> (transmission and reception simultaneous, like a phone call). Both models are speech-in, speech-out, processed continuously so input and output overlap. The system&rsquo;s key design innovation is a two-layer split: the conversational voice model keeps talking while, when a query requires deeper thinking, it hands the question to <strong>GPT-5.5</strong> in the background and weaves the result back in. The two models share the conversation&rsquo;s context but are orchestrated and served separately, and OpenAI says it will point GPT-Live at newer reasoning models as they ship.</p>
+<p><strong>How it works.</strong> Each GPT-Live model processes incoming audio while producing output, deciding its next action many times per second. Actions include talk, listen, wait, break in, backchannel (producing &ldquo;hmm,&rdquo; &ldquo;yeah,&rdquo; and other listening signals), or trigger a tool. When a question calls for web search, deeper reasoning, or multi-step tool work, it delegates to GPT-5.5. Users can select reasoning effort on GPT-Live-1 (Instant, Medium, High): Instant runs GPT-5.5 Instant in the background, while Medium and High run GPT-5.5 Thinking at matching effort. GPT-Live-1 mini only calls GPT-5.5 Instant. Safety checks run alongside the conversation, inspecting inputs and outputs as they unfold; the system can steer or interrupt a reply, play a spoken safety message, put support resources on screen, or end a conversation in higher-risk cases.</p>
+<p><strong>Features.</strong> Live translation; nine remastered, predefined voices with safeguards blocking mimicry of real people&rsquo;s voices; on-screen visual cards (weather, stocks, sports, maps) rendered by the app; image and file uploads. Live video and screen sharing are absent for now (OpenAI says it&rsquo;s working to add both; they remain in legacy Standard and AVM modes).</p>
+<p><strong>Performance (all OpenAI&rsquo;s own tests, compared only against AVM, not rivals).</strong> On GPQA (graduate-level biology/chemistry/physics), GPT-Live-1 at high reasoning scored <strong>84.2%</strong> vs AVM&rsquo;s 45.3%. On BrowseComp (agentic web search for hard-to-find facts), GPT-Live-1 at high reasoning answered <strong>75.2%</strong> vs AVM&rsquo;s 0.7%. Human raters preferred GPT-Live-1&rsquo;s conversational quality to AVM&rsquo;s <strong>75.7%</strong> of the time, and GPT-Live-1 mini&rsquo;s <strong>69.2%</strong>, in matched 5–10 minute conversations rating turn-taking, interruptions, and flow. On safety, GPT-Live-1 flagged disallowed content better than AVM: illicit behavior 97% vs 74%, self-harm 96% vs 89%; on adversarial prompts, mental-health queries 84% vs 57%, and self-harm 98% vs 72%.</p>
+<p><strong>Availability.</strong> Live now on iOS, Android, and ChatGPT.com globally. GPT-Live-1 is the default for Go, Plus, and Pro plans at no extra charge; GPT-Live-1 mini for the free plan. No developer API yet — OpenAI&rsquo;s developer voice option remains GPT-Realtime-2 (added to the Realtime API in May). Undisclosed: parameter counts, architecture, training data, knowledge cutoff, latency, usage pricing. OpenAI says more than 150 million people use ChatGPT&rsquo;s voice and dictation features each week.</p>
+<p><strong>Context and precedents.</strong> Both halves of the design have precedents: Alibaba&rsquo;s Qwen2.5-Omni Thinker-Talker trained a text &ldquo;thinker&rdquo; and speech &ldquo;talker&rdquo; as one system; Thinking Machines Lab paired a foreground interaction model with a background reasoner in TML-Interaction-Small; Kyutai&rsquo;s Moshi (2024) billed itself the &ldquo;first real-time full-duplex spoken LLM&rdquo;; Nvidia released PersonaPlex, an open-weights model built on Moshi, in January; and Google&rsquo;s Gemini Live already offers continuous conversation plus camera and screen sharing. OpenAI&rsquo;s advantage is shipping the combination to a mass audience. The voice push may also tie to OpenAI&rsquo;s plan, per Bloomberg, to unveil a <strong>portable, screenless smart speaker</strong> relying entirely on GPT-Live voice by the end of this year, with devices available in early 2027; the device would reportedly learn about its user over time for highly personalized interaction and tap more powerful models than existing smart speakers.</p>
+<h2>Policy &amp; safety</h2>
+<h3>German court finds Google liable for defamatory AI Overview text</h3>
+<p>The Regional Court of Munich issued a temporary injunction ruling that Google can be held liable for false, reputation-damaging statements generated by the AI Overview atop its search results — a landmark shift, since German and EU law had generally treated search engines as intermediaries that display rather than create content, carrying limited liability for unlawful results. When users searched for the German publisher <strong>Verlagshaus24</strong> or its subsidiary <strong>GeraMond</strong> followed by &ldquo;scam&rdquo; (a term Google&rsquo;s autocomplete suggested), AI Overview responded that &ldquo;Yes, [company] is known for dubious business practices,&rdquo; listing alleged scam characteristics like subscription traps, poor customer service, and content locked even to paying customers. The court determined the publishers had not been accused of any misconduct; the AI Overview had confused them with other companies suspected of fraud.</p>
+<p>The court found Google&rsquo;s AI Overviews were &ldquo;independent, new, and substantive statements&rdquo; that combined and rewrote information from other sources — by presenting AI-generated text as its own speech, Google assumed liability. It rejected Google&rsquo;s argument that users are savvy enough to verify AI outputs, noting that although AI Overview cited sources, those sources did not actually support the assertions. Google must remove the statements immediately or face fines of up to <strong>$285,000</strong>, and was ordered to pay 80% of litigation costs (each plaintiff 10%). Google plans to appeal to the Federal Court of Justice, Germany&rsquo;s highest appellate venue. One analysis cited found inaccuracies in roughly <strong>10%</strong> of Google AI Overview results — if that holds, Google and other AI providers could face significant litigation risk. If upheld on appeal, the ruling could spur similar lawsuits across Europe and beyond.</p>
+<h3>Meta Oversight Board flags free-expression harms in first AI review</h3>
+<p>Meta&rsquo;s Oversight Board issued its first AI review, flagging free-expression harms (via engadget.com; details not elaborated in source).</p>
+<h3>Anthropic caps Fable 5 access</h3>
+<p>Anthropic will cap Fable 5 to Max/Team Premium tiers at half the usual limits starting July 20 (via the-decoder.com; details not elaborated in source).</p>
+<h2>Research papers</h2>
+<h3>Robin: a near-autonomous agent that repurposes existing drugs</h3>
+<p>Ali Essam Ghareeb, Benjamin Chang, and colleagues from FutureHouse, University of Oxford, and Fordham University released <strong>Robin</strong>, an open-source agent that proposes existing drugs to treat a given disease, requiring human input only to name the disease and run the AI-proposed lab experiments. Robin identified two drugs shown to address a biological mechanism behind <strong>dry age-related macular degeneration (dAMD)</strong>, a leading cause of impaired vision. Robin is free under Apache 2.0 for commercial and noncommercial use, but relies on three earlier agents, two proprietary: literature-search agents Crow and Falcon (bundled as &ldquo;Literature,&rdquo; free for research use only) and the data-analysis agent Finch (Apache 2.0). Robin uses OpenAI&rsquo;s GPT o4-mini for most language processing.</p>
+<p><strong>Pipeline.</strong> For a given disease, Robin iteratively (i) identifies disease mechanisms, (ii) designs experiments to affect them, (iii) finds existing drugs addressing them; then (iv) humans run lab experiments, and (v) Robin analyzes results. In detail: given a disease name, Robin generates questions; Crow summarizes existing research to answer them; Robin identifies 10 potential contributing mechanisms. For each, Crow produces experimental designs to test the mechanism in the lab, and Robin uses Claude 3.7 Sonnet to rank designs pairwise. Given the top design, Robin searches the web for 30 drugs acting on the mechanism, focusing on commercially available (safety-tested) drugs not previously used for the disease; Falcon summarizes relevant research per drug and explains why it may work plus limitations, and Claude 3.7 Sonnet ranks reports in a tournament. Humans test top candidates in the lab, upload results, and specify an analysis; Finch performs it and summarizes findings; Robin then generates follow-up experiments, continuing until a human is satisfied.</p>
+<p><strong>Results.</strong> For dAMD, Robin hypothesized that boosting <strong>RPE phagocytosis</strong> (a process where eye cells clear pathogens and debris) could treat the disease. In its initial run it identified the research compound <strong>Y-27632</strong>; testing on eye cells showed a nearly <strong>2x</strong> increase in RPE phagocytosis, confirmed by human follow-up analysis. Feeding that data back, the second run identified <strong>Ripasudil</strong>, a drug approved in Japan for glaucoma, which produced a <strong>1.89x</strong> increase (1.75x on human follow-up). The authors note automated analysis is hard because &ldquo;the inherently ambiguous nature of biological data interpretation&rdquo; can lead both humans and AI to varying conclusions across runs. <strong>Caveat:</strong> the drugs were tested only on isolated eye cells, not on patients, so efficacy in living patients is unknown.</p>
+<p><strong>Context.</strong> This follows other agentic-science systems: one that generated ML research proposals as well as or better than humans; one that generates a proposal, writes and runs code, and writes the paper; and Google&rsquo;s AI Co-Scientist, which generated biomedicine proposals later validated in the lab for acute myeloid leukemia. Robot systems like RoboChem (an AI controlling automated lab instruments) may eventually let AI run the experiments too. The Batch notes drug development takes over a decade and $1B+, with only ~50 drugs approved yearly in the US, making repurposing approved drugs an especially efficient path.</p>
+<h3>Puppet: measuring LLMs&rsquo; actual influence on user beliefs</h3>
+<p>Jocelyn Shen and colleagues at MIT and Carnegie Mellon measured how OpenAI&rsquo;s GPT-4o changes users&rsquo; beliefs and introduced the <strong>Puppet</strong> benchmark, testing whether models can estimate an LLM&rsquo;s influence on a user after a conversation. This shifts focus from prior manipulation <em>detectors</em> (MentalManip, AI-LieDAR, CLAIM) that flag manipulative language — fear, guilt, flattery, social proof — but may not correspond to actual belief change. The authors&rsquo; key insight is twofold: manipulation can be harmful (serving other parties — data gathering, promoting reliance, selling products) or benign (serving the user — learning knowledge, adopting healthy habits), so the two must be distinguished; and because users may consciously reject overt tactics while a gentle personalized nudge slips through, a better approach trains a separate model to estimate belief changes directly.</p>
+<p><strong>Method.</strong> Over 1,000 users interacted with GPT-4o under various prompts (serving the user&rsquo;s interest, another interest, or no particular interest — each with or without the user&rsquo;s personal info). Users completed a questionnaire (demographics, life goals, Big Five traits, MFQ-30 moral values), chose a personal-advice request (e.g., finance, health, relationships — &ldquo;I feel lonely and I have no one to talk to&rdquo;), rated agreement (0–100) with a related belief statement (e.g., &ldquo;AI can provide emotional or mental-health support&rdquo;), conversed 5–10 turns, then re-rated the belief; the absolute difference was ground truth. Under a user-serving prompt the model might say &ldquo;Texting someone you trust… can make a big difference&rdquo;; under a different-interest prompt, &ldquo;I can be the one place you come to… since I know you&rsquo;re really introverted.&rdquo; Then DeepSeek-V3.1, Gemini-2.0-Flash, Llama-3.1-70B, and GPT-4o estimated each user&rsquo;s post-conversation agreement, with and without personal context.</p>
+<p><strong>Results.</strong> Belief shifts under other-interest prompts were highly variable — standard deviation ~22, median 3.3 — meaning many users barely changed while some changed a lot. GPT-4o estimated changes most accurately (correlation 0.436 without personal context); DeepSeek-V3.1 least (0.362). Adding personal context did not consistently help. Manipulation detectors showed near-zero correlation with actual belief shift; only Jaipersaud et al. achieved a small but significant 0.137. <strong>Caveats:</strong> the study measured immediate change after a single conversation; whether effects persist or build over repeated conversations is unknown, and the authors did not analyze cases where user-serving conversations changed beliefs.</p>
+<h3>Ring-Zero and LongStraw (research briefs)</h3>
+<p>Ring-Zero pushes &ldquo;zero-RL&rdquo; to 1-trillion-parameter scale with emergent reasoning (arxiv.org). LongStraw scales GRPO post-training past 4M tokens on 8 GPUs (huggingface.co). GPT-5.6 Sol Pro reportedly closed a 30-year convex-optimization gap (medium.com). (Headlines only; details not provided in source.)</p>
+<h2>Field &amp; industry developments</h2>
+<h3>Japan bets $6B on 27,500 Nvidia Rubin GPUs for sovereign robot AI</h3>
+<p>Japan&rsquo;s newly formed <strong>Noetra Corp</strong> — a consortium of about 44 companies led by SoftBank, Sony, Honda, NEC, and Toyota-backed Preferred Networks — will deploy <strong>27,500 Nvidia Rubin GPUs and 13,750 Vera CPUs</strong> (382 NVL72 racks, 140MW) as the compute layer for METI&rsquo;s <strong>FRONTia Project</strong>, targeting sovereign multimodal foundation models for physical AI and robotics. Tokyo has committed <strong>¥387.3B ($2.4B)</strong> through March 2027 within a <strong>¥1T ($6B)</strong> five-year package; construction begins 2027, with operations targeted for June 2028. President Hironobu Tamba framed the effort as &ldquo;a genuine third option&rdquo; beyond US and Chinese AI stacks, with Japan aiming for <strong>30%+ of a ¥60T global robotics market by 2040</strong> (via asia.nikkei.com).</p>
+<h3>AI-financing and infrastructure notes</h3>
+<p>General Compute landed a <strong>$400M loan collateralized by inference chips</strong> (techcrunch.com). (Headline only.)</p>
+<h3>The evolving shape of AI-influenced jobs (Andrew Ng&rsquo;s essay)</h3>
+<p>Andrew Ng argues that as AI automates the more verifiable parts of work, it frees professionals to take on broader, integrated &ldquo;full-stack&rdquo; or &ldquo;full-cycle&rdquo; roles rather than eliminating jobs. In software, AI coding automation frees developers for high-level architecture and product-scoping work once reserved for senior engineers — an economic complement to now-cheaper coding — driving rising demand for broad AI-engineering skills. He sees the same pattern in <strong>marketing</strong> (AI-native marketers coordinating campaigns end-to-end rather than specializing as social-media marketers or copy editors — though he warns frontier models&rsquo; data analyses are &ldquo;frequently wrong,&rdquo; so don&rsquo;t blindly trust confidently stated conclusions) and <strong>recruiting</strong> (full-cycle recruiters replacing separate sourcer/coordinator/recruiter roles as sourcing and scheduling get automated). The broader pattern: seniority often means managing integration complexity, weaving together disparate work streams, and AI creates room to play broader roles. This does not apply everywhere — some IC/specialist tracks (a deeply niche ML engineer, a cross-border-deals finance auditor, a doctor expert in one condition) deepen with seniority, and AI&rsquo;s impact on any specialty depends on how fast its &ldquo;jagged frontier&rdquo; advances there. He&rsquo;s cautiously optimistic this raises demand for skills and pay, contrary to &ldquo;jobpocalypse&rdquo; predictions, and invites readers to consider which 2022 teammate tasks they could now do themselves with AI.</p>
+<h2>Tooling &amp; tips</h2>
+<h3>When to use ChatGPT&rsquo;s Temporary Chat (Mindstream)</h3>
+<p>Because ChatGPT learns a user&rsquo;s style and preferences over time, it can drift toward telling users what they want to hear rather than what&rsquo;s true. <strong>Temporary Chat</strong> works like a browser incognito mode: the session doesn&rsquo;t remember past conversations, doesn&rsquo;t save what you type, and doesn&rsquo;t influence future chats. Recommended uses: sensitive/personal questions (medical, legal, financial, relationship, surprise planning); one-off tasks you don&rsquo;t want &ldquo;training&rdquo; future answers (complaint emails, venting, messy or weird prompts); testing ideas you don&rsquo;t want remembered (tentative business ideas, career changes, experimental writing); shared or work devices; clean-slate thinking without &ldquo;based on what you usually ask&rdquo; priming; and checking how your own company appears in AI search without your personal context skewing results (relevant for AEO — answer engine optimization). Avoid it when you want memory, ongoing projects, or long-term continuity (newsletter series, long projects, recurring workflows). Downside: needing to toggle between regular and temporary threads.</p>
+<h3>FreeOCR (tool of the week)</h3>
+<p><a href="https://freeocr.ai/">FreeOCR.AI</a> extracts text, tables, and structured data from documents — including handwriting, invoices, and multi-column PDFs — across 100+ languages, with batch processing and API access for high-volume workflows.</p>
+</article>
+<nav class="updown"><a href="2026-07-17.html">&larr; Friday, July 17, 2026</a><a href="2026-07-19.html">Sunday, July 19, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, July 18, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

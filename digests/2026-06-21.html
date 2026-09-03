@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-06-21</title>
+<meta name="description" content="AI news digest for 2026-06-21.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, June 21, 2026</p>
+<p class="meta-line">2,404 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>EU Commission picks Italian-led EUROPA consortium to build a 400B-parameter open-source frontier model in all 24 EU languages.</strong></li>
+<li><strong>Nobel laureate John Jumper (AlphaFold) leaves Google DeepMind for Anthropic</strong>, deepening a Google AI talent exodus.</li>
+<li><strong>Trump tells Axios Anthropic is &ldquo;no longer a national security threat&rdquo;</strong> after a G7 meeting with Dario Amodei — but the June 12 export ban remains formally in effect, complicating Anthropic&rsquo;s planned October IPO.</li>
+<li><strong>OpenAI publishes beneficial-trait RL (&ldquo;character training&rdquo;) research</strong> showing safety gains generalize across 44 of 53 benchmarks and resist adversarial pressure.</li>
+<li><strong>Baseten raises $1.5B at up to $13B</strong> amid surging AI inference demand; <strong>Kling AI seeks $2B at $18B valuation</strong>.</li>
+<li><strong>Robotics week:</strong> Genesis AI&rsquo;s &ldquo;anti-humanoid&rdquo; Eno, Honor&rsquo;s motorized Robot Phone, Waymo Premier subscription, Alibaba open-sources Qwen-Robot Suite.</li>
+</ul>
+<h2>Policy, government &amp; geopolitics</h2>
+<p><strong>EU selects EUROPA consortium for a 400B-parameter open-source frontier model.</strong> The European Commission named EUROPA, a consortium led by the Italian company Domyn, as winner of its Frontier AI Grand Challenge — a project launched in February 2026 to build a European open-source AI model spanning all 24 official EU languages. The model is slated to contain more than 400 billion parameters, which the Commission frames as matching the scale of the world&rsquo;s most advanced AI systems, and will be made openly available to businesses, researchers, and public institutions. Commission Executive Vice-President Henna Virkkunen framed the win as proof that &ldquo;Europe can lead in advanced AI on its own terms,&rdquo; positioning the effort as a sovereignty play to reduce dependence on US and Chinese frontier labs. (Source: ec.europa.eu via AI Weekly)</p>
+<p><strong>Trump softens stance on Anthropic after G7, but export ban stands.</strong> President Trump told Axios he no longer considers Anthropic a national security threat, saying &ldquo;Well, not now, but a week ago, maybe.&rdquo; The reversal came two days after he met Anthropic CEO Dario Amodei at the G7 summit in France, where Amodei reportedly presented a framework for a US-led AI coalition among democracies. Despite the public softening, the substantive restrictions remain formally in force: the Commerce Department&rsquo;s June 12 export-control order suspending global access to Anthropic&rsquo;s Fable 5 and Mythos 5 models is still active, as is the Pentagon&rsquo;s supply-chain risk designation. Rescinding the directive would require bureaucratic action. The stakes are tied to Anthropic&rsquo;s planned October 2026 IPO at a roughly $965 billion valuation — restoring the suspended models is described as a prerequisite for the company to demonstrate its revenue runway to public investors. (Sources: cryptopolitan.com, The Next Web via AI Weekly)</p>
+<p><strong>Fortune: an offhand Jassy White House call triggered Anthropic&rsquo;s 90-minute shutdown deadline.</strong> Per Fortune reporting surfaced in the alerts, Amazon CEO Andy Jassy&rsquo;s casual call to the White House was the trigger behind the abrupt 90-minute shutdown deadline imposed on Anthropic — context for the export action above. (Source: fortune.com via AI Weekly)</p>
+<h2>Company, product &amp; business developments</h2>
+<p><strong>John Jumper leaves Google DeepMind for Anthropic.</strong> John Jumper — VP and Engineering Fellow at Google DeepMind, and co-winner of the 2024 Nobel Prize in Chemistry for AlphaFold&rsquo;s protein-structure predictions — announced on June 19 that he is leaving Google after nearly nine years to join Anthropic. DeepMind CEO Demis Hassabis publicly acknowledged their &ldquo;extraordinary partnership&rdquo; and said AlphaFold &ldquo;changed the world.&rdquo; The departure lands one day after Noam Shazeer&rsquo;s exit to OpenAI and continues a significant talent exodus from Google&rsquo;s AI division. Insider reports cited in the coverage suggest Google&rsquo;s upcoming Gemini 3.5 Pro may not be competitive with Anthropic and OpenAI at launch, adding to pressure on the unit. (Sources: the-decoder.com, The Next Web via AI Weekly)</p>
+<p><strong>Amazon MGM shelves Sam Altman biopic &ldquo;Artificial.&rdquo;</strong> Amazon MGM dropped Luca Guadagnino&rsquo;s nearly-complete drama &ldquo;Artificial,&rdquo; a fictionalized account of OpenAI&rsquo;s 2023 leadership crisis, just days after Amazon announced a $50 billion investment partnership with OpenAI. The film stars Andrew Garfield as Sam Altman and Monica Barbaro as Mira Murati, and was written by Simon Rich. The timing implies the new Amazon–OpenAI relationship factored into the decision to shelve the project. (Source: Variety via AI Weekly)</p>
+<p><strong>Amazon explores selling Trainium chips directly to external data centers.</strong> Amazon is reportedly in talks to sell its Trainium AI chips directly to external data center operators, moving beyond the AWS cloud-only model and positioning itself to challenge Nvidia in the merchant AI-silicon market. (Source: CryptoBriefing via AI Weekly)</p>
+<p><strong>Anthropic releases Claude Code Artifacts in beta.</strong> Anthropic launched Claude Code Artifacts in beta, a feature that converts AI coding sessions into live, shareable enterprise dashboards. (Source: cryptobriefing.com via AI Weekly)</p>
+<p><strong>Hyundai to fully acquire Boston Dynamics; Samsung also circling.</strong> Hyundai plans to buy SoftBank&rsquo;s remaining 9.65% stake in Boston Dynamics for $325 million, which would make the Atlas humanoid robot maker wholly Hyundai-owned. Separately, Samsung is reportedly exploring a stake in Boston Dynamics — potentially acquiring shares from SoftBank — as competition in humanoid robotics intensifies. (Sources: cryptobriefing.com via AI Weekly; SamMobile via Superhuman)</p>
+<p><strong>Midjourney&rsquo;s reported pivot into healthcare.</strong> Coverage flagged a report that Midjourney is pivoting into healthcare with a full-body ultrasonic CT scanner and plans for a &ldquo;Midjourney Spa&rdquo; wellness chain by 2027. (Source: rdworldonline.com via AI Weekly)</p>
+<h2>Funding &amp; deals</h2>
+<p><strong>Baseten raises $1.5B at up to $13B valuation.</strong> AI inference infrastructure company Baseten raised $1.5 billion in a split-price round valuing it at up to $13 billion, reflecting surging demand for AI inference capacity. (Source: TechCrunch via AI Weekly)</p>
+<p><strong>Kling AI seeks $2B at $18B valuation.</strong> Kuaishou&rsquo;s Kling AI is seeking $2 billion from General Atlantic at an $18 billion valuation in a pre-IPO round. (Source: Bloomberg via AI Weekly)</p>
+<p><strong>Accenture builds an industrial cybersecurity platform via $4.18B in acquisitions.</strong> Accenture is acquiring a majority stake in Dragos, plus runZero and NetRise, for a combined $4.18 billion to assemble an industrial cybersecurity platform. (Source: SecurityWeek via AI Weekly)</p>
+<h2>Research &amp; safety</h2>
+<p><strong>OpenAI&rsquo;s beneficial-trait RL (&ldquo;character training&rdquo;) generalizes and resists adversarial pressure.</strong> OpenAI published research on training beneficial character traits via reinforcement learning, reporting that the resulting safety gains generalize across 44 of 53 benchmarks and hold up under adversarial pressure. The work is presented as the first evidence that character training transfers to novel domains rather than overfitting the specific behaviors it was trained on. (Source: alignment.openai.com via AI Weekly)</p>
+<p><strong>Two AI systems beat doctors in Nature papers — with a durability warning.</strong> Two studies in Nature reported AI systems outperforming doctors, but one key result cautions that specialized medical AI may &ldquo;age poorly&rdquo;: as general-purpose base models keep improving, narrowly fine-tuned medical specialists could be overtaken or degrade in relative value over time. (Source: the-decoder.com via AI Weekly)</p>
+<p><strong>Moebius: 0.2B-parameter image inpainting rivaling 10B-class models.</strong> Researchers introduced Moebius, a lightweight diffusion-based image inpainting framework that matches or surpasses the 10B-class industrial generalist FLUX.1-Fill-Dev while using under 2% of the parameters (0.22B vs. 11.9B) and delivering more than a 15× speedup in total inference time. The method rebuilds the diffusion backbone with a Local-λ Mix Interaction (LλMI) block — combining Local-λ and Interactive-λ modules — that summarizes spatial contexts and global semantic priors into fixed-size linear matrices, preserving latent interactions while shedding parameters and conquering the &ldquo;representation bottleneck&rdquo; caused by extreme compression. It is paired with an adaptive multi-granularity distillation strategy operating strictly in latent space (avoiding expensive pixel-space decoding) that dynamically balances multiple gradient-based losses for high-fidelity alignment. The team reports strong results across natural and portrait benchmarks. (109 upvotes; project page at hustvl.github.io/Moebius) — <a href="https://huggingface.co/papers/2606.19195">paper</a></p>
+<p><strong>DragMesh-2: physically plausible dexterous manipulation of articulated objects.</strong> DragMesh-2 is a contact-driven framework for dexterous multi-finger hand–object interaction with articulated objects (e.g., handles, hinged parts), addressing the fact that articulated parts cannot be directly actuated and must move through sustained physical hand–handle contact — so geometric trajectory replay or open-loop execution fails to model the required contact dynamics. The paper introduces PICA (physically informed contact-aware training), which injects physical signals into policy learning without any tactile or force feedback, improving robustness and task success when contact loads change (a regime where task-completion-only policies tend to overfit nominal loads). Across seven GAPartNet objects and multiple damping conditions, DragMesh-2 achieves stronger robustness under contact-load variation than compared methods while maintaining high task success, and the authors release a pure-geometry dexterous interaction resource for future loco-manipulation and humanoid research. (68 upvotes) — <a href="https://huggingface.co/papers/2606.15133">paper</a></p>
+<p><strong>Playful Agentic Robot Learning (RATs).</strong> This work studies &ldquo;play&rdquo; as a continual skill-learning stage for embodied coding agents before downstream tasks arrive. The proposed system, RATs (Robotics Agent Teams), proposes novel-yet-learnable exploratory tasks during play, plans and executes robot-code policies, verifies intermediate progress, diagnoses failures, retries with dense step-level feedback, and distills successful executions into a persistent code skill library; at test time the agent reuses skills from this frozen library. In LIBERO-PRO and MolmoSpaces, play-learned skills beat no-play and random-play baselines with gains of 20.6 and 17.0 percentage points over CaP-Agent0, respectively. The learned skills are also portable: simply retrieving them into the context of other inference-time Code-as-Policy agents improved RoboSuite and real-world transfer by 8.9 and 8.8 points without any finetuning. (43 upvotes) — <a href="https://huggingface.co/papers/2606.19419">paper</a></p>
+<p><strong>Multi-LCB extends LiveCodeBench to 12 programming languages.</strong> Multi-LCB addresses the main limitation of LiveCodeBench (LCB), which is restricted to Python, by transforming LCB&rsquo;s Python competitive-programming tasks into equivalent tasks across twelve languages while preserving LCB&rsquo;s contamination controls and evaluation protocol. Because it is fully compatible with the original LCB format, Multi-LCB will automatically track future LCB updates. Evaluating 24 instruction and reasoning LLMs, the authors uncover evidence of Python overfitting, language-specific contamination, and substantial disparities in multilingual performance — exposing gaps in cross-language code-generation competence. (40 upvotes) — <a href="https://huggingface.co/papers/2606.20517">paper</a></p>
+<h2>Robotics</h2>
+<p><strong>Genesis AI unveils Eno, an &ldquo;anti-humanoid&rdquo; robot.</strong> While most robotics startups try to make humanoids look as human as possible, Palo Alto-based Genesis AI went the opposite direction with Eno, a wheeled &ldquo;humanoid&rdquo; that is entirely headless and faceless, with a minimalist, appliance-like design meant to blend into a living room. In demos it successfully performed lab automation tasks. (Source: Superhuman; genesis.ai/press/meet-eno)</p>
+<p><strong>Honor&rsquo;s Robot Phone debuts at Shanghai International Film Festival.</strong> Chinese smartphone brand Honor unveiled its Robot Phone at the Shanghai International Film Festival, where it served as the festival&rsquo;s official imaging partner — shooting jury members and red-carpet moments. The device features a motorized camera that extends from the phone body like an antenna and automatically tracks subjects via robotic motion control. It goes on sale to the public in Q3. (Source: Variety via Superhuman)</p>
+<p><strong>Waymo launches Premier subscription tier.</strong> Waymo introduced Waymo Premier, an invite-only subscription for frequent robotaxi riders in San Francisco, Los Angeles, and Phoenix. For $29.99/month it offers priority matching, five free cancellations per month, and 10% back in loyalty credits. The move targets power users in Waymo&rsquo;s busiest markets as it pursues reliable revenue beyond per-trip fares. (Source: CNBC via Superhuman)</p>
+<p><strong>Alibaba open-sources the Qwen-Robot Suite.</strong> Alibaba released, as open source, the Qwen-Robot Suite — a trio of robotics AI models deployable across humanoids, robotic arms, and quadruped robots. (Source: qwen.ai via Superhuman)</p>
+<p><strong>Other robotics developments.</strong>
+- <strong>Milrem Robotics</strong> unveiled a concept to line NATO&rsquo;s entire 2,150-mile eastern border (Finland to Poland) with ground robots, aerial drones, and networked sensors designed to make first contact with threats, creating permanent robotic defense zones that absorb early losses and buy commanders response time. (thedefensepost.com)
+- <strong>Robotic cancer-drug lab:</strong> Scientists built a robotic lab platform that ran the equivalent of 10,000 week-long experiments automatically to find drugs that kill rare residual tumor cells (sometimes one in a thousand) that survive chemotherapy and cause relapse, identifying 9 drugs effective against these cells across multiple patients. (Reuters)
+- <strong>Stringman:</strong> a DIY robot that hangs from cables anchored to a room&rsquo;s four corners and uses a gripper to pick up toys, clothes, and clutter from the floor, covering an entire room from above and reaching under furniture; free plans on GitHub plus ready-to-build kits. (Interesting Engineering)
+- <strong>IFR report:</strong> the US robotics industry grew 11% in 2025, though China still deploys roughly ten times as many robots annually. (therobotreport.com)
+- <strong>Tesla Cybercab:</strong> leaked EPA filings suggest it could travel nearly 300 miles on a 48-kWh battery, making it one of the most energy-efficient EVs. (Interesting Engineering)
+- <strong>Uber–Nuro–Lucid:</strong> Uber plans to launch its premium Lucid-Nuro robotaxi service in Houston by mid-2027, its second market after San Francisco. (Uber investor relations)
+- <strong>Dnsys Z1</strong> (robot of the week): a lightweight robotic knee exoskeleton that uses AI to detect motion and provide real-time power assistance on climbs, descents, and stairs, reducing joint strain during hiking, sports, and everyday use. (dnsys.ai)
+- <strong>Phone farms exposé:</strong> rooms full of automated rigs tapping, swiping, and scrolling short videos around the clock generate artificial views, fake watch time, and manufactured likes — deceiving advertisers, suppressing genuine creators, and corrupting recommendation algorithms. (Vice, via x.com)</p>
+<h2>Security</h2>
+<p><strong>DragonForce abuses Microsoft Teams TURN relay for malware C2.</strong> The DragonForce group deployed a backdoor dubbed Backdoor.Turn via Microsoft Teams&rsquo; TURN relay infrastructure — described as the first documented abuse of TURN infrastructure for malicious command-and-control. (Source: thehackernews.com via AI Weekly)</p>
+<h2>Tools &amp; how-tos</h2>
+<p><strong>Using Gemini inside Gmail to run your inbox.</strong> Mindstream&rsquo;s walkthrough describes using the Gemini assistant embedded in Gmail (click the Gemini star in the upper-right corner) to turn an inbox into a lightweight operations dashboard. Steps: (1) organize emails with labels/folders so Gemini stays focused, since pulling from an entire inbox can get overwhelming; (2) ask specific questions like &ldquo;Tell me the action items and follow-ups from emails under the &lsquo;Clients&rsquo; label,&rdquo; which surfaces people awaiting your reply, unanswered questions, and requested documents; (3) convert threads to tasks with prompts like &ldquo;Turn the open action items in this email thread into a checklist,&rdquo; then paste the checklist into the Google Tasks sidebar; (4) query a single contact or thread (e.g., &ldquo;What am I waiting on from Sam regarding the website project?&rdquo;), including for invoices to send, proposals/estimates requested, vendors to pay, and post-meeting follow-ups. Availability varies — some free Gmail accounts are getting limited Gemini features, while Google Workspace (Business/Enterprise) with Gemini gets the full set (thread summaries, writing assistance, contextual cross-inbox answers, suggested replies/drafts). The piece cautions to double-check emails before acting, since AI summarization can miss details in messy threads. (Source: Mindstream)</p>
+<p><strong>Tool of the week — Dub AI:</strong> translates and dubs videos into 25+ languages with cloned voices and automatic speaker detection, aiming to keep content sounding native to each audience without losing the original brand voice. (trydub.com)</p>
+</article>
+<nav class="updown"><a href="2026-06-20.html">&larr; Saturday, June 20, 2026</a><a href="2026-06-22.html">Monday, June 22, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, June 21, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>

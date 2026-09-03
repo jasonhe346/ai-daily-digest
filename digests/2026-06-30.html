@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-06-30</title>
+<meta name="description" content="AI news digest for 2026-06-30.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Tuesday, June 30, 2026</p>
+<p class="meta-line">4,536 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Meta&rsquo;s Brain2Qwerty v2</strong> decodes whole sentences from non-invasive brain scans at 61% average word accuracy (78% best), a leap from the ~8% of prior non-invasive methods, with code and v1 dataset open-sourced.</li>
+<li><strong>California signs a first-of-its-kind deal with Anthropic</strong> to put Claude in all state agencies, cities, and counties at a 50% discount — even as the Pentagon recently flagged Anthropic as a &ldquo;supply-chain risk.&rdquo;</li>
+<li><strong>Four major workplace studies, read together,</strong> show AI productivity gains are real but lopsided: novices +34%, experts −19%, and 95% of enterprise GenAI pilots returning no measurable P&amp;L.</li>
+<li><strong>Chinese open-weight models surge:</strong> Meituan open-sources 1.6T-parameter LongCat-2.0 (first trained end-to-end on domestic chips), Zhipu&rsquo;s GLM-5.2 matches top US models on cybersecurity bug-finding, and Grok 4.5/V9 enters private beta.</li>
+<li><strong>Cursor and OpenClaw go mobile;</strong> coding shifts from typing to supervising agents from your phone.</li>
+<li><strong>Anthropic Claude goes GA on Microsoft Foundry/Azure</strong> on NVIDIA GB300 Blackwell Ultra — Anthropic&rsquo;s first-ever NVIDIA deployment — while Amazon weighs cheaper alternatives after Anthropic&rsquo;s price hikes.</li>
+</ul>
+<h2>Research papers &amp; benchmarks</h2>
+<p><strong>Meta Brain2Qwerty v2 — non-invasive brain-to-text reaches full sentences.</strong> Meta introduced version 2 of its Brain2Qwerty system, which decodes typed sentences in real time from non-invasive magnetoencephalography (MEG) brain recordings, a major step beyond v1, which could only spell things out one character at a time. Nine volunteers each sat about 10 hours inside a brain scanner typing while the system read along, producing roughly 22,000 sentences of training data (Meta says v2 is trained on ~10× more data than v1). The architecture uses two models: one reads the raw brain signals as people type, while a second adds semantic meaning. v2 reached an average word accuracy of 61% — versus the ~8% highs of the best prior non-invasive rivals — with the top-scoring volunteer hitting 78%, accuracy that begins to approach setups that previously required surgical implants. Meta reported accuracy climbs with more data, suggesting the remaining gap with surgical BCIs &ldquo;could be further narrowed through data scaling alone.&rdquo; Meta open-sourced the training code for both v1 and v2 plus the v1 dataset on Hugging Face. The stated goal is to help people who can no longer speak after a stroke, accident, or brain disorder; because surgical implantation has been a hard barrier to mass adoption, a non-invasive path could broaden who benefits, and open-sourcing means other labs can push the same curve. (Reported by The Rundown, TLDR, The Neuron, Superhuman.)</p>
+<p><strong>Anthropic Economic Index — round-the-clock Claude usage.</strong> Anthropic published the latest report in its Economic Index, pairing a new continuous (hourly) usage-sampling setup — replacing the seven-day slices used in past reports — with a survey of 9,700 users. The hourly data shows news questions peaking in the morning, recipes at dinner, sleep advice before dawn, gardening in the afternoon, sermon-related queries before sunrise, and chat spikes on dates like Tax Day. Personal (non-work) Claude chats rose from roughly one-third of usage during the workweek to nearly half on weekends, skewing toward health, money, and emotional-support prompts. Notably, users who delegated more work to Claude also expected AI to handle more of their tasks next year and reported feeling better about their income, career stability, and sense of purpose. Anthropic frames the granular data as evidence that AI is assimilating into everyday schedules, not just office workflows, making habitual trust and use as telling as benchmark scores.</p>
+<p><strong>New benchmarks and inference research.</strong> Several evaluation and efficiency papers landed: <strong>DeepSeek open-sourced DSpark</strong>, a framework that speeds up LLM inference by up to 85% without changing model outputs — it acts as a &ldquo;scout&rdquo; running a few steps ahead, guessing the likely decoding path and letting the larger model quickly verify which steps are safe, accelerating when guesses are good and avoiding wasted checks when they&rsquo;re weak (VentureBeat). <strong>Cognition&rsquo;s Devin Fusion</strong> (see Tooling) details its routing math. <strong>RoadmapBench</strong> evaluates long-horizon agentic software development across real version upgrades in 17 repositories, with 115 tasks requiring a median modification of 3,700 lines across 51 files (arXiv). <strong>Artificial Analysis launched AA-Briefcase</strong>, a private benchmark for long-horizon agentic knowledge work across spreadsheets, presentations, and memos. <strong>DiScoFormer</strong> is a single transformer that estimates both density and score from data in one pass without retraining, using cross-attention to adapt to new distributions on the spot; trained with Gaussian Mixture Models, it cut score error 6.5× and density error more than 37× versus classical kernel density estimation in 100 dimensions (Hugging Face). <strong>Nvidia&rsquo;s CHORD project</strong> demonstrated transferring human dexterous-manipulation skills to robot policies using contact-focused demonstrations. The essay <strong>&ldquo;RL Beyond the Verifiable&rdquo;</strong> argues the next leap in reinforcement learning will come from bringing RL&rsquo;s success in verifiable domains to harder-to-verify tasks, surveying why verifiability is the constraint and which companies are attacking it (tanayj.com).</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Cursor for iOS — coding agents from your phone.</strong> Cursor brought its agentic coding platform to iPhone and iPad with a new app (public beta), letting users kick off agents or take over agents already running on their PC from anywhere — shifting development from desk work toward on-the-go supervision. Users pick a model and start an agent by voice or slash command, running it on Cursor&rsquo;s cloud or their own machine and moving between the two; Live Activities and push alerts hit the lock screen the moment an agent finishes, stalls, or has a pull request ready to review and merge from the phone. Use cases include incident handling, resolving customer issues, and acting on user feedback. The launch trails mobile pushes from Anthropic and OpenAI; Claude Code lead Boris Cherny said &ldquo;Most of my coding now is on my phone.&rdquo; A viral release video drew 3M views. Context: after an April partnership, SpaceX this month exercised a reported $60B deal to acquire Cursor, on the heels of SpaceX&rsquo;s record IPO, and Cursor is preparing its first post-merger Opus-sized model. (The Rundown, TLDR, The Neuron, Superhuman.)</p>
+<p><strong>OpenClaw goes mobile.</strong> OpenClaw — the platform that popularized personal AI assistants in January — launched native iOS and Android apps, letting users command their AI assistant (for emails, calendars, home automation, and more) from a phone; free to try. (Superhuman, The Neuron.)</p>
+<p><strong>Cognition&rsquo;s Devin Fusion.</strong> Cognition launched Devin Fusion in preview, a multi-model &ldquo;harness&rdquo; using a dual-agent architecture: a main frontier-model agent paired with a cheaper &ldquo;sidekick&rdquo; agent for dynamic model routing, optimizing task handling and avoiding costly cache misses. It cut costs 35% on the FrontierCode benchmark while maintaining top-tier performance, rising to a 41% cost reduction with Fable 5 integration. (TLDR AI, The Neuron, The Rundown.)</p>
+<p><strong>Other launches and tools.</strong> <strong>OpenAI&rsquo;s Codex hardware</strong> (&ldquo;Codex Micro&rdquo;) was displayed at the AI Engineer World&rsquo;s Fair — a keyboard designed to supercharge Codex usage, built with accessories company Work Louder (The Verge). OpenAI is also rolling out a <strong>bidirectional voice mode</strong> for ChatGPT that can speak, hear, and listen simultaneously (and beatbox) (Testing Catalog). <strong>Gemini&rsquo;s personalized AI image generation</strong> (&ldquo;Nano Banana&rdquo;-powered) is now free for all eligible US users, generating images from the model&rsquo;s understanding of users&rsquo; preferences without explicit prompting; the opt-in &ldquo;Personal Intelligence&rdquo; feature lets users choose which apps Gemini can access, and Google has further updates planned including a &ldquo;Daily Brief,&rdquo; a revamped interface, the Gemini Omni video model, and a personal agent called Gemini Spark (TechCrunch). <strong>Figma</strong> beefed up its AI design agent with custom tools, context, and skills, connecting to Hex, Notion, and Atlassian from the Figma dashboard. <strong>ByteDance&rsquo;s Seedance 2.5</strong> video model can create 30-second clips from one prompt and accepts up to 50 reference attachments for greater control (CNET). <strong>Sakana Fugu</strong> launched after a Claude ban, with Fugu Ultra scoring 93.2 on LiveCodeBench (beating Fable) starting at $5 per million input tokens. <strong>Base1</strong> is Base44&rsquo;s new in-house app-building model. <strong>ClinePass</strong> gives discounted, key-free access to GLM, Kimi, DeepSeek, MiMo and other open coding models inside Cline for $9.99/month. <strong>Mistral Workflows</strong> is a durable, fault-tolerant orchestration platform for multi-agent pipelines. <strong>OpenAI&rsquo;s Record &amp; Replay</strong> tool (macOS) lets you teach Codex any repetitive desktop task by recording your screen, then turning it into a reusable, schedulable skill. Several context/assistant tools also shipped: <strong>Draft</strong> (captures meeting/Slack/GitHub context to inject into agent sessions), <strong>Halo</strong> (private iPhone assistant unifying mail, calendar, reminders, music, health), and <strong>Bloome</strong> (multiple AI agents in group chats alongside humans). National Design Studio released <strong>Rampart</strong>, an on-device tool to keep personal info separate from AI chatbots.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>California&rsquo;s landmark Anthropic deal.</strong> Governor Gavin Newsom announced a first-of-its-kind partnership giving California state agencies — plus cities and counties — access to Claude at half price, paired with free Anthropic workforce training and technical assistance. Claude will be the first AI productivity tool offered through the state&rsquo;s new SITeS portal and the first AI cleared by the state; the DMV, the Department of Healthcare Services (the country&rsquo;s largest Medicaid agency), and the Office of Emergency Services are already using it. The deal stands in sharp contrast to the Pentagon&rsquo;s recent designation of Anthropic as a &ldquo;supply-chain risk,&rdquo; signaling a divergent US state-versus-federal path on frontier-model adoption. (TechCrunch via AI Weekly Alerts, The Rundown.)</p>
+<p><strong>Anthropic Claude GA on Microsoft Foundry / NVIDIA.</strong> Anthropic, Microsoft, and NVIDIA announced that Claude Haiku, Sonnet, and Opus are now generally available in Microsoft Foundry on Azure, running on NVIDIA GB300 Blackwell Ultra NVL72 systems with Quantum-X800 InfiniBand — Anthropic&rsquo;s first-ever deployment on NVIDIA hardware. It builds on their November tripartite strategic partnership and includes NVIDIA Verified Agent Skills and a Secure Agent Workspace reference design for enterprise agentic AI. Early Microsoft benchmarks cite a 40% token-generation speedup for Claude Sonnet on GB300 versus H100. (NVIDIA blog, The Neuron.)</p>
+<p><strong>Amazon weighs cheaper alternatives to Anthropic.</strong> After Anthropic renegotiated its AWS contract to shift to per-token pricing — which could substantially increase Amazon&rsquo;s costs — Amazon is reportedly weighing a move to OpenAI models and its own Nova models to cut spending (The Information, TheNextWeb). This dovetails with a broader cost-control wave: companies like Uber and ServiceNow blew through their entire 2026 AI budgets within months, prompting many to consider shifting workloads to cheaper open-weight models that increasingly match proprietary performance, though performance, security, and engineering-overhead trade-offs mean open-weight isn&rsquo;t right for every team (Superhuman, 404 Media&rsquo;s &ldquo;Tokenpocalypse&rdquo; via AI Weekly).</p>
+<p><strong>Claude expands across the enterprise stack — with friction.</strong> Claude became generally available in Microsoft Foundry (above) and Anthropic launched <strong>Claude Tag</strong>, which monitors activity in a work messaging app and, with preset guidance, sends alerts about posts that may impact the user&rsquo;s day, drops comments in conversations, and can fix code issues (Bloomberg framed it as wanting Claude to be &ldquo;your new Slack coworker&rdquo;). The product drew skepticism over unclear benefit versus existing Slack/Teams alerts. Notably, <strong>Salesforce helped promote Claude Tag inside Slack</strong>, confusing employees because Slack already has Slackbot and the Agentforce platform (which itself runs on Claude); Salesforce expects to spend $300M on Anthropic tokens this year and holds roughly a 1% stake in Anthropic, giving it financial reasons to promote Claude Tag despite the competitive tension (TheNextWeb).</p>
+<p><strong>Getty–OpenAI image deal.</strong> Getty Images signed a deal in which OpenAI pays Getty to display Getty images in ChatGPT search results — a notable lifeline given Getty&rsquo;s stock has fallen from a high of ~$30 to under $1, and an encouraging sign that culturally significant, irreplaceable IP may retain value in the AI era (Yahoo Finance).</p>
+<p><strong>Apple talent and acquisitions.</strong> Apple&rsquo;s Vision Pro and smart-glasses chief <strong>Paul Meade is leaving for OpenAI&rsquo;s hardware unit</strong>, reuniting with ex-Apple colleagues Jony Ive and Tang Tan to build AI-powered devices (Bloomberg). Separately, Apple acquired <strong>Rabbit 3 Times</strong>, maker of &ldquo;Play,&rdquo; a visual Swift development tool that won an Apple Design Award; the acquisition appears aimed at asset-stripping for incorporation into Apple Creator Studio, with the app gone and the company&rsquo;s website taken down (AppleInsider).</p>
+<p><strong>Other company moves.</strong> <strong>Arena</strong> reached a $100M annual revenue run rate eight months after launching its real-world AI evaluation product. <strong>Google Cloud</strong> will sell specialist scientific AI models from <strong>SandboxAQ</strong> — large quantitative models trained on scientific equations and laboratory data — widening access for drug discovery, materials science, and semiconductor manufacturing; researchers can combine them with Gemini (Gemini for reasoning/interface, the quantitative model for the underlying science). <strong>Rocket Lab is acquiring satellite operator Iridium for $8 billion</strong> to challenge SpaceX, gaining control of Iridium&rsquo;s 66-satellite low-Earth-orbit fleet, valuable spectrum rights for direct-to-device connectivity, and a network serving 2.5M+ users; Rocket Lab plans to develop an upgraded constellation to replace the current one (TLDR, The Verge). <strong>Mercury</strong> launched Mercury Command, a plain-language AI financial interface across its platform (payments, forecasting, categorization, invoices) with traceable reasoning and human approval gates.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>AI productivity is real but radically uneven — special analysis.</strong> AI Weekly synthesized four of the most-cited workplace studies of the AI era into one conclusion: gains bend toward the inexperienced, the well-scoped, and the verifiable — not toward experts doing hard, familiar work, and not toward enterprises buying pilots.
+- <strong>Brynjolfsson, Li &amp; Raymond (NBER/QJE, &ldquo;Generative AI at Work&rdquo;):</strong> Across 5,179 customer-support agents, average productivity rose 14%, but the gain was almost entirely carried by the least-experienced workers (+34%) while veterans barely moved. AI worked by encoding the best agents&rsquo; tacit know-how and handing it to newcomers, compressing months of learning into a prompt.
+- <strong>Dell&rsquo;Acqua et al. (HBS/BCG, &ldquo;Navigating the Jagged Technological Frontier&rdquo;):</strong> BCG consultants using GPT-4 completed 12.2% more tasks, 25% faster, with higher quality — but only inside AI&rsquo;s &ldquo;jagged frontier.&rdquo; On a task deliberately chosen to sit just outside it, AI-assisted consultants were 19% less likely to be right, because the tool&rsquo;s fluent confidence is identical on both sides of the invisible line. Below-average performers gained most, narrowing the gap between weak and strong consultants.
+- <strong>METR randomized trial (arXiv 2507.09089):</strong> 16 experienced open-source developers on 246 real tasks in repositories they maintain were 19% slower with AI tools — yet expected a 24% speed-up beforehand and still believed AI had sped them up 20% afterward. METR stresses the result is scoped to early-2025 tools, expert developers, and familiar codebases, and does not generalize to juniors or unfamiliar code — but that caveat is the finding: the slowdown concentrates exactly where expertise and context are highest.
+- <strong>MIT NANDA (&ldquo;State of AI in Business 2025&rdquo;):</strong> From 150 executive interviews, 350 employee surveys, and 300 deployments, just 5% of GenAI pilots produced rapid revenue acceleration; the other 95% stalled with little measurable P&amp;L impact. The blocker wasn&rsquo;t model quality but the &ldquo;learning gap&rdquo; — bolting AI onto unchanged workflows. Vendor-bought projects succeeded ~67% of the time versus barely a third for internal builds, and real ROI sat in unglamorous back-office automation, not the sales-and-marketing tools that ate most budgets.</p>
+<p>The piece names three hidden costs: a vast invisible human payroll (data workers, many in the Global South, documented by the DAIR Institute); gains spent as more work rather than less (Bloomberg&rsquo;s &ldquo;AI burnout era,&rdquo; with one startup CEO sleeping at the office for three straight weeks — see below); and skill atrophy as engineers offload the hard parts. The &ldquo;cruel symmetry&rdquo;: the same economist (Brynjolfsson) whose work shows AI making junior workers more productive also runs the <strong>&ldquo;Canaries in the Coal Mine&rdquo;</strong> dashboard (ADP payroll data covering ~1 in 6 US workers), which finds employment for 22–25-year-olds in the most AI-exposed roles falling while rising for less-exposed peers — early evidence the entry rungs are being pulled up. The two findings are the same fact: AI most helps the novice, which is exactly why the novice&rsquo;s job is cut first, optimizing away the apprenticeship that creates future experts. A field guide: AI reliably raises productivity when tasks are well-scoped, output is verifiable, the work sits inside the model&rsquo;s competence, and the worker is either a novice on routine work or an expert treating AI as a draft to check; it backfires on open-ended judgment, hard-to-verify answers, experts already faster than the review loop, or orgs that buy tools without redesigning workflows.</p>
+<p><strong>AI anxiety and burnout in Silicon Valley.</strong> Bloomberg reported AI anxiety is fueling burnout across tech workers, with engineers &ldquo;working until 4 a.m. to demonstrate productivity on par with the agents they&rsquo;re deploying.&rdquo; Glean&rsquo;s Work AI Index 2026 (6,000 digital workers surveyed) found AI saves time but much of it goes back into cleanup (&ldquo;botsitting&rdquo;). A trending Hacker News essay argues AI erodes the engineering &ldquo;flow state&rdquo; and quietly hollows out expertise.</p>
+<p><strong>Ford&rsquo;s AI backfire.</strong> Ford reportedly &ldquo;hired AI and sacked humans,&rdquo; and it backfired: the company brought back ~350 veteran quality inspectors/engineers to fix problems after its AI tools fell short, which then surged its quality-control rankings (Bloomberg). The cautionary tale is circulating precisely as the inverse of the typical pitch deck. Separately, Ford&rsquo;s general counsel said in-house legal teams are adopting AI faster than many outside law firms.</p>
+<p><strong>Did AI kill the billable hour?</strong> The WSJ and Business Insider report consulting firms are moving away from hourly billing as AI makes work faster, cheaper, and harder to meter. Deloitte reportedly showed consultants a chart suggesting traditional labor-based consulting could shrink sharply as a share of the market by 2035, with AI agents expected to become a much larger part of professional services. Firms are testing fixed-fee and outcome-based pricing; McKinsey says more than 30% of its global fees already come from pricing tied to client outcomes. The Neuron&rsquo;s analysis warns of perverse incentives: pay only for time and you reward delay; pay only for output and you reward rushed, low-quality work; and outcome-based deals that reward measurable savings can become an accelerant for AI layoffs (the easiest measurable savings is headcount). A good outcome model needs four pieces — a stable base fee, a clear target, quality guardrails, and shared upside — and should bundle metrics (cost savings + quality, speed + accuracy, revenue-per-employee + retention) to avoid hidden damage. The deeper point: billable hours and even salaries punish fast workers, and the coming fight is attribution — who gets credit when model, manager, employee, and vendor all contributed.</p>
+<p><strong>The reshaping of tech roles.</strong> Claude Code lead Boris Cherny posted (2M views) a theory that as engineering, product, design, and data science melt together, five role archetypes emerge: the Prototyper (invents ideas), the Builder (ships them), the Sweeper (cleans them up), the Grower (improves product-market fit), and the Maintainer (keeps mature systems secure, reliable, fast). The Neuron extends this to all functions, arguing stage-of-work (inventing, shipping, cleaning, growing, maintaining) will matter more than title or department. Kun Chen pushed back that archetypes can become &ldquo;career cages,&rdquo; and people should change roles as the project changes — Boris agreed; the takeaway is &ldquo;know which hat the project needs right now.&rdquo;</p>
+<p><strong>Teleoperation, robot training, and AI music labeling.</strong> Singularity Hub reported teleoperation could let companies staff &ldquo;stubbornly local&rdquo; jobs (e.g., operating a loader to stack potassium sulfate in a factory) with workers thousands of miles away. In India, people are being paid to wear head-mounted cameras filming everyday tasks (slicing mangoes, folding towels, making flower garlands) as training data for household/factory robots (NDTV). <strong>Tidal</strong> said it will label and restrict monetization for substantially AI-generated music. <strong>Suno launched &ldquo;Spark,&rdquo;</strong> an incubator offering unsigned artists grants, mentorship, and marketing — but to join, artists must let their songs be available for remixing on Suno and grant Suno a broad license to use and create derivatives of their work, with limited exclusivity and waivers around trials and class actions; the most-criticized &ldquo;Good Vibes Only&rdquo; clause bars artists from saying anything that portrays Suno, its staff, or products negatively, on pain of removal (The Verge, Music Business Worldwide). <strong>Kling AI</strong> (with Higgsfield AI and studio Obsidian) premiered an AI-generated WEC × Le Mans film at Cannes Lions 2026, touting motion control, multi-subject action, an industry-first 4K feature, and surpassing 100M global users and 50K enterprise clients.</p>
+<p><strong>Economics and labor squeeze.</strong> TLDR noted that in San Francisco even $180,000 tech salaries no longer feel like enough as housing, utilities, transport, and grocery costs surge, and a &ldquo;new class of AI elite&rdquo; can outspend other workers — the combined OpenAI, Anthropic, and SpaceX IPOs could mint 20+ new billionaires. EXL surveyed 322 senior leaders and found 76% of companies believe they&rsquo;re ahead of competitors on AI, while by the study&rsquo;s own criteria only 10% actually are — a 66-point gap (via Kamil Banc).</p>
+<h2>Hardware, chips &amp; infrastructure</h2>
+<p><strong>Chinese open-weight models close the gap.</strong> <strong>Meituan open-sourced LongCat-2.0</strong> on June 30 — a 1.6-trillion-parameter mixture-of-experts model with a 1-million-token context, and the first trillion-parameter Chinese model trained entirely on domestic AI ASIC superpods for both pre-training and inference (integrating Huawei&rsquo;s HCCL collective communication library for training stability). SCMP says it matches DeepSeek V4-Pro (April 2026) on benchmarks while going further than DeepSeek, which used Chinese chips only for inference — making it the clearest signal yet that China&rsquo;s full-stack AI training loop now runs on home-grown hardware, landing as Washington tightens model-export controls. <strong>Zhipu AI&rsquo;s GLM-5.2</strong> ranks 6th on Artificial Analysis&rsquo; leaderboard (followed by MiniMax-M3 and DeepSeek V4 Pro) and, per WSJ/The Verge, can match leading US models at finding software bugs — cybersecurity firm Semgrep said it beat Anthropic&rsquo;s Claude Opus 4.8 in some tests, and researchers said GLM-5.2 and Anthropic models can both match &ldquo;Mythos&rdquo; at certain bug-finding tasks. GLM-5.2 is among the most-used models on OpenRouter. The dual-use risk: hackers could use the same open-weight tools to find vulnerabilities before they&rsquo;re patched, and US export limits on OpenAI/Anthropic may push more companies toward Chinese alternatives. <strong>Elon Musk</strong> said Grok 4.5 entered private beta at SpaceX and Tesla, with a 1.5T-parameter V9 model claiming performance &ldquo;close to, perhaps exceeding&rdquo; Claude Opus.</p>
+<p><strong>DRAM price-fixing class action.</strong> Fourteen consumers and three small businesses filed a class action June 25 in California federal court accusing Samsung, SK Hynix, and Micron — together ~90% of the global DRAM market — of colluding to restrict supply and lift prices roughly 700% over four years. Plaintiffs allege the coordinated pivot to high-bandwidth memory (for AI) served as cover for cutting traditional DRAM output and discontinuing DDR3/DDR4, driving up costs for everything from Apple Macs to Microsoft&rsquo;s Xbox; they seek treble damages. (sedaily, Times of India.)</p>
+<p><strong>Super Micro / Nvidia smuggling probe escalates.</strong> Taiwan&rsquo;s Keelung District Prosecutors raided Super Micro&rsquo;s Taipei office on June 29 plus six residences and two affiliated companies (Chief Telecom and Albatron Technology), expanding an investigation into alleged smuggling of Nvidia-equipped Super Micro servers to China using forged shipping documents. SMCI fell ~8%. The probe already produced US DOJ charges in March against co-founder Wally Liaw, with at least 50 servers allegedly diverted in violation of US export controls. (TheNextWeb.)</p>
+<p><strong>Data center and national-strategy moves.</strong> <strong>Digital Realty</strong> is acquiring Blackstone&rsquo;s 64% stake in three fully-leased Northern Virginia AI data centers at a $7.8B gross valuation ($3.5B cash-and-stock, 15-year hyperscaler leases, closing June 30). <strong>South Korea&rsquo;s President Lee unveiled a national &ldquo;Triple Axis&rdquo; strategy</strong> spanning semiconductors, physical AI, and data centers (and robotics), with Samsung and SK Hynix chairs at the briefing — reported figures range from $576B (SCMP) to $880B (BBC). <strong>China&rsquo;s CXMT signed a ~$3B three-to-five-year DRAM supply deal with Tencent</strong> ahead of a blockbuster STAR Market IPO. <strong>Baidu&rsquo;s chip unit Kunlunxin</strong> targets a $50B Hong Kong IPO while reportedly requiring investors to buy its semiconductors — a structure BIS warned creates circular-financing risk. The <strong>BIS Annual Report</strong> warned an AI investment bubble could trigger a sharper, faster crash than a traditional banking crisis, naming non-bank debt channels as the core risk. On hardware leaks, a supposed iPhone 18 Pro/Pro Max motherboard image shows the <strong>A20 Pro</strong> chip running faster and cooler with memory and NPU upgrades for better AI performance, at roughly the A19 Pro&rsquo;s footprint (AppleInsider).</p>
+<h2>Policy, safety &amp; legal</h2>
+<p><strong>Claude ID and biometric verification.</strong> Starting July 8, Anthropic will require accounts flagged for abuse to submit a government-issued ID plus a facial-recognition selfie, processed by third-party vendor Persona, which builds a facial-geometry template — data several US states classify as legally protected biometric information (TechCrunch). The requirement is an unusually physical demand from a chatbot.</p>
+<p><strong>Section 851 / US-China decoupling and the Pentagon.</strong> Section 851 of the NDAA took effect June 30, forcing DC&rsquo;s biggest lobbying firms to drop Alibaba and Tencent because they must choose between Chinese tech clients and Pentagon contractors (Bloomberg). <strong>Marc Andreessen was named to a restructured Pentagon Defense Policy Board</strong> alongside Robert Lighthizer and Coleman; a16z&rsquo;s defense-AI portfolio includes Anduril, Shield AI, and Skydio (Washington Examiner).</p>
+<p><strong>Meta&rsquo;s covert chatbot probe and AI wearables privacy.</strong> Wired reported Meta hired hundreds of contractors to pose as minors while probing how competitor chatbots respond to suicide, sex, and other high-risk prompts. Internal Meta docs also show strict limits on engineers&rsquo; use of Claude Code and Codex over fears of inadvertent model distillation (The Information). Separately, Fortune highlighted the lack of legal protection around AI wearables (Omi, Plaud, Limitless AI, Meta glasses) that record meetings and can pass along likeness, voice, behavior, and geolocation for model training and third-party sale — recalling a February incident where a Los Angeles judge threatened to hold Mark Zuckerberg&rsquo;s team in contempt for wearing Meta glasses into a courtroom; Meta&rsquo;s AI policy states it may process information about people even if they don&rsquo;t use Meta products.</p>
+<p><strong>Security funding.</strong> <strong>Straiker raised a $64M Series A</strong> to secure autonomous AI agents against prompt injection and tool misuse (Axios).</p>
+<h2>Opinion &amp; essays</h2>
+<p><strong>&ldquo;The Economy of Tokens&rdquo; / &ldquo;RL Beyond the Verifiable.&rdquo;</strong> A pair of widely-shared essays argue AI is transitioning from closed, vertically integrated systems toward a modular ecosystem built on standardized interfaces (the Transformer architecture and inference APIs). This &ldquo;architectural disaggregation&rdquo; lets open-weights models compete effectively with closed systems, sharply reducing costs and accelerating innovation across the stack, while stable interfaces enable specialization and independent innovation. Other circulating pieces: <strong>&ldquo;It&rsquo;s hard to eval is a product smell&rdquo;</strong> (Hamel Husain) argues evals thinking aligns with good product design, and that with AI, verification — usually incidental during work creation — becomes the bottleneck; <strong>&ldquo;Technological Involution&rdquo;</strong> argues technology is approaching the upper bound of human conception as capitalism stops pressuring innovation and starts treating populations as something to be mined; and a thought experiment on a society where AI does everything, sustained by universal basic income (Fernando Borretti).</p>
+<p><strong>SemiAnalysis &ldquo;oral history&rdquo; of attention (via The Neuron).</strong> A thread traced the Transformer&rsquo;s evolution: the 2017 original used Multi-Head Attention (MHA); efficiency variants followed — MQA (fewer repeated memory lookups), GQA (grouped attention, near-MHA quality at lower serving cost), and SWA (sliding-window attention over nearby text). FlashAttention was a systems breakthrough changing how GPUs store/move attention data, making long-context practical. DeepSeek&rsquo;s MLA (Multi-Head Latent Attention) compresses attention info to remember context with less memory (DeepSeek-V3/R1 popularized it). For agents reading huge contexts, labs pushed linear attention and sparse attention (Gated Delta Networks, Qwen 3.5, Kimi Delta Attention, DeepSeek Sparse Attention, MiniMax Sparse Attention, GLM-5.2&rsquo;s IndexShare, SWA-GQA hybrids from Cohere and Xiaomi). Serving millions of users created the KV-cache problem, addressed by Radix Attention and vLLM&rsquo;s Paged Attention. Jürgen Schmidhuber noted parts of the idea trace to his 1991 ULTRA work, where &ldquo;FROM/TO&rdquo; played a role like today&rsquo;s &ldquo;key/value.&rdquo;</p>
+</article>
+<nav class="updown"><a href="2026-06-29.html">&larr; Monday, June 29, 2026</a><a href="2026-07-01.html">Wednesday, July 1, 2026 &rarr;</a></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Tuesday, June 30, 2026 &middot; site rebuilt Sep 3, 2026 at 10:47 AM PDT
+</div></footer>
+</body>
+</html>
