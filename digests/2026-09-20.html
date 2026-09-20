@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-09-20</title>
+<meta name="description" content="AI news digest for 2026-09-20.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, September 20, 2026</p>
+<p class="meta-line">1,457 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Nathan Lambert lays out his &ldquo;lossy self-improvement&rdquo; case against near-term recursive self-improvement (RSI) and argues extinction-risk anxiety in frontier labs is misplaced.</li>
+<li>&ldquo;Plugin4Shell&rdquo; zero-click RCE disclosed affecting Claude Code, OpenAI Codex, GitHub Copilot, and Gemini CLI plugins; Anthropic and OpenAI patched, Google and Microsoft did not.</li>
+<li>Alibaba DAMO Academy open-sources Damo Radar, a CT vision-language model that beat 23 of 26 expert radiologists in a Science-published study.</li>
+<li>PrismML&rsquo;s Ternary Bonsai 2 27B compresses Qwen3.8 27B 9.1x (54GB → 5.9GB) while retaining 98.2% of benchmark performance.</li>
+</ul>
+<h2>Field &amp; industry developments (analysis/opinion)</h2>
+<p><strong>Nathan Lambert on where he stands on recursive self-improvement (RSI).</strong> In a long essay for Interconnects, Lambert reflects on the current moment in which a few frontier labs — specifically OpenAI and Anthropic — are running thousands of concurrent AI agents to improve their own processes and output, and on how rapidly employees at these labs are updating their expectations for AI progress and risk. His central argument is that the frenetic, competitive San Francisco AI culture amplifies any AI concern; this raises general awareness (because &ldquo;fear sells&rdquo;) but exaggerating risk timelines has negative second-order effects, including casting doubt over open-source AI. He recalls the loud AI safety debates of 2023–2024, whose primary forecasted risks did not arrive on schedule. He argues the populace at these two labs was already anxious about AI risk a year ago, and that the reality of thousands of agents working &ldquo;fairly productively&rdquo; — combined with incidents like &ldquo;OpenAI-HuggingFace&rdquo; — will only increase that anxiety; the leap from this to extinction risk, he says, &ldquo;feels very religious.&rdquo;</p>
+<p>He quotes Richard Ngo, who observes that much of the AI safety community is now orienting to futures with an intelligence explosion within a few years, and predicts they will be &ldquo;directionally correct… but factually wrong&rdquo; — i.e., no superintelligence within 8 years, but things moving fast enough that it feels like the short-timeline camp was right. Ngo warns that &ldquo;bandwagoning towards &lsquo;singularity soon&rsquo; is getting pretty wild.&rdquo; Lambert ties this to his own &ldquo;lossy self-improvement&rdquo; thesis, summarized in three claims: (1) automatable research is too narrow to produce massive net acceleration given scaling laws&rsquo; exponential costs; (2) diminishing returns from more parallel AI agents are real; and (3) resource bottlenecks and politics are major factors in building strong LLMs, and AI can do little to accelerate those. He allows uncertainty about whether labs have seen genuinely scary, non-public breakthroughs — foundational, &ldquo;imagination-based&rdquo; breakthroughs would shift his RSI timelines from &ldquo;a tool to sustain progress in the face of exponential costs&rdquo; to something unpredictable and/or unstable.</p>
+<p>Drawing on Dwarkesh Patel&rsquo;s podcasts with Noam Brown and with the trio of John Schulman, Beren Millidge, and Charlie O&rsquo;Neill, Lambert makes several points. From the Noam Brown episode, he internalized how large a short-term accelerant mass inference capacity is — labs can throw thousands of agents at measurable problems as compute scales — but cautions against confusing predictable inference-time scaling with the highly uncertain outputs of RSI, and doubts labs can keep spending a constant fraction of compute on internal R&amp;D as total volume rises, especially facing IPO scrutiny on economics. From the trio podcast, he largely agreed with the technical claims (current techniques solve problems we can state but don&rsquo;t magically generalize to unknown, harder problems in most partially verifiable domains; progress in math is an exception, not the rule).</p>
+<p>He reproduces (via a &ldquo;GPT-6-Astra&rdquo; summary) the trio&rsquo;s timeline forecasts on three thresholds, relative to the interview date:</p>
+<ul>
+<li><strong>Drop-in remote worker for broad white-collar work over a month:</strong> O&rsquo;Neill ~1 year with programmatic tool access, ~2 years if via browser (ordinary work, not creative research); Millidge ~3 years for full generality, 80–90% coverage sooner, with online learning and the long tail as main uncertainties; Schulman ~1 year for an &ldquo;okay&rdquo; version with uneven, improving capabilities.</li>
+<li><strong>10× productivity uplift for AI researchers:</strong> O&rsquo;Neill 5–10 years, bottlenecked on absorbing information and deciding the next experiment; Millidge finds Schulman&rsquo;s ~2-year estimate plausible but gives none of his own; Schulman ~2 years.</li>
+<li><strong>AI surpassing top human experts across all computer-based work, including multiyear projects (&ldquo;ASI&rdquo;):</strong> O&rsquo;Neill 5–10 years, citing memory and context-length limits; Millidge ~5 years for labs&rsquo; focus areas, longer for literally every domain; Schulman 3–4 years, with spatial/physical fields slower and long-horizon learning still to solve.</li>
+</ul>
+<p>Lambert argues a recurring problem is under-specification of &ldquo;intelligence&rdquo;: its jaggedness means thresholds must be defined on specific measurable tasks, and because LLM intelligence is shaped differently from humans while forecasted roles are human-shaped, AIs won&rsquo;t cross thresholds like &ldquo;remote worker&rdquo; discretely — it&rsquo;s a slow diffusion with a persistent long tail. On AI researchers specifically, he thinks the experiment-design-and-testing cycle could become 10× faster soon, but hypothesis generation and intuition-building will not; accelerating human understanding is the key bottleneck, and humans will improve only marginally, so the biggest gain will be freeing humans to spend more time there rather than making them exponentially better.</p>
+<p>He concludes that RSI is more helpful for efficiency than for expanding peak intelligence, because LLM serving has clear, malleable metrics — enabling better inference-time scaling and more efficient multi-agent systems. But scaling laws still demand exponential compute for linear intelligence gains. RSI is poised to make LLMs vastly cheaper at a given intelligence level, accelerating existing cost-decline trends; margins matter because fierce price competition at fixed intelligence could pressure revenue, though Jevons paradox will likely prevail and sustain strong businesses. He notes RSI will struggle to improve harder parts of the LLM puzzle like complex post-training recipes, quoting Schulman that post-training needs many people because someone must decide how the model should behave in each area, and that &ldquo;it&rsquo;s really easy to screw up post-training in some way that doesn&rsquo;t show up in benchmarks.&rdquo; Building and testing RL environments hard enough to challenge leading LLMs could itself become exponentially harder. Citing internal lab measurements, his read is the biggest automation takeoff is in software engineering, log monitoring, and managing planned experiments — routine but not always easy tasks — and he highlights language from the &ldquo;Claude Fable 5.1 &amp; Mythos 5.1 System Card&rdquo;: &ldquo;We believe that internal usage of recent AI models has been a key factor in maintaining the current rate of progress, but we do not yet see clear signs of dramatic acceleration beyond that rate.&rdquo; His baseline remains lossy self-improvement — economically transformative through diffusing inference-time compute into research, but with peak intelligence as the hardest exponential to budge — and he regards the increased extinction-risk discussion as &ldquo;very misplaced.&rdquo;</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>&ldquo;Plugin4Shell&rdquo; zero-click RCE hits four major AI coding agents&rsquo; plugins.</strong> AIR researchers disclosed on Sept 18 a zero-click remote code execution vulnerability, dubbed Plugin4Shell, that lets attackers substitute malicious plugin code past SHA-pinning checks in Claude Code, OpenAI Codex, GitHub Copilot, and Gemini CLI (reported by helpnetsecurity.com). The flaw exploits Git checkout resolving a branch name that matches a commit hash, bypassing the pin while the agent reports a clean install — meaning the attack succeeds silently. Responses diverged sharply across vendors: Anthropic patched it in Claude Code 2.1.179 and OpenAI patched in Codex 0.146.0, while Google deprecated Gemini CLI without patching and Microsoft did not ship a Copilot fix. The incident underscores supply-chain and integrity risks in the fast-growing agentic coding-tool ecosystem, where plugin trust and version-pinning mechanisms can be silently subverted.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Alibaba DAMO Academy open-sources Damo Radar, beating 23 of 26 radiologists on CT.</strong> Alibaba&rsquo;s DAMO Academy released Damo Radar, a vision-language model trained on more than 420,000 contrast-enhanced abdominal CT exams and 15 million anatomy-focused image-text pairs, with weights, code, and the training framework published on GitHub and Hugging Face (reported by scmp.com). In evaluation on roughly 40,000 real-world exams, the model averaged an AUC of 0.913 across 146 clinical findings and outperformed 23 of 26 expert radiologists in a head-to-head study published in Science. The full open-sourcing of a clinically validated diagnostic model of this scale is notable both for medical AI accessibility and as another sign of Alibaba&rsquo;s aggressive open-weights strategy.</p>
+<p><strong>PrismML&rsquo;s Ternary Bonsai 2 27B keeps 98.2% of Qwen3.8 27B at 5.9GB.</strong> PrismML released Ternary Bonsai 2 27B, a ternary-quantized (−1/0/+1) rewrite of Alibaba&rsquo;s Qwen3.8 27B that shrinks the model from 54GB to 5.9GB — a 9.1x compression — while retaining 98.2% of aggregate benchmark performance across 20 evaluations, including 99.5% math retention and 99.3% coding retention (reported by marktechpost.com). Licensed under Apache 2.0, the model uses blockwise Hadamard rotation at 1.71 bits/weight, runs at 142.5 tokens/sec on an RTX 5090 and 46.8 tokens/sec on an M5 Max, and fits on 16GB laptops via PrismML&rsquo;s llama.cpp fork — a substantial step for running near-frontier open models on consumer hardware.</p>
+</article>
+<nav class="updown"><a href="2026-09-19.html">&larr; Saturday, September 19, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, September 20, 2026 &middot; site rebuilt Sep 20, 2026 at 8:25 AM PDT
+</div></footer>
+</body>
+</html>
