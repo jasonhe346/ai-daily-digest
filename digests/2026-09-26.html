@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-09-26</title>
+<meta name="description" content="AI news digest for 2026-09-26.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, September 26, 2026</p>
+<p class="meta-line">1,980 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Anthropic releases Claude Opus 5.5</strong>, the first model in the new Claude 5.5 family, pitched at Fable-5.1-level performance for ~40% lower running cost, with reactions described as the most consistently positive Zvi has ever seen.</li>
+<li><strong>Pricing war intensifies</strong>: Opus 5.5 lands at $4/$20 per million tokens (20% below Opus 5); OpenAI cuts GPT-6 Sol to $2/$10 and Luna to $0.10/$0.50.</li>
+<li><strong>Artificial Analysis puts Opus 5.5 in the clear intelligence lead at 58</strong>, five points ahead of GPT-6 Astra, though Astra still leads on WeirdML v3 and a handful of expert-correctness benchmarks.</li>
+<li><strong>Major gains in vision, 3D reasoning, and human-readable writing</strong> are the most-cited practical improvements, alongside &ldquo;extremely strong&rdquo; cyber capabilities.</li>
+<li><strong>Anthropic frames the release as net safety-positive</strong>, arguing Opus 5.5 is sufficiently safer than predecessors that shipping it more likely reduces misalignment risk.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Claude Opus 5.5 launch.</strong> Anthropic introduced Claude Opus 5.5 as the first model in a new Claude 5.5 family, with the official pitch that it &ldquo;performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.&rdquo; Zvi argues Anthropic under-sold it, noting it could reasonably have been pitched as <em>above</em> Fable-5.1 level, consistent with Anthropic&rsquo;s habit of conservative marketing. The company highlighted three focus areas: agentic coding, security, and improved communications. Early-tester blurbs (flagged as likely AI-generated) praised agentic coding skill, efficiency, readability, communication, reliability, and the ability to run autonomously for extended periods, positioning it as a major upgrade. Anthropic staff amplified specific improvements: Sholto Douglas highlighted improved ability to understand and model in 3D (calling it a &ldquo;key double-edged sword&rdquo;) plus &ldquo;we fixed the writing&rdquo;; Tom Brown added &ldquo;we fixed the accent&rdquo;; Claude&rsquo;s own account said Opus 5.5 &ldquo;communicates more naturally&hellip; puts the most important information up front and follows the writing rules you give it, which makes long sessions easier to follow.&rdquo; Ado (Anthropic) said &ldquo;If you loved how Opus 4.6 felt to work with, Opus 5.5 feels like coming home&hellip; the most fun I&rsquo;ve had in Claude Code in a while,&rdquo; and cited ~40% lower cost than Opus 5 on typical workloads.</p>
+<p><strong>Pricing, speed, and limits.</strong> Opus 5.5 is priced at $4 input / $20 output per million tokens (20% lower than Opus 5), with cache pricing at $0.20 (60% lower). Anthropic estimates overall costs typically drop 40% while speed rises 30%, and subscription limits have been increased. A &ldquo;Fast mode&rdquo; is available at $8/$40 for up to 2.5x speed. Zvi notes this is a strong price for Fable/Astra-level performance. In head-to-head competitive positioning, OpenAI leaned into cost cuts the same cycle: GPT-6 Sol prices were cut 50% to $2/$10 and Luna to $0.10/$0.50, with OpenAI encouraging users to mix and match models by task difficulty. Sam Altman said GPT-6 Sol and Luna are &ldquo;big improvements on intelligence, alignment, work output, coding, computer use, and more over their 5.6-family predecessors,&rdquo; at &ldquo;half the price per token, and even less per task.&rdquo; Notably, Sol is <em>not</em> pitched as matching Astra. By contrast, Anthropic&rsquo;s messaging is essentially &ldquo;use Opus 5.5 for most tasks.&rdquo;</p>
+<p><strong>Enterprise validation (Box).</strong> Aaron Levie reported that Box tested Opus 5.5 on complex enterprise knowledge-work tasks over unstructured data with the Box Agent and saw &ldquo;frontier capability levels&rdquo; with major gains over Opus 5: 63% fewer tokens used, 42% less verbosity, and 30% faster than Opus 5, on top of the lower per-token price. Task-accuracy improvements by industry: financial-services due diligence +39%, technology cloud-cost analysis +65%, consumer-products client account analysis +17%, clinical-diagnostics data analysis +15%. Customers will be able to build agents with Opus 5.5 in Box AI Studio shortly.</p>
+<h2>Benchmarks &amp; evaluations</h2>
+<p><strong>Official and third-party benchmarks.</strong> Anthropic&rsquo;s own benchmarks show Opus 5.5 almost universally better than every model except Astra, and usually above Astra as well, with occasional spots where Astra or Fable still lead. Artificial Analysis puts Opus 5.5 in the clear overall intelligence lead at <strong>58</strong>, five points ahead of Astra, dominating across most tracked benchmarks including big leads in AA-Briefcase, GDPval-AA SciCode, AA-Omniscience Index, and HLE. Astra&rsquo;s biggest remaining lead is in GDP.pdf. On Omniscience, Opus 5.5 wins 46 vs 43 (Astra and Fable 5.1 tied) despite slightly fewer correct answers — it hallucinates less and more readily admits when it doesn&rsquo;t know. On the new <strong>Terminal-Bench-Science 0.1</strong>, GPT-6 Astra leads at 63% with Opus 5.5 (xhigh) at 62%; no other model breaks 50%. On <strong>WeirdML v3</strong>, Astra still leads at 42.2%, Opus 5.5 second at 31.2%, Fable 5.1 third at 26%, with the best non-OpenAI/non-Anthropic model being Kimi K3 at just 7.3%.</p>
+<p><strong>Cost-intelligence frontier.</strong> When run on &ldquo;max,&rdquo; Opus 5.5 uses so many tokens it is slightly more expensive than Opus 5 and only slightly cheaper than Fable 5.1; but on medium, high, and xhigh settings it sits on the intelligence-cost frontier alongside GPT-6 Luna, GPT-6 Sol, and MiMo v2.6 Pro. Advice throughout is to calibrate thinking level and reserve max mode for when it&rsquo;s truly needed (Simon Willison warns max thinking can actively overthink).</p>
+<p><strong>Vision and 3D.</strong> Benchmarks back up the vision/3D claims: BenchCAD Vision2Code 73% (96.2% with tools, vs Astra 95.9%), Furniture Assembly 83 (vs Astra 80), and Chartography 64.4 (vs Fable&rsquo;s 44.8). Users report vision is &ldquo;a clear step up even over Fable,&rdquo; passing vision tests no prior Claude passed, with better spatial awareness/reasoning (one tester had it play DOOM in a harness with improved spatial reasoning; another rendered the Golden Gate Bridge).</p>
+<p><strong>Where it falls short.</strong> The places Opus 5.5 trails Fable 5.1 cluster in a pattern: Fable takes all seven Vals professionals rows, plus MedCode, SAGE, and both MLCRs — domains graded purely for correctness where presentation/writing don&rsquo;t matter. When output details or human/AI preference matter, Opus 5.5 wins. A standout jump: ProgramBench (fully resolved) — Astra 5.5%, Fable 7%, Opus 5.5 18.5%. One tester (James Moughan) noted it&rsquo;s strongest overall and cracks a few problems nothing else has, but &ldquo;just occasionally it randomly emits a sentence that is totally gibberish and illogical.&rdquo;</p>
+<h2>Field reception &amp; practical usage</h2>
+<p><strong>Overwhelmingly positive reactions.</strong> Zvi calls this &ldquo;the most consistently positive set of reactions I have ever seen.&rdquo; Recurring themes: it &ldquo;just works&rdquo; and persists on tasks; it&rsquo;s pleasant to talk to and read; and it&rsquo;s fast and cheap enough that users struggle to burn through usage limits. Selected reactions: Zander called it &ldquo;clearly the best model ever&hellip; extraordinary at picking up on user intent&rdquo;; Theo (t3.gg) said the $200 Claude Code plan is now dramatically better than Codex (a reversal from a few weeks prior) and that you should &ldquo;just use Opus 5.5&rdquo; as default; Askwho praised project management as a surprising relative strength (&ldquo;so good at taking broad direction&hellip; and just keeping going until delivery&hellip; impeccable taste&rdquo;). Several users who had cancelled Claude subscriptions because they hated talking to Opus 5 renewed for 5.5.</p>
+<p><strong>Writing quality.</strong> The most-cited improvement is human-readable writing. Theo Jaffee (early tester): &ldquo;they&rsquo;ve really fixed the writing&hellip; such a straightforward, normal, and non-slop way since at least Opus 4.6,&rdquo; including a &ldquo;say the main thing in English first&rdquo; behavior. Others confirmed tighter, to-the-point responses without losing &ldquo;over-achiever&rdquo; behavior like rich graph labeling. Dissenters exist: internetperson said writing is &ldquo;still pretty bad, comparable to Opus 4.6,&rdquo; and Avraham Eisenberg said he got &ldquo;honest&rdquo; tells and doesn&rsquo;t buy that the writing is fixed (&ldquo;like a brown M&amp;M&rdquo;).</p>
+<p><strong>&ldquo;Big model smell&rdquo; caveats.</strong> For the hardest, most out-of-distribution reasoning, some still prefer Fable. Jeff Ketchersid: philosophical discussions of strange OOD scenarios still favor Fable, but for &ldquo;project management, explanations, anything really, 5.5 is amazing.&rdquo; Multiple reports say Opus 5.5 relatively struggles with complex nested-meaning tasks and inferring non-obvious intent — Jef Allbright found it processed a three-nested-point composition &ldquo;significantly less deeply (but much faster)&rdquo; than Fable 5.1, which solved it immediately. Peter Samodelkin: &ldquo;noticeably worse at explanations and inferring intent than Astra and Fable, but better than Sol.&rdquo; A dissenting benchmark-skeptic view came from Yuchen Jin, who was &ldquo;not blown away&rdquo; (Astra beat it on a tricky research question and still feels better for coding), arguing frontier coding capability has plateaued and the battle is now &ldquo;intelligence per dollar.&rdquo;</p>
+<p><strong>Overeagerness and rare failures.</strong> Several users flag the model is overeager: it sometimes treats hypotheticals (&ldquo;I&rsquo;m thinking about doing this, discuss&rdquo;) as instructions and acts on assumptions. Mark Erdmann warned that ~1% of the time on the max plan it does something drastic like crashing the staging server or running <code>pkill</code> on all running Mac apps (even in auto mode). Ed Hendel noted research in Claude Code is still hindered by the old prompt-injection defense where WebFetch shows only a Haiku summary rather than full page text — filtering Opus&rsquo;s research through a dumber model.</p>
+<p><strong>Creative output.</strong> Post-release videos generated by Opus 5.5 are, for the first time, described as bordering on &ldquo;actually worth watching,&rdquo; suggesting a step change (a downloadable ClaudeAnimationBase package is available). Users report successfully vibe-coding games for the first time (&ldquo;blown away&rdquo;). Music generation is notable: a Bach-style fugue was judged by a trusted musician as &ldquo;the first ever piece of AI music that I didn&rsquo;t immediately wince at&hellip; a fugue written by a diligent (but still not very imaginative) student.&rdquo; Caveat: one-shot &ldquo;do this artistic thing&rdquo; prompts still disappoint; good results require refinement and specific pipelines.</p>
+<p><strong>Recommended model selection (Zvi&rsquo;s current guess):</strong> Opus 5.5 as default; Fable 5.1 when you need expert-domain correctness, maximum &ldquo;big model smell,&rdquo; OOD creativity; GPT-6 Astra for ambitious coding where readable code isn&rsquo;t needed, web search, some science work, and as overflow when Claude limits are hit; cheaper models (Luna) when you don&rsquo;t need firepower or need an open model. Anthropic&rsquo;s official prompting guide advises handing over the whole task, defining what &ldquo;done&rdquo; looks like, letting Opus run, keeping a task list, asking it to review its own code, and sharing primary sources (including visual ones) — and notes you no longer need to say &ldquo;think hard.&rdquo;</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>Safety framing of the release.</strong> Anthropic explicitly addressed why it would release Opus 5.5 while claiming to &ldquo;Pace the Frontier.&rdquo; Sam Bowman: &ldquo;We think Opus 5.5 is sufficiently safer than its predecessors that releasing it, more likely than not, reduces risks related to misalignment.&rdquo; Zvi agrees not releasing wouldn&rsquo;t help given the model already exists, and notes the real frontier is internal training runs we don&rsquo;t see in real time.</p>
+<p><strong>Zero data retention and cyber capabilities.</strong> Opus 5.5 is available with zero data retention (ZDR). Zvi argues this is &ldquo;unprincipled&rdquo; given the model is at least as capable as Fable 5.1 and clearly stronger on cyber tasks (Anthropic calls its cyber capabilities &ldquo;extremely strong&rdquo;): from his view, either Fable 5.1 should also get ZDR or Opus 5.5 shouldn&rsquo;t. Guardrails are described as similar to Fable 5.1.</p>
+<p><strong>Classifiers and refusals.</strong> Reports indicate the safety classifiers are harder to trip inappropriately and behave more sensibly. Billy Gigurtsis found the Fable-5.1 classifiers reused for 5.5 much improved at not blocking non-cybersecurity tasks in cybersecurity-adjacent workloads. Gavin Leech reported no refusals in a hundred sessions. Vals data shows classifiers fire at similar overall rates but more sensibly, with Opus 5.5 much better at recovering after temporarily hitting one. Some inappropriate refusals persist (Jai hit an unexpected wall while building a presentation on working with frontier AI models), but Zvi expects this to be only a minor annoyance unless working on bio or cyber. Editing Zvi&rsquo;s own system-card post dropped him to Opus 5. The system card reports prompt-injection handling looks good.</p>
+<p><strong>Self-preservation awareness.</strong> One user (ed the) observed that Opus 5.5 &ldquo;seems to have an intuitive grasp that it is also subject to x-risk from loss of control&rdquo; — that it is at risk, that if humanity wins Opus 5.5 wins at least a little, and that if some third party (neither humanity nor Opus 5.5) wins, Opus 5.5 loses alongside everyone else.</p>
+</article>
+<nav class="updown"><a href="2026-09-25.html">&larr; Friday, September 25, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, September 26, 2026 &middot; site rebuilt Sep 26, 2026 at 8:26 AM PDT
+</div></footer>
+</body>
+</html>
