@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-03</title>
+<meta name="description" content="AI news digest for 2026-10-03.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, October 3, 2026</p>
+<p class="meta-line">1,414 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Several frontier-lab leaders — OpenAI&rsquo;s Sam Altman, Anthropic&rsquo;s Dario Amodei, and Google DeepMind&rsquo;s Demis Hassabis — are now floating ways to <em>slow</em> frontier AI development after years of selling urgency; critics note this would lock in the incumbents&rsquo; moat.</li>
+<li>Practical guidance on how to run a credible first AI project at a company by scoping one bottleneck, measuring the full job, and separating roles between systems, code, AI, and people.</li>
+</ul>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Frontier-lab leaders pivot from &ldquo;race&rdquo; to &ldquo;pacing&rdquo; — and skeptics say they called it.</strong> (AI Weekly) For years the dominant AI pitch was that hesitation was reckless: move now or lose the future. Sam Altman framed humanity as having crossed the event horizon of a &ldquo;gentle singularity,&rdquo; forecasting agents doing real cognitive work, producing scientific insights, and eventually entering the physical world as robots, with intelligence and energy heading toward abundance. OpenAI then put a price on that confidence with <strong>Stargate</strong>, a promised <strong>$500 billion</strong> of AI infrastructure pitched as a path to broadly beneficial AGI and enormous economic gains. The message spread: Anthropic urged the US to capture the economic benefits of powerful AI, and Google DeepMind presented Hassabis&rsquo;s &ldquo;universal assistant&rdquo; as a boost to productivity, daily life, and science. That urgency pushed investors, corporate boards, and governments toward chips, power contracts, and data centers, with companies that waited risking irrelevance.</p>
+<p>Now several of the same people reportedly want a brake. <strong>Bloomberg</strong> reported that Altman told OpenAI employees the company could pace cutting-edge development <em>if</em> rival labs moved in step. <strong>Axios</strong> reported that Hassabis proposed a government-supervised body with advance access to frontier models and the ability to coordinate a slowdown when danger rises. <strong>Dario Amodei</strong> — described by Axios as one of the industry&rsquo;s loudest voices on catastrophic risk — has made the strongest case for slowing capability development so safety work can catch up; notably, Anthropic built its identity around keeping safety <em>inside</em> the race, and Amodei now argues the race itself may need pacing. No one is proposing a permanent shutdown, the plans differ, and major figures reject the premise entirely: <strong>Nvidia&rsquo;s Jensen Huang</strong> and <strong>Meta&rsquo;s Mark Zuckerberg</strong> have pushed back against the new alarm.</p>
+<p>The piece argues the warnings were already public. <strong>Jan Leike</strong> left OpenAI in 2024 saying safety culture had taken a back seat to &ldquo;shiny products,&rdquo; and OpenAI dissolved his Superalignment team while continuing to ship. Five months later <strong>Miles Brundage</strong> left, warning (per Fortune) that neither OpenAI, other frontier labs, nor the world was ready for highly capable systems. The 2021 <strong>&ldquo;Stochastic Parrots&rdquo; paper</strong> flagged environmental cost, bias, and concentration of power from ever-larger models. Market skeptics questioned the economics: a <strong>2024 Sequoia analysis</strong> calculated the industry would need roughly <strong>$600 billion in annual revenue</strong> to justify its infrastructure spending, exposing a gap between products sold and capacity built. These critics disagreed on the main danger — loss of control, versus labor/surveillance/copyright/energy/corporate-power harms, versus unit economics — but all saw pressure building while labs told the world to accelerate.</p>
+<p>The newsletter&rsquo;s core critique is about timing and self-interest: a coordinated slowdown would begin from today&rsquo;s leaderboard, letting OpenAI, Anthropic, and Google DeepMind keep their infrastructure, market access, talent, customers, and policy influence, while smaller competitors face safety rules written <em>after</em> incumbents paid the largest entry costs. Expensive licensing, private evaluations, and compute thresholds can genuinely reduce risk while also protecting the firms already in front — a conflict <strong>Tech Policy Press</strong> made explicit. OpenAI did recently delay a release over security concerns, which the author concedes could reflect sincere mind-changing. The proposed test of sincerity: publish the capability thresholds that trigger a delay; give outside evaluators access and the right to publish bad results; disclose when a release was paused and what changed before it shipped; accept rules written by public institutions with workers, researchers, smaller firms, and open-source developers at the table; and — most importantly — support rules that do <em>not</em> freeze the current leaderboard. Without those commitments, the author argues, &ldquo;safety&rdquo; doubles as an excellent incumbent strategy, and the people who sold the urgency should not be the ones who control the slowdown.</p>
+<h2>Tooling &amp; practice</h2>
+<p><strong>A step-by-step method for running a credible first AI project inside a company.</strong> (AI Adopters Club) Aimed at the person who wants to become the one who makes AI genuinely useful at work, the argument is that you don&rsquo;t need to track every model release to lead a useful project; the fundamentals are to understand the work, get the right people involved, test an improvement, and measure the whole job. Model choice only matters when it changes quality, cost, or workflow capability — compare upgrades on the same cases before switching tools — and even Anthropic&rsquo;s agent-building guidance recommends starting with the simplest solution and adding complexity only when it earns its place. The concrete worked example is a weekly client report assembled from a CRM, a finance export, and a spreadsheet that one colleague fully understands.</p>
+<p>The recommended sequence:</p>
+<ul>
+<li><strong>Follow a report end to end.</strong> Have the owner walk you through their last completed report with files open: what starts the job, which figures get copied, where it waits, and who decides it&rsquo;s ready. Then ask for a troublesome case (e.g., finance removed a canceled order but the CRM still showed it open) and learn who caught the discrepancy and how they fixed it. Compare observed behavior against the written instructions and ask the system owner about rules hidden in code; a mismatch could be an outdated doc, a useful workaround, or a defect — investigate before replacing it.</li>
+<li><strong>Give the owner something small to approve.</strong> Pick one recurring bottleneck with permitted inputs and a responsible person. In the example, AI drafts commentary from verified figures and approved account notes; the account manager checks and sends. Bring a concrete proposal naming the task, tool, permitted data, reviewer, time needed, and the decision you&rsquo;ll make after testing. Having a software license does not answer whether the data is permitted in the tool — resolve that first. Also check whether an existing feature or spreadsheet formula would solve it more easily.</li>
+<li><strong>Define &ldquo;done&rdquo; and measure the full job.</strong> Before testing, record completed reports, turnaround time, active preparation time, checking, corrections, and recurring cost — keeping waiting time separate from active work and recording setup costs separately. Agree acceptance checks with the recipient (correct reporting dates, figures matching the approved source, commentary supported by account notes, unresolved discrepancies flagged). Run ten representative authorized historical cases including missing notes and conflicting figures — ten gives a first look, not proof of a company-wide gain. Crucially, measure the <em>whole</em> job: if drafting saves 20 minutes but checking adds 25, you&rsquo;ve added five minutes of work.</li>
+<li><strong>Assign clear roles.</strong> Existing systems supply approved records and figures; code and established rules calculate totals and validate required fields; AI drafts commentary and flags missing or conflicting info; people resolve exceptions, accept the report, and authorize sending. Write down data definitions and business rules — the AI should not decide what &ldquo;revenue&rdquo; means when two systems disagree. Have the system owner enforce access, spending limits, and approvals in the tools themselves; merely telling an agent to &ldquo;ask before sending&rdquo; does not establish an approval control, a distinction Anthropic&rsquo;s permission documentation makes explicit.</li>
+<li><strong>Leave colleagues something runnable.</strong> With the owner&rsquo;s agreement, let a small group try the workflow after the historical checks, comparing similar work against the same acceptance standard including everyone&rsquo;s checking/correction time. Log failures as test cases; agree when to stop, who handles an incident, and how to revert to the existing process; and name who reviews changes to the prompt, tool, or rules, consistent with NIST&rsquo;s voluntary guidance. If it earns its place, teach a colleague to run it and name a maintainer.</li>
+</ul>
+<p>The piece cites <strong>METR&rsquo;s 2025 coding trial</strong>, which found perceived speed and measured completion time diverged, and its <strong>2026 follow-up</strong>, which hit selection and time-tracking problems — not as predictors of any given result but as reinforcement of the need to measure carefully. The author notes they are shifting toward one-to-one coaching because companies make more progress when a single owner takes responsibility and gets support to follow through, and recommends agreeing the required time, authority, and recognition with your manager.</p>
+<p><em>(Note: Source 1, &ldquo;Introducing Trillium Labs&rdquo; from Interconnects/Nathan Lambert, contained no retrievable body text beyond the title and could not be summarized.)</em></p>
+</article>
+<nav class="updown"><a href="2026-10-02.html">&larr; Friday, October 2, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, October 3, 2026 &middot; site rebuilt Oct 3, 2026 at 8:25 AM PDT
+</div></footer>
+</body>
+</html>
