@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-04</title>
+<meta name="description" content="AI news digest for 2026-10-04.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, October 4, 2026</p>
+<p class="meta-line">1,679 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>GitLab AI Gateway hit by CVSS 9.9 prompt-sandbox escape (CVE-2026-90970)</strong> — authenticated Duo Agent users can execute arbitrary commands; fixes shipped.</li>
+<li><strong>Apple tightens macOS Full Disk Access</strong> to curb risks from increasingly autonomous AI agents, citing Meta Muse and ChatGPT Mac app incidents.</li>
+<li><strong>Campus IT leaders rank &ldquo;where AI adds real value&rdquo; as their #1 issue</strong> for the first time (EDUCAUSE 882 respondents), ahead of cybersecurity.</li>
+<li><strong>Cambridge refuses Turnitin&rsquo;s new terms</strong> that would use student work to develop AI tools; rollout postponed to September 2027.</li>
+<li><strong>Ken Griffin gives Carnegie Mellon $3 billion</strong>, including $500M for computer science GPUs/AI infrastructure.</li>
+<li><strong>New evidence on AI tutoring</strong>: matches human tutors in a one-hour GRE trial, but a semester-long course chatbot changed nothing for ~500 undergraduates.</li>
+</ul>
+<h2>Policy &amp; safety</h2>
+<p><strong>GitLab AI Gateway CVSS 9.9 prompt-sandbox escape (CVE-2026-90970).</strong> On October 2, GitLab disclosed a critical (CVSS 9.9) vulnerability in its self-hosted AI Gateway. The flaw lets any authenticated Duo Agent Platform user escape the prompt-template sandbox via a crafted flow configuration and execute arbitrary commands. Affected versions span 18.1.6 through 19.4, with fixes shipping in releases 19.2.4, 19.3.2 and 19.4.1; GitLab-hosted customers are already patched, so the urgency falls on self-hosted deployments. CISA listed exploitation status as &ldquo;none&rdquo; at the time of disclosure. The bug was reported by HackerOne researcher &ldquo;invisiblemeerkat.&rdquo; (Source: The Hacker News via AI Weekly Alert.)</p>
+<p><strong>Apple tightens macOS Full Disk Access to curb AI agent risks.</strong> Apple is adding new controls around macOS Full Disk Access, warning that some developers have been exposing everything on users&rsquo; systems without obtaining full consent — a risk the company says will grow substantially as AI agents become more capable and autonomous. Apple cited specific incidents as motivation, including Meta&rsquo;s Muse accessing private messages and a security flaw in the ChatGPT Mac app, as examples of the kinds of over-broad access the tightening is meant to prevent. (Source: TechCrunch via AI Weekly Alert.)</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Universities confront pervasive student AI use — the debate shifts from &ldquo;whether&rdquo; to &ldquo;how to design assessment.&rdquo;</strong> AI Weekly&rsquo;s lead feature argues the argument over student AI use is effectively over and the real challenge is now a design problem: how to teach students to work <em>with</em> AI while still being able to certify what they can do <em>without</em> it. Supporting evidence spans several studies and institutional moves:</p>
+<ul>
+<li><strong>Scale of use.</strong> In a December 2025 survey of 1,054 full-time UK undergraduates, 95% said they used generative AI in at least one way, and 94% said they used it for assessed work. The share who directly included AI-generated text in assessed work rose to 12% (up from 8% a year earlier). Only 48% felt staff were helping them build AI skills. The figures are self-reported, UK-specific, and from a survey sponsored by an edtech company, but a much larger voluntary California State University survey pointed the same way: over 94,000 students, faculty and staff responded and 95% had used at least one of 21 listed AI tools.</li>
+<li><strong>IT leaders&rsquo; priorities.</strong> EDUCAUSE released its 2027 Top 10 IT Issues at its annual conference in Denver (closed October 2). For the first time, the top issue — &ldquo;determining where AI adds real value&rdquo; — ranked ahead of cybersecurity, based on 882 respondents. The framing was not &ldquo;deploy more AI&rdquo; but deciding where AI is worth it. AI Weekly frames the institutional task as separating two jobs universities have let blur: teaching AI-enabled work (practice using, questioning and supervising the tools) and verifying independent capability (that a degree holder can reason, explain, decide and perform when the tool is unavailable, wrong, or inappropriate).</li>
+</ul>
+<p><strong>Evidence that AI tutoring needs a learning design, not just a chat box.</strong> The feature contrasts several studies:</p>
+<ul>
+<li><strong>StudentBench</strong> (September preprint) assigned 2,383 participants to AI tutoring, expert human tutoring, or no tutoring, and reported that AI tutoring produced statistically equivalent GRE learning gains to expert human tutors. Caveats: the task was GRE prep, the session lasted one hour, and the post-test was immediate — so it does not establish durable learning.</li>
+<li>A <strong>peer-reviewed semester-long trial</strong> in introductory marketing used a course-grounded, retrieval-augmented chatbot and found no statistically significant change in interest, self-efficacy, engagement, or achievement among roughly 500 undergraduates.</li>
+<li><strong>Dartmouth&rsquo;s Phosphor pilot</strong> built readings, repeated retrieval practice, and AI-graded short answers into an introductory statistics course. The workshop paper reports a modeled full-versus-zero-dosage gap of 0.71 to 1.30 standard deviations on the final exam — but the deployment was optional and observational at one selective institution, so self-selection is the central threat and the gap is not a causal effect. Notably, the chat assistant received only 72 queries while the structured practice features were used far more, suggesting the &ldquo;learning mechanism&rdquo; matters more than the chatbot.</li>
+<li>A <strong>Georgetown/University of Washington study</strong> (to be presented at the AAAI/ACM AI, Ethics and Society conference this month) showed 331 participants a short animated video, then a day or two later gave them an AI summary. On a key comprehension question, 83.6% of those given an accurate summary answered correctly, versus just 44.8% of those given a misleading one — a caution against letting AI summaries stand in for the reading. The feature&rsquo;s conclusion: buy &ldquo;a learning mechanism,&rdquo; not &ldquo;a tutor,&rdquo; and measure unaided performance rather than clicks.</li>
+</ul>
+<p><strong>Assessment redesign around evidence of learning rather than detection.</strong> Harvard College&rsquo;s dean proposed a &ldquo;barbell&rdquo; approach — encourage AI where it deepens learning, and make mastery assessments resistant to it via more supervised quizzes/exams and oral defences for big projects — though he stressed these are advisory, not policy. The University of Chicago Law School&rsquo;s 2026–27 strategy goes further: generally device-free first-year core classes and in-person exams, plus &ldquo;foundation-first&rdquo; legal writing (students learn to write without AI, then use it for research, revision and oral-argument prep), with upper-level research papers adding an in-person oral discussion. Williams College philosophy/cognitive-science chair Joe Cruz argued in a New York Times guest essay that the evidence for writing as the best way to develop thinking is thin, and that students may think best by speaking and defending ideas — supporting the case that oral defences test something a polished essay no longer can. A UCL case study asked students to critically evaluate ChatGPT-generated scientific output; students reported it built independent research skills and an understanding of AI&rsquo;s limits — making the model&rsquo;s output the object of judgment rather than a substitute for it.</p>
+<p><strong>Human accountability for grading and misconduct.</strong> The feature warns against automating the marking side too. Several Australian universities now permit limited AI assistance in assessment or feedback with caveats: Western Sydney says staff remain responsible for marks, Newcastle offers an opt-out, and Deakin bars AI from assigning grades. A Western Sydney lecturer warned of &ldquo;verification drift,&rdquo; where an overworked reviewer gradually becomes a rubber stamp. Faculty norms are unsettled: in a Chronicle of Higher Education survey of 460 academics who write for publication, 65% said they had never used generative AI in preparing writing for publication, and a quarter called it &ldquo;completely unacceptable.&rdquo; Incidents are emerging — Dartmouth&rsquo;s provost, Santiago Schnell, has apologised after the student paper found writing that appeared AI-generated, and students on several campuses are calling such cases hypocrisy. The Financial Times reports students are now bringing lawyers to AI-misconduct cases. The recommended rule: AI may help organise evidence or check a rubric, but a named academic owns the grade, feedback, and any misconduct allegation; students should know when AI touched their work, have a route to human review, and never lose an appeal to a detector score alone.</p>
+<p><strong>Universities as AI data suppliers.</strong> AI governance is extending beyond the classroom into data deals:</p>
+<ul>
+<li><strong>Cambridge refused to sign Turnitin&rsquo;s new licence</strong>, which would have allowed student submissions to be used for &ldquo;improving or developing AI tools.&rdquo; After UK-sector objections, the change was paused until September 2027, to be redrafted with university IT body UCISA. Cambridge stays on old terms until July 2027; Southampton says it will not renew after 2026–27. Turnitin maintains it does not train a generative AI model and has no plans to use student essays that way. A York Students&rsquo; Union officer argued in Wonkhe that students cannot meaningfully consent when using the tool is a condition of handing in work.</li>
+<li><strong>Oxford/OpenAI:</strong> Guardian reporting says OpenAI trained on Bodleian Library material. Oxford said the use was modest, non-exclusive, limited to out-of-copyright works, and that the library kept scan rights and planned open publication.</li>
+<li><strong>Platform governance:</strong> UNSW Sydney has given ChatGPT Edu to more than 80,000 students and staff. Writing in Tech Policy Press, Tom Smith of the Royal Air Force College argued universities should own the governance layer above any single model and keep data portable — his test: &ldquo;Institutions need to be able to leave.&rdquo;</li>
+</ul>
+<p><strong>Carnegie Mellon&rsquo;s $3 billion gift from Ken Griffin.</strong> Announced September 30, Carnegie Mellon calls it the largest commitment in higher-education history. It includes $500 million for its School of Computer Science that will pay for GPUs and AI infrastructure. AI Weekly notes most universities will never have such a budget, making negotiated campus access — with privacy defaults and exit clauses — the central equity question for everyone else.</p>
+<p><strong>Additional notes.</strong> An Australian tutoring company, Dymocks Tutoring and Talent 100, closed its five Sydney centres at the end of September and told parents to save their money and use AI (Gemini, ChatGPT) instead, saying such tools had made its service obsolete. MIT&rsquo;s August report on AI and education found AI is pulling students away from study groups and office hours and recommended redesigning courses around learning goals (oral exams, portfolios) rather than trying to &ldquo;AI-proof&rdquo; them. Brown&rsquo;s four-year study of an AI student-support system found text-message nudges improved completion of time-sensitive admin tasks but had no detectable effect on grades or persistence. AI Weekly&rsquo;s overarching framing: every story reduces to the same missing line of accountability — &ldquo;did a named person decide, and can the people affected see and challenge that decision?&rdquo;</p>
+</article>
+<nav class="updown"><a href="2026-10-03.html">&larr; Saturday, October 3, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, October 4, 2026 &middot; site rebuilt Oct 4, 2026 at 8:25 AM PDT
+</div></footer>
+</body>
+</html>
