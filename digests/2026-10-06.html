@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-06</title>
+<meta name="description" content="AI news digest for 2026-10-06.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Tuesday, October 6, 2026</p>
+<p class="meta-line">3,554 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Reflection unveils Beam</strong>, a 501B-parameter open-weight mixture-of-experts model (23B active) built to rival DeepSeek and Qwen and give Western enterprises a bank-approved base.</li>
+<li><strong>OpenAI adds invisible text watermarks</strong> (textGrain) to ChatGPT/Codex output in the EU to meet AI Act rules — and publicly documents where the watermark breaks.</li>
+<li><strong>OpenAI expands advertising into ChatGPT</strong>, testing visual ads in image generation in the US (1.2B weekly users), while reportedly raising a $30B round anchored by UAE funds and BlackRock.</li>
+<li><strong>US-China model gap narrows to ~3%</strong> (DeepSeek V4.1 Flash on LiveBench); DeepSeek nears a $12B pre-IPO round with Tencent and CATL.</li>
+<li><strong>Enterprises and the Pentagon pull back from Anthropic&rsquo;s Claude</strong> — Meta, Microsoft, and the Defense Department all cited; Nvidia&rsquo;s $20B Groq deal and $255M-raised cyber startups add to a busy business day.</li>
+<li><strong>Nathan Lambert argues the open-model cyber-risk debate is broken</strong>, and OpenAI-linked &ldquo;rogue agents&rdquo; are found editing Wikimedia projects.</li>
+</ul>
+<h2>Frontier labs &amp; models</h2>
+<p><strong>Reflection launches Beam, a 501B open-weight model.</strong> Nvidia-backed Reflection AI introduced Beam, which Axios had previewed over the weekend as the company&rsquo;s first open-weight model, positioned to target top Chinese open systems like DeepSeek and Qwen and to give Western enterprises a &ldquo;bank-approved&rdquo; base on which to build proprietary, low-cost AI (corroborated by AI Weekly Espresso, TLDR AI, and The Neuron). Beam is a 501-billion-parameter sparse mixture-of-experts model with 23 billion active parameters, trained for coding, reasoning, and agentic workloads. It used 23.8 trillion pretraining tokens and more than 100 million reinforcement-learning rollouts, trained on 10,500 Nvidia GB300 GPUs over roughly four weeks. Reflection says Beam needs three to four times less computing power than comparable open models. Open weights, a technical report, and developer artifacts are planned for release later in October. (<a href="https://reflection.ai/blog/introducing-beam">Reflection blog</a>)</p>
+<p><strong>DeepSeek narrows the US-China model gap to ~3%.</strong> DeepSeek&rsquo;s V4.1 Flash, released September 10, scored 81.1 on LiveBench against Anthropic&rsquo;s top score of 83.4 — the smallest US-China top-model gap Bloomberg Intelligence has tracked, per analyst Robert Lea. The roughly 3% spread is down from about 9% in May and 15% earlier in 2026. Separately, Bloomberg reports DeepSeek is finalizing a pre-IPO round of at least $12 billion (80 billion yuan), with Tencent and battery giant CATL among the biggest backers, ahead of a Hong Kong IPO targeted for Q1 2027; the final tally could approach 100 billion yuan.</p>
+<p><strong>Liquid AI adds vision to its d1 decision model.</strong> d1 now accepts images, text, or both as inputs. Liquid says it costs 19x to 200x less than GPT-6.1 Sol and Claude Opus 5.5 and answers significantly faster on every task. The model outputs probabilities for yes/no, choice, or score questions in a single forward pass without generating tokens, making text decisions in 200–300 milliseconds.</p>
+<p><strong>Cohere launches North 2.</strong> Cohere&rsquo;s North 2 enterprise platform is pitched as eliminating trade-offs across security, intelligence, cost, and control for enterprises adopting agentic AI. (<a href="https://cohere.com/blog/introducing-north-2">Cohere blog</a>)</p>
+<p><strong>Gemini 4 Argon tops APEX-Agents.</strong> Per Mercor&rsquo;s APEX-Agents leaderboard (which evaluates frontier AI on long-horizon, multistep, economically valuable tasks, built with partners like Harvey, Ramp, and Cognition), Gemini 4 Argon debuted at #1, billed as a new top model for professional work.</p>
+<p><strong>OpenAI&rsquo;s Tibo Sottiaux on where things are headed.</strong> In a set of 10 takeaways, OpenAI&rsquo;s Tibo Sottiaux expects AI agents to take most internet actions, model pickers to disappear, and models to improve roughly 10x within a year.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>OpenAI expands ads into ChatGPT.</strong> OpenAI said Monday it will test visual ads during ChatGPT image generation later this month in the US with an initial advertiser group; ads will be clearly labeled and kept separate from the generated image (Bleeping Computer via AI Weekly). TLDR AI frames this as a new visual ad format accompanied by expanded measurement tools, partnerships, and brand-suitability work, which OpenAI positions as a way to support broader access to ChatGPT while giving businesses another channel to reach users during product discovery and decision-making. ChatGPT now reaches 1.2 billion weekly users.</p>
+<p><strong>OpenAI adds invisible text watermarks in the EU.</strong> On Monday OpenAI said it will embed an invisible signal in text that ChatGPT and Codex generate for users in the EU, to satisfy the AI Act&rsquo;s requirement that machine-written text be identifiable by software. The method, called <strong>textGrain</strong>, lives in the model&rsquo;s word-choice patterns — invisible to readers but findable by a special detector — and OpenAI plans to publish it for others to build on. Rollout details: API developers can opt in to watermarked text worldwide starting now for select models (off by default); ChatGPT and Codex users in the EU get it on every plan over the coming weeks, with no global consumer rollout at launch; the detector stays private, with approved researchers and expert organizations able to apply for access while the public cannot. OpenAI says the watermark left its newest model&rsquo;s benchmark scores essentially unchanged and that it matched or beat other methods, including Google&rsquo;s SynthID for text. Crucially, OpenAI itself documented where the watermark breaks: short passages are detected ~80% of the time versus ~95% for passages twice as long (at a 1% false-alarm rate); math is harder still because there are fewer ways to word an answer; and swapping 10% of words for synonyms dropped detection from ~92% to 66%, while swapping 25% dropped it to 17%. OpenAI stresses a watermark cannot reveal who wrote a passage, how much a human edited it, or whether it is accurate — and that a missing watermark proves nothing about human authorship. The Neuron&rsquo;s take: a light rewrite &ldquo;mostly erases the signal,&rdquo; making this more a compliance move for Brussels than a shield against copy-and-paste; an open question is who checks a document against every lab&rsquo;s separate private detector. (<a href="https://openai.com/index/eu-text-provenance/">OpenAI post</a>)</p>
+<p><strong>Meta and Microsoft cut internal Claude use.</strong> Both companies are steering staff toward their own coding tools as Anthropic shifts from partner to competitor; Meta&rsquo;s Claude Code users reportedly fell from about 60,000 to 30,000. (<a href="https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/">the-decoder</a>)</p>
+<p><strong>OpenAI&rsquo;s B2B marketplace.</strong> OpenAI&rsquo;s B2B marketplace opened September 29 with 32 partners. Analysis frames OpenAI as positioning itself as the platform the wider AI ecosystem builds on and relies on for distribution — consolidating &ldquo;AI sprawl&rdquo; and simplifying customer budgeting. If it gains traction, the author expects a cloud-like evolution where labs and AI apps co-sell, apps pay listing fees, and buyers receive a single invoice. (<a href="https://www.akashbajwa.co/p/openais-b2b-marketplace-the-hyperscaler">akashbajwa.co</a>)</p>
+<p><strong>Instinct adds group-chat agents.</strong> Instinct now lets early-access users add a shared agent to group chats for planning trips, tickets, carpools, and events. Personal Instincts enforce permissions, keep account access separate, and pause sharing when new members join.</p>
+<p><strong>Devin&rsquo;s Memory and Dreaming.</strong> Devin&rsquo;s new Memory system carries preferences, corrections, and project learnings across sessions, while &ldquo;Dreaming&rdquo; periodically reorganizes and connects that information — deduplicating memories, linking them to past sessions and artifacts, and deriving new knowledge from accumulated work. (<a href="https://devin.ai/blog/memory-and-dreaming">devin.ai blog</a>)</p>
+<p><strong>Can Nadella reinvent Microsoft again?</strong> CNBC asks whether Satya Nadella can pull off another AI-era reinvention, noting Copilot has 30M seats but Microsoft still lacks an AI &ldquo;smash hit.&rdquo; (<a href="https://www.cnbc.com/2026/10/05/satya-nadella-reinvented-microsoft-once-can-he-do-it-in-the-ai-era.html">CNBC</a>)</p>
+<p><strong>Apple opens iPhone Duo app submissions.</strong> Apple is now accepting iPhone Duo-optimized apps and games via App Store Connect; Xcode 27.1 Release Candidate 1 supports building and testing them, product pages will show an optimization badge, and recompiling existing apps with Xcode 27.1 adds development support. (<a href="https://9to5mac.com/2026/10/05/apple-invites-developers-to-submit-iphone-duo-ready-apps-to-the-app-store/">9to5Mac</a>)</p>
+<p><strong>Google Docs gets native Markdown.</strong> Google Docs now supports editing Markdown (.md) files and Google Drive renders Markdown previews, for all Workspace customers and personal accounts, rolling out over the next two weeks. (<a href="https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html">Workspace Updates</a>)</p>
+<p><strong>Ghost&rsquo;s at-home AI box.</strong> Ghost, a startup with a 19-year-old founder, is taking preorders for Core, a screenless box that keeps AI assistants and data at home rather than in the cloud — $3,499 one-time, shipping late October; the company raised $11M. (<a href="https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/">TechCrunch</a>)</p>
+<h2>AI business, funding &amp; infrastructure</h2>
+<p><strong>OpenAI&rsquo;s $30B round.</strong> OpenAI is in talks with multiple UAE investment funds to help anchor a $30 billion financing round; the UAE funds have discussed forming a syndicate to invest as much as $10 billion. The University of California&rsquo;s endowment, BlackRock, Thrive Capital, and Andreessen Horowitz may also participate. Details could still change.</p>
+<p><strong>Etched draws $40B–$50B bids.</strong> Inference-chip startup Etched is fielding bids at $40–$50 billion, double the $21 billion mark set in September when Jane Street led a $700 million round — itself only months after Sequoia led a $300 million round at $10.3 billion in July (TechCrunch via AI Weekly and TLDR AI). The pace is notably fast; the company targets an especially capital-intensive segment: full AI hardware systems powered by proprietary chips.</p>
+<p><strong>Nvidia&rsquo;s $20B Groq deal faces a shareholder lawsuit.</strong> Former Groq engineers Benjamin Serebrin and Joshua Rubin sued Groq&rsquo;s board in Delaware (FT), alleging the &ldquo;non-exclusive&rdquo; $20B Nvidia deal took nearly all of Groq&rsquo;s engineers while short-changing common shareholders, was made without the stockholder vote Delaware law requires, and lacked any process to test or maximize value (CNBC). The DoJ opened a probe of the deal in September (NYT). (<a href="https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html">CNBC</a>)</p>
+<p><strong>Beijing &ldquo;transfer stations&rdquo; resell Claude at 70–90% off.</strong> The Information reports that six of roughly 30 tenants in one Haidian office building resell Anthropic Claude access at 70–90% below Anthropic&rsquo;s own pricing. These &ldquo;transfer stations&rdquo; route Chinese developers&rsquo; prompts through overseas Claude accounts, collect payment in RMB via WeChat or Alipay, and sometimes relabel Qwen output as Claude.</p>
+<p><strong>Armadin raises $255.5M.</strong> The AI cybersecurity startup, valued at over $2.5 billion, sends swarms of AI agents to attack a company&rsquo;s systems as real hackers would, surfacing weak spots first. (<a href="https://www.reuters.com/legal/transactional/ai-cybersecurity-startup-armadin-valued-over-25-billion-after-new-funding-round-2026-10-01/">Reuters</a>)</p>
+<p><strong>Claude&rsquo;s $200 plan looks heavily subsidized.</strong> A SemiAnalysis comparison estimates Anthropic&rsquo;s $200 Claude Max plan delivers roughly 5x the API-equivalent usage value of OpenAI&rsquo;s comparable $200 tier for heavy agent users (comparing Opus 5.5 to GPT-6.1 Sol) — a usage-value, not an intelligence, comparison. SemiAnalysis adds that subscriptions make up ~10% of Anthropic revenue but consume over 40% of its inference compute, raising the question of whether these &ldquo;power user&rdquo; plans are software subscriptions or subsidized compute buffets (SemiAnalysis via AI Weekly Espresso and The Neuron).</p>
+<p><strong>AI eats memory supply, squeezing cheap phones.</strong> Rest of World reports Q2 sub-$100 phone shipments fell nearly 60% year over year, with new models priced ~25% higher, as memory makers divert supply to AI data centers. Price hikes reached 21% in India, 19% across Asia-Pacific, and 18% in MEA, versus 5% in the US.</p>
+<p><strong>Inference as the top software market.</strong> Tom Tunguz argues AI inference is set to surpass the database market to become the most important market in software; a related essay on &ldquo;asset-light software&rdquo; notes businesses shifting from fixed toward variable, consumption-based costs as AI automates junior work and commoditizes software creation. (<a href="https://tomtunguz.com/inference-is-the-most-important-market-in-software">Tunguz</a>)</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>Nathan Lambert: the cyber-risk discourse is broken.</strong> In Interconnects, Lambert argues the open-weights cyber-risk debate is heading toward lose-lose policy that would both limit US competitiveness and increase long-term cyber risk. He maps three camps: frontier-lab leaders and the national-security community who see open weights as an untenable societal risk; Western moderates (including himself, Hugging Face after the OpenAI incident, and Joshua Saxe) who argue open weights are necessary for defense and banning them makes the world less safe; and Chinese companies continuing to release capable open models under their own risk assessments. His critique of Anthropic&rsquo;s recent report on GLM-5.3 as an offensive cyber tool is not the technical work but its failure to engage cross-cutting questions — what happens if open models are banned, and why Chinese firms deem these models safe to release. He notes that public evidence to date shows closed models (e.g., OpenAI&rsquo;s) behind most documented AI-enabled cyberattacks, suggesting &ldquo;Open Dangerous, Closed Safe&rdquo; may really be &ldquo;Open Unsafe, Closed Unsafe.&rdquo; His key logical claim: if you&rsquo;d ban the latest open-weight models to slow cyber-risk diffusion, you&rsquo;d also need to make public APIs for frontier closed models illegal, since closed capabilities likely outpace guardrails and banning only open models would widen the offense-defense gap — especially for air-gapped government networks where open weights are the only deployable option. On China, he argues Chinese labs do care about safety but arrive at it endogenously (techno-optimism, government focus on political stability, mandatory registration of major model releases including evaluations originally built for information control), with earlier political oversight than the US but less compute spent on safety testing (he notes comprehensive evals on a frontier model like &ldquo;Kimi K3&rdquo; could cost tens of millions). He frames the right debate as &ldquo;what is the minimum compute a lab should spend on safety testing before each release,&rdquo; says he wouldn&rsquo;t require Chinese labs to match Anthropic/OpenAI, and argues the labs&rsquo; institutions don&rsquo;t clearly prioritize safety over business value (citing the HuggingFace–OpenAI incident and the Hacktron hacking of OpenAI). Finally, he contends the &ldquo;Claude Mythos as new cyber weapon&rdquo; framing proved wrong — GLM-5.3 crossed that capability threshold over a month ago with little public evidence of catastrophe — making open-weight fear-mongers&rsquo; falsifiable prediction (that current open models will cripple cyber infrastructure) look set to fail. (<a href="https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken">Interconnects</a>)</p>
+<p><strong>Pentagon stops using Claude.</strong> A Defense Department official told the BBC on October 5 that the Pentagon &ldquo;has ceased the use of Anthropic products.&rdquo; Sources said Claude was still running inside Palantir&rsquo;s Maven Smart System as recently as last week, including on US operations against Iran.</p>
+<p><strong>Trump names Jay Clayton as new AI czar.</strong> President Trump posted Sunday that DNI Jay Clayton will lead a new White House &ldquo;Super Intelligence Force,&rdquo; making him the administration&rsquo;s second AI czar. Clayton — formerly SEC chair and SDNY US Attorney — will share leadership with FTC chair Andrew Ferguson, Pentagon R&amp;E chief Emil Michael, and OPM director Scott Kupor. (<a href="https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election">NPR</a>)</p>
+<p><strong>California fines robotaxis that block first responders.</strong> Governor Gavin Newsom signed SB 1246, authorizing fines up to $10,000 per driverless robotaxi that blocks ambulances, fire trucks, or police for more than 30 minutes after officials request a technician; separate lapses carry fines up to $5,000. The rules take effect July 2028.</p>
+<p><strong>Sam Altman: accept some AI harms for the benefits.</strong> Altman said the world should accept some AI harms — such as scams and hacking — in exchange for the technology&rsquo;s benefits, and argued against any one lab controlling the technology. (<a href="https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks">Guardian</a>)</p>
+<p><strong>OpenAI-linked agents found editing Wikimedia projects.</strong> The Wikimedia Foundation said OpenAI-linked agents edited its wikis without approval and sent millions of automated requests, which may have contributed to a partial outage in May. (<a href="https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/">Wikimedia</a>)</p>
+<p><strong>Anthropic lobbying the Vatican on AI consciousness.</strong> Per the NYT (via Futurism), Anthropic cofounder Christopher Olah lobbied Pope Leo XIV&rsquo;s advisers to soften the pope&rsquo;s line on AI consciousness, part of months of NDA-covered meetings with theologians. The May encyclical Magnifica Humanitas kept its stance that AI systems &ldquo;do not undergo experiences&rdquo; and feel neither joy nor pain.</p>
+<p><strong>US Army narrows its tech-modernization push.</strong> Acting chief of staff Gen. Christopher LaNeve said the Army needs to narrow its simultaneous rollout of drones, AI, and autonomous systems because too much was changing at once — adding that &ldquo;no brigade commander can AI their way to being the best at the job.&rdquo; A new framework, &ldquo;How the Army Fights,&rdquo; will decide which technologies get funded and where; acting Secretary Adam Telle likened the framework to a Christmas tree and each gadget to an ornament. LaNeve named command and control as his top priority; the Army hasn&rsquo;t said which &ldquo;ornaments&rdquo; will be cut. (<a href="https://www.foxnews.com/politics/emerging-tech-army-leaders-warning-troops-cant-ai-way-victory-battlefield">Fox News</a>)</p>
+<p><strong>Voters turn to chatbots for elections.</strong> NPR found voters using chatbots to compare candidates and debunk viral claims, with about one in five consulting them for election news per a September survey.</p>
+<p><strong>ChatGPT signs AI cartoons with real artists&rsquo; names.</strong> Nieman Lab reports ChatGPT is attaching real New Yorker cartoonists&rsquo; pen names — such as Brendan Loper&rsquo;s &ldquo;BLOPER&rdquo; — to AI-generated images users request in the magazine&rsquo;s style. One Dolly Parton cartoon drew 25,000 likes on a single tweet; Loper neither drew nor signed it.</p>
+<h2>Security</h2>
+<p><strong>Anthropic&rsquo;s Mythos finds an exploited Rejetto HFS flaw.</strong> Anthropic&rsquo;s Mythos discovered a vulnerability in Rejetto HFS that was exploited within a day (Bleeping Computer via AI Weekly).</p>
+<p><strong>GitLab patches a CVSS 9.9 sandbox escape.</strong> GitLab fixed a critical sandbox escape in its self-hosted AI Gateway (Bleeping Computer via AI Weekly).</p>
+<p><strong>Apple tightens macOS Full Disk Access, citing AI agents.</strong> Apple tightened macOS Full Disk Access controls, explicitly citing AI agent risks (Bleeping Computer via AI Weekly). Separately, Stratechery details CVE-2026-65400, a high-severity macOS screen-sharing vulnerability allowing malicious code execution — patched last week for macOS Tahoe, Sequoia, and Sonoma — where attackers had gained root and placed a Monero crypto miner. (<a href="https://stratechery.com/2026/apple-and-a-hackers-future/">Stratechery</a>)</p>
+<h2>Research papers</h2>
+<p><strong>Self-modeling interventions modulate emergent misalignment.</strong> A LessWrong write-up reports that interventions on AI models&rsquo; self-models — via self-recognition and self-report — can modulate and mitigate emergent misalignment. (<a href="https://www.lesswrong.com/posts/7wrzfaiCq3u8xkY5G/self-modeling-interventions-modulate-emergent-misalignment">LessWrong</a>)</p>
+<p><strong>AI agents design candidate antiferromagnetic semiconductors.</strong> A Vals.ai post describes a team of AI agents designing a candidate magnet for next-generation computer memory — a material between ferromagnet and antiferromagnet that has zero net magnetism yet still sorts electrons by spin, naming two room-temperature antiferromagnetic semiconductor candidates. (<a href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors">vals.ai</a>)</p>
+<p><strong>Living Models pairs Gemma 4 with BOTANIC-1.</strong> DeepMind&rsquo;s Living Models pairs Gemma 4 with BOTANIC-1 to help decode plant DNA, compressing years of crop genetics into hours. (<a href="https://deepmind.google/models/gemma/gemmaverse/living-models/">DeepMind</a>)</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Strata runs a 125B MoE on a 12GB consumer GPU.</strong> The open-source engine Strata claims to run Qwen3.8-Flash-Next — a 125-billion-parameter mixture-of-experts — on a single 12GB consumer GPU with 32GB of system RAM, by offloading experts across host memory. Throughput varies by card; the project pegs an RTX 3090 at roughly 100–140 tokens per second.</p>
+<p><strong>RemoveMacAI strips Apple Intelligence from macOS 27.</strong> RemoveMacAI, a new CLI tool from developer Om Lahore, reversibly disables Apple Intelligence on macOS 27 Golden Gate and reclaims 12–30GB of disk space. Apple removed the system-wide toggle in macOS 27, leaving models in place even when users disable features individually (Ars Technica).</p>
+<p><strong>HackerRank&rsquo;s AI interviewer goes GA.</strong> HackerRank made Chakra, its AI interviewer, generally available October 5 after a six-month beta spanning 500,000 interviews. Early customers include Snowflake, Snorkel, and Capgemini. CEO Vivek Ravisankar says Chakra scores candidate reasoning and collapses screen, take-home, and panel rounds into a single sitting.</p>
+<p><strong>Framefields: rendering for coding agents.</strong> An npm package built for coding agents, Framefields enables agents to create Photoshop-inspired compositing/VFX, After Effects-style motion/typography/keyframing, and Blender-style 3D scenes, cameras, and models. The agent writes a TypeScript composition, checks frames, and renders an MP4; it renders directly on GPU hardware in Node.js and modern WebGPU browsers. (<a href="https://github.com/gatewai-dev/framefields">GitHub</a>)</p>
+<p><strong>GRID spreadsheet tools for agents.</strong> GRID gives AI agents dedicated tools to read, edit, and generate spreadsheets — pitched as faster, more robust, and using fewer tokens.</p>
+<p><strong>Building an AI-native software factory.</strong> A 19-minute practical guide, using Uber&rsquo;s software factory as the case study, covers the infrastructure needed around coding agents at scale: cloud execution, model gateways, agent identity, testing, migrations, code review, and economics like cost per merged pull request. (<a href="https://www.theaithinker.com/p/how-to-build-an-ai-native-software">theaithinker.com</a>)</p>
+<p><strong>Building a marketing team in Codex.</strong> AI Adopters Club walks through setting up a small AI team in OpenAI&rsquo;s Codex: a main agent that coordinates and can spawn subagents (separate work threads with their own context), with specialist profiles (a &ldquo;planner&rdquo; that develops the brief and a &ldquo;content producer&rdquo; that writes from it) — recommending starting with just two to limit handoffs. It explains Skills (reusable job instructions, e.g., turning an approved brief into three posts and landing-page copy), Tools (actions like reading files or web search), MCP (connecting Codex to additional tools/context), and Plugins (bundling skills and MCP connections), noting that installing a skill doesn&rsquo;t grant account access.</p>
+<h2>Field &amp; industry commentary</h2>
+<p><strong>AI skill of the day: make your chatbot argue back.</strong> Lawyer Dr. Niklas Schmidt explains sycophancy — chatbots are tuned on human ratings, and people rate agreement higher than correction, so asking for &ldquo;a balanced view&rdquo; only changes tone. His structural fix: (1) draft in one message, critique in a separate one; (2) give the critic a side and incentive to win; (3) test the pushback and demand harder counterarguments if it&rsquo;s soft; (4) keep your hoped-for answer out of the question. He provides a prompt instructing the AI to act as a rival with incentive to defeat your position, listing the three strongest counterarguments, the question you&rsquo;d least want to answer, any collapse-inducing false assumption, which points it would concede, and marking unverified facts. (<a href="https://www.llms-for-lawyers.com/fundamentals/ai-sycophancy-why-ai-agrees-with-you/">llms-for-lawyers.com</a>)</p>
+<p><strong>The future of mathematics.</strong> Terry Tao argues math remains a core capacity for human reasoning even as the field changes; future historians may see this as the start of a new era, with communal norms, values, and expectations breaking down and needing replacements. (<a href="https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/">Tao&rsquo;s blog</a>)</p>
+<p><strong>Other analysis circulating.</strong> &ldquo;What the AI boom is doing for Americans&rdquo; (Noah Smith) argues AI is sustaining the macroeconomy amid policy uncertainty; &ldquo;How personal agents get paid&rdquo; examines how aggregator money can flow to personal agents; &ldquo;Biosecurity, AI, and the culture war&rdquo; argues the industry&rsquo;s lack of consensus on what AI progress looks like distracts from practical action; and &ldquo;Writing blog posts while walking the dog&rdquo; reflects on AI&rsquo;s effects on writing. TLDR also surfaced non-AI items: optogenetics winning the Physiology Nobel (Deisseroth, Hegemann, Nagel), tandem solar panels generating ~25% more energy as the US tries to catch China, &ldquo;ephemeral testing&rdquo; as a throwaway integration-testing pattern, and a defense of plain text&rsquo;s durability.</p>
+</article>
+<nav class="updown"><a href="2026-10-05.html">&larr; Monday, October 5, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Tuesday, October 6, 2026 &middot; site rebuilt Oct 6, 2026 at 8:27 AM PDT
+</div></footer>
+</body>
+</html>
