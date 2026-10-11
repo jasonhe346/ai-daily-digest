@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-11</title>
+<meta name="description" content="AI news digest for 2026-10-11.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, October 11, 2026</p>
+<p class="meta-line">537 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>ARTEX autonomous AI pentest tool taken closed-source after being linked to Korean bank hacks attributed by CrowdStrike.</li>
+<li>Microsoft, OpenAI, Anthropic and others shaping Trump-era AI health policy through a private CMS Slack workspace, per KFF/CBS investigation.</li>
+<li>SemiAnalysis finds Chinese AI labs published safety evaluations for only 3.6% of 857 model releases.</li>
+<li>Anthropic launches a free Claude-powered OSS security scanner for open-source repositories.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic launches free Claude-powered OSS Scanner for open-source repositories.</strong> Anthropic opened enrollment for OSS Scanner, an opt-in service that performs periodic security scans on open-source repositories inside an air-gapped virtual machine using its strongest Claude models (<a href="https://helpnetsecurity.com">helpnetsecurity.com</a>). In an early run across 48 projects, pen-testers reviewed 97 critical and high-severity findings and cleared 85 for disclosure, while identifying 11 duplicates and one invalid report. Anthropic says it has processed more than 6,000 vulnerability reports through its coordinated disclosure process to date. Maintainers can enroll by submitting a pull request to the anthropics/oss-scanner repo with a project.yaml file. The launch positions Claude as a defensive security tool amid broader concerns about AI being used offensively (see ARTEX item).</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>ARTEX developer pulls AI pentest tool closed-source after link to Korean bank intrusions.</strong> On October 8, ARTEX author &ldquo;Autumn-27&rdquo; removed the GitHub repository and declared the autonomous penetration-testing agent closed-source, stating &ldquo;given the misuse of the tool, the ARTEX project will no longer be updated.&rdquo; The project will receive no further versions or maintenance support (<a href="https://thehackernews.com">thehackernews.com</a>). The decision followed CrowdStrike&rsquo;s attribution of a late-September intrusion at Shinhan Bank and Yegaram Savings Bank to an operator running ARTEX on top of DeepSeek v4.1-flash, GLM-5.3 and Grok 4.6. The episode highlights the dual-use risk of autonomous AI-driven offensive security agents and how open-source releases can be repurposed by threat actors.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>Microsoft, OpenAI, Anthropic and other tech firms shape Trump AI health policy via private CMS Slack workspace.</strong> A KFF Health News/CBS investigation published October 9 details a private 1,700-member CMS Slack workspace called &ldquo;Health Technology Ecosystem,&rdquo; established in August 2025 and run by CMS chief product officer Amy Gleason (<a href="https://cbsnews.com">cbsnews.com</a>). Participating companies — Microsoft, OpenAI, Anthropic, Apple, Google, Oura and Palantir — help shape policy on a Medicare app library, TEFCA medical-record access, and reimbursement for AI chatbots. CMS Innovation Center AI/tech chief Jacob Shiff reportedly told industry representatives that the agency&rsquo;s work should serve as a &ldquo;sales engine&rdquo; for apps. Legal experts characterize the workspace as a de facto federal advisory committee operating outside federal sunshine rules, raising transparency and conflict-of-interest concerns.</p>
+<p><strong>SemiAnalysis: Chinese AI labs published safety results for only 3.6% of 857 model releases.</strong> SemiAnalysis analyzed 857 model releases from nine leading Chinese AI companies between 2021 and 2026 and found that only 31 (3.6%) included published safety evaluations, with just 9 releases (1.1%) having safety documentation available at launch (<a href="https://newsletter.semianalysis.com">newsletter.semianalysis.com</a>). The report characterizes Beijing&rsquo;s actual approach as &ldquo;speed-based, not safety-based,&rdquo; noting that China&rsquo;s AI Safety Governance Framework prioritizes &ldquo;promoting AI innovation and development as the first priority,&rdquo; despite Xi Jinping&rsquo;s public rhetoric emphasizing human control over AI. The report observes that China&rsquo;s regulators have largely avoided frontier-capability restrictions, instead focusing on application-layer rules governing content.</p>
+</article>
+<nav class="updown"><a href="2026-10-10.html">&larr; Saturday, October 10, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, October 11, 2026 &middot; site rebuilt Oct 11, 2026 at 8:25 AM PDT
+</div></footer>
+</body>
+</html>
