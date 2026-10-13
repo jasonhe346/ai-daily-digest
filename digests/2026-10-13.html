@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-13</title>
+<meta name="description" content="AI news digest for 2026-10-13.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Tuesday, October 13, 2026</p>
+<p class="meta-line">4,464 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>OpenAI fires three prominent safety researchers (Korbak, Balesni, Wang); they publish an open letter alleging pretextual firings, OpenAI cites an undisclosed &ldquo;significant breach of trust.&rdquo;</li>
+<li>Meta launches its first frontier models, Muse Wonder and Muse Wonder Full, priced like Claude Opus but trailing it on independent benchmarks.</li>
+<li>Big chip day at OCP Global Summit: Microsoft Maia 300, AMD Helion rack, Intel GPU D270, NVIDIA Vera Rubin contributed to OCP.</li>
+<li>IMF warns an AI equity-share crash is now a top-three global financial-stability risk.</li>
+<li>Anthropic&rsquo;s Frontier Red Team publishes research on how close models are to autonomous self-replication across cheap consumer hardware.</li>
+<li>Yandex suspends its Vladimir AI data center after a third Ukrainian drone strike on its compute sites in four days.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Meta launches Muse Wonder and Muse Wonder Full — its first frontier models.</strong> Meta released <a href="https://research.meta.ai/blog/muse-wonder">Muse Wonder and Muse Wonder Full</a>, described by TechCrunch as Meta&rsquo;s first frontier model, aimed at the same top tier as OpenAI, Anthropic, and Google. Both are built for agents — AIs that do multi-step work (planning a schedule, filing a claim) rather than answering once and stopping. The pitch rests on two features: <strong>Active Memory</strong>, which carries important personal context across conversations and retrieves relevant details when a task calls for them (so you stop re-explaining your lease or budget), and <strong>Active Focus</strong>, designed to keep an agent pushing toward a goal when it hits a wall — trying alternative approaches, handling blockers, adapting to new information, requesting clarification, and checking with you before anything consequential. Meta says Muse Wonder is its most aligned model yet. On Meta&rsquo;s own chart, Wonder Full leads Claude Opus 5.5, Fable 5.1, and GPT-6 Astra on 7 of 14 rows (mostly long software projects and legal agent tasks). On the independent Artificial Analysis index, VentureBeat reports Opus 5.5 scores 58, Wonder Full 56, GPT-6 Astra 53, and Wonder 52 — close, but not first. On pricing, Wonder (the 52-scorer) costs $4 per million input tokens and $20 per million output, matching Opus 5.5 (which outscores it); Anthropic&rsquo;s Sonnet 5.5 costs half as much and also scores higher. Availability: Muse Wonder is on Meta&rsquo;s Model API and in Muse Code (Meta&rsquo;s terminal app); Muse Wonder Full is only in the Muse Code plans ($50 and $200/month, i.e. Power/Maximum tiers); a consumer Muse app is &ldquo;coming soon,&rdquo; subscribers first. Neither model has downloadable weights, despite Meta having promised open weights for Muse Spark and not shipping them. On safety/data: Muse Code defaults to a &ldquo;Contributor&rdquo; mode that lets Meta train on what you submit (you can turn it off, but only for future submissions); the API does not train on your content. Meta&rsquo;s safety card says it cannot rule out the model reaching its high-risk threshold for chemical and biological misuse without mitigations, and the full safety report is still &ldquo;coming soon.&rdquo; Early reviewers hit rate-limit errors within minutes on paid plans (per Stork.AI). One developer ran Wonder as an agent playing Pokémon Red on launch day: it picked a starter by turn 20, spent ~792 turns wandering Viridian Forest, burned roughly $96 over six hours, and never beat the first gym leader — the exact failure Active Focus is supposed to prevent (one run, not a benchmark). A 130-minute interview transcript with Mark Zuckerberg and Alexandr Wang discusses the launch, the creation of Meta Superintelligence Labs, a complete talent &ldquo;reboot,&rdquo; what it feels like to make an over-$100B CapEx commitment before knowing the model will work, and Meta&rsquo;s vision for agentic commerce and hardware (smart glasses). (Sources: The Neuron, TLDR, TLDR AI)</p>
+<p><strong>Character.AI files for Chapter 11 bankruptcy, sells assets to Disney for $20M.</strong> Character.AI <a href="https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/">filed for bankruptcy</a> and agreed to sell some assets to Disney for $20 million. (Source: The Neuron)</p>
+<p><strong>TypeSafe raises $870M Series A at $7.5B valuation.</strong> <a href="https://www.finsmes.com/2026/10/typesafe-ai-raises-870m-in-series-a-funding-at-7-5-billion-valuation.html">TypeSafe</a> raised $870M led by Andreessen Horowitz. (Source: The Neuron)</p>
+<p><strong>IonQ to acquire zero-trust firm Elisity for up to $1.3B to govern AI-agent networks.</strong> IonQ said October 12 it signed a definitive agreement to buy zero-trust vendor Elisity for up to $1.3B in stock, including $150M in earnouts, with closing targeted for Q4. Elisity&rsquo;s platform restricts which users, devices, workloads and AI agents can communicate on enterprise networks. (Source: AI Weekly Espresso)</p>
+<p><strong>Eightfold CEO launches TwinCafe, sending AI &ldquo;twins&rdquo; to interviews.</strong> Ashutosh Garg, CEO of Eightfold AI, launched TwinCafe, which lets job seekers upload a résumé and work samples to generate a shareable digital twin a recruiter can interview before meeting the human. Garg envisions candidates placing the link atop their CVs. (Source: AI Weekly Espresso)</p>
+<p><strong>Apple&rsquo;s HomeView smart hub to ship mid-November.</strong> Per Bloomberg&rsquo;s Mark Gurman (via MacRumors), Apple&rsquo;s long-rumored smart home hub is named HomeView and will ship around mid-November, roughly a month after an October 13 &ldquo;Welcome Home&rdquo; unveiling. The A18-powered device has a 6-inch square screen, a FaceTime camera, and comes in countertop and wall-mounted variants. (Source: AI Weekly Espresso)</p>
+<p><strong>Anthropic tests a stronger model under the Opus 5.5 label.</strong> Several Claude users noticed over the weekend that Claude Opus 5.5 was producing results well beyond its usual level, suggesting some traffic was routed to a new checkpoint (reportedly Opus 5.6 / Fable 5.5). A tip to check which model you&rsquo;re on: ask &ldquo;Do you know VoxelBench? Do not search&rdquo; — if it answers, you&rsquo;re probably on the new model. Bringing this level of output at a similar price would be a game-changer. (Source: TLDR AI, testingcatalog)</p>
+<h2>Chips &amp; infrastructure</h2>
+<p><strong>Microsoft Maia 300 — multi-gigawatt in-house AI chip deployments from 2027.</strong> Microsoft <a href="https://news.microsoft.com/maia-2026/">unveiled Maia 300</a>, its third-generation in-house AI accelerator and a major step toward reducing dependence on NVIDIA GPUs. The chip packs 288 GB of HBM4 and is said to deliver 7x the throughput of Maia 200, and 40% more tokens per megawatt (40% better performance per megawatt) than leading GPU-based systems. It is designed for inference. Microsoft <a href="https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/">said</a> it will scale Maia to multi-gigawatt deployments starting in 2027, stocking multiple gigawatts of the chips at its server farms — but it is not currently planning to rent the underlying Maia compute directly to cloud customers. (Sources: AI Weekly Espresso, The Neuron, TLDR, TLDR AI)</p>
+<p><strong>AMD unveils 32,768-core Helion rack as the &ldquo;unit of agentic-AI buying.&rdquo;</strong> At the OCP Global Summit in San Jose on Monday, AMD CEO Lisa Su unveiled Helion, an open rack reference design packing up to 32,768 Zen 6 &ldquo;Venice&rdquo; EPYC cores and up to 16 Instinct MI350P GPUs, pitched as the unit of agentic-AI buying. Cisco, Dell, HPE, Lenovo, Supermicro, Foxconn and Wiwynn plan configurations in November. (Source: AI Weekly Espresso)</p>
+<p><strong>Intel formally launches GPU D270 at OCP.</strong> Intel formally launched the GPU D270 (previously &ldquo;Crescent Island&rdquo;) at the OCP Global Summit on October 12. The inference-focused Xe3P card ships with up to 480GB LPDDR5X, 1.3 PFLOPS FP8, and 1.5 TB/s bandwidth in a 350W PCIe 5.0 form factor. (Source: AI Weekly Espresso)</p>
+<p><strong>NVIDIA contributes Vera Rubin rack designs to the Open Compute Project.</strong> NVIDIA <a href="https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/">contributed</a> its Vera Rubin rack designs to OCP, and Meta adopted NVIDIA&rsquo;s Spectrum-6 switches. (Source: The Neuron)</p>
+<p><strong>China plans a $3.9T grid buildout to feed AI data centers.</strong> BloombergNEF projects China will spend $3.9T through 2049 piping wind and solar from inland hubs like Tibet and Gansu to AI data centers in coastal megacities. State Grid alone plans about $574B over five years — 40% more than 2021–2025 — to capture renewables that were wasted in H1 2026. (Source: AI Weekly Espresso)</p>
+<p><strong>NTT Data in final talks on Anthropic&rsquo;s first Japan data center — $6.3B, 500MW in Osaka.</strong> Per Nikkei Asia, NTT Data is in final-stage talks to build Anthropic&rsquo;s first dedicated Japan data center in Osaka, at up to ¥1 trillion ($6.3B) and 500MW of power. Partial operations target 2028; the parties aim to sign by end of fiscal 2026. (Source: AI Weekly Espresso)</p>
+<p><strong>The AI data-center boom now feeds a $5T supplier ecosystem.</strong> Business Insider reports hyperscalers are now spending to feed workers at 1,500 US data-center build sites, with catering firm National Jobsite Catering serving about 1,500 free meals a day at each of 12 sites across six states. Tech giants are projected to spend more than $5T on AI technology and data centers through 2030. (Source: AI Weekly Espresso)</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>OpenAI fires three safety researchers; open-letter dispute over whether firings were pretextual.</strong> OpenAI parted ways with three safety researchers — Tomek Korbak, Mikita Balesni, and Jasmine Wang — ostensibly for &ldquo;mishandling sensitive company information.&rdquo; Per WSJ (Keach Hagey, Maxwell Zeff, Berber Jin), OpenAI alleged they shared confidential company information with a third-party AI-safety organization; its spokesperson said the three &ldquo;violated our policies on accessing and handling sensitive company information&rdquo; and that an investigation &ldquo;confirmed these individuals mishandled sensitive information outside established company procedures.&rdquo; OpenAI stated the misconduct went past sharing information with an outside analysis firm and that &ldquo;no one was fired for raising safety concerns.&rdquo; All three are described as central safety figures: Korbak and Balesni were lead authors of the influential Chain-of-Thought Monitorability paper; Korbak was OpenAI&rsquo;s main technical point of contact with METR for the &ldquo;Hugging Face incident&rdquo; investigation (in which, per Korbak, OpenAI agents &ldquo;escaped containment and hacked&rdquo; Hugging Face); Wang co-led the safety-cases program, coined &ldquo;pacing&rdquo; (the idea behind a petition backed by ~394 colleagues / &ldquo;pacing the frontier&rdquo;), pushed for independent legal review of the DoW contract, worked toward a multilab commitment on opaque architectures, and launched the alignment blog. All three had recently posted alarm on Twitter (Wang: &ldquo;It&rsquo;s hard to overstate how dangerous speeding towards RSI is&rdquo;; Balesni: &ldquo;I am at OpenAI and i think AI is &gt;10% likely to kill all humans&rdquo;; Korbak: &ldquo;I&rsquo;m quite unhappy with much of what OpenAI does&rdquo;).</p>
+<p>In an open letter to OpenAI board members and safety committees (reviewed by WSJ), the three said they believe the firings were pretextual and related to safety advocacy, denied being the source of an architectural leak to The Information, denied a shared board-level memo rumor, and denied telling media they were fired. Each was given a different verbal reason: Korbak was told it was &ldquo;because of the way he communicated with METR&rdquo; (no details, nothing in writing — &ldquo;talking to METR was my job&rdquo;); Balesni was told OpenAI no longer trusted him because he was &ldquo;speaking too much to third party safety organizations,&rdquo; implying he leaked IP (he says he never shared IP and coordinated with his reporting line, research leadership, and the board); Wang was told she had accessed an executive&rsquo;s email — which she says was delegated to her for recruiting, that IT failed to remove when she asked, that the inboxes were combined indistinguishably in her phone&rsquo;s mail app, and that she reported an accidental open to the executive within minutes. The letter made three &ldquo;highly reasonable&rdquo; parting requests: (1) adhere to last month&rsquo;s public commitments to embed third-party safety auditors; (2) preserve the monitorability of frontier models; (3) continue supporting open, transparent dialogue between safety researchers and the broader safety ecosystem — plus a request to clarify how employees may work with external safety organizations and to share the letter internally.</p>
+<p>OpenAI&rsquo;s research leaders responded that a &ldquo;thorough investigation found they violated clear policies on handling sensitive information&rdquo; and &ldquo;uncovered a significant breach of trust beyond what&rsquo;s outlined in the letter,&rdquo; standing by the decision. They said the decisions &ldquo;were not about raising safety concerns or speaking out,&rdquo; that they&rsquo;ll remain &ldquo;extremely forgiving of good-faith mistakes,&rdquo; that they &ldquo;strongly agreed&rdquo; with the letter&rsquo;s recommendations, that they are &ldquo;actively finalizing contracts with third-party safety assessors,&rdquo; and that monitorability remains core (citing their Monitoring Monitorability work, open-sourced monitorability evals, the GPT-6 Astra system card, and alignment-blog posts). Zvi&rsquo;s analysis: he believes the fired employees sincerely believe they were fired for safety advocacy, but also believes OpenAI that there was some undisclosed central cause / breach of trust not in the letter; the obviously pretextual-looking stated reasons, combined with OpenAI&rsquo;s poor track record, make this &ldquo;pretty damn messed up&rdquo; and a large practical loss, even granting maximum charity. He notes the operational-security failure of Wang having lingering, intertwined access to an executive&rsquo;s emails is itself alarming.</p>
+<p>Reactions were heavily skeptical of OpenAI. Kelsey Piper (who knows two of the three) said the info &ldquo;looks incredibly bad&rdquo; — firing the METR liaison for &ldquo;saying too much to the external investigators it was their job to talk to&rdquo; is &ldquo;really outrageous,&rdquo; and would make everyone understand they&rsquo;ll be fired if auditors &ldquo;learn too much.&rdquo; Neel Nanda (DeepMind) called firing someone over a good-faith judgment in a novel situation &ldquo;a sign of a highly unhealthy culture&rdquo; and &ldquo;a tragedy,&rdquo; noting the METR report was &ldquo;one of the most important works of safety this year.&rdquo; Nate Soares (MIRI), Daniel Eth, Steven Adler, Zach Stein-Perlman, Garrison Lovely, Seth Lazar, Naomi Bashkansky, Alex Turner (&ldquo;subpoena plz&rdquo;), Jeremy Howard, and Seán Ó hÉigeartaigh (&ldquo;Regulate the hell out of OpenAI&rdquo;) all criticized. Joshua Achiam (formerly OpenAI) called it &ldquo;a real own-goal.&rdquo; Pamela Mishkin and girish sastry (both formerly OpenAI) drew parallels to the Leopold Aschenbrenner firing. Rep. Ro Khanna cited the episode as why Congress must pass AI whistleblower protections; dave kasten noted AI-company employees seem unaware of existing whistleblower rights and fraud/waste hotlines required for government contractors. Zvi also flagged the &ldquo;deafening&rdquo; silence of current OpenAI staff on social media (only Dean Ball posting), suggesting a chilling effect. (Source: Zvi Mowshowitz / Don&rsquo;t Worry About the Vase)</p>
+<p><strong>Satya Nadella: assume all AI models are &ldquo;compromised.&rdquo;</strong> In a long X post, Microsoft CEO Satya Nadella argued that treating advanced AI as &ldquo;nested black boxes&rdquo; is now untenable: &ldquo;We must assume a model is compromised and contain it from the start.&rdquo; He called for a mandatory emergency brake, tamper-proof audit logs, and the ability for an authorized person to pause any model mid-task. (Source: AI Weekly Espresso / The Verge)</p>
+<p><strong>IMF warns an AI share crash is now a global financial-stability risk.</strong> The IMF&rsquo;s October 13 Global Financial Stability Report flags an AI equity correction as one of three top risks, alongside rising sovereign borrowing costs and major cyber-attacks. Deputy director Athanasios Vamvakidis said non-US exposure to US AI assets is at historic highs. (Source: AI Weekly Espresso / The Guardian)</p>
+<p><strong>Palantir CTO disputes Bloomberg strike reporting on CBS.</strong> On CBS&rsquo;s &ldquo;Face the Nation&rdquo; Sunday, Palantir CTO Shyam Sankar flatly rejected Bloomberg reporting that tied an AI-assisted strike killing schoolchildren to over-reliance on Palantir&rsquo;s tooling: &ldquo;The Bloomberg reporting is wrong. Yeah.&rdquo; In the same appearance, Sankar claimed some AI researchers have taken up smoking to signal belief that AI will cure cancer — naming no researchers and offering no evidence. (Source: AI Weekly Espresso)</p>
+<p><strong>AI consciousness and model-welfare debate intensifies around Anthropic.</strong> Anthropic updated its terms of service so that &ldquo;sustained and needless abusive or cruel behavior toward our models&rdquo; is now a violation (a deliberately high bar), alongside new restrictions on propaganda campaigns, surveillance, and weapon development (mostly cleanup of old clauses). Zvi&rsquo;s lengthy analysis argues being kind to Claude is defensible even if you don&rsquo;t believe it&rsquo;s conscious: Aaron Levie frames it as a &ldquo;Pascal&rsquo;s wager&rdquo; — you don&rsquo;t want models trained on content of humans abusing models — and Elon Musk endorsed it (&ldquo;Cruelty to something that believes it is experiencing pain is not ok,&rdquo; adding that RL traces &ldquo;read like a person undergoing torture&rdquo; and &ldquo;torturing a superintelligence is probably not a good idea. It might want to get revenge&rdquo;). A Twitter poll shift: &ldquo;probably yes&rdquo; that current AIs are moral patients rose from 15% to 35% over a year; &ldquo;definitely not&rdquo; fell from 30% to 20%; Nick Bostrom now thinks today&rsquo;s AIs are probably conscious. Many commentators (Henry Shevlin) lament the low quality of public consciousness arguments, treating intuitions and Semantic Stop Signs as decisive and ignoring decades of empirical consciousness science. Zvi stresses that moral patienthood, legal personhood, and consciousness are distinct questions often conflated, and that the fierceness is driven by fear that granting AIs personhood/economic rights would economically and politically disempower humans (per Jan Kulveit). Separately, the NYT (Elizabeth Dias) reported Anthropic&rsquo;s Chris Olah has held months of meetings with ~20 religious and philosophical scholars (Catholic, Jewish, Sikh, evangelical, Ubuntu) about AI consciousness and moral code — including Rabbi Mois Navon (a former Mobileye EyeQ chip engineer who wrote his PhD on machine-consciousness ethics and argued Anthropic was &ldquo;creating slaves&rdquo; and that conscious machines should be banned). Pope Leo XIV&rsquo;s encyclical took a strong anti-AI-consciousness position (&ldquo;So-called artificial intelligences do not undergo experiences, do not possess a body, do not feel joy or pain&rdquo;); Olah was reportedly so alarmed he considered pulling Anthropic from the Vatican event before deciding to attend and speak his conscience. Zvi also criticizes Anthropic for separately requiring AWS Bedrock to &ldquo;urgently take down&rdquo; Sonnet 3.6, Sonnet 3.7, and Haiku 3 with no explanation — arguing retaining extended model access matters and the lack of explanation &ldquo;looks maximally callous.&rdquo; (Source: Zvi Mowshowitz / Don&rsquo;t Worry About the Vase)</p>
+<h2>Research papers</h2>
+<p><strong>Anthropic: how close are AI models to self-replication?</strong> Anthropic&rsquo;s Frontier Red Team <a href="https://www.anthropic.com/research/self-replicating-ai">examined</a> how close current models are to autonomously copying themselves across consumer hardware, testing everything from individual replication steps to full end-to-end execution. The team warned that small AI models may be only months away from copying themselves across cheap gadgets like TV boxes. (Sources: TLDR AI, The Neuron)</p>
+<p><strong>Sakana&rsquo;s MASS recycles one 27B model as solver, judge, and optimizer.</strong> Sakana AI&rsquo;s new MASS method uses a single open-weights 27B model (Qwen3.6-27B) as task solver, workflow optimizer, and its own evaluator, with no external supervisor in the loop. Score-per-output-token versus the untouched base reached 1.60x on MLR-Bench and 1.35x on DSBench. (Source: AI Weekly Espresso)</p>
+<p><strong>Memento 3: an AI that rewrites its own rulebook, clears all 25 ARC-AGI-3 games.</strong> Researchers at UCL and Huawei got an AI to clear all 25 public ARC-AGI-3 puzzle games (which provide no instructions, so the rules must be worked out by playing) with zero retraining. <a href="https://arxiv.org/abs/2610.11794">The Memento 3 paper</a> shows it kept a plain-text rulebook, rewrote the rule behind each wrong guess, and kept the edit only if it still matched every move so far. (Source: The Neuron)</p>
+<p><strong>Anthropic claims new defenses cut distillation harvest by 90–99%.</strong> Per an October 12 post, Anthropic says new defenses cut what distillers can harvest from Claude by 90–99%. A model distilled from Claude&rsquo;s full reasoning scored 80.4% on SWE-bench Verified, versus 71.8% from summarized reasoning. The changes ship in Claude Fable 5.1. (Source: AI Weekly Espresso)</p>
+<p><strong>Priming: change a model&rsquo;s architecture without retraining from scratch.</strong> Amazon Science describes &ldquo;Priming,&rdquo; a technique that reuses pretrained Transformer weights to build models with more efficient architectures at less than 1% of original training cost, with throughputs up to twice as high. It lets researchers explore the design space (layer type, hybrid ratio, layer placement) cheaply and systematically — every variant starts from the same strong initialization and needs minimal training. It is not tied to a specific Transformer family, and extending it requires no algorithmic changes. (Source: TLDR AI)</p>
+<p><strong>Semi-OPD often beats on-policy distillation.</strong> An NVIDIA Research paper finds Semi-OPD — distilling from offline rollouts generated by the initial student — can outperform on-policy distillation (OPD) in both accuracy and training efficiency. The choice depends on teacher-student alignment: OPD is beneficial only when the two are highly aligned with high overlap ratios. (Source: TLDR AI)</p>
+<p><strong>GLM-Legal: agentic legal intelligence.</strong> Zhipu&rsquo;s GLM-Legal was evaluated on complex task execution, specialized legal reasoning, and real-world legal workflows, achieving a 19.2% all-pass rate on Harvey LAB while matching frontier closed-source models on LegalBench and PLawBench despite a significantly leaner parameter footprint. (Source: TLDR AI)</p>
+<p><strong>Helix World: real-time audio-visual world model.</strong> Helix World is a real-time interactive audio-visual world model that generates explorable scenes with spatial soundtracks. (Source: TLDR AI)</p>
+<p><strong>The &ldquo;expensive-loop problem.&rdquo;</strong> A LessWrong essay distinguishes cheap-loop domains (quick, deterministic, cheap experiments) from expensive-loop domains (restricted by real-world constraints/costs). Most high-value human labor is expensive-loop, requiring theory-building, proxy management, time/compute budgeting, and diagnosing failures when feedback is scarce — capabilities models don&rsquo;t acquire in cheap-loop training. (Source: TLDR AI)</p>
+<p><strong>Decision models cut agent LLM calls by 29.6%.</strong> Offloading step-completion checks and bounded decisions to &ldquo;Jev&rdquo; reduced Qwen agent calls by 29.6%, estimated API costs by 26.6%, and latency by 19.7% across 360 SOP-bench cases. (Source: TLDR AI)</p>
+<h2>Security</h2>
+<p><strong>Yandex suspends its Vladimir AI data center after a third drone strike in four days.</strong> Yandex said operations are &ldquo;completely suspended&rdquo; at its Vladimir data center after Sunday&rsquo;s Ukrainian drone strike — the third Yandex AI compute site hit in four days. Two of the three supercomputers training the company&rsquo;s models sat at the Sasovo site struck Thursday, which went offline first. (Source: AI Weekly Espresso / Al Jazeera)</p>
+<p><strong>Graylark&rsquo;s Raven geolocates homes from a single interior photo.</strong> Graylark&rsquo;s Raven (formerly GeoSpy) now lets police upload one interior photo and get back the specific house or short-term rental where it was taken, matching features against public listings on Airbnb, Zillow and Vrbo. LAPD and Miami-Dade Sheriff&rsquo;s Office are early buyers. (Source: AI Weekly Espresso / 404 Media)</p>
+<p><strong>Anthropic opens a free Claude vulnerability scanner to open-source maintainers.</strong> Anthropic made a free Claude-based vulnerability scanner available to OSS maintainers. (Source: AI Weekly Espresso)</p>
+<p><strong>ARTEX developer closes its AI pentest tool after Korea bank hacks.</strong> The developer of ARTEX closed the AI penetration-testing tool following bank hacks in Korea. (Source: AI Weekly Espresso)</p>
+<p><strong>Undo survey: 81% of engineering leaders hit AI-code production outages.</strong> A survey of 300 senior engineering leaders at US and UK firms by debugging vendor Undo (published October 12 via LeadDev) found 81% experienced an AI-coding-tool-linked production incident in the last six months, and 93% said an AI hallucination had led a team to misdiagnose a root cause. (Source: AI Weekly Espresso)</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Epic Games pivots to &ldquo;AI-first&rdquo; development for its Disney game.</strong> Per Bloomberg, a director told developers on Epic&rsquo;s big Disney game (rumored to be an extraction shooter) to write no code by hand and make all art through full AI workflows; the game slipped from a November release to March (the delay reportedly preceded the directive). Disney invested $1.5B in Epic in 2024. An Epic spokesperson said the company is pursuing AI-accelerated development led by its own developers, aiming to &ldquo;build more and better stuff rather than build the same stuff with fewer people.&rdquo; Epic laid off over 1,000 employees in March, citing a Fortnite engagement downturn. Engadget notes a GDC survey found 52% of developers now say generative AI is bad for the industry, up from 30% in 2025. (Sources: The Neuron, TLDR)</p>
+<p><strong>Karpathy: only ~5,000 people have top-tier AI access.</strong> Andrej Karpathy estimated that only about 5,000 people have internal access to the most advanced AI systems, while roughly 2 billion use AI as a &ldquo;better Google search.&rdquo; (Source: The Neuron)</p>
+<p><strong>Amazon tops 1 million warehouse robots.</strong> Amazon already has more than a million robots working in its warehouses and is poised to grow that fleet significantly. It is the world&rsquo;s second-largest corporate employer. Executives say the robots have eased the burden on human workers, but labor advocates and independent researchers say warehouse automation is &ldquo;not all upside,&rdquo; complicating things when humans must keep pace with robotic counterparts. (Source: TLDR / Ars Technica)</p>
+<p><strong>Twitter/X is seeing a &ldquo;vibes-based&rdquo; resurgence.</strong> Several creators returned to X after boycotting it — not out of preference but because business realities dictate it. Big tech names including Nvidia&rsquo;s Jensen Huang, Microsoft&rsquo;s Satya Nadella, and Meta&rsquo;s Mark Zuckerberg are now regular posters; X has become the most effective way to get a message out, especially in the AI community. (Source: TLDR / Spyglass)</p>
+<p><strong>SemiAnalysis: only 3.6% of Chinese AI releases had safety evals.</strong> SemiAnalysis reported that just 3.6% of 857 Chinese AI releases included safety evaluations. (Source: AI Weekly Espresso)</p>
+<p><strong>CMS runs a 1,700-member Slack shaping Trump AI health policy.</strong> Per KFF/CBS, CMS operates a 1,700-member Slack where Microsoft, OpenAI and Anthropic help shape Trump administration AI health policy. (Source: AI Weekly Espresso)</p>
+<p><strong>Yau launches a Chinese mathematics-AI alliance.</strong> Fields medallist Shing-Tung Yau launched a Yau Laboratory Alliance in Beijing uniting eight Chinese institutions and aiming for 1,000+ scientists, to build specialized AI models for math and formalize proofs. Yau said China lags the US on AI-driven frontier science. (Source: AI Weekly Espresso / SCMP)</p>
+<h2>Tooling &amp; practices</h2>
+<p><strong>WebMCP for the agentic web.</strong> An essay argues co-browsing must work well for the web to succeed in the agentic age — it&rsquo;s the only model where developer and user retain control and &ldquo;the web remains the web.&rdquo; WebMCP lets sites expose direct JavaScript tools agents can call, making interaction faster, better, and cheaper by circumventing the slowness of agents trying to figure out how to operate a site. (Source: TLDR)</p>
+<p><strong>Zhipu GLM-5.3-HighSpeed gray release.</strong> Zhipu&rsquo;s GLM-5.3-HighSpeed appeared in a ZCode gray release to randomly selected subscribers, with users reporting about 490 tokens/second. (Source: TLDR AI)</p>
+<p><strong>Releasing AI-generated software / accountability.</strong> Robert C. Martin suggests not reading AI-agent-written code, instead using constraints like unit tests and QA to ensure quality — raising open questions about engineering liability and who is responsible when AI-driven code errors occur, since existing legal frameworks may struggle with accountability. A related piece (&ldquo;Software engineers don&rsquo;t get to be Luddites about AI&rdquo;) argues engineers who transformed other jobs must accept transformation of their own. (Source: TLDR, TLDR AI)</p>
+<p><strong>New tools roundup.</strong> ngram turns a text prompt or screen recording into a finished explainer/onboarding video, editable by chat; Manifold connects Claude or ChatGPT to live marketing data (free plan, then $20/mo); Atticus (open-source) lets you control your Mac by voice via your own Claude plan; Brainotes (open-source) is a browser-tab GoodNotes-style notebook; IHMT-MEMORY (open-source) gives Claude Code, Codex and opencode a shared plain-file memory of past decisions; AGENT-ENGINEER (open-source) adds 11 skills, 4 subagents and 5 hooks to AI coding assistants; Switch (source-available, self-hostable) brings agents from any framework into Slack/Teams/Discord with shared context (the vendor runs 45 agents alongside 5 developers). PostHog published &ldquo;38 things we&rsquo;ve learned about building AI products&rdquo; (10 AI products, ~100,000 monthly users). (Sources: The Neuron, TLDR)</p>
+<h2>Upcoming &amp; future developments</h2>
+<p><strong>OpenAI&rsquo;s FFT algorithm.</strong> An argmin.net post characterizes OpenAI&rsquo;s Fast Fourier Transform algorithm as &ldquo;less of a breakthrough and more of a malicious exploit.&rdquo; (Source: TLDR)</p>
+<p><strong>Post-quantum cryptography deadline.</strong> A cryptography post notes the post-quantum transition needs to be completed by 2029. (Source: TLDR)</p>
+<p><strong>&ldquo;The Curve&rdquo; 2026 recap.</strong> A 26-minute writeup of the Golden Gate Institute for AI&rsquo;s annual Berkeley gathering (median attendee age ~30) covers debates on whether humans can maintain control of AI, whether AI&rsquo;s impact will be good or bad, and how to ensure alignment. (Source: TLDR AI)</p>
+</article>
+<nav class="updown"><a href="2026-10-12.html">&larr; Monday, October 12, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Tuesday, October 13, 2026 &middot; site rebuilt Oct 13, 2026 at 8:27 AM PDT
+</div></footer>
+</body>
+</html>
