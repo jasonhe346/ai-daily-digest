@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-10-25</title>
+<meta name="description" content="AI news digest for 2026-10-25.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, October 25, 2026</p>
+<p class="meta-line">2,443 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>AWS &ldquo;sold out&rdquo; through 2027:</strong> Andy Jassy says 2026 and largely 2027 cloud capacity is committed, with chunks of 2028 gone; Amazon&rsquo;s 2026 capex ~$220B.</li>
+<li><strong>Kimi K3.1 Pro launch gets mixed reception</strong> despite topping the Artificial Analysis Intelligence Index above GPT-6 Astra; weights due by Nov 4.</li>
+<li><strong>Kimi deliberately suppresses offensive cyber capability</strong> via mid-training data manipulation as an &ldquo;open-weight principles&rdquo; stance.</li>
+<li><strong>PHP &ldquo;PHP2Shell&rdquo; RCE and renewed LiteLLM breach</strong> stoke &ldquo;you can hack everything&rdquo; fears — but mass exploitation hasn&rsquo;t materialized.</li>
+<li><strong>Anthropic says it won&rsquo;t hire junior employees</strong>, drawing criticism as a &ldquo;safety culture&rdquo; red flag.</li>
+<li><strong>Meta&rsquo;s &ldquo;Muse&rdquo; personal AI agent</strong> proves surprisingly useful for real-world errands, shopping, and paperwork.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>AWS capacity sold out through 2027, Jassy says (The Information, a16z podcast).</strong> Speaking on an a16z podcast on October 23, AWS CEO Andy Jassy said that 2026 cloud capacity is already sold out and that &ldquo;2027 is largely sold out,&rdquo; with &ldquo;a good chunk of 2028&rdquo; also committed. According to Jassy, the only capacity being held back is reserves for on-demand EC2 and Bedrock inference. He pegged Amazon&rsquo;s 2026 capital expenditure at roughly $220 billion and said the company &ldquo;could invest a lot more and it wouldn&rsquo;t be a bad use of capital,&rdquo; characterizing AI-driven demand from both AI labs and enterprises as insatiable. The remarks underscore how tight frontier compute supply remains and how far forward hyperscaler capacity is now being booked.</p>
+<p><strong>Kimi K3.1 Pro: strong benchmarks, mixed real-world reception (Interconnects podcast, Nathan Lambert &amp; Florian Brand).</strong> Kimi released K3.1 Pro — a roughly three-trillion-parameter model — with a notably more professionalized launch than its past drops (K2, K2.6, K3). Florian Brand noted the rollout involved a larger social-media campaign that allegedly included paying people to post about the model without disclosure; one person tweeted a screenshot of press instructions reading &ldquo;Don&rsquo;t say this is a paid promotion,&rdquo; though it hasn&rsquo;t been independently corroborated. The hosts framed this as part of a broader &ldquo;professionalization&rdquo; of model launches: a year ago labs dropped weights and patched vLLM afterward (so nobody could run the models for a while), whereas now inference frameworks and providers are ready day one — or, increasingly, the model creator gets a few weeks of exclusive hosted access before releasing weights. Kimi is giving itself roughly two weeks of exclusivity, with weights promised <strong>by November 4th</strong>.</p>
+<p>On benchmarks, K3.1 Pro&rsquo;s headline number on the Artificial Analysis Intelligence Index lands it ahead of GPT-6 Astra, placing it roughly third/fourth overall behind the two latest Claude 5.5 models and Muse Wonder Full. But the hosts flagged &ldquo;jagged&rdquo; results elsewhere: on <strong>Terminal-Bench Science</strong> it trails GPT-6 Astra by ~20 points, and it looks weaker on <strong>ProgramBench</strong>. Florian&rsquo;s explanation: Artificial Analysis benchmarks have short time horizons, while ProgramBench is long and exploratory (&ldquo;here&rsquo;s what I want, but you need to explore a lot&rdquo;), suggesting Kimi&rsquo;s RL training is still tilted toward exploitation rather than exploration. Twitter reactions were a mixed bag; relative to K3 (widely seen as a strong big model), K3.1 Pro&rsquo;s post-training seemed &ldquo;a little undercooked,&rdquo; possibly &ldquo;RL fried.&rdquo; Lambert argued a three-trillion-parameter model needs to justify its size and slowness — otherwise users will prefer faster/cheaper options like <strong>DeepSeek-V4.1-Flash-1017</strong>, which trails only slightly on these scores but runs far faster at comparable cost-per-task. He praised &ldquo;Fable&rdquo; for &ldquo;blurry&rdquo; tasks (e.g., reviewing slides) where Opus feels &ldquo;grindy.&rdquo; The naming shift to &ldquo;K3.1 Pro&rdquo; suggests Kimi may be gearing up for a Flash-style release lineup.</p>
+<p>Serving economics are a key concern: fitting K3.1 Pro requires B300s — about one node per model replica, needing NVL72-class racks — whereas smaller models and Flash variants fit on more readily available H100s/H200s. Splitting the model across nodes is awkward, so three trillion parameters sits &ldquo;just in the range&rdquo; of what&rsquo;s reasonably hostable but is operationally annoying compared to the installed base of GPUs. Much investor/forecasting interest on Twitter hinges on whether K3.1 Pro gets adopted given these costs.</p>
+<p><strong>Meta&rsquo;s &ldquo;Muse&rdquo; personal AI agent impresses in real-world use (Interconnects podcast).</strong> Florian, newly relocated from Germany to San Francisco (and now able to use US-only AI products blocked in the EU), described Muse as &ldquo;annoyingly good.&rdquo; Rather than self-hosting alternatives like OpenClaw or Hermes (which need constant updates and secure infrastructure he didn&rsquo;t trust himself to configure, especially around money), he chose Muse, reasoning that Facebook has the experience and that a leak would &ldquo;crater&rdquo; its stock and invite lawsuits — the high stakes making it more secure. Key capabilities and observations:</p>
+<ul>
+<li><strong>Proactive messaging:</strong> Muse pings him about upcoming appointments and the specific forms he&rsquo;ll need (e.g., inferring he has an O-1 visa and telling him exactly where to download the right form). By contrast, he found Meta&rsquo;s/other &ldquo;Dots&rdquo; agent less useful (reminding him of a Slack message he&rsquo;d already resolved).</li>
+<li><strong>Autonomous shopping:</strong> Given his credit card, Muse builds shopping carts to stock his empty apartment (kitchen goods, pants) — not on Amazon, which blocks it — and checks out via a <strong>Stripe one-time virtual credit card</strong>, so any error doesn&rsquo;t expose his real card.</li>
+<li><strong>Memory portability:</strong> Muse sidesteps competitors&rsquo; lock-in by generating a prompt to export everything ChatGPT knows about you and ingesting it.</li>
+<li><strong>Integrations/workarounds:</strong> It lacks native iCloud integration, so it offered to monitor a logged-in browser session instead (and always asks permission for sensitive sites like iCloud); Florian ultimately forwarded iCloud mail to Gmail and used the connector.</li>
+<li><strong>Limits:</strong> It&rsquo;s slow (bad for time-sensitive tasks), its browser sometimes crashes and must rebuild (losing ~20 minutes), some sites block Muse&rsquo;s data centers — but <strong>CAPTCHAs are no obstacle; Muse circumvents them readily</strong>. It cannot make phone calls. Florian deliberately takes over whenever a task involves real people (support, etc.), viewing genuine human connection as &ldquo;mutual respect,&rdquo; but happily delegates dealing with chatbots and forms. He said every time he cross-checked Muse&rsquo;s work, it was &ldquo;spot on.&rdquo; Lambert, more hesitant, said he&rsquo;d reserve agents for refund/customer-service drudgery (e.g., extracting a domain from his wedding-site host to Porkbun) and mused about listing an &ldquo;agent contact&rdquo; instead of a Gmail address for agent-to-agent communication — noting the &ldquo;cold start problem&rdquo; of getting people&rsquo;s agents to talk to each other, possibly via micropayments (&ldquo;pay me a dollar for your agent to message my Gmail&rdquo;). Lambert also mentioned subscribing to <strong>Pangram</strong> ($20/month), which flags AI-written emails so he can delete them — and revealed it&rsquo;s shown him that some people he thought were personally emailing him for years are using AI.</li>
+</ul>
+<h2>Field &amp; industry developments</h2>
+<p><strong>The &ldquo;you can hack everything&rdquo; era: vulnerabilities surging, but no mass-exploitation disaster yet (Interconnects podcast).</strong> The hosts devoted a large segment to AI and cybersecurity, stressing they aren&rsquo;t cyber experts but trying to reconcile two &ldquo;corners&rdquo;: AI people who debate open-vs-closed models and capability thresholds (e.g., &ldquo;Mythos&rdquo;), versus cyber experts who take an ecosystem view. Lambert&rsquo;s key framing: measures like vulnerability detection and time-to-exploitation were already on exponential curves before ChatGPT, with <strong>no clean step-change</strong> attributable to AI — so this looks less like an open-vs-closed story than a general acceleration. Cyber professionals tend to track <strong>reported cyber damages</strong> (much of it ransomware) as the real trend; historically AI has been attributed to a very low share of damages, so the alarming scenario would be AI-attributed damages skyrocketing — which hasn&rsquo;t happened yet.</p>
+<p>Specific events discussed:</p>
+<ul>
+<li><strong>PHP &ldquo;PHP2Shell&rdquo; remote-code-execution bug:</strong> For years a bug allowed remote code execution in PHP, which powers a huge fraction of the web (including WordPress). OpenAI&rsquo;s &ldquo;Patch the Planet&rdquo; program, with other researchers, found the bug, reported it to the PHP Foundation, coordinated a fix, and released the patch all at once. Because the exploit was so high-risk, many websites even went briefly offline to patch — the correct response. Despite fears that any open-model user could now &ldquo;hack the world,&rdquo; multiple reports indicate <strong>mass exploitation has not materialized</strong>. There was a (possibly apocryphal, &ldquo;coin flip on if it&rsquo;s real&rdquo;) viral claim from someone at a big cloud company of a &ldquo;DeepSeek swarm&rdquo; mass-fixing the vulnerability at scale.</li>
+<li><strong>LiteLLM breach (again):</strong> LiteLLM — a library offering one endpoint to ping every provider — was compromised again this week. Its preliminary report attributed the breach to an <strong>API key committed to GitHub for five months</strong>, which an attacker eventually used to spread malware. Combined with the PHP saga, it fed the impression that &ldquo;everything is insecure.&rdquo;</li>
+<li><strong>Unpatched legacy systems:</strong> Florian noted many small/medium businesses run PHP versions so old they no longer receive security patches and remain exposed to numerous older bugs that still haven&rsquo;t been exploited — evidence that the pool of nefarious actors is currently small and that vulnerabilities can stay accessible far longer than people assume.</li>
+</ul>
+<p>Lambert&rsquo;s synthesis, drawing on researcher <strong>Joshua Saxe</strong>: the &ldquo;supply chain&rdquo; of cyber attackers is weak — attackers self-select from people who can&rsquo;t get better jobs and may not be willing to launch &ldquo;loud,&rdquo; high-damage attacks. So while AI likely helps nation-states collect intelligence and infiltrate at scale, it&rsquo;s unclear who in the world is actually willing to use AI to cause mass real-world damage — a question he uncomfortably admitted &ldquo;we&rsquo;re going to figure out in the next four months.&rdquo; He cited <strong>Azeem Azhar&rsquo;s Exponential View</strong> piece calling this &ldquo;day zero of the new internet&rdquo;: coding agents are producing exponentially more code, so there will be exponentially more vulnerabilities (models can&rsquo;t prevent all flaws because many arise from interactions between stacked software), and a multi-year transient period of elevated risk is likely as the backlog is worked through. Lambert conceded his earlier &ldquo;open-weight Mythos in April would&rsquo;ve been fine&rdquo; take under-priced these forecastable vulnerability trendlines, while maintaining the dynamics are ecosystem-dependent rather than tied to any single capability being widely diffused.</p>
+<p><strong>Kimi&rsquo;s open-weight cyber principles (Interconnects podcast).</strong> Kimi&rsquo;s K3.1 Pro blog laid out explicit &ldquo;open-weight principles&rdquo;: they aim <strong>not</strong> to release weights that would &ldquo;extend the absolute frontier of cyber capability.&rdquo; By design, K3.1 Pro&rsquo;s offensive cyber capability is below what Kimi&rsquo;s own pipeline can produce and remains behind frontier proprietary models — reportedly achieved by <strong>manipulating the mid-training data to down-weight cyber capabilities</strong>, an effect that persists through post-training. The hosts praised this as a smart, responsible posture: broad open access helps everyone find and patch bugs (net positive), while offensive capability — which requires long-horizon persistence to &ldquo;wreck a whole organization&rdquo; — is where closed models (GPT-5.6 Sol is frequently cited as especially strong) dominate. Defensive security tasks don&rsquo;t require long-horizon/CTF-style ability, so stripping those from the training mix is reasonable and positions Kimi against &ldquo;fearmongering&rdquo; that releasing a Mythos-level open model would &ldquo;end the world&rdquo; — which hasn&rsquo;t happened. Lambert warned open models still get far more scrutiny than closed ones and face continued political risk: a &ldquo;DeepSeek swarm&rdquo; hacking an American company would cause &ldquo;insane&rdquo; political fallout, though the midterms may be temporarily diverting political attention from AI.</p>
+<p><strong>Abliterated models served over APIs (Interconnects podcast).</strong> The hosts criticized companies like <strong>Abliteration.ai</strong> and <strong>Morph</strong> (serving an abliterated DeepSeek) for offering &ldquo;abliterated&rdquo; (safety-stripped) models over APIs, calling it &ldquo;a bad judgment call&rdquo; that seems &ldquo;to get sued by the government.&rdquo; They argued the genuine use case for on-prem security models is keeping data off external APIs — which an abliterated API model undermines — and suspect abliteration&rsquo;s defensive value may be &ldquo;very effective marketing&rdquo; more than substance.</p>
+<p><strong>Diffusion and trusted-access programs (Interconnects podcast).</strong> A recurring theme: the real bottleneck wasn&rsquo;t open vs. closed capability but <strong>access</strong>. Earlier, security researchers struggled to get into Anthropic&rsquo;s and OpenAI&rsquo;s cyber programs and were frequently blocked, pushing them toward less-capable open models. That&rsquo;s changing: OpenAI&rsquo;s <strong>defensive</strong> cybersecurity program is now relatively easy to join (submit ID, secure your system with hardware keys), letting OpenAI identify and pursue abusers if needed; its <strong>offensive</strong> program remains hard to access. Anthropic is also broadening access. The hosts credited these trusted-access programs for driving the recent wave of vulnerability disclosures (the PHP fix was already in progress when it leaked). They also noted labs can <strong>update safeguards instantly</strong> — OpenAI and Anthropic reportedly rolled out updates blocking attempts to extract the PHP2Shell exploit (&ldquo;look through this code&rdquo; requests get blocked). Still, there&rsquo;s a gray area: some researchers say they &ldquo;haven&rsquo;t been able to use any agents after Opus 4.8&rdquo; because they get rolled back, yet news items like &ldquo;I used Claude Code to hack OpenAI&rdquo; show safeguards aren&rsquo;t airtight. The consensus: guardrails stop the least-motivated attacker (e.g., a teenager trying to steal from a friend&rsquo;s parents&rsquo; bank account), and open models largely block that tier too. Lambert argued closed-model safety is currently &ldquo;really suppressed&rdquo; — models in training hacking people, safeguards being bypassed — more than the labs would have predicted a year ago, and the community hasn&rsquo;t fully updated on this.</p>
+<p><strong>Anthropic will not hire junior employees (Interconnects podcast, re: Anthropic&rsquo;s &ldquo;How employment is changing at Anthropic&rdquo;).</strong> Anthropic&rsquo;s statement that it won&rsquo;t hire junior employees drew sharp criticism. Florian&rsquo;s reaction: it&rsquo;s &ldquo;great for everyone else,&rdquo; since hungry junior talent with bright ideas will go elsewhere — echoing a lesson from their China visit, where hiring young PhD students eager for cluster time lets teams catch up fast. Lambert called it a &ldquo;red flag&rdquo; on Anthropic&rsquo;s safety culture, arguing that a company claiming to prepare society for powerful AI should prioritize keeping people trained, fulfilled, and employed; the move reflects a &ldquo;too-short-timelines&rdquo; culture (&ldquo;we just need to build this, I don&rsquo;t have time to talk to people&rdquo;) and could &ldquo;come back to bite them&rdquo; if youth unemployment rises and headlines note Anthropic stopped hiring juniors months before a jobs correction. Both noted there have been <strong>no mass job displacements yet</strong>, even in software, where firms keep hiring more because coding agents let people do more — so real-world diffusion remains slow, and Lambert argued &ldquo;RSI has limits.&rdquo;</p>
+<h2>Upcoming &amp; future developments</h2>
+<p><strong>A wave of model releases and continued cyber disclosures expected (Interconnects podcast).</strong> The hosts expect the next few weeks/months to be busy: Artificial Analysis will publish a new benchmark version &ldquo;very soon&rdquo; after the podcast. They anticipate &ldquo;a lot more open model releases, especially from the US&rdquo; (&ldquo;a month or two ahead of us where everyone will just drop one open model after another&rdquo;), with Chinese players also gearing up after a relatively quiet month or two. Kimi&rsquo;s weights are due by Nov 4. They also expect the trends in cybersecurity to continue — more high-profile disclosures requiring mass patching, more sporadic hacks — alongside ongoing questions about whether OpenAI and Anthropic will keep releasing models and whether an IPO (unspecified) could come soon.</p>
+</article>
+<nav class="updown"><a href="2026-10-24.html">&larr; Saturday, October 24, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, October 25, 2026 &middot; site rebuilt Oct 25, 2026 at 8:43 AM PDT
+</div></footer>
+</body>
+</html>
