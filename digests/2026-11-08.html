@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-08</title>
+<meta name="description" content="AI news digest for 2026-11-08.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, November 8, 2026</p>
+<p class="meta-line">530 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>AGI Friday argues AI now has superhuman math/coding but still weak judgment and initiative, complicating AGI timelines and recursive self-improvement forecasts.</li>
+<li>A Corrigibility Research Fund grantmaker publicly explains why it rejects superficial, misaligned, duplicative, and AI-generated proposals.</li>
+<li>A Less Wrong proposal argues a global AI &ldquo;pause&rdquo; should be built incrementally through independently verified slowdowns rather than a single agreement.</li>
+</ul>
+<h2>Research &amp; analysis (forecasting and world modeling)</h2>
+<p><strong>AI&rsquo;s uneven capabilities: superhuman math but weak judgment and initiative</strong> (AGI Friday, blog post, 2026-11-07, ~10 min read). This piece argues that AI systems may be nearing recursive self-improvement precisely because they already exceed human performance in mathematics, coding, and research tasks — yet they simultaneously remain deficient in judgment and in initiative. The author frames this as an &ldquo;uneven capability profile&rdquo;: progress is not uniform across cognitive domains, so a system can be superhuman in some narrow-but-important skills while still lacking the broad autonomy and discernment associated with full AGI. The practical consequence highlighted is that AGI timelines become difficult to assess, because the usual intuition that strong technical skill implies general competence breaks down. A notable implication drawn out in the post is that humans can remain crucial contributors by supplying simple, high-level direction — i.e., the human role shifts toward steering and goal-setting while the AI handles the technically demanding execution. The post was tagged under Forecasting &amp; World Modeling (forecasting, world modeling, Anthropic) and given a novelty score of 3/5.</p>
+<h2>Policy, governance &amp; safety</h2>
+<p><strong>Corrigibility Research Fund rejects superficial and misaligned grant proposals</strong> (Less Wrong, forum post, 2026-11-07, ~10 min read). A corrigibility-focused grantmaker lays out, in effect, its rejection criteria and its vision of what the field needs. The fund reports turning down proposals that are superficial, misaligned with the fund&rsquo;s actual aims, duplicative of existing work, or AI-generated, specifically where such proposals fail to advance the core open problems in corrigibility. Instead, the grantmaker says it is seeking original, rigorous researchers who are committed to solving corrigibility itself — as distinct from (a) building ordinary agent controls or (b) merely documenting instances of model misbehavior. The distinction matters because it signals a preference for foundational alignment research over engineering fixes or empirical cataloguing of failures. Tagged under Core AI Safety &amp; Alignment (AI alignment, alignment field-building, threat models); novelty score 2/5.</p>
+<p><strong>Build a global AI pause through verified incremental slowdowns</strong> (Less Wrong, forum post, 2026-11-06, ~10 min read). This governance proposal contends that a durable global AI pause is more likely to emerge through a series of increasingly ambitious, independently verified slowdowns than through a single, one-time agreement. The mechanism: third-party assessments and audits are used to progressively build the trust, operational competence, and international relationships required to make any future, more sweeping pause commitments credible. The underlying logic is that credibility and verification capacity must be developed incrementally — each verified slowdown establishes the track record and institutional machinery that the next, more ambitious step depends on — rather than expecting states and labs to accept a comprehensive halt all at once. Tagged under AI Governance &amp; Policy (slowing down AI, standards &amp; auditing, international coordination); novelty score 3/5.</p>
+</article>
+<nav class="updown"><a href="2026-11-07.html">&larr; Saturday, November 7, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, November 8, 2026 &middot; site rebuilt Nov 8, 2026 at 7:40 AM PST
+</div></footer>
+</body>
+</html>
