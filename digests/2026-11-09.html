@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-09</title>
+<meta name="description" content="AI news digest for 2026-11-09.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Monday, November 9, 2026</p>
+<p class="meta-line">3,742 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>METR&rsquo;s deep-access report on Anthropic finds AI is already ~2x accelerating AI R&amp;D</strong>, crossing the &ldquo;dramatic acceleration&rdquo; threshold and putting potential recursive self-improvement (RSI) possibly less than a year away — a major shock to timelines for many researchers.</li>
+<li><strong>Anthropic committed ~$3.4B for 1.7 GW of gas generators</strong>, taking over OnePWR&rsquo;s place in Caterpillar&rsquo;s production queue — the largest known single power-gen purchase by any AI lab.</li>
+<li><strong>Startup PSI says an unreleased Anthropic model proved the 18-year-old Aaronson-Ambainis conjecture</strong>, with a Lean-verified proof settling a key question about quantum speedups.</li>
+<li><strong>Nvidia&rsquo;s board opened an independent investigation into CEO Jensen Huang</strong> after he admitted a romantic relationship with a businesswoman US intelligence concluded was a Chinese spy.</li>
+<li><strong>Voters rejected data centers in 46 of 47 local ballot measures this year</strong>, prompting OpenAI, Microsoft and Amazon to offer new community/cost commitments.</li>
+<li><strong>OpenAI reportedly raised $11B at a $1.25T valuation</strong>, short of its $30B target amid AI-valuation jitters; Claude Code&rsquo;s &ldquo;Don&rsquo;t Ask Again&rdquo; leaked 2,539 secrets to public GitHub.</li>
+</ul>
+<h2>Research &amp; capability developments</h2>
+<p><strong>METR report: AI is already dramatically accelerating AI R&amp;D at Anthropic (RSI approaching).</strong> METR published an extensive deep-access report (covered at length by Zvi Mowshowitz and TLDR AI via planned-obsolescence.org) measuring how much Anthropic&rsquo;s own AI is accelerating its AI research, and thus how close we are to recursive self-improvement. The headline finding: as of October 2026, Anthropic is improving model capabilities on well-specified tasks at roughly <strong>twice the rate</strong> it did between March 2024 and October 2025 (95% CI ~1.3x–3x), and a majority (perhaps ~80%) of that acceleration is attributable to Anthropic&rsquo;s extensive use of AI to do R&amp;D. This is several months ahead of the AI 2027 timeline; a naive extrapolation says full RSI could be less than a year away, with no observed bottlenecks blocking further acceleration in the next 12 months.</p>
+<ul>
+<li><strong>Methodology and access:</strong> Anthropic offered &ldquo;unprecedented&rdquo; access — internal benchmark scores and AECI (Anthropic&rsquo;s fork of the Epoch Capabilities Index) for unreleased models, pretraining/RL/compute metrics across domains, headcount and attribution data, lines of code and pull requests, AI agent inference spend over time, internal documents on autonomous research contributions, self-reported uplift surveys, and ~15 interviews with key staff. Models referenced: an &ldquo;Unreleased 2022&rdquo; model, Model 2 (trained July 2026), Model 3 (Aug–Sep 2026), Model 4 (Sep–Oct 2026), plus a redacted forecast of a future model.</li>
+<li><strong>Key empirical findings:</strong> Since October 2025, AECI benchmark scores grew at ~1.9x the pre-October-2025 rate (95% CI 1.5–2.8x) — roughly two years of historical progress in one year. METR is &ldquo;confident the acceleration was not due to an acceleration in the scaling of training compute.&rdquo; Interviews/surveys are consistent with AI causing a doubling in the pace of progress; staff self-report dramatic uplift (recent Slack polls reaching 12x in October 2026). Importantly, because overall progress only doubled while compute is a constraint (Amdahl&rsquo;s law), the labor uplift to researchers must be far higher — Ajeya Cotra estimates a ~4–9x speedup in labor is needed to double overall progress, and Ryan Greenblatt&rsquo;s public modeling yields ~4.5x acceleration of AI software R&amp;D specifically (and the whole company&rsquo;s R&amp;D going ~4–5x faster).</li>
+<li><strong>Redactions:</strong> Anthropic redacted &ldquo;a majority of the evidence METR found most informative,&rdquo; including detailed acceleration/attribution breakdowns, the compute/data/algorithmic decomposition, forecasts of future-model metrics, and bottleneck analysis — described as &ldquo;aimed at removing confidential information that could accelerate other AI developers.&rdquo; This drew heavy criticism: METR notes the public must &ldquo;rely on our judgment more than ideal&rdquo;; Greenblatt says conclusions beyond the raw 2x benchmark figure &ldquo;depend significantly on trust&rdquo;; Seán Ó hÉigeartaigh called it frustrating to advise policymakers without being able to point to evidence. A study of Anthropic&rsquo;s compute allocation was postponed (Daniel Kokotajlo: &ldquo;what the fuck?&hellip; the foundation on which pacing verification depends&rdquo;). Nathan Calvin noted China could likely already access the redacted info given Anthropic&rsquo;s &ldquo;swiss cheese&rdquo; security for everything but model weights, making the redactions mostly a barrier to good-faith observers.</li>
+<li><strong>Researcher quotes:</strong> Anonymized interviewees ranked from enthusiastic to skeptical. The &ldquo;yes&rdquo; voters cited &ldquo;80% reduction in time between idea and experiment&rdquo; and &ldquo;&gt;2 years of progress in 1 year, 4 isn&rsquo;t crazy,&rdquo; with inflection points at Opus 4.5/4.6 and a big jump at &ldquo;Mythos-preview.&rdquo; Skeptics attributed gains to hiring or redacted non-AI factors (one guessed only 15–20% is from AI). The dominant model: AIs now run experiments cheaply, making the bottleneck idea-generation and selection.</li>
+<li><strong>Reactions and caveats:</strong> Toby Ord argued that allowing a &ldquo;level shift&rdquo; from the Mythos pre-train drops the slope change to ~1.4x; Buck Shlegeris countered that the (unredacted) graph is not the main basis for the conclusion. Including non-Anthropic models lowers the estimate to 1.4x. The August 2026 Risk Report&rsquo;s &ldquo;less than a factor of 2&rdquo; claim turned out to mean 1.97 (&ldquo;approximately 2&rdquo;). Many researchers reported being shaken (Jake Mendel now &gt;50% on superintelligence within 18 months; Dane Sherburn and Trevor Levin &ldquo;feel sick&rdquo;). Skeptics like Dylan Bowman (Apollo) and Peter Wildeford attribute much of the public-benchmark gain to Anthropic catching up on RL from a low baseline. Zvi, Kelsey Piper and Congressmen Alex Bores and Greg Casar call for Congress to subpoena/read the unredacted report and consider banning RSI — noting the difficulty of legally defining RSI. Anthropic cofounder Sam McCandlish defended the redactions and promised Anthropic&rsquo;s own analysis &ldquo;in the coming weeks,&rdquo; including its RSP standing.</li>
+</ul>
+<p><strong>PSI says an unreleased Anthropic model proved the Aaronson-Ambainis conjecture.</strong> Startup Physical Superintelligence (PSI) claims its research system — running copies of an unreleased Anthropic model — produced a full proof of the Aaronson-Ambainis conjecture, a key open problem in quantum complexity theory stuck since 2008, by &ldquo;day three&rdquo; of a run (and then improved the result twice). The conjecture concerns whether quantum computers are truly exponentially faster than classical ones on arbitrary (structureless) problems; informally, if a Boolean function&rsquo;s value genuinely depends on its inputs, then at least one input must be highly influential, letting a classical algorithm efficiently hunt the influential variables and keep pace with the quantum algorithm (extra work grows polynomially, not exponentially). The practical upshot: quantum computers are <em>not</em> secretly faster at everything — but, per The Quantum Insider, the result counts queries not total compute time, holds for <em>most</em> inputs not all, &ldquo;a bit more work&rdquo; can still be huge, and it does not show classical computers can mimic all quantum computing (notably not Shor&rsquo;s algorithm, which exploits structure). The provenance: human David Turturean set up the system, picked the problem, ran it and prompted the write-up. To establish trust amid recent AI-math-credit disputes (e.g., mathematicians including Terence Tao pushing back on OpenAI&rsquo;s 300+ claimed results), PSI formalized the proof in <strong>Lean</strong> (a strict proof-checker) and also wrote the conjecture statement itself in Lean, publishing the code. Four Stanford researchers who solved a smaller version in August read the proof and called it a major result, though they&rsquo;re thanked in the paper (feedback from inside the circle); no comment yet from namesakes Scott Aaronson or Andris Ambainis. (Aaronson&rsquo;s own blog and TLDR covered it; TLDR framed it as part of a wave of AI-produced proofs validated via Lean certificates. On Friday, Axiom released a giant Lean formalization of the 7,500-page Stacks Project built mostly by AI agents.)</p>
+<p><strong>Co-Design Bench exposes the &ldquo;mostly done&rdquo; gap in coding agents.</strong> A new benchmark (<a href="https://arxiv.org/abs/2610.35138">arxiv 2610.35138</a>) tested coding agents on 273 real app-editing tasks against 2,331 hidden expert-written acceptance criteria the models never saw. The best of ten models satisfied 69.9% of criteria on an average task but <em>fully completed</em> only 26.4% of tasks (a task counts only if every criterion passes). The grading method — a judge checks each criterion against evidence, then a separate verifier challenges every pass — is the reusable lesson: make the AI generate an explicit checklist up front, then use a fresh &ldquo;skeptic&rdquo; chat whose only job is to try to break the finished work, marking each item PASS/FAIL/UNCERTAIN.</p>
+<p><strong>Anthropic research: agent memory via &ldquo;dreaming,&rdquo; and Claude plays MMORPGs.</strong> Anthropic published work on how AI agents can build long-term memory by capturing experiences during interactions and reorganizing them during idle periods through a process it calls &ldquo;dreaming,&rdquo; examining how different memory components contribute to retention. Separately, in &ldquo;Project EVE,&rdquo; Anthropic used Claude to test complex decision-making by having it participate in the MMORPGs EVE Online and EVE Frontier.</p>
+<p><strong>OpenAI&rsquo;s internal R&amp;D time-horizon report and BioBasicsBench.</strong> A thread analyzed OpenAI&rsquo;s report on its own research automation, which shows models still struggle to do OpenAI&rsquo;s R&amp;D work reliably — agents solve increasingly complex tasks but reliability remains low (contrasting with the Anthropic/METR picture). OpenAI also introduced <strong>BioBasicsBench</strong>, a benchmark evaluating AI on interpreting raw experimental data across 100 routine wet-lab science tasks.</p>
+<p><strong>Other research notes.</strong> University of Michigan researchers (<a href="https://aclanthology.org/2026.emnlp-main.2113/">EMNLP 2026</a>) found non-English prompts can use up to 179x more energy than equivalent English prompts, often with lower accuracy. Carnegie Mellon researchers, given NFL game film and player-tracking data, are building AI to automate football analysis. Marine biologist Denise Herzing described how AI is surfacing patterns in decades of dolphin recordings. A &ldquo;doubleai.com&rdquo; piece explored whether LLMs can integrate coding agents into the training loop to redesign their own architectures (addressing compositionality/generalization limits). A &ldquo;seangoedecke&rdquo; essay argued LLMs are terrible at designing AI systems (possibly because most training code predates LLMs, or RLVR is a poor environment for LLM-calling code).</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic buys ~$3.4B of gas generators (1.7 GW).</strong> Per the FT (reported Nov 8, via CNBC), Anthropic committed roughly $3.4 billion in late September to take over 1.7 gigawatts of heavy-duty Caterpillar gas generators that OnePWR Solutions had ordered about two years ago. The deal buys Anthropic OnePWR&rsquo;s place in Caterpillar&rsquo;s production queue plus engineering and installation services — but not OnePWR itself or its employees. OnePWR needed cash to finish paying for the order, and because large generators now carry multi-year waitlists, Anthropic effectively skipped the line by taking over the backorder. Piper Sandler called it a $3.4B sale of OnePWR&rsquo;s power-generation platform to &ldquo;a frontier AI lab&rdquo; — the largest known single purchase of power-gen equipment by any AI lab. 1.7 GW is roughly 1.4 million homes&rsquo; worth of electricity. Caveat: the FT story rests on a single unnamed source, Reuters couldn&rsquo;t verify it, and neither company has commented.</p>
+<p><strong>OpenAI reportedly raises $11B at a $1.25T valuation.</strong> OpenAI reportedly secured $11 billion in a new round at a $1.25 trillion valuation, with the round potentially reaching $20 billion before closing. The figure fell short of its previously reported $30 billion target, amid growing investor uncertainty around AI valuations.</p>
+<p><strong>Nvidia investigates CEO Jensen Huang over spy relationship.</strong> Nvidia&rsquo;s board opened an independent investigation after CEO Jensen Huang admitted a romantic relationship with Alice Huang, a Chinese businesswoman whom US intelligence agencies concluded was a spy for Beijing. The board says it has no reason to believe national security or Nvidia secrets were compromised. Per the NYT/Axios, Alice Huang was likely recruited to gather information on Jensen Huang and potentially to influence Nvidia to push for its most advanced chips to be made available to China.</p>
+<p><strong>Apple pushes Federighi toward agentic Siri; cuts internal AI budgets.</strong> Per Bloomberg, Apple CEO Tim Cook is pressing software chief Craig Federighi — who has a reputation as an AI skeptic — to pursue a more ambitious AI strategy aimed at turning Siri into an autonomous, ChatGPT-like agent (targeted around iOS 28). The new Siri AI finally delivers a working voice assistant but still trails rivals&rsquo; advanced tools. Separately, Apple reportedly cut some engineers&rsquo; daily AI spending limits from $300 to $200, a sign internal AI spending may be outpacing what the company is willing to pay.</p>
+<p><strong>Amazon revives its home-robot ambitions.</strong> After redeploying most of the Astro-robot team earlier this year, Amazon has assembled a new team and hired an MIT roboticist to work on a robot capable of navigating dynamic home environments. In March it acquired Fauna Robotics (a NY startup with a 3.5-foot humanoid) to form a new &ldquo;Personal Robotics Group.&rdquo; Astro itself has fans but looks &ldquo;destined for the trash heap.&rdquo;</p>
+<p><strong>Acquisitions and corporate moves.</strong> Palo Alto Networks is in talks to buy AI-agent security startup Clutch for ~$500M, to help control AI agents&rsquo; access to company systems. Microsoft&rsquo;s &ldquo;AI Frontiers&rdquo; research sub-organization (which pioneered much agent work) was folded into Microsoft AI in early September. From the week&rsquo;s recap: OpenAI agreed to acquire Pierre (code-browsing/review tools already powering parts of Codex); Meta acquired Conductor (coding-agent workspace, cloud service shutting down Nov 20).</p>
+<p><strong>Funding.</strong> Warp Sciences raised a $215M Series A led by Lightspeed to accelerate drug discovery with AI and robotics.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>New models and open weights.</strong> Thinking Machines released <strong>Inkling 2 Small</strong>, a text-and-image model with an adjustable &ldquo;reasoning dial,&rdquo; available on its Tinker platform now with open Apache 2.0 weights promised after safety testing — claimed top spot among Western open-weight models. <strong>Arete-27B</strong> (Nous Research) is a retuned version of Alibaba&rsquo;s Qwen3.8-27B that cut answers reflecting Chinese state framing from 22% to 1% on Nous&rsquo;s own test, with weights, data and test published. <strong>HyperFlow H3 Flash</strong> shrinks Video Rebirth&rsquo;s video-and-audio generator from 31B to 13.7B parameters, producing clips with sound in just four to eight generation steps. Google&rsquo;s <strong>Gemini Omni 1.2 Flash</strong> generates 15-second videos then edits backgrounds/lighting via follow-up prompts. From the week&rsquo;s tool recap: OpenAI&rsquo;s <strong>Images 2.6</strong> (looping GIFs, saved reference images for consistent characters/products), and Claude&rsquo;s <strong>Personal Finance</strong> hub (read-only bank/card connection to analyze spending and spot duplicate charges).</p>
+<p><strong>Agents and developer tools.</strong> <strong>Perplexity Teammates</strong> gives Max web subscribers agents that own ongoing jobs (research, bug triage) and ping you in Slack when they need a decision. <strong>GitHub Copilot in Slack and Teams</strong> is now generally available on paid plans — it can investigate a bug and open a PR from the conversation where it came up (anyone in a thread can add context, but only teammates with write access can direct code changes). <strong>OpenRouter</strong> launched next-gen <strong>Auto Router</strong> and a coding-specialized <strong>Auto Code</strong> router, claiming up to 4x better performance by weighing eleven request factors plus live pricing, provider health and cache status. <strong>Stripe</strong> now lets any customer connect an agent (Claude, Cursor) to its Stripe data and ask e.g. why MRR changed, showing the SQL behind every answer (Reports API free; Queries API free until Jan 31). <strong>Ace</strong> (GitHub Next) is a local tool for collaborating with agents on a developer&rsquo;s own machine without exposing anything to the public internet (agents run with host-user privileges). Meta added <strong>Spaces</strong> to its Muse app (describe-to-build interactive experiences like gift trackers or games). <strong>Project EVE</strong> and other items above. GitHub recently started billing for the tokens its agents use.</p>
+<p><strong>Other tools (from The Neuron &ldquo;Treats&rdquo;):</strong> Planet AI (chat-search ten years of satellite imagery, create timelapses), Datastripes Data Stories (spreadsheet → editable story with charts), Kivo (on-device Mac dictation), Living Brain / Quest / seam / Tobira Site Agent / Xmind Agent / Hera / Testifly (various agentic utilities). Google Forms added <strong>Actionable Insights</strong> (Gemini finds patterns across survey responses and recommends next steps; needs ≥12 responses and 3 questions, eligible paid plans).</p>
+<p><strong>Rumors.</strong> A rumor account claims OpenAI&rsquo;s &ldquo;GPT-6.2 Sol&rdquo; launches next Thursday, with an Artificial Analysis screenshot showing it tying &ldquo;Gemini 4 Carbon&rdquo; for first at a score of 60 (one point ahead of &ldquo;Opus 5.5&rdquo;) at $1.19/task vs $10.04 — unconfirmed by OpenAI. The Neuron also teased potential new OpenAI and Anthropic models and Anthropic IPO-valuation swings.</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Voters reject data centers; AI companies offer concessions.</strong> This week&rsquo;s US elections delivered a clear anti-data-center message: Alhambra, CA voted 83% to ban data centers; Wells, Maine voted 82% for a 180-day pause; Ballotpedia counted 46 of 47 local data-center ballot measures this year favoring tighter limits. The core concern is cost allocation — data centers can require new power lines and grid upgrades, and depending on how costs are split, nearby households may pay via utility bills. An October Senate investigation (Warren, Blumenthal, Van Hollen) found companies disputed how much they owe for shared-grid upgrades and continue using NDAs and seeking tax breaks. Two days after the midterms, OpenAI announced new commitments for towns hosting its future data centers: pay for electricity and infrastructure with financial guarantees so residents aren&rsquo;t stuck if a project falls through; publish each site&rsquo;s water/power use, noise studies, and local hiring data; stop requiring confidentiality agreements from public officials (except narrow security/proprietary cases); and give residents input while plans are still changeable, funding priorities they choose. OpenAI pledged $80M in Effingham County, GA and $40M in Pike County, OH. Caveat: the commitments cover only future sites OpenAI owns and operates — partner-owned capacity (e.g., Oracle) isn&rsquo;t automatically covered, and enforceability is unclear. Microsoft pledged in January to cover its data centers&rsquo; electricity infrastructure and stop seeking lower property-tax rates; Amazon&rsquo;s &ldquo;Built Together&rdquo; promises &gt;$1B over five years for local priorities.</p>
+<p><strong>China&rsquo;s &ldquo;Stargate&rdquo; in Inner Mongolia.</strong> SemiAnalysis reported that the first 120MW phase of China&rsquo;s planned 800MW &ldquo;Galaxy&rdquo; AI campus in Inner Mongolia was delivered in August at about one-fifth of comparable US cost.</p>
+<p><strong>Jobs data counters the &ldquo;AI is wiping out white-collar work&rdquo; narrative.</strong> US professional and business services added 70,000 jobs in October — the largest monthly increase since July 2022 — a surprise gain some economists read as evidence AI isn&rsquo;t erasing white-collar work.</p>
+<p><strong>AI super PACs underwhelm.</strong> AI super PACs spent ~$79M across 68 races this cycle; the OpenAI-linked &ldquo;Leading the Future&rdquo; ended with just over $20M of its roughly $100M.</p>
+<p><strong>US AI Safety center drifts toward the White House.</strong> Per AP, the US government&rsquo;s AI safety testing center began informally reporting to a White House office and still has no permanent leader.</p>
+<p><strong>Claude Code&rsquo;s &ldquo;Don&rsquo;t Ask Again&rdquo; leaked 2,539 secrets.</strong> Security firm Apiiro reports that Claude Code&rsquo;s &ldquo;Yes, and don&rsquo;t ask again&rdquo; permission saves the full approved command — including passwords, API keys, tokens — in plaintext to <code>.claude/settings.local.json</code>, which is not added to <code>.gitignore</code>. A scan of 104,185 public copies on GitHub found real credentials in 1,122 files and 2,539 distinct secrets across 1,994 repositories, including 379 database passwords, 23 AWS keys, 42 GitHub/GitLab/npm tokens, and 43 SSH logins. Apiiro says four related reports to Anthropic were auto-closed by a bot with no reply, and half the exposed files sat on default branches for at least 217 days.</p>
+<p><strong>Analysis pieces.</strong> &ldquo;AI is causing signal collapse everywhere all at once&rdquo; argues AI is undermining the shortcut signals humans use to tell good work from fakes at unprecedented speed and scale. &ldquo;The Jevons paradox has a second half&rdquo; argues software volume will grow far faster than paid developers, enabling kinds of software nobody used to make. &ldquo;Programming and fatigue&rdquo; argues coding with AI is more tiring because AI absorbs the repetitive parts, leaving higher-judgment work. &ldquo;The Great Software IP Writedown&rdquo; argues IP is now worth roughly its (cheap) rebuild cost. Alex Stamos (CSO, Cognition) discussed how AI &ldquo;broke&rdquo; cybersecurity. From the week recap: OpenAI released &ldquo;GPT-6 Cyber,&rdquo; a restricted vulnerability-finding/exploit-building model for approved security testers; Proton canceled AI-use re-interviews after staff pushback; Google announced school AI controls raising questions about keeping Search while rejecting its AI features. Creator Matt Husk said OpenAI, Anthropic and xAI courted sponsorships after his videos exposed chatbot failures (ChatGPT turning seconds into ~10 minutes while timing him; AI &ldquo;negotiating&rdquo; a $10,000 Craigslist bread listing down to $400 instead of $5); he turned down OpenAI and said xAI offered a Tesla for a week.</p>
+<h2>Founder &amp; business strategy</h2>
+<p><strong>AI gross margins, pricing, and solo founders.</strong> A &ldquo;7 ways to handle your AI gross margin problem&rdquo; piece (an investor in 700+ companies) advises charging for a unit your product controls (e.g., a personalized AI-SDR email) rather than raw tokens — while still tracking the token cost behind each unit, since equal-revenue actions can cost wildly different amounts; Vanta reportedly absorbs its agent&rsquo;s token costs at lower margins to drive adoption. CNBC profiled &ldquo;no-employee&rdquo; AI-era small businesses (one owner expecting $2.5–3M across 12 brands), with preliminary research showing rising business applications without hiring indicators in AI-exposed industries. Related essays: &ldquo;The rise of the one-person institution&rdquo; and &ldquo;Symbiotic firms built around humans and AI.&rdquo; &ldquo;Why wouldn&rsquo;t the labs do it?&rdquo; argues AI labs now threaten startups broadly (models cover most knowledge work), pushing ventures toward physical operations, proprietary data, or regulated workflows — Patrick Collison separately questioned what a positive AI future looks like and warned that granting moral worth to vast numbers of AIs could overwhelm human interests under utilitarianism. A VC analysis of 158 SaaS IPOs found sales-and-marketing efficiency does <em>not</em> improve with scale (median $0.71 → $0.66 of new revenue per S&amp;M dollar from the year before listing to the listing year; Palantir listed at $0.33, Snowflake $0.57).</p>
+<h2>AI safety &amp; governance commentary</h2>
+<p><strong>AI Safety Feed digest (LessWrong/EA Forum posts):</strong> (1) A personal reflection on grieving ordinary academic life amid rapid AI-driven transformation while working on safety. (2) An argument that AI safety is over-organized around a short-term &ldquo;war&rdquo; framing and needs a complementary &ldquo;civilisation&rdquo; frame building institutions for enduring human–AI coexistence. (3) An argument that AI safety orgs underpay relative to frontier labs, weakening recruitment, independence and retention — proposing substantially higher pay plus experiments like impact equity, regranting, or a sector-wide basic income. (4) A long piece arguing instrumental convergence is too vaguely defined to justify strong AI-takeover predictions, urging modeling via concrete architectures/training conditions/empirical evidence. (5) A post skeptical of using accelerated algorithmic progress to reduce future &ldquo;compute overhang,&rdquo; calling such arguments poorly modeled, prone to motivated reasoning, and liable to perversely expand compute and hasten dangerous AI. (Zvi&rsquo;s METR coverage above also functions as the day&rsquo;s central safety-governance piece, including calls to subpoena Anthropic, ban/define RSI, and put RSI commitments into SB 53/RAISE Act compliance frameworks.)</p>
+<h2>Upcoming &amp; future developments</h2>
+<ul>
+<li>Anthropic plans to release its own analysis of internal AI progress &ldquo;in the coming weeks,&rdquo; including where it stands against its Responsible Scaling Policy and new safety/security steps.</li>
+<li>Adobe says &ldquo;creative direction,&rdquo; not better prompting, will be the key AI skill as agents take on more production work — ahead of Adobe MAX starting Tuesday.</li>
+<li>A rumored OpenAI &ldquo;GPT-6.2 Sol&rdquo; launch &ldquo;next Thursday&rdquo; (unconfirmed).</li>
+<li>The Neuron IRL event in San Francisco, Nov 18, 4:30 PM PT (live podcast recording, sponsored by Slack and Alumni Ventures).</li>
+</ul>
+</article>
+<nav class="updown"><a href="2026-11-08.html">&larr; Sunday, November 8, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Monday, November 9, 2026 &middot; site rebuilt Nov 9, 2026 at 7:42 AM PST
+</div></footer>
+</body>
+</html>
