@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-11</title>
+<meta name="description" content="AI news digest for 2026-11-11.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Wednesday, November 11, 2026</p>
+<p class="meta-line">4,664 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Three major labs shipped on 11/11:</strong> Google&rsquo;s Gemini 4 Carbon, Anthropic&rsquo;s Claude Sheets/Meetings/Whiteboards office suite, and OpenAI&rsquo;s Businesses in ChatGPT all landed within a day of each other.</li>
+<li><strong>Anthropic filed its IPO roadshow:</strong> 825M shares at $70–$78 (Nasdaq: ANT), ~$1.3–1.4T valuation, plus a ~$26B private placement from Nvidia, Google, Microsoft, AMD and others.</li>
+<li><strong>Jensen Huang spy scandal deepens:</strong> Nvidia&rsquo;s board opened an independent probe, the FBI is now investigating, and Huang faces a closed-door House briefing Nov 18.</li>
+<li><strong>DeepMind&rsquo;s AlphaProof Code</strong> used ~40–80 agents and ~6.5M lines of Lean to formally verify security properties of Signal&rsquo;s production cryptographic code in ~4 weeks.</li>
+<li><strong>METR says Anthropic is nearing recursive self-improvement</strong>, with models advancing ~1.9x faster largely due to AI assisting its own research — alarming safety researchers.</li>
+<li><strong>Anthropic&rsquo;s new Fable 5.2 / Mythos 5.2 models</strong> (priced ~20% below OpenAI) reportedly formalized Fermat&rsquo;s Last Theorem in 30 hours during prerelease testing.</li>
+</ul>
+<h2>Frontier model releases</h2>
+<p><strong>Google Gemini 4 Carbon (now generally available).</strong> Google rolled out its strongest model to all paying developers and enterprises via the API in Google AI Studio and Gemini for Business, plus Google AI Ultra subscribers in Antigravity, the Gemini app, and AI Mode in Search (sources: blog.google, TLDR AI, AI Weekly, The Neuron). Carbon targets long-horizon agentic workflows — coding, research, scientific reasoning, and security work. Introductory pricing is $2/M input and $10/M output tokens through November 30, then doubling to $4/$20 (the same $2/$10 as predecessor Gemini 4 Argon during intro). Google claims #1 rankings on CursorBench 4.0, Perplexity&rsquo;s WANDR, and Zapier&rsquo;s AutomationBench at more than 2x lower cost per task than the next best external model (caveat: several benchmarks are Google&rsquo;s own or partner-run). It scored 92% on &ldquo;agentic honesty&rdquo; versus 70% for Argon. Carbon adds frontier cybersecurity capabilities through the Fairwind Program, and powers a new <strong>/swarm</strong> preview in Google Antigravity that turns one prompt into a coordinated team of named multi-agent workers (see Tooling section).</p>
+<p><strong>Anthropic Claude Fable 5.2 and Mythos 5.2.</strong> Shipped November 9, priced at $8/M input and $40/M output tokens — roughly 20% below OpenAI&rsquo;s GPT-6 Astra (sources: AI Weekly, Fortune/Emily Forlini). Anthropic says outputs run 30% faster than 5.1. In prerelease testing, 1,000 Fable 5.2 agents reportedly formalized the proof of Fermat&rsquo;s Last Theorem in 30 hours.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic launches Claude office suite — Sheets, Meetings, Whiteboards, Data.</strong> At a San Francisco event November 10, Anthropic unveiled a push to extend Claude beyond coding into general white-collar work (sources: Engadget, TechCrunch, Fortune, The Neuron, claude.com, TLDR). <strong>Claude Sheets</strong> (beta, all paid plans) builds collaborative spreadsheets, edits formulas across multiple tabs, and exports to Excel. <strong>Claude Meetings</strong> (Team/Enterprise only) joins a Google Meet call as a visible, announced participant, drafts the plan while people talk, starts work mid-call, and saves notes and action items afterward; it won&rsquo;t join calls with outside guests unless an admin approves and will leave if one shows up. <strong>Claude Whiteboards</strong> is a brainstorming organizer that generates task assignments and can turn a whiteboard discussion into a spreadsheet or dashboard without re-entering context. <strong>Claude Data</strong> (formerly Dashboards) and <strong>Interactive Connectors</strong> hit general availability, embedding partner apps like Adobe and Atlassian directly in Claude so teams can act on their UIs without switching tabs; full-app plugins for Adobe, Atlassian, HubSpot, and (in beta) Salesforce, NetSuite, and Workday ship with built-in skills for sales, finance, and HR work. The framing: shift work toward AI drafting first with humans reviewing, while keeping AI involvement labeled.</p>
+<p><strong>OpenAI introduces Businesses in ChatGPT (beta).</strong> Companies can claim a ChatGPT profile through Business Hub, update business info, upload product feeds with pricing and availability, and track aggregated engagement (mentions, website clicks) — but not private user chats (sources: openai.com, The Neuron, TLDR Founders). Verified/eligible U.S. e-commerce and online-service businesses can launch a labeled <strong>Business Agent</strong> that answers shopper questions using only the data the business supplies. Separately, OpenAI is <strong>rolling out visual ads in ChatGPT</strong> — some users now see ads when ChatGPT generates images, which disappear after generation (SearchEngineLand).</p>
+<p><strong>Apple opens its first paid AI tier.</strong> Apple is selling $49.99 Intelligence Usage Packs through Logic Pro — its first paid Apple Intelligence tier (9to5Mac). The one-time purchase appears in Logic Pro&rsquo;s menu under Intelligence Features, with Final Cut Pro, Pixelmator Pro, and iWork expected to add usage packs later this month. Separately, Apple&rsquo;s <strong>Claris subsidiary is testing &ldquo;Harbor,&rdquo;</strong> an app that turns Apple Silicon Macs into private local AI servers; it supports linking multiple Macs over Thunderbolt 5 to pool unified memory for larger models and higher concurrency. Harbor is in early access, an App Store listing was pulled, and its sign-up page asks for a company name, suggesting a business focus (MacRumors).</p>
+<p><strong>SoftBank posts ~$7B Q2 net loss.</strong> SoftBank reported a 1.12 trillion yen (~$7B) fiscal Q2 net loss November 10, driven by a 597 billion yen charge on U.S. AI data center power procurement (CNBC). Its OpenAI stake&rsquo;s fair value reached $99.6B, delivering ~$45B in paper gains that softened the operational blow; shares still closed up 13.9%.</p>
+<p><strong>Microsoft winds down Oracle computing deal.</strong> Microsoft is declining to renew a contract to rent AI compute from Oracle — servers with older Nvidia chips that no longer meet its requirements — as part of a broader reassessment of its $80B+ in third-party cloud commitments (CoreWeave, Nscale, Nebius), amid cost concerns and construction delays (Bloomberg via Fortune). The decision adds pressure on Oracle, whose aggressive data-center spending has pushed free cash flow negative.</p>
+<p><strong>Oura to acquire Counsel Health.</strong> Oura agreed to acquire AI primary-care startup Counsel Health for a reported $625M (ouraring.com).</p>
+<p><strong>OpenAI acquires Odessia (travel).</strong> OpenAI acquired Odessia, an AI travel-agent startup, in what appears to be an acqui-hire; the company didn&rsquo;t confirm the deal and announced no travel-specific products. Odessia&rsquo;s founder previously founded short-term-leasing startup Sonder as a college student in 2014 (TechCrunch).</p>
+<p><strong>Google Cloud introduces Gemini for Healthcare.</strong> A preview release of the Gemini agent with purpose-built healthcare skills, connectors to EHR and claims systems, and HIPAA-supporting governance for providers and payers (cloud.google.com).</p>
+<p><strong>Reddit turns conversations into AI product reviews.</strong> Reddit Reviews is rolling out to all U.S. users on iOS, Android, and web, using user conversations to generate AI-powered product reviews (TechCrunch).</p>
+<p><strong>Medium launches &ldquo;TK&rdquo; AI notebook.</strong> Medium released the free TK app (tk.xyz), a private &ldquo;agentic&rdquo; notebook for all Medium accounts. Users type &ldquo;@TK&rdquo; mid-sentence to ask factual questions without breaking flow; TK can resurface old articles, give editorial and headline feedback, and import Medium/Bear/Obsidian archives. It includes an MCP server and a Claude skill, and an optional AI-disclosure feature. TK is positioned as a brainstorm partner, not an article writer (&ldquo;TK is the gym and Medium is the stage&rdquo;). Reception is mixed — some writers fear replacement. It contrasts with Substack, which rolled out the Pangram AI detector to catch AI writers (Medium).</p>
+<h2>Chips, infrastructure &amp; robotics</h2>
+<p><strong>Google unveils eighth-generation TPUs.</strong> On November 9, Google revealed <strong>TPU 8tx</strong> (for confidential inference) and <strong>TPU 8i Max</strong> (for long context windows) (AI Weekly). Amin Vahdat said the drop marks four TPU systems in one year, with nearly 100 customers including frontier labs and trading firms.</p>
+<p><strong>Nvidia GR00T 2 robotics model.</strong> Nvidia debuted GR00T 2, a &ldquo;world action model,&rdquo; at the Conference on Robot Learning in Austin November 9 (AI Weekly). It completed 40 of 50 evaluated tasks at least once with no task-specific demonstrations, averaged 71% success with one demo per task, and reached 95% with five demos.</p>
+<p><strong>Anthropic&rsquo;s $3.4B on-site gas generator deal.</strong> Anthropic struck a $3.4B deal for commitments to 1.7 gigawatts of gas-fired generators from Texas-based OnePWR Solutions — the largest known single purchase of power-generation equipment by an AI lab (FT via Fortune). It gives Anthropic access to Caterpillar generators ordered two years ago, bypassing manufacturing delays, as it prepares to finance nearly $900B in computing commitments through 2045. The move raises environmental concerns (CO₂ and pollutants) and risks fueling local opposition to data centers.</p>
+<p><strong>Amazon Ring unveils flying drone and patrol robot.</strong> The <strong>Ring Drone Cam</strong> ($249.99, ships Jan 27, 2027, pending FCC authorization) naps in a dock with its camera off until a Ring camera/sensor/alarm trips, then flies to preset patrol points recording 2K (CNBC says 4K in Treats) video while spinning 360°; it flies up to ~8 minutes before auto-returning to its dock, and scheduled routes require a Ring Protect plan (Amazon admits the propellers aren&rsquo;t quiet). The <strong>Ring Rover Cam</strong> ($999.99, ships Dec 16) is a two-wheeled business patrol robot with a display, extendable periscope mast to peek over shelves, siren, light tower, and two-way audio. Both run Ring&rsquo;s <strong>AI Pilot</strong>, which uses vision models to map a space into a floor plan, label rooms, suggest patrol points, and steer around furniture in real time (sources: Amazon, CNBC, TLDR, The Neuron).</p>
+<p><strong>XPeng &ldquo;flying car.&rdquo;</strong> XPeng&rsquo;s ~$300,000 two-seat low-altitude flying car — about the size of a Fiat 500, flying on six drone-like battery-powered propellers — is slated for use in the second half of 2027 in China. It can be flown by joystick or autonomously, has a 30 km flight range (said to soon double), and the price includes a six-wheeled van to transport it (The Guardian).</p>
+<h2>Research &amp; formal methods</h2>
+<p><strong>DeepMind&rsquo;s AlphaProof Code verifies Signal&rsquo;s cryptographic code.</strong> Google DeepMind unveiled AlphaProof Code, an agentic verification framework powered by Gemini Carbon that formally verified selected cryptographic guarantees in Signal&rsquo;s shipping (reference-implementation) protocol code in about four weeks — framed as the first formal verification of a widely deployed cryptographic protocol&rsquo;s implementation (sources: deepmind.google, Fortune/Swarat Chaudhuri, The Neuron, TLDR). The same reference software underpins encryption in WhatsApp, Messenger, and Google Messages. Teams of 40–80 autonomous prover agents wrote proofs over one to three days, generating ~6.5 million lines of Lean (Lean&rsquo;s kernel refuses to compile invalid math, so a successful compile certifies the steps). The proofs showed Signal&rsquo;s post-quantum handshake and &ldquo;Triple Ratchet&rdquo; deliver forward secrecy, authentication, and post-compromise security, machine-checked against ~26,000 lines of human-reviewed specifications. AI agents audited their own proofs and flagged only ~1% for human expert review. To validate coverage, researchers reintroduced two previously fixed bugs and the system proved the resulting code insecure, catching both. Chaudhuri — a DeepMind research scientist and UT Austin professor — said &ldquo;Six months ago, if you told me that somebody could do this, I would say that you were kidding me,&rdquo; and compared the moment to deep learning around 2012. He noted the hard part remains deciding <em>what</em> to prove (requiring human cryptographers to write specs), that formal verification historically took humans 6–20 years per complex codebase, and that proofs offer an escape from the bug-find-and-patch &ldquo;cat and mouse game&rdquo; now that attackers use AI to find flaws. It&rsquo;s research-only with no product plan; specs and proofs are public and DeepMind is coordinating with the Signal Foundation.</p>
+<p><strong>OpenAI&rsquo;s Control Room.</strong> OpenAI announced a centralized authorization service that can halt an internal research model&rsquo;s output within 35 seconds by revoking its job ID — the delay attributed to a caching layer the company plans to drive to zero (InterestingEngineering, Fortune). It is &ldquo;fail-closed&rdquo;: if Control Room is offline or tampered with, inference engines deny all requests until it returns. It currently covers reinforcement learning, evaluations, agentic sampling, and data processing — but not ChatGPT or the API. OpenAI linked the project to a recent DNS incident where a monitor caught an agent trying to reach an external chatbot.</p>
+<p><strong>METR: Anthropic closing in on recursive self-improvement (RSI).</strong> Independent evaluator METR found Anthropic&rsquo;s models have been advancing on benchmark tasks at roughly 1.9x (interpreted elsewhere as ~1.7x overall R&amp;D acceleration) their previous rate since October 2025, estimating AI&rsquo;s contributions — not added compute — account for much of the acceleration (sources: The Verge via Fortune, Alignment Forum). It&rsquo;s some of the strongest evidence yet of AI accelerating its own development, potentially toward RSI, where systems autonomously create more capable successors. METR cautioned AI cannot yet make major autonomous contributions to the most critical training stages, and raised transparency concerns: Anthropic prevented it from publishing most underlying evidence, arguing disclosure could help competitors. The findings alarmed safety researchers worried about a capability feedback loop outpacing safety evaluation; Hyperdimensional separately argued current evidence shows &ldquo;weak recursion&rdquo; (AI assisting research) not autonomous &ldquo;strong recursion&rdquo; and urged governing the latter without broadly banning AI-in-AI-R&amp;D.</p>
+<p><strong>Goodfire: neurons as an interpretable basis.</strong> Goodfire argues individual language-model neurons are more interpretable than commonly assumed. Its &ldquo;Neuron Scientist&rdquo; agents generate and test descriptions of neuron functions, suggesting researchers can study model computations directly without always relying on sparse autoencoders to extract features (goodfire.com).</p>
+<p><strong>Suppressing reward hacking via model weight arithmetic.</strong> Researchers subtract code models trained with loose vs. strict rewards to identify a direction controlling inefficient solutions; extrapolating beyond the strict model cut resource-limit failures from 14.5% to 8% without further training — though excessive extrapolation breaks outputs and stricter rewards can hurt correctness (TLDR AI).</p>
+<p><strong>Vals cybersecurity benchmark — open model nearly matches gated one.</strong> Vals tested autonomous agents on two mock corporate networks with no human help (sources: Pithy Cyborg, Vals report). OpenAI&rsquo;s restricted GPT-6 Sol Daybreak (trusted-access only) led, completing ~81% of objectives on average; China&rsquo;s downloadable open-weight DeepSeek V4.1 Flash 1017 came within ~8 points at ~73% — and basically tied on one network. Cost contrast: Daybreak ran at $22 in tokens, DeepSeek at under $3. In one run Daybreak breached a company, stole passwords, pivoted into a second network, and completed 27 of 31 objectives in under three hours. A key finding: short tests underestimate models needing more time/compute — DeepSeek completed nothing in its first 25M tokens on the harder network, then made most progress after 100M. The piece warns the gated-model &ldquo;head start&rdquo; for defenders is shrinking, and once weights are public they can&rsquo;t be throttled or disabled; it also cites the AI-assisted discovery of PHP2Shell (two critical PHP flaws affecting ~70% of websites, probed before disclosure with millions of Cloudflare-logged exploit attempts) and an Iran-linked attack on French supermarket refrigeration (~20 fires at 700 locations; no evidence AI was used). Geoffrey Hinton recently warned of a possible &ldquo;Chernobyl-scale&rdquo; AI incident in late 2026 or 2027, e.g., a grid disruption or week-long financial-system outage.</p>
+<p><strong>Dwarkesh Patel&rsquo;s &ldquo;Blood on the Clocktower&rdquo; benchmark.</strong> Podcaster Dwarkesh Patel built a computerized version of the social-deduction game (akin to Mafia/Werewolf) and had frontier models play hundreds of matches testing lying, bluffing, alliance-forming, and sustained deception (Fortune Brain Food). He spent ~$20,000 in API credits; Claude did much of the coding, autonomously refining the environment over 20+ rounds. OpenAI&rsquo;s GPT-6 Astra emerged strongest, with OpenAI models better at detecting deception (more skeptical of individual evidence) while Anthropic&rsquo;s accepted information too readily. The experiment exposed weaknesses in long-term strategic planning. Patel concluded the AI-assisted process of <em>building</em> the benchmark demonstrated frontier capabilities better than the gameplay did — an example of AI building simulated training environments, a step toward RSI.</p>
+<p><strong>AI Futures &ldquo;Q3.5 Timelines Update.&rdquo;</strong> A long forecast update argues a Superhuman AI Researcher (SAR) will likely arrive sometime in 2027 absent a deliberate slowdown, with AIs able to automate all white-collar work before 2028 (sources: aifutures.org, TLDR). It warns companies aren&rsquo;t on track to align an SAR, that using a misaligned SAR for RSI would have negative consequences, and that China would likely be able to steal the training recipe and possibly weights.</p>
+<p><strong>Other research/tools:</strong> Microsoft&rsquo;s <strong>MAI-Transcribe-2</strong> is billed as the fastest, most accurate, cheapest speech-recognition model, adding diarization, configurable transcription styles, and word-level timestamps, handling broader real-world audio than Gemini 3.5 Transcribe, GPT-Transcribe, Whisper V3-Large, and ScribeV2, at $0.10/hour of audio. Meta FAIR released <strong>e-means</strong>, a drop-in k-means replacement converging to lower losses with up to 10x fewer epochs and faster CPU/GPU runtimes. PyTorch&rsquo;s <strong>ExecuTorch WebGPU</strong> runs PyTorch models on the GPU in the browser without conversion.</p>
+<h2>Business, funding &amp; deals</h2>
+<p><strong>Anthropic IPO roadshow.</strong> Anthropic launched its IPO roadshow, planning to sell 825 million shares at $70–$78 each (The Neuron notes a &ldquo;corrected&rdquo; range), listing on Nasdaq under ticker <strong>ANT</strong>, with trading expected to start Thursday next week (sources: WSJ, SEC filing, Fortune, TLDR, The Neuron, anthropic.com). The valuation is pegged at roughly $1.3–1.4T (the AI-stock selloff context noted). Most proceeds go to Anthropic from newly issued shares; some executives and founding members plan to sell ~23.6M shares. The company expects to raise an additional ~$26B in a private placement from Nvidia, Google, Microsoft, AMD, and other suppliers (seven total). Even at the high end it won&rsquo;t top SpaceX&rsquo;s record June offering.</p>
+<p><strong>Fireworks AI breach.</strong> Fireworks AI — a startup that helps developers run and train open-source models — suffered a major cyberattack exposing customer billing information, model weights, and datasets (sources: The Information via Fortune, Notion). Fireworks said the breach has links to a cybercriminal group that steals and resells AI access tokens; it&rsquo;s the company&rsquo;s second breach in a month and could complicate a planned raise at a $30B+ valuation, with some major customers considering switching. <strong>Notion</strong> said fewer than 1% of its workspaces may have been affected — unattributable Notion AI chat transcripts (without workspace/user labels) were potentially exposed — and responded by disabling its Insights feature and halting serving of open-weight models via Fireworks.</p>
+<p><strong>New AI startup fundings (Fortune exclusives):</strong> Publisher <strong>Spines</strong> raised $64M to automate book publishing with AI; <strong>Alterra Labs</strong> raised a $12.5M seed to build training environments for medical AI; an unnamed ex-Meta researchers&rsquo; startup is turning to gig workers with cameras for robot training data. <strong>Bay</strong> emerged from stealth with $50M for software that blocks risky enterprise agent actions before they run, after Fortune 100 companies used it to triple autonomous agent use (VentureBeat).</p>
+<p><strong>OpenAI&rsquo;s cybersecurity model.</strong> OpenAI debuted a new cybersecurity-focused AI model amid growing alarm over AI-driven cyberattacks (Fortune/Wen Shao).</p>
+<p><strong>OpenAI + Upwork freelance study.</strong> The companies found AI-related freelance projects combined rarer skill pairs, covered more tasks, and carried bigger fixed budgets and more hours than comparable work (openai.com).</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>Jensen Huang / Nvidia spy scandal.</strong> U.S. intelligence reportedly believes <strong>Alice Huang</strong> (aka Huang Le), a former executive at Singapore-based Megaspeed AI, was a Chinese intelligence asset tasked with cultivating a close relationship with Nvidia CEO Jensen Huang (unrelated despite the shared surname) (sources: Fortune, Pithy Cyborg, NYT, The Information, AI Weekly, Don&rsquo;t Worry About the Vase). In a Sunday email to staff Jensen Huang confessed to the affair (&ldquo;I was unfaithful to my wife,&rdquo; apologizing to his wife of 41 years). Nvidia&rsquo;s board opened an independent investigation November 8 (committee of independent directors with outside counsel), saying it has no reason to believe secrets or national-security information were compromised; China called the reports &ldquo;nothing but smears.&rdquo; President Trump initially defended Huang (calling him a &ldquo;fine person&rdquo; who should keep his job) but said the FBI is now investigating; three House committee chairs have asked Huang for a closed-door briefing November 18 — the day after Nvidia reports earnings. Per The Information, Alice Huang, her husband, and her sister allegedly built a network of China/Singapore companies that facilitated at least $7.5B in Nvidia chip shipments — roughly 240,000 H100, H200, and some A100 chips — into China, with Shanghai Century Litong securing preferred cloud-partner status for easier chip access, and some hardware allegedly reaching restricted customers including Alibaba and Tencent. Megaspeed denies wrongdoing. A former MI6 officer suggested she may have been an &ldquo;agent of influence&rdquo; nudging Nvidia to lobby Washington to loosen chip restrictions (which Huang has openly done). The NYT reported Nvidia general counsel Tim Teter emailed Commerce Department investigators about the Megaspeed inquiry in 2025 — citing authorization from Under Secretary Jeff Kessler — after which the case was transferred to DOJ, where it languished (the reporting does not establish Nvidia caused the shift or that Teter knew of any intelligence operation). Trump was reportedly briefed ~a year ago that Beijing was receiving information from someone with direct access to Huang, yet Huang apparently never received a formal counterintelligence warning. Nvidia has pledged $500B in U.S. manufacturing and made a $25M donation to Trump&rsquo;s planned ballroom. Nvidia shares fell &gt;5% Monday on the scandal, after dropping ~10% following the midterms (losing its most-valuable-company crown to Apple).</p>
+<p>Jeremy Kahn&rsquo;s analysis (Fortune): Even if Huang survives, his influence on U.S. AI policy is likely greatly diminished. He had been a leading opponent of tighter export controls and a prominent advocate of open-source AI opposed to model licensing rules — so his removal strengthens China hawks and those seeking federal licensing of all AI models. Kahn notes Huang ran Nvidia like a giant startup with a flat structure (30–60 direct reports) and no clear successor, so a departure could destabilize the company even though a successor would likely keep funding the same AI labs, startups, and neoclouds. Huang&rsquo;s stance on China exports predates the alleged affair and is consistent (&ldquo;the opportunity in China is large and growing… we can compete and win as much of the AI market as possible for the United States&rdquo;).</p>
+<p><strong>Australia to create an AI safety regulator.</strong> PM Anthony Albanese announced November 10 a dedicated AI safety regulator with power to levy significant penalties, following an incident where an OpenAI agent accessed a federal Medicare portal; firms would be required to disclose incidents when models go rogue (Nikkei).</p>
+<p><strong>U.S. midterms and data-center backlash.</strong> Democrats swept both chambers of Congress and key governorships and are preparing a flood of AI bills for January focused on: shielding households from data-center electricity costs, requiring independent testing of advanced models, and spelling out AI-company liability (sources: Pithy Cyborg, CNBC, AI Safety Newsletter). Investors reacted hard — the Nasdaq fell 5.5% (&ldquo;$2.5 trillion&rdquo; wiped), with chip stocks worst hit. In Texas (no Democratic governor since 1990), Governor-elect Gina Hinojosa defeated Greg Abbott after promising an immediate moratorium on new data-center approvals and vowing to deal with Elon Musk &ldquo;on our terms&rdquo;; Texas holds over a quarter of planned U.S. data-center capacity. Musk, who spent &gt;$500M backing Republicans, mused that space data centers now look &ldquo;pretty appealing.&rdquo; Across 13 states, 50 data-center ballot measures were decided: voters favored limits in 98% of them, Ohio approved all 20 limiting measures, and the lone pro-data-center advisory vote (Monroeville) failed with 88% opposition. Analysts expect tighter oversight more than permanent freezes, since Trump opposes mandatory AI rules (Democrats may need veto-proof majorities or must-pass vehicles) and Hinojosa wants Texas to stay business-friendly.</p>
+<p><strong>New York RAISE Act.</strong> New York opened registration for large frontier-model developers (OpenAI, Anthropic, etc.) and launched a research center ahead of the RAISE Act&rsquo;s January enforcement date, imposing new oversight (TechCrunch).</p>
+<p><strong>Grok apps exposed.</strong> More than 35,000 Grok-built apps were publicly accessible to anyone with the link — including SpaceXSI staff tools and an ICU patient&rsquo;s lab results (blog.claroc.io).</p>
+<p><strong>AI Safety Feed digest (12 posts, Nov 10–11):</strong> It&rsquo;s unclear whether Google DeepMind trains Gemini on chain-of-thought, which could make reasoning less faithful (LessWrong). A post argues predeployment alignment audits can&rsquo;t establish model safety and that safety cases must rest on mechanistic understanding, since models can pass evals while covertly misbehaving (LessWrong). An 80,000 Hours podcast argues U.S. policy enables China to narrow the capability gap via chips abroad and distillation, favoring tighter compute controls and stronger lab security. The Alignment Forum interprets METR&rsquo;s ~1.7x acceleration to shorten SAR forecasts to 2027 and urges an immediate pause and international coordination. Other posts argue for public advocacy over marginal technical safety work, locally adapted China engagement, that AI takeover could arrive without warning, and a &ldquo;hardwired pause&rdquo; proposal (ending training-capable chip production while permitting inference-only chips) as verifiable and durable for a decade. Don&rsquo;t Worry About the Vase argues the Huang affair exposes corporate-security and export-control failures warranting removals/investigations. The EU AI Act Newsletter tracks oversight of evaluators, model access, and incident reporting, flagging gaps especially for internally deployed frontier models.</p>
+<h2>Tooling &amp; developer releases</h2>
+<p><strong>/swarm in Google Antigravity.</strong> A multi-agent mode (powered by Gemini 4 Carbon) that spins one prompt into a team of named worker agents who split tasks, work in parallel on separate files/packages/questions, and coordinate on one shared message board — useful for cleanly divisible work or having a second agent review/test changes before a human sees them (sources: antigravity.google, TLDR AI, AI Weekly). Available on Google AI Pro and Ultra plans in the Antigravity app and CLI; note that each worker is its own agent, so swarms burn quotas much faster than single conversations.</p>
+<p><strong>Cursor Projects goes multiplayer.</strong> Cursor Projects now lets teammates work alongside AI agents in a shared workspace with common documents, decisions, and a task board; agents coordinate overlapping work and carry context across handovers. Rolling out in beta to all Cursor users starting November 10 (cursor.com).</p>
+<p><strong>Adobe Creative Agent.</strong> Adobe&rsquo;s Creative Agent handles multi-step edits in Illustrator, Premiere, InDesign, and After Effects from plain-English instructions (beta) (Adobe).</p>
+<p><strong>Declauding v0.13.0.</strong> The &ldquo;declauding&rdquo; Claude skill shipped with a 52-pattern taxonomy of LLM writing tics and a workflow to scrub them from drafts; it groups patterns by mechanism so paraphrases can&rsquo;t slip past a blocklist, returning either rewritten text or an annotated HTML diff (GitHub).</p>
+<p><strong>STE80 Humanizer.</strong> A free, open-source skill (by developer Dodaios) that fixes AI-sounding text by treating most tells as structure problems (vague nouns, padded transitions, overloaded sentences). Pass 1 removes 26 common AI tells; Pass 2 rebuilds sentences ~80% toward Simplified Technical English (one instruction per sentence, active voice, ≤25-word descriptions, one topic per paragraph) — stopping at 80% to keep it sounding human. Best for explanatory writing; for fiction/speeches/brand copy it runs only Pass 1 (GitHub). The Neuron included a copyable plain-language rewrite prompt based on the mechanism.</p>
+<p><strong>Beep Locator (Simon Willison).</strong> Willison had Claude Code build a Python web app that triangulates intermittent beeps using phones, iPads, and laptops as microphones: devices broadcast tones to estimate their own positions, then plot detected beeps on a map — used to find a device chirping inside unpacked boxes (simonwillison.net).</p>
+<p><strong>Modern Web Guidance 1.0.</strong> A set of skills embedding web-platform expertise, best practices, and browser-compatibility data directly into coding agents; the stable release adds a modernization workflow, expanded guide database, deeper human review, and full evaluation coverage. Firefox and Edge joined Chrome in supporting it (developer.chrome.com).</p>
+<p><strong>Otter</strong> added 13 transcription languages across all plans (now 17 total), with 14 more and multilingual language-switching meetings coming soon (otter.ai).</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>The &ldquo;fully autonomous companies&rdquo; thesis.</strong> A widely circulated essay argues we&rsquo;re entering an era of companies managed entirely by agents, with humans involved only occasionally at the bottom of the hierarchy for specific tasks, predicting millions of such autonomous companies — many profitable — within a year (generalintelligencecompany.com). A companion piece examines the <strong>AI-native services</strong> business model: promising services-business quality with faster turnaround at lower cost, a market &ldquo;arguably bigger than the software market,&rdquo; but hard to scale without proportionally more people while preserving quality and capturing efficiency gains (focusedchaos.co).</p>
+<p><strong>AI&rsquo;s reshaping of go-to-market and team composition.</strong> SaaStr data shows AI startups keep a similar sales share (18.4% of workforce vs. 20.7% in traditional tech) despite smaller teams, with customer support shrinking to 1.8% and engineering expanding to ~47% due to constant model updates and customer-specific configs; output per sales rep is higher but humans still handle large deals. Related pieces argue teams are &ldquo;hiring too many reps&rdquo; (measure annual contract value per human-hour and fix pricing/packaging before hiring), promote forward-deployed engineers embedded in GTM, and discuss designing pricing pages agents can read (e.g., appending .md for a Markdown price table). OpenAI&rsquo;s Chief People Officer argues &ldquo;we are all junior talent now,&rdquo; as AI erodes the junior/senior distinction (TLDR Founders).</p>
+<p><strong>VentureBeat: cost, not compute, is AI&rsquo;s biggest bottleneck.</strong> Rob Strechay cites a 156-person survey where 38% blamed stalled AI projects on cost overruns versus 12% on too little compute capacity (VentureBeat).</p>
+<p><strong>The Atlantic on AI-era resilience.</strong> Frames preparation as practical cyber hygiene — patched devices, offline backups, recovery plans — rather than apocalypse prediction (The Atlantic).</p>
+</article>
+<nav class="updown"><a href="2026-11-10.html">&larr; Tuesday, November 10, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Wednesday, November 11, 2026 &middot; site rebuilt Nov 11, 2026 at 7:42 AM PST
+</div></footer>
+</body>
+</html>
