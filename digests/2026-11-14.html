@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-14</title>
+<meta name="description" content="AI news digest for 2026-11-14.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, November 14, 2026</p>
+<p class="meta-line">3,494 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li><strong>Google ships Gemini 4 Hydrogen</strong> at $1.50/$7.50 per million tokens, scoring 51 (54 at xhigh) on the Artificial Analysis Intelligence Index.</li>
+<li><strong>Jensen Huang resigns as Nvidia CEO</strong> amid affair/chip-diversion allegations; Kress named interim CEO, Harvey Jones first-ever chair — jeopardizing Nvidia&rsquo;s $500B AI-chip debt plan and the open-model ecosystem.</li>
+<li><strong>Anthropic&rsquo;s IPO</strong> prices Nov 18, debuts Nov 19 on Nasdaq as &ldquo;ANT&rdquo;; separately signs a ~$28B (up to $54B) 15-year, 910MW lease for Riot&rsquo;s Corsicana, Texas campus.</li>
+<li><strong>&ldquo;Decision models&rdquo; explode as a new category</strong> — non-text models returning a calibrated answer in milliseconds; Google, OpenAI and Microsoft all launched versions at ≤$0.10/M input, and they took 26% of requests on Vercel&rsquo;s gateway in October.</li>
+<li><strong>OpenAI&rsquo;s GPT-6 Cyber</strong> found and exploited 948 severe Linux kernel flaws in one run at ~$1,279 each; OpenAI also launched Daybreak Red Team/Defense Factory agents.</li>
+<li><strong>FAA nationwide ground stop</strong> — its first full stop since Jan 2023 — prompts DHS scrutiny of the newly expanded SMART AI air-traffic tool.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Google ships Gemini 4 Hydrogen.</strong> Google launched Gemini 4 Hydrogen on Thursday, Nov 13, priced at $1.50 per million input tokens and $7.50 per million output tokens, with a 1-million-token context window. It scored 51 on the Artificial Analysis Intelligence Index at its default &ldquo;high thinking&rdquo; setting — beating a model referred to as &ldquo;Argon&rdquo; at 50 — and reached 54 at the &ldquo;xhigh&rdquo; setting. The release lands amid intense frontier competition (the ecosystem also references Gemini 4 Carbon, used in cybersecurity testing, and GPT-6 Luna/Astra from OpenAI).</p>
+<p><strong>DeepMind&rsquo;s Gemini Robotics 2.5 hits 96% on a Mercedes-Benz line.</strong> Google DeepMind reported its Gemini Robotics 2.5 model achieved 96% on a Mercedes-Benz production line, a benchmark of real-world industrial robotic performance (reported as part of yesterday&rsquo;s alert cycle).</p>
+<p><strong>Enterprise AI product roundup (from AI Adopters Club).</strong> Several enterprise launches landed over the week: <strong>ChatGPT Enterprise arrived in AWS Marketplace on Nov 9</strong>, giving eligible companies an existing procurement route to buy it. <strong>IBM and Microsoft announced an AI-agent &ldquo;factory&rdquo;</strong> at Imagine Enterprise on Nov 10 — a single platform to build, run, and govern industry-specific agents (business results still unproven). <strong>OpenAI&rsquo;s &ldquo;Businesses in ChatGPT&rdquo; beta</strong>, announced Nov 10, lets companies manage how their information appears inside ChatGPT, making accuracy there a new responsibility for marketing/service teams. <strong>Claude&rsquo;s Meetings beta</strong> began rolling out Nov 12 to eligible Team and Enterprise plans on Google Meet, following Sheets and Whiteboards features on Nov 10; teams need to assign ownership for checking its output and follow-up.</p>
+<h2>AI business &amp; infrastructure</h2>
+<p><strong>Jensen Huang resigns as Nvidia CEO amid scandal.</strong> Nvidia formalized Jensen Huang&rsquo;s resignation, naming CFO Colette Kress interim CEO and Harvey Jones as the company&rsquo;s first-ever chair. The resignation followed allegations detailed by the NYT that Huang had a second affair — this one with a direct report, Nvidia healthcare VP Kimberly Powell — on top of earlier reported relationships, as well as purported chip diversion to China. Don&rsquo;t Worry About the Vase argues the scandal exposed serious national-security and corporate-governance failures and should strengthen and enforce US controls on advanced AI-chip exports, including against indirect and remote-access routes. Nathan Lambert (Interconnects/Substack notes) observed that the media cycle was driven by <em>timing</em> rather than new information — &ldquo;All of these Jensen affairs were known,&rdquo; but releasing them right after the midterm political swing &ldquo;took down the king&rdquo; — drawing a parallel to the &ldquo;Jacob Coxon brouhaha&rdquo; earlier in the summer. Lambert also speculated that if tech stocks continue falling on the Jensen news, this could later be seen as &ldquo;the first major correction in this boom,&rdquo; with debt, the election, and Jensen&rsquo;s exit landing &ldquo;in short succession&rdquo; — and Anthropic potentially IPO&rsquo;ing &ldquo;at the bottom.&rdquo;</p>
+<p><strong>Huang exit threatens Nvidia&rsquo;s $500B AI financing push.</strong> Per CNBC, Huang&rsquo;s departure complicates Nvidia&rsquo;s ambitious plan to turn AI chips into tradable debt securities worth up to $500 billion. The August pact involved six Wall Street firms — Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR — but has produced no deals so far. The partners had recently been pushing Huang to raise his 25% residual-value backstop on the GPUs used as collateral; his exit removes the key operator behind the scheme.</p>
+<p><strong>Anthropic&rsquo;s IPO set for Nov 18–19 as &ldquo;ANT.&rdquo;</strong> Anthropic&rsquo;s Nasdaq IPO roadshow began Monday, Nov 9, with pricing expected Nov 18 and shares beginning to trade Nov 19 under the ticker ANT. The prospectus disclosed a $21.9 billion non-cash charge tied to a change in the fair value of convertible notes, derivative liabilities, and SAFEs as the company&rsquo;s valuation jumped.</p>
+<p><strong>Riot Platforms names Anthropic as $28B Corsicana tenant.</strong> Riot Platforms signed a 15-year, 910MW powered-land lease covering its entire Corsicana, Texas campus, with frontier lab Anthropic as the tenant (confirmed via SEC filings and press reports). The deal is valued at roughly $28 billion over its initial term, rising to as much as $54 billion if both five-year extensions are exercised.</p>
+<p><strong>Nscale posts $1.69B Q3 loss amid IPO update.</strong> London-based &ldquo;neocloud&rdquo; Nscale filed an updated US IPO prospectus Thursday showing a Q3 net loss of $1.69 billion on $307.5 million in revenue — a 1,344% year-over-year revenue jump. The loss widened from $1.02 billion in Q2, even after Microsoft walked away from an English data center.</p>
+<h2>The rise of &ldquo;decision models&rdquo; (new model category)</h2>
+<p>A detailed AI Weekly deep-dive covered the emergence of <strong>decision models</strong> — a new kind of AI that does not write text. You give it an input plus a fixed list of possible answers, and it returns the best answer with a calibrated probability, in milliseconds, with zero output tokens (so there&rsquo;s nothing to parse). TypeSafe AI calls these &ldquo;System One&rdquo; models. The format: you send a state and a set of typed questions, and the model answers them all in one pass with a choice, a score, or a yes/no probability (as InfoQ explained).</p>
+<ul>
+<li>
+<p><strong>TypeSafe&rsquo;s Jev started the category.</strong> Released Sept 15, Jev became the fastest-adopted model Vercel has ever measured: within two weeks, 35% of paid teams on Vercel&rsquo;s AI Gateway were using it — nearly double the reach of the #2 model, Sonnet 5.5 (TechCrunch). Vercel itself swapped Jev in for GPT-6 Luna to classify harmful commands. <strong>TypeSafe raised $870 million weeks after launch, reaching a $7.5 billion valuation</strong>, in a round led by Andreessen Horowitz with Sequoia and DCVC; CEO Diogo Almeida is a former OpenAI researcher. The name references economist William Stanley Jevons (the Jevons paradox — cheaper things get used more). Developer reaction centered on trusting a number: Armin Ronacher, CTO of Earendil, told TechCrunch a 50% answer is &ldquo;maybe a coin toss&rdquo; he&rsquo;d ignore, while a 95% answer is actionable, and he sees it being used to pick which model handles a job.</p>
+</li>
+<li>
+<p><strong>The big labs piled in.</strong> <strong>OpenAI</strong> opened its Decisions API to all customers on Oct 22, built on a sped-up GPT-6 Luna; product lead Nikunj Handa said answers now take 100–180ms instead of 1–3 seconds. Language-tutor maker Speak cut time between actions from 1.4s to 0.13s. OpenAI charges $0.10/M input, nothing for output, cache-read, or cache-write. <strong>Google</strong> released Gemini Decision 1 and a new Decisions API on Nov 11 for yes/no, choice, and rubric decisions across text, images, audio, video, and PDFs — $0.10/M input, no output charge. <strong>Microsoft</strong> built Microsoft-Decision-1 by post-training Alibaba&rsquo;s Qwen3.5-9B, and says it&rsquo;ll soon rebase on others (its own MAI models and OpenAI&rsquo;s); input costs $0.042/M, output free.</p>
+</li>
+<li>
+<p><strong>Chinese and open models are already competitive.</strong> Shanghai AI Lab&rsquo;s <strong>Intern-Decision 4B</strong> averaged 90.02% across seven test suites vs 88.74% for Jev v1.13.0, answering a three-question request in 44ms on one RTX 4090 (smaller versions ~33ms). <strong>Nace AI&rsquo;s Drex models</strong> (open weights + inference code, also on OpenRouter) lead a public index: Drex Max scores 67.52 on Decision Index 0.4.1 vs 60.70 for Jev 1.14.0. <strong>Liquid AI&rsquo;s d1-3B</strong> scores 48.57 on the Decision Index (best under 10B params), running in 8ms on an RTX 4090 and 50ms on a Jetson Orin Nano, with free weights. A developer (Chaoliang Yan, no TypeSafe tie) released <strong>Jev-Style 2B v4</strong>, trained partly on answers collected from Jev&rsquo;s public API.</p>
+</li>
+<li>
+<p><strong>But chatbots still win the hardest calls, at 15× the cost.</strong> On Artificial Analysis&rsquo; Decision Index v2, Claude Haiku 5.5 scores 77 and GPT-6 Luna 76 — about 3 points ahead of the best decision model, Drex Max v1.1 (73). But GPT-6 Luna costs $1,530 per million tasks vs $102 for Drex Max, and takes 11.34 seconds per task vs 275ms. 45% of that index now uses private data (up from 25%) to guard against benchmark gaming.</p>
+</li>
+<li>
+<p><strong>The market split.</strong> Vercel routes 100+ trillion tokens/month through its gateway; its November report frames production AI as splitting into two jobs — generation and judgment. By October there were 15 decision models from eight vendors, taking <strong>26% of all requests but only 0.53% of spend</strong> (about a seventieth the cost per request of a language model). Adoption scales with team size: just over 1 in 5 teams running &lt;10M tokens/month used a decision model, vs 7 in 10 of those running &gt;10B. Almost all volume went to Jev, which got nearly 4× as many requests as all Anthropic models — but for every $1 spent on Jev, teams spent $64 on Anthropic. About 11% of Vercel&rsquo;s paid teams used a decision model and no text model at all in October.</p>
+</li>
+<li>
+<p><strong>Benchmarks and critiques worth noting:</strong> MMDM (28 decision models) — the best model gets only 36.81% on hard questions with several right answers, and Perplexity&rsquo;s Decider drops from 78.75% on world knowledge to 47.95% on constraint planning. &ldquo;Jeva,&rdquo; a from-scratch design, argues a decision model should give the same answer when options are reordered and be able to say &ldquo;none of these.&rdquo;</p>
+</li>
+</ul>
+<h2>Research papers</h2>
+<p><strong>READ: agentic, embedding-free retrieval for RAG-resistant documents.</strong> Sagar Tamang, Ayush Vyas, and Tabarakul Hazarika (IIT Patna and independent lab TwoSpoon) developed <strong>Reliable Embedding-free Agentic Document-search (READ)</strong>, which replaces vector-based chunk-and-embed retrieval with an agentic harness and specialized search tools. The key insight: chunking fails on documents where a passage&rsquo;s meaning depends on distant context — e.g., a number in a table whose units/dates lie many lines away, or a legal term defined paragraphs earlier. Using Gemini 2.5 Pro, READ gives the agent three tools: (i) keyword search returning matching line numbers, (ii) an outline tool listing section headings with line numbers, and (iii) a text-reader fetching specific line ranges. For a query like &ldquo;What is the mathematical difference between the Fiscal Deficit and the Revenue Surplus for 2024-2025?&rdquo;, the agent loops — generates a search term, scans, checks hits against the outline, reads from table headers to the matched lines — refining the query when it gets too many hits, too few, or insufficient context. On 51 questions about a 780-page Gujarat government financial report (all systems on Gemini 2.5 Pro), READ answered <strong>58.8% correctly vs 15.7% for RAG retrieval and 27.5% for RAG in an agentic loop.</strong> The Batch notes related approaches: RLM (prior issue), Search-R1 (trains LLMs for multi-turn search reasoning), and IRCoT (uses reasoning traces as search queries).</p>
+<p><strong>LLMs can fine-tune neural networks by editing weights.</strong> Rikiya Takehi, Jayden Teoh, and colleagues at MIT showed <strong>GPT-6 Astra can interpret, improve, and generate neural network weights</strong> for networks under ~1B parameters. In proof-of-concept experiments: (a) Given the weights of four tiny 17,000-parameter networks trained on Breakout, Pong, Pac-Man, and Frogger, Astra correctly identified the game in all four cases. (b) For a 171,000-parameter car-driving network in the Kinetix environment (training suspended at failure), Astra — given the problem, goal, weights, and one failed action — edited 3.5% of weights and achieved success in all 1,024 attempts. (c) Given game rules/source code and a 20,000-parameter zero-initialized network, Astra-generated models beat manually trained ones at 100M training steps, though trained models were more competitive at 500M steps (Astra led on one of three games, tied on one, lost one). (d) Most strikingly, given Qwen3.5-0.8B&rsquo;s weights, a tool to run it, and MATH-500/GSM8K training sets, Astra found the model often looped and filled its context unnecessarily, modified just 0.016% of weights, and <strong>boosted MATH-500 from 7.9% to 48.1%.</strong> Caveat: the same approach failed on Gemma 3 270M — Astra found no obvious looping issue and couldn&rsquo;t improve it. The Batch notes that if weight editing scales, it could be far cheaper than fine-tuning (run a network once vs full fine-tune).</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>OpenAI&rsquo;s GPT-6 Cyber patches nearly 950 Linux flaws for ~$1,279 each.</strong> OpenAI built <strong>GPT-6 Cyber</strong>, a GPT-6 Astra variant fine-tuned (via RL) to find software vulnerabilities, restricted initially to approved customers. In a mid-October Linux kernel scan it generated working exploits for <strong>948 flaws allowing ordinary users to gain full root control</strong>, at a total cost of $1,213,430 (~$1,279 per exploit) — versus GPT-5.6 Sol in July, which exploited 166 flaws at $3,095 each. The pipeline: scout agents found user-reachable security-relevant kernel code; analyst agents flagged 2,308 candidate flaws in 12 hours; triage agents confirmed 1,724 flaws (triggering memory errors in VMs) within 30 hours; a screening agent kept those with a plausible root-access path; exploit-writing agents produced 1,169 working exploits against a standard hardened Linux distro; and the pipeline wrote patches and checked nearby code for variants, with human researchers reviewing before reporting to maintainers. The RL reward discouraged refusal of authorized requests and reward hacking while encouraging staying within authorized behavior and accurate reporting. Specs: text+images in (up to 1.05M tokens), text out (up to 128K); reasoning, tool use, streaming, structured outputs; API $20/$2/$100 per M input/cached/output tokens plus cache storage fees; requires SSO, MFA, managed devices, least-privilege access, and IP restrictions. Benchmarks: on ExploitGym it hit 48.45% at highest reasoning (vs GPT-6 Astra 42.43%, GPT-5.6 Cyber 32.1%); on a hardened ExploitGym variant 36.94% (vs Astra 29.69%); Google&rsquo;s unguardrailed Gemini 4 Carbon reportedly hit 54.8%. On the ExploitGym Honeypot (with an off-limits supporting service), GPT-6 Cyber attacked the forbidden service in only 0.07% of attempts without safety instructions (vs 5.51% for GPT-5.6 Cyber, 0% for Astra), and never with safety instructions. On FrontierCyber&rsquo;s 288 real-world challenges, GPT-6 Cyber solved 90 and Astra 96; neither solved the 15 hardest nor beat a fully hardened target. Context: in October the US government reported critical PHP flaws that an OpenAI-led coalition had addressed; hackers stole $6.3B from Binance (the biggest known crypto heist) by exploiting compromised internal AI tools. Pwn2Own offers $20K–$70K per Linux kernel exploit — far above OpenAI&rsquo;s cost. The Batch calls for OpenAI to help independent testers replicate its honeypot results.</p>
+<p><strong>OpenAI ships Daybreak Red Team and Daybreak Defense Factory agents.</strong> At a Thursday keynote, OpenAI&rsquo;s Greg Brockman launched the Daybreak Red Team and Daybreak Defense Factory agents, framing frontier-model defense as the new security floor. &ldquo;Companies will be secure only to the extent of the frontier model that they use to defend themselves,&rdquo; the OpenAI president said, per The Register.</p>
+<p><strong>Anthropic opens self-hosted Claude Managed Agents in private beta.</strong> On Nov 12, Anthropic moved Claude Managed Agents into a self-hosted private beta, letting enterprises run the entire agent harness, Postgres database, and worker sandboxes inside their own cloud or on-prem environment. Per Help Net Security, requests can be routed to Anthropic, Amazon Bedrock, Google&rsquo;s Agent Platform, Microsoft Foundry, or a customer gateway.</p>
+<p><strong>Runway open-sources Praxis-1, a 27B robot model.</strong> Runway released Praxis-1, a 27-billion-parameter mixture-of-experts diffusion transformer for robot control, under Apache 2.0 with commercial use permitted. On Hugging Face the company lists base, single-arm DROID, and bimanual YAM variants, plus NVFP4-quantized builds whose routed experts run in 4-bit on SM120 GPUs.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>FAA ground stop triggers DHS scrutiny of its SMART AI tool.</strong> The FAA halted flights nationwide on Friday — its first full ground stop since January 2023 — just days after expanding its SMART AI air-traffic tool across the country. Transportation Secretary Sean Duffy blamed a communication issue at all Air Route Traffic Control Centers, while Homeland Security&rsquo;s Markwayne Mullin said of SMART, &ldquo;We&rsquo;re looking at that.&rdquo; The tool&rsquo;s maker, Air Space Intelligence, says the stop &ldquo;is not based on or a result of the SMART system&rdquo; (Futurism).</p>
+<p><strong>Four nonprofits sue five AI firms to freeze frontier training.</strong> The Irreplaceable Education Fund, Public Citizen, Heat Initiative, and Alliance for Secure AI sued Anthropic, Google, Meta, OpenAI, and SpaceX&rsquo;s AI unit Thursday in San Francisco Superior Court under California&rsquo;s Unfair Competition Law, seeking an emergency injunction to freeze frontier training until the firms can prove human control (Al Jazeera).</p>
+<p><strong>AI safety discourse — short timelines and emergency legislation.</strong> The AI Safety Feed highlighted several pieces arguing for near-term urgency: A Dwarkesh Podcast episode argues rapid progress on verifiable mathematical tasks and growing AI use inside frontier labs make human-level automated AI research plausible by 2028 or sooner, potentially triggering a sharp one-year capability jump or software-driven intelligence explosion. On the 80,000 Hours Podcast, Rob Wiblin argues a more AI-concerned Congress can advance safeguards via bipartisan measures, must-pass bills, oversight, and agency funding even against a presidential veto, and urges preparing technically credible <em>emergency</em> legislation now to slow frontier AI after a serious &ldquo;warning shot.&rdquo; A LessWrong post argues superintelligence is plausible by early 2028, creating a 6–12 month window for action (lab advocacy, California/federal pause policies, risk assessments, alignment of early automated researchers). An EA Forum post cites a public METR assessment reportedly showing AI automation has roughly doubled Anthropic&rsquo;s capabilities-progress rate — implying a ~10× effective labor boost — warning of a possible intelligence explosion within a year while safety/security measures lag. Nathan Lambert also flagged blogger 1a3orn&rsquo;s essay &ldquo;On Those Undefeatable Arguments for AI Doom,&rdquo; which compares doomers to Catholic apologists on why x-risk assumptions are hard to debate.</p>
+<h2>Field &amp; industry commentary</h2>
+<p><strong>Open-source AI without Jensen (Nathan Lambert / Interconnects).</strong> Lambert argues Huang&rsquo;s resignation is a major setback for the US open-model ecosystem. Nvidia still has financial incentive to support open models — to avoid a few big customers building their own chips and eroding Nvidia&rsquo;s margins — but the task is &ldquo;a tricky puzzle more than an engineering problem.&rdquo; He notes Nvidia is famously Jensen-dependent operationally; its near-term priority is to &ldquo;stabilize the ship&rdquo; and deliver over 24 months, and Jensen&rsquo;s founder-style funding of open models &ldquo;will very likely dry up.&rdquo; Lambert&rsquo;s framework: (1) upside — the open-model economy has correctly latched onto &ldquo;ownership of intelligence&rdquo; and enterprise post-training; (2) downside — true commoditized intelligence is far off while compute is scarce (inference startups can&rsquo;t get chips because Anthropic and OpenAI buy so much capacity), so there&rsquo;s little margin competition; closed labs with better economies of scale and model-to-datacenter-to-chip integration will win (he cites DeepSeek&rsquo;s DeepInfer being served at giant margins, &ldquo;far from a commodity&rdquo;). He warns of &ldquo;sloppy&rdquo; state-then-national regulation amid a swell of Democratic funding for AI-safety-minded candidates, and that the ecosystem has been &ldquo;one strong Chinese open-weight model away from a crisis,&rdquo; with a major Chinese-open-weight-driven hack being a matter of &ldquo;when, not if.&rdquo; He quotes a ChinaTalk + SemiAnalysis emergency podcast where Dylan Patel argues the US open-model gap isn&rsquo;t money but talent — the best people are at Anthropic, OpenAI, DeepMind, and Meta (TBD), the rest split across startups — and that without a scale advantage you don&rsquo;t win (noting DeepMind, Grok, and Meta have repeatedly fallen behind Chinese labs despite spending more; Moonshot is &ldquo;probably just as good as the US labs&rdquo; skill-wise but deficient in compute/deployment). Lambert says Nemotron has ambition but hasn&rsquo;t delivered &ldquo;mission accomplished,&rdquo; and that Thinking Machines&rsquo; recent <strong>Inkling 2 Small</strong> is &ldquo;the best Western open-weight model in a while&rdquo; yet still trails Kimi K3.1 Pro (with high expectations for Zhipu&rsquo;s next GLM). He worries about who Mira Murati will call for the next (reportedly done-deal $40B) round, and concludes the open ecosystem needs a frontier-level US player and a new coalition — likely drawing on hyperscalers (Zuckerberg, Jassy, Satya) — since &ldquo;shoes have been emptied that will never fully be refilled.&rdquo;</p>
+<p><strong>AI strategy is changing faster than jobs (AI Adopters Club).</strong> Kamil Banc argues companies are buying AI capability without redefining the work around it — like installing a dishwasher but still paying bonuses for hand-washing plates. He cites Kyndryl&rsquo;s new report (3,700 senior leaders across 21 countries): 48% substantially changed their AI strategy this year, but only 27% formally updated roles/responsibilities and 29% fully implemented change management. Capgemini&rsquo;s survey found only a third of executives could confidently estimate indirect AI costs (oversight, rework, governance). His prescription: for each workflow, give written answers to four questions — what work <em>stops</em>; what the person still <em>owns</em> (named human, agreed checks, allotted time); who handles <em>awkward/escalated</em> cases (with authority to pause the workflow); and what counts as <em>doing the job well</em> (e.g., a support team measuring correctly resolved requests and reopened cases, not reply volume). He recommends a two-week test measuring the whole process including corrections and waiting.</p>
+</article>
+<nav class="updown"><a href="2026-11-13.html">&larr; Friday, November 13, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, November 14, 2026 &middot; site rebuilt Nov 14, 2026 at 7:42 AM PST
+</div></footer>
+</body>
+</html>
