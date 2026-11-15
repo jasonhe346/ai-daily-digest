@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-15</title>
+<meta name="description" content="AI news digest for 2026-11-15.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Sunday, November 15, 2026</p>
+<p class="meta-line">663 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Sierra ships Personal Agent Protocol (Poppy) 1.0, auto-deployed to every Shopify store and searched by Meta&rsquo;s Muse agent by default.</li>
+<li>Google Research unveils /teamwork multi-agent feature in Antigravity, reporting machine-checked Lean formalizations of major math conjectures on launch day.</li>
+<li>IBM releases Granite 4.1 LLMON-preview (3B/8B), cutting indirect prompt-injection success from 53–100% baseline to under 6%.</li>
+<li>AGI Friday reviews Claude Fable 5.2, arguing for major gains in creativity, math, and persistence despite overthinking and judgment flaws.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Sierra ships Poppy (Personal Agent Protocol) 1.0, live across every Shopify store.</strong> On November 13, 2026, Sierra released Personal Agent Protocol (Poppy) 1.0, a standard defining how a user&rsquo;s personal agent discovers a company and negotiates the set of allowed actions through APIs, websites, or company-operated agents (sierra.ai, via AI Weekly). The headline deployment is scale with zero friction: every Shopify store across 175+ countries automatically publishes a Poppy file without any merchant setup, and Meta&rsquo;s Muse agent now searches for a Poppy file on every site it visits by default — meaning both the supply side (merchants) and a major demand-side agent already support the protocol at launch. Sierra also brought on 60 additional design partners — among them Cisco, Delta, Intuit, Twilio, and Zoom — joining earlier adopters to push the launch past 100 companies. The move matters because it aims to standardize the handshake between consumer-facing personal agents and businesses, potentially becoming connective tissue for agent-to-agent commerce and automated transactions at web scale.</p>
+<h2>Research papers</h2>
+<p><strong>Google&rsquo;s /teamwork multi-agent feature reports major formal-math and engineering results on launch day.</strong> Google Research unveiled /teamwork, a multi-agent capability inside its Antigravity platform that coordinates specialist subagents to attack open research problems (research.google, 2026-11-13, via AI Weekly). On its launch day the system reported a striking set of machine-checked outputs: a fully machine-checked Lean formalization of the Weil conjectures spanning 1.8 million lines; a 919,000-line formalization of Hilbert&rsquo;s tenth problem; roughly 50 million Lean 4 lines for a Courtade–Kumar proof; 95%/100% top-1/top-3 molecular structure identification from NMR data; and a Rust port of libgav1 that runs 20–30% faster than the original C++. Google said it is opening the tools to external researchers. The combination of formal-verification scale (where results are machine-checked rather than merely plausible), scientific identification tasks, and a performance-improving systems port suggests the feature is being positioned as a general-purpose research-assistant layer rather than a single-domain tool.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>IBM Granite 4.1 LLMON-preview drives prompt-injection success below 6%.</strong> On November 12, IBM released Granite 4.1 LLMON-preview models in 3B and 8B sizes (huggingface.co, via AI Weekly). The models replace conventional chat templates with &ldquo;LLMON,&rdquo; a markup scheme that explicitly wraps every prompt block — system, instructions, data, documents, tool definitions, and tool results — and tags each with an execution (&ldquo;exec&rdquo;) permission. The privilege rule is that only exec-authoritative instructions are treated as commands, so instructions smuggled inside data or tool results are not executed. In IBM&rsquo;s internal tests, indirect prompt-injection success rates fell from a baseline of 53–100% down to 0.02–5.6% under this scheme. IBM notably cautioned that the behavior is <em>learned</em>, not enforced at the system level, and therefore should not be relied on as the sole defense for agents with access to sensitive systems — a meaningful caveat given that learned robustness can degrade under novel attacks.</p>
+<p><strong>AGI Friday: Claude Fable 5.2 shows major gains despite judgment and efficiency flaws.</strong> In an 11-minute blog post (AGI Friday, 2026-11-14, via AI Safety Feed; filed under threat models, existential risk, and Anthropic), the author argues that Claude Fable 5.2 demonstrates striking gains in creative production, mathematical reasoning, and persistent problem-solving. These are offset by notable weaknesses: inefficient &ldquo;overthinking&rdquo; and occasional failures of judgment. The author&rsquo;s broader claim is that such advances make transformative AI consequences increasingly plausible, while remaining explicitly uncertain whether the progress will generalize beyond math and programming into other domains. The post carries a novelty score of 3/5.</p>
+</article>
+<nav class="updown"><a href="2026-11-14.html">&larr; Saturday, November 14, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Sunday, November 15, 2026 &middot; site rebuilt Nov 15, 2026 at 8:14 AM PST
+</div></footer>
+</body>
+</html>
