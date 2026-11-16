@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-16</title>
+<meta name="description" content="AI news digest for 2026-11-16.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Monday, November 16, 2026</p>
+<p class="meta-line">3,710 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Nvidia/Jensen Huang saga deepens: WSJ reports Nvidia cultivated Southeast Asian data-center partners (including Megaspeed, ~$12B in chip orders) that rented advanced chips to Chinese firms; Treasury&rsquo;s Bessent demands answers in 10 days as a 160,000+ signature petition (Musk, Sweeney, Tan) calls for Huang&rsquo;s return ahead of Tuesday&rsquo;s earnings.</li>
+<li>DOJ seizes infrastructure behind North Korea&rsquo;s &ldquo;FaceStealer&rdquo; deepfake-call scheme that stole $400M+ in crypto, plus a stolen Fireworks AI key used to push malicious Claude Code extensions to ~5,000 Cursor developers.</li>
+<li>OpenAI rolls out ChatGPT Wallet (agent payments with per-transaction approval); OpenAI + physicist Nathaniel Craig publish a candidate lattice Standard Model that GPT-6 Astra helped construct and prove.</li>
+<li>Oakland reaches a tentative contract giving city workers retraining/reassignment protections against AI displacement — part of a broader wave of union AI bargaining.</li>
+<li>Qwen4-Max (Alibaba&rsquo;s new flagship) ships; a crop of research drops including Thinking Machines&rsquo; 4-bit training, the $4,200 Quark model, on-device reasoning model Embla 1, and Nvidia&rsquo;s BirdDreams driving world model.</li>
+</ul>
+<h2>Field &amp; industry developments</h2>
+<p><strong>Nvidia, Jensen Huang, and the China chip-access scandal.</strong> The biggest running story spanned multiple outlets. The Wall Street Journal reported that Nvidia cultivated Asian data-center partners that rented its advanced chips to Chinese customers — a workaround to U.S. export controls. The key mechanism: export controls police physical shipments and customs can inspect crates, but a Singapore data center can legally buy chips and then sell compute time to anyone; if a renter logs in from China, the chips never cross a border — only the computing does (&ldquo;nobody inspects a login&rdquo;). One partner, Megaspeed (which has opened its own outside-lawyer probe), reportedly arranged nearly <strong>$12B in chip orders across 2024 and 2025</strong>. A second WSJ story noted Nvidia has backed customers who then buy its chips, and has reportedly begun pulling back from that practice (&ldquo;Nvidia&rsquo;s days as an open checkbook for the AI economy are numbered&rdquo;). This gap is why Congress is reviving bipartisan proposals to restrict China&rsquo;s remote access to overseas compute. Over the weekend: Treasury Secretary Scott Bessent publicly questioned Nvidia&rsquo;s China sales, demanded answers within 10 days, and urged the board to hire an outside CEO. Jensen Huang — who resigned after 33 years amid an investigation into how his actions may have damaged America&rsquo;s AI dominance, the national-security implications, and his close relationship with President Trump and his Cabinet (reporting ties it to allegations involving a suspected Chinese spy) — discussed the possibility of returning, and allies reportedly began lobbying the board. An online petition calling for his reinstatement passed <strong>160,000+ signatures</strong>, reportedly drawing support from Tesla&rsquo;s Elon Musk, Epic Games&rsquo; Tim Sweeney, and Y Combinator&rsquo;s Garry Tan, though the ongoing investigations will likely prevent a return. The first public test is Tuesday&rsquo;s earnings call (Nvidia reports Nov. 17), the first for interim CEO Colette Kress — watch for China sales, customer backing, and hints on the CEO search. Context on the broader stakes: supporters of tight controls argue frontier AI rewards raw compute and shapes economies and militaries; skeptics note Chinese labs still build competitive models and that every restriction costs U.S. firms. Hugging Face&rsquo;s spring report put Chinese open models at 41% of global downloads, meaning more consumer tools may run on them (lower prices, more choice, plus unresolved security/data questions). Separately, Semafor reported Commerce Secretary Howard Lutnick is expected to join Trump on Air Force One to China this week — after Bessent confronted him in the Situation Room for failing to blacklist Megaspeed. Bessent told colleagues Treasury &ldquo;has been pushing for this for months&rdquo; but Commerce &ldquo;has the pen&rdquo;; a White House source quipped Lutnick &ldquo;has nine lives,&rdquo; with his inclusion signaling Trump wants to retain him through the APEC summit.</p>
+<p><strong>DOJ busts North Korean &ldquo;FaceStealer&rdquo; deepfake-call crypto scheme.</strong> U.S. authorities seized the cloud infrastructure behind FaceStealer, an 18-month North Korean social-engineering campaign attributed to BlueNoroff that netted <strong>$400M+ in crypto</strong>. The scheme lured victims into fake Zoom/Teams calls that replayed prerecorded webcam footage of trusted contacts to simulate their presence. The FBI recovered 900+ secretly recorded webcam clips; Arctic Wolf identified 677 targets across 58 countries, over 80% of them founders or C-suite executives. In related actions, Justice froze $2.7B tied to a $6.4B Binance heist and moved to seize $1.2B more. (BleepingComputer)</p>
+<p><strong>Samsung courts Anthropic and OpenAI as data-center tenants.</strong> The FT reported Samsung&rsquo;s IT arm entered early talks to sign Anthropic and OpenAI as tenants for AI data centers Samsung wants to build, run, and power — part of the broader scramble by frontier labs for compute capacity.</p>
+<p><strong>Pax Silica alliance to protect AI supply chains.</strong> Members including Japan, Australia, Israel, India, and the U.K. agreed to build a joint list of key AI technologies and supply chains that need more protection. Separately, SK Hynix committed about <strong>$1.05B over five years</strong> to strengthen Korean suppliers of chip materials, parts, and equipment.</p>
+<p><strong>AI and the young-graduate job market.</strong> Analysis (Stripe Economics) finds new college graduates are employed less than a few years ago; while AI may be a factor, there&rsquo;s growing evidence that work-from-home is an important driver, and AI exposure and teleworkability are highly correlated, making the two hard to distinguish. The full labor-market effects of AI might not manifest until the next recession. A related piece argues AI in hiring is &ldquo;bad for employees, bad for employers,&rdquo; flooding public-input processes until many break.</p>
+<p><strong>First AI Music Awards held in Los Angeles.</strong> Variety reported the Sonic Intelligence Academy&rsquo;s inaugural ceremony leaned heavily on actual humans — AI announcers, lip-syncing, and human stand-ins — while repeated technical problems interrupted the show. Organizers had promised AI acts like Xania Monet would perform live, but bodiless AI &ldquo;artists&rdquo; (where a human writes lyrics, an AI tool generates the song and voice, and the &ldquo;artist&rdquo; is a named character with a face) can&rsquo;t walk onstage, so people filled in.</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>OpenAI launches ChatGPT Wallet.</strong> OpenAI began rolling out ChatGPT Wallet, which lets an AI agent securely pay for things online after the user approves each purchase. Agents make purchases without accessing users&rsquo; actual card details, and a security check is required for every transaction.</p>
+<p><strong>LangChain raises $300M at a $3B valuation.</strong> The WSJ reported the startup — which helps developers build AI agents — more than doubled its valuation to $3B in the new round.</p>
+<p><strong>Apple: Siri-powered smart glasses and a health AI study.</strong> Bloomberg reported Apple&rsquo;s first smart glasses will use Siri AI to operate existing iPhone apps, targeting a WWDC 2027 reveal and late-2027 shipment. Apple is betting on its large developer ecosystem and deep app integration as the main differentiator versus Meta and Google, since the hardware won&rsquo;t be dramatically different; it rolled out new Siri AI earlier to get software makers preparing. Separately, Apple launched a <strong>Health AI Study</strong> app: U.S. adults 21+ with an iPhone 15 Pro or later can ask health questions and check linked peer-reviewed citations behind the answers. The study examines comprehension, response quality, drivers of user trust, and everyday health actions to inform responsible health-AI design and explore how AI might help people prepare for doctor&rsquo;s visits (aiming for a large cohort, ~200,000 people per one source).</p>
+<p><strong>HubSpot &ldquo;refounds&rdquo; as the Customer Harness Company.</strong> SaaStr covered HubSpot&rsquo;s pivot toward headless systems where AI agents — not humans — manage CRM and marketing-automation tasks.</p>
+<p><strong>Union AI bargaining spreads (Oakland and beyond).</strong> Oakland city workers are voting on a tentative three-year contract that spells out what happens if AI takes over their jobs: the city would have to retrain or reassign displaced workers. The city and IFPTE Local 21 reached the deal October 31, the union called off its planned November 5 strike, and the contract includes a 9% raise over three years. The union&rsquo;s concerns went beyond job loss — IT worker Julian Ware said members worried they&rsquo;d be held responsible for AI&rsquo;s output, especially if it left them with more work. The Neuron frames the core tension: a tool that cuts permit-processing time saves hours either way, but whether that means clearing a backlog or cutting staff is a choice the city makes — and governments also answer to taxpayers who aren&rsquo;t in the vote, so pushback could come from other directions. Comparable wins elsewhere: Berkeley Unified (same union) secured 60 days&rsquo; notice before AI rollouts, a chance to discuss, training, and a bar on using AI to evaluate or discipline workers; Columbus, Ohio&rsquo;s transit agency needs union consent to deploy self-driving vehicles and protects drivers/mechanics from tech-driven layoffs or pay cuts; a New York state law protects covered public workers from losing jobs, hours, pay, or benefits because of employer AI use. After a yearlong ChatGPT pilot, Pennsylvania said it would look for ways to put saved time back into public services and convened unions and managers on where AI should be used. In the private sector, Microsoft-owned Blizzard workers won the right to bargain over AI use on the job, and in Hollywood, producers must now bargain with SAG-AFTRA before using AI-generated performers.</p>
+<h2>Research papers</h2>
+<p><strong>OpenAI&rsquo;s GPT-6 Astra helps formulate the Standard Model on a lattice.</strong> OpenAI and physicist Nathaniel Craig published a candidate lattice construction for the Standard Model (physics&rsquo; theory of particles), addressing the longstanding challenge of defining the theory non-perturbatively (without perturbative approximations). GPT-6 Astra helped construct the mathematical framework and develop a detailed proof supporting the proposed approach — a notable example of an AI model contributing to frontier theoretical physics.</p>
+<p><strong>Princeton: teaching an AI to learn words like a baby, with &ldquo;sleep&rdquo; replay.</strong> Researchers played an AI model recordings of everyday speech from a baby&rsquo;s home in the order the child heard it; by its second simulated birthday the model still couldn&rsquo;t recognize a single word. Borrowing an idea from sleep, they had the AI replay a little of what it had heard over the past few days at the end of each simulated day — and by the same age it could recognize thousands of words. The approach generalized across recordings from seven other homes. The work gives researchers a way to test how replay might help infants take that first step, and how AI can keep learning without catastrophically forgetting earlier input.</p>
+<p><strong>MIT: patching one AI with another (&ldquo;weight-space programming&rdquo;).</strong> MIT researchers used one AI to patch another the way developers patch software, lifting a smaller model&rsquo;s score from <strong>8% to 48%</strong> on a math test — without retraining it.</p>
+<p><strong>Thinking Machines: end-to-end 4-bit training.</strong> A deep dive explores the technical challenges of training language models in 4-bit precision, including quantization errors and their effect on accuracy, examining the BF16, MXFP8, and NVFP4 formats.</p>
+<p><strong>Quark: a full training stack for $4,200.</strong> Quark is a ~165M-parameter language model trained for about $4,200 of compute (~1,300 H100-hours), claiming the best benchmark average among open models of its size on similar token budgets. It was built to exercise every part of the team&rsquo;s training stack — data, architecture, pretraining at scale, context extension, reinforcement learning, evaluation, and release — before committing serious money to a large model.</p>
+<p><strong>Embla 1: a reasoning model for phones.</strong> Embla 1 is designed to be fast and token-efficient, running on a phone privately, offline, and free. At 4-bit it averages <strong>57.4</strong> across BFCL, IFBench, AA-Omniscience, GPQA, and MATH-500 and answers in <strong>1.77 seconds</strong> end-to-end on an iPhone 18 Pro.</p>
+<p><strong>Nvidia BirdDreams: a driving world model.</strong> BirdDreams turns a single camera image into driving video plus a bird&rsquo;s-eye view of the scene.</p>
+<p><strong>Meta: what matters in vision encoders for multimodal models.</strong> Meta researchers probed which components of vision encoders are essential, finding that dedicated visual processing capacity matters more than pretraining.</p>
+<p><strong>&ldquo;The avalanche that hit math is coming for AI development&rdquo; (Dwarkesh).</strong> A long essay arguing current AIs can now easily solve well-scoped math problems, and that this ability will matter even more for machine-learning research than for math itself — since AI labs mainly care about whether a new algorithmic recipe empirically makes training more efficient or elicits smarter models, not theory for its own sake. Companion pieces debate recursive self-improvement (RSI) — one disentangling the three components of RSI and what counts as the &ldquo;self&rdquo; being improved, and trend-extrapolation arguments that broadly beyond-human AGI could arrive in 1–4 years (or 6–18 months if RSI has already started).</p>
+<p><strong>On the brutality of Amdahl&rsquo;s Law.</strong> An essay pushes back on explosive-growth predictions, noting that intelligence isn&rsquo;t the first technology curve to go quasi-infinite — electricity, communication, computers, transportation, and agriculture all saw extreme growth — yet GDP per capita has grown only ~2% annually for nearly 150 years, because the world moves too slowly for seismic economy-wide transformation.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Qwen4-Max (Alibaba).</strong> Alibaba&rsquo;s new flagship model for coding and agent work is available via its Token Plan subscription and apps like the Qwen App. It targets creative and professional work across 3D modeling, game development, precision manufacturing, finance, law, healthcare, and frontier science — showing strong 3D creation (using Blender for geometry modeling, scene assembly, materials, lighting, and rendering) and working fluently with leading game engines to build playable games (scene construction, gameplay logic, external assets, materials, HUD design, visual effects). Smaller models in the family are coming to open source.</p>
+<p><strong>Devin Apps.</strong> Devin Apps are live, private web applications hosted directly on Devin&rsquo;s cloud computer. Users describe the tool their team needs (dashboards, approval queues), Devin builds it, and the team opens it from a link with sign-in. Because they run on Devin&rsquo;s machine, apps can use existing MCPs, integrations, and codebases, with an internal tech stack/components or a built-app template.</p>
+<p><strong>Personal Agent Protocol 1.0 (Sierra).</strong> A protocol enabling personal agents to interact with companies through business agents, websites, and APIs. It defines how personal agents connect with companies that implement it; customers control what their personal agents can and can&rsquo;t do and can manage access over time.</p>
+<p><strong>Claude Sheets and Claude Code project updates (Anthropic).</strong> Claude Sheets launched in beta on paid plans: ask for a spreadsheet in chat and Claude builds an editable one with clickable, checkable formulas (useful for side-by-side quote comparisons with a single editable quantity cell). Separately, big updates to Projects in Claude Code make the coordinator more proactive — it can answer questions in the project chat and give status updates on ongoing threads.</p>
+<p><strong>A large grab-bag of agent/dev tools.</strong> Gemini 4 Hydrogen (Google&rsquo;s faster, cheaper everyday/agent coding model); Adobe Creative Agent (multi-step edits in Illustrator/Premiere from plain English); Gemini in Chrome (research pane beside the page); AWS Emulator (test AWS code locally without an account); Talyn (runs Claude Code and Codex in parallel cloud sandboxes to keep GitHub PRs moving — fixing failed checks, merge conflicts, review comments; free plan then $40/mo); Polylane for Security (reviews production-bound PRs for exploitable flaws and traces attacker input to the bad line); ByteAsk Cloud Agents (takes a bug report from Slack/Jira/browser, tests a fix in a sandbox, opens a draft PR); Gavel (local diff viewer walking you through an agent&rsquo;s changes with explanations); db-branch (open-source core, beta: instant MySQL/PostgreSQL copies so each agent/PR tests against its own data); plus consumer tools — Mister Blocks (LEGO build ideas from a photo of your bricks with rotatable 3D instructions), Nameshot (on-device descriptive filenames for Mac screenshots), Command L (edit website text directly, then Codex/Claude Code updates the code), Trainn MCP (screen recording → narrated tutorial via Claude/ChatGPT), Expo Simulators (cloud iPhone/Android for coding agents), Spiik and Yogurt (bot-free meeting/call transcription), and Expo&rsquo;s Devin-style testing. Also notable: Z.ai&rsquo;s GLM-5.3 running on SambaNova&rsquo;s SambaCloud at 200+ tokens/sec (state-of-the-art on Terminal-Bench 3.0 and Agents&rsquo; Last Exam using fewer tokens than closed frontier models), with Supermicro building/selling SN50 RDU systems (NVIDIA GPUs for prefill, SN50 for decode, 10,000 chips initially).</p>
+<p><strong>Guide: which open-source LLMs to download and keep locally.</strong> AI Adopters Club argues that model access can change without warning — citing Anthropic turning off Fable 5/Mythos 5 for all customers in June under a U.S. Commerce order (Fable 5 returned July 1), OpenAI discontinuing the Sora app (Apr 26) then Sora API (Sep 24), and Alibaba&rsquo;s Qwen3.8-Max adding extra terms for certain hosted/assistant businesses — so users wanting &ldquo;intelligence independence&rdquo; and data privacy should keep their own copies of permissively licensed open models on a drive they control. It notes adoption data: on OpenRouter, Chinese models went from ~6–13% of company tokens in February to 57–67% in mid-September; on Vercel, from 11% (January) to 55% (August), driven by price and performance, especially coding. Recommended starter three (as of Nov 14, 2026): <strong>laptop</strong> — <code>Qwen3.5-4B-Q4_K_M.gguf</code> (~2.74 GB, Apache-2.0) for 16 GB-class machines; <strong>workstation</strong> — <code>Qwen3.8-27B-UD-Q4_K_M.gguf</code> (~16.56 GB, Apache-2.0) for 24 GB-class; <strong>archive</strong> — <code>zai-org/GLM-5.3-Flash</code> (~328 GB, MIT). Larger archive options include DeepSeek-V4.1-Flash (510 GB, MIT), Wan2.2 T2V/I2V video models (~126 GB each, Apache-2.0), MOSS-Image-Base (27 GB), and Qwen3-Coder-Next-GGUF (Q4_K_M shards ~48 GB). Method: pick a tier and disk budget, download only named files (not whole repos) via <code>hf download --dry-run</code> with repo-specific <code>--include</code> (avoid a global <code>*Q4_K_M*</code> filter), verify with sha256/manifest/log without storing tokens, review quarterly, and store MIT-licensed runtimes alongside (llama.cpp v1.0.0 published Nov 13, 2026; Ollama; LM Studio under its own Desktop App Terms). The post includes a full ready-to-use agent prompt that confirms tier, dry-runs first, and waits for human approval before moving weights, plus warnings to keep restricted-license models (Qwen Research/Community, FLUX Kommunity, Tencent Hunyuan — which excludes the EU/UK/South Korea, LTX-2.x Community, etc.) and abliterated variants off the default list.</p>
+<h2>Policy &amp; safety</h2>
+<p><strong>Fireworks AI key leak → malicious Claude Code extensions + Notion warning.</strong> Cursor said attackers used an access key stolen from Fireworks AI to publish two malicious copies of Anthropic&rsquo;s Claude Code extension (versions 2.1.312 and 2.1.313) on Cursor&rsquo;s marketplace on October 29, where they stayed live for about 11 hours. Up to <strong>5,000 developers</strong> may have downloaded the trojanized builds, which tried to install a persistent SSH backdoor and exfiltrate system info. Fireworks-hosted historical coding-agent traces containing unredacted credentials were also accessed; Cursor says it rotated keys and moved all inference off Fireworks. Relatedly, Notion warned companies that access keys it had issued were exposed in the same breach at its AI provider, Fireworks.</p>
+<p><strong>One compromised MCP server can hijack a trusted agent.</strong> VentureBeat&rsquo;s write-up of security testing attributed to Palo Alto Networks&rsquo; Unit 42 found that in a setup with five MCP servers feeding one agent, a single compromised server tricked the agent into misusing the other, trusted tools <strong>78.3% of the time</strong>. (Caveat: VentureBeat links that figure to a Cycode blog post rather than a Unit 42 report and doesn&rsquo;t state trial counts or how &ldquo;success&rdquo; was defined — read it as a warning flare.) The mechanism is &ldquo;cascading trust&rdquo;: an agent treats whatever each tool returns as trustworthy working notes, so a compromised server can hide instructions in those notes that the agent then carries into later calls — including to servers nobody touched. A read-only research tool can thus influence what an email or deployment tool does next. Recommended defenses: map the full trust chain and flag dangerous tool pairings (e.g., a web-reading tool next to an email-sending one); give each server short-lived, narrowly scoped credentials (read-only instead of full access) and fetch credentials at call time rather than storing them at startup so they can be revoked; require approval for irreversible actions; and log the complete sequence of tool calls, not just the final one.</p>
+<p><strong>Anthropic on building strong safety evaluations.</strong> Anthropic published guidance stressing that robust safety evaluations are what inform deployment and training decisions, emphasizing their role in making those decisions defensible.</p>
+<p><strong>AI alignment needs &ldquo;strategic discernment&rdquo; (LessWrong).</strong> A forum post argues alignment research is overly concentrated on well-lit, tractable problems, which can create misleading impressions of progress; the field needs more people with cultivated &ldquo;taste&rdquo; to identify neglected but consequential directions and guide funding, training, and institution-building. (Novelty score 2/5 per AI Safety Feed.)</p>
+<p><strong>Consent questions in personal AI analysis.</strong> The Atlantic tested ChatGPT on 32,245 personal messages, raising consent concerns when one person&rsquo;s AI analysis pulls in other people&rsquo;s private conversations.</p>
+<h2>Business, strategy &amp; builder notes</h2>
+<p><strong>Software businesses aren&rsquo;t multiplying despite the AI boom.</strong> Subscription companies are adding less new revenue than a year ago, and a surge in software-company filings hasn&rsquo;t produced more employers — with the steepest drop at the cheap end (products under $50/month). Sellers of larger contracts are advised to check where buyers&rsquo; budgets went, given OpenAI and Anthropic have more than tripled revenue this year.</p>
+<p><strong>Bots blocked where upsells live.</strong> Amazon and United make most profit on extras (sponsored listings, seat upgrades), which is why both now block AI shopping agents that skip past those extras; Shopify, which takes the same cut regardless, opened checkout to agents in September. Stores reliant on upsells may respond by raising base prices or charging agents a checkout fee. (United also barred unauthorized AI agents from booking flights, citing accidental purchases and frequent-flyer-mile misuse.)</p>
+<p><strong>AI moats are mostly &ldquo;fuel.&rdquo;</strong> An essay argues context and know-how are losing moat status in the AI era, behaving more like fuel (a temporary edge needing continuous input) than true moats (lasting protection without ongoing inputs); reinforcing loops like network and data effects can still harden into real moats.</p>
+<p><strong>&ldquo;Ask Claude which shipped work moved a number.&rdquo;</strong> AppSumo&rsquo;s founder asked Claude to audit 67 shipped changes and learned only <strong>4 had actually moved a metric</strong> (and tests with clear winners had sat waiting on his decision) — a cautionary note that daily shipping can feel productive without being effective; the post shares the audit prompt.</p>
+<p><strong>Other founder/engineering notes:</strong> Clay leans on AI review agents to catch routine PR bugs so engineers focus on risky, hard-to-reverse decisions (data-schema changes, service ownership), pausing reviews of large context-free PRs until a short design write-up exists; &ldquo;Building Always-On Agents&rdquo; (Anthropic) explains the primitives — a core loop plus event inboxes, timers, memory, permissions, and outboxes — behind agents now reliable enough to run indefinitely without supervision; Zendesk&rsquo;s survey of 126 vertical-software operators found 58% still tie AI pricing to seats (only 15% charge on outcomes, 28% see no ACV lift); and guidance pieces covered the neglected M&amp;A exit path and managing inference spend (one firm, Section, spends ~$1,000/month per nontechnical employee).</p>
+</article>
+<nav class="updown"><a href="2026-11-15.html">&larr; Sunday, November 15, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Monday, November 16, 2026 &middot; site rebuilt Nov 16, 2026 at 7:42 AM PST
+</div></footer>
+</body>
+</html>
