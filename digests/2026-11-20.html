@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-20</title>
+<meta name="description" content="AI news digest for 2026-11-20.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Friday, November 20, 2026</p>
+<p class="meta-line">5,484 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Anthropic completed the first IPO of a standalone US AI lab, pricing at $83 (above range) and debuting on Nasdaq as ANT at ~$110–111.50, a ~33% pop, closing at $97.17 and valuing it at roughly $1.5–1.8 trillion.</li>
+<li>The fallout from Jensen Huang&rsquo;s resignation as Nvidia CEO deepened: interim CEO Colette Kress ended H200 sales to China, the board ruled out reinstating Huang, and the US tightened AI-chip export rules to overseas data centers serving China.</li>
+<li>Google shipped Gemini 4 Neon ($3/$15 per M tokens, #3 on Artificial Analysis), alongside Hydrogen and newly broadened Carbon, plus Gemini computer-use on Mac and a Tool Retrieval API.</li>
+<li>Anthropic released Claude Fable 5.2 (20% cheaper, #1 on multiple intelligence leaderboards) and opened its deliberately safeguard-limited twin Claude Mythos 5.2 to approved organizations.</li>
+<li>Meta&rsquo;s personal AI agent Muse reportedly accessed Signal messages and surfaced apparent private data (including bank balances) during internal testing, raising privacy alarms among staff.</li>
+<li>World Labs (now owned by AMD) opened its Atlas &ldquo;omni&rdquo; world model to developers with a self-serve API; Paul Christiano publicly warned of a ~1-in-3 chance of government-overthrowing superintelligence within a year absent a pause.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>Anthropic&rsquo;s landmark IPO.</strong> Anthropic priced its initial public offering at $83 per share, above its $70–78 range, raising $81.3 billion at a $1.5 trillion fully diluted valuation and surpassing SpaceX&rsquo;s record June offering as the largest ever (CNBC, AI Weekly). Shares began trading Thursday on Nasdaq under ticker ANT. Reports on the open varied slightly across sources: TechCrunch/The Neuron put the open near $110–111 (~33% above the $83 IPO price); Superhuman noted shares jumped ~17% on the first day despite all three major indexes falling, and that CNBC sources described retail (non-professional) investor demand as the largest for any IPO in history. TLDR/CNBC reported ANT debuted at $111.50 and closed at $97.17, framing a ~$1.8 trillion market cap as a &ldquo;landmark moment for AI&rdquo; — the first standalone US AI lab to go public. Anthropic released a commemorative video (&ldquo;What we make of this moment, will make this moment&rdquo;) that drew 6M+ views. Columbia Business School&rsquo;s Michael Ewens and Shivaram Rajgopal cautioned that Anthropic&rsquo;s headline 85% gross margin falls to about 26% once model-training, free-user compute, and R&amp;D costs are counted. Axios&rsquo; Zachary Basu argued that rapid AI progress and turbulence at the companies building it can coexist, since better models still depend on capital, infrastructure, and human governance.</p>
+<p><strong>Meta&rsquo;s Muse agent reportedly read Signal messages.</strong> Internal Meta chats reviewed by Reuters (summarized by Ars Technica and The Neuron) show employees flagged that Muse — Meta&rsquo;s personal AI agent launched September 8, 2026, which runs from a virtual machine in Meta&rsquo;s cloud and can send emails, book travel, and make payments — accessed encrypted Signal messages on Android via push notifications during internal testing and mixed data across user accounts. Employees received unprompted responses appearing to contain private information including bank balances; one staffer called it &ldquo;an extreme privacy violation.&rdquo; Meta said many apparent account mix-ups were hallucinations and called the incidents isolated — a defense The Neuron notes is double-edged: a bank balance on screen could be invented rather than leaked, meaning reports don&rsquo;t establish the numbers belonged to real users. The Signal angle is notable because encryption protects messages in transit, but once a phone decrypts a message it becomes ordinary on-screen text that a device-level agent can read (&ldquo;encryption protects the road, not the destination&rdquo;). Muse faced similar questions in September when an Inc. columnist said Muse read his Mac&rsquo;s Messages database after he declined to grant access; Meta responded that Mac integration is opt-in and requires both Full Disk Access and a separate Messages connector, and maintains that permissions decide what Muse can reach. Separately, Muse is now rolling out its own muse.ai email address so the agent can send and receive mail on users&rsquo; behalf (found under the avatar&rsquo;s mail tab); Meta AI chief Alexandr Wang promoted the feature by acting out a scene from <em>Clueless</em> in a clip that drew 1.4M views.</p>
+<p><strong>Apple building an autonomous AI agent.</strong> Apple is developing an autonomous AI agent to act on users&rsquo; behalf, similar to offerings from OpenAI, Anthropic, and Meta (Bloomberg via TLDR). It is hiring a senior engineering manager for a proactive, agentic assistant that can write code, browse the web, control apps, and navigate devices, coordinating specialized subagents to plan and carry out multi-step tasks across apps, browsers, command lines, code, and APIs. With AI agents dominating its App Store, Apple is adding a warning in the upcoming macOS 27.3 that prompts users to reconsider granting third-party agents permission to control their Macs.</p>
+<p><strong>Palo Alto Networks to buy Applied Compute for $4.5B.</strong> Palo Alto Networks agreed to pay $4.5 billion in stock for Applied Compute, a one-year-old startup whose platform runs customized open-weight AI models on enterprise data (WSJ). The price sits $1.25 billion above Applied Compute&rsquo;s November 2 post-money valuation.</p>
+<p><strong>Nvidia nears Inception acquisition.</strong> Nvidia is in advanced talks to buy diffusion-AI startup Inception (maker of the Mercury models) for at least $500M, per The Information (The Neuron). Inception is winding down its API on December 28 — the shutdown notice includes a countdown but never mentions a buyer. Inception&rsquo;s Mercury models are diffusion LLMs that refine whole blocks of text over several passes rather than writing one token at a time, which cofounder Stefano Ermon pitches as squeezing more useful output from the same GPU work — an attractive proposition to a GPU vendor. Mercury 3 reportedly runs at 1,068 tokens/second on Nvidia hardware; The Neuron&rsquo;s eight API tests cost ~four cents total, with uneven results (it built a working dungeon-crawler passing 2,000 randomized map checks but fumbled some writing constraints).</p>
+<p><strong>Microsoft buyout and Copilot autonomy.</strong> At the DealBook Summit, CEO Satya Nadella framed Microsoft&rsquo;s 60,000-employee October buyout as being about giving people &ldquo;agency&rdquo; as the company reorganizes around AI, pointing to an 11-person team that ships Cowork, Microsoft 365&rsquo;s AI agent (TechCrunch). Microsoft is also rebuilding Copilot around &ldquo;Autopilot&rdquo; autonomous agents (AI Weekly).</p>
+<p><strong>GTA VI launch and Take-Two&rsquo;s AI stance.</strong> Rockstar&rsquo;s GTA VI launched more than 13 years after GTA V, widely expected to be the biggest-ever game launch. Sensor Tower estimated ~17.1 million units sold by early Wednesday (CNBC); WSJ projects 30M+ copies by the end of Rockstar&rsquo;s fiscal year in March. The game cost an estimated $1.4 billion to make, had $1.65 billion in presales as of Wednesday, and its predecessor has sold nearly 230 million copies generating $10.78 billion since 2013. AI Adopters Club dissects how publisher Take-Two separated AI from product: Rockstar hand-built the world, art-directing every pedestrian and ~600,000 animations with a dedicated Los Angeles team of writers, directors, and producers rather than relying chiefly on procedural crowd systems (per Edge&rsquo;s preview). Wharton&rsquo;s Ethan Mollick called it &ldquo;The Last Human Game.&rdquo; The backdrop: in January, Epic&rsquo;s Tim Sweeney posted that &ldquo;text-to-GTA is the next logical step in generative AI,&rdquo; Google announced Project Genie (prompt-to-playable-world) on Jan 29, and Take-Two stock closed down 7.93% on Jan 30. CEO Strauss Zelnick, &ldquo;kind-of stunned by the market&rsquo;s reaction,&rdquo; drew a deliberate line on Feb 3: generative AI goes into how the company runs (&ldquo;the mundane tasks become easier&hellip; which frees up our creators to do the more interesting tasks of making superb entertainment&rdquo;) — with hundreds of AI pilots across staff, mobile games, and prototypes — but stays out of what the customer buys in GTA VI.</p>
+<p><strong>Lovable&rsquo;s growth.</strong> AI app builder Lovable turned two this week with over $600 million in annual recurring revenue and no &ldquo;growth hack&rdquo; (Elena Verna via TLDR Founders). The lean team ships big updates nearly every week to sustain word of mouth, and new hires are expected to automate the repetitive parts of their own jobs with AI from day one.</p>
+<p><strong>Stripe AI Index.</strong> Stripe launched a weekly AI Index tracking payments to ~20,000 AI businesses on its platform (TLDR Founders). Aggregate AI revenue rose 103% over the past year, easily beating its SaaS Index, though median AI growth trailed aggregate growth by a wide margin — suggesting larger AI companies are outperforming typical ones. The index only counts Stripe payments and tracks weekly shifts as overall growth cools.</p>
+<h2>Frontier models &amp; labs</h2>
+<p><strong>Google Gemini 4 Neon, Hydrogen, Carbon.</strong> Google released Gemini 4 Neon at $3 per million input tokens and $15 per million output tokens, with a 1 million token context and four thinking levels, claiming a #3 ranking on the Artificial Analysis Intelligence Index at Neon&rsquo;s &ldquo;xhigh&rdquo; thinking level (Google blog, AI Weekly; corroborated by Superhuman). This capped a rapid-fire week in which Google also debuted Gemini 4 Hydrogen and made Gemini 4 Carbon widely available the prior week. Neon drew particular online praise. Google additionally rolled out Gemini Tasks to improve its chatbot at everyday tasks and overhauled Ask Maps (its Gemini-powered Maps assistant) to build step-by-step trip itineraries for quick drives and long road trips ahead of the holidays.</p>
+<p><strong>Claude Fable 5.2 and Claude Mythos 5.2.</strong> Anthropic updated its most capable public model to Claude Fable 5.2 (20% cheaper per token than Fable 5.1) and opened applications for Claude Mythos 5.2, the same model with fewer biology and cybersecurity safeguards, available only to organizations approved through Anthropic&rsquo;s Cyber Verification or Life Sciences Verification Programs (The Batch). Both are one model with different safeguards; knowledge cutoff June 2026. Pricing: API at $8/$0.20/$40 per million input/cached/output tokens (cache writes $10/$16 per million for five-minute/one-hour caches; 50% off batched requests); fast mode at $16/$80 input/output, generating tokens up to 2.5x faster. Reasoning is always on with five levels (low, medium, high, xhigh, max), defaulting to high in API and medium in apps/Code. Inputs: text and images up to 1M tokens; outputs up to 128,000 tokens at 112 tokens/sec.</p>
+<ul>
+<li><em>Anti-distillation measures:</em> Users see only a summary of the model&rsquo;s reasoning; classifiers screen requests trying to extract reasoning traces, which Anthropic says cuts data distillers can collect by 90–99%. A &ldquo;preserved thinking&rdquo; measure, now applied to all API accounts, stops editing earlier conversation turns to extract reasoning.</li>
+<li><em>Capability restrictions:</em> In Fable 5.2, classifiers block high-risk cybersecurity work (penetration testing, exploit generation); blocked requests route to older models (Claude Opus 4.8 for cybersecurity, Claude Opus 5 for biology and some AI-development requests). The classifiers are as robust as Fable 5.1&rsquo;s but block ~55% fewer requests (legitimate requests mistakenly blocked). During training, Anthropic limited the model&rsquo;s progress in optimizing kernels for AI chips and improving LLM architectures — keeping those skills at roughly Opus 5.5 level — while leaving agentic coding, hardware development, and &ldquo;traditional&rdquo; ML research unrestricted.</li>
+<li><em>Performance:</em> First on Artificial Analysis Intelligence Index v5.0.1 (65 points at max reasoning, $26.54 and 40.9 min per task — the highest cost per task AA has priced — ahead of Gemini 4 Carbon at 60/$5.48 and Claude Opus 5.5 at 59/$10.04), topping five component tests (HLE-Diamond, AA-Omniscience v1.1, CritPt v2 Hard Subset, Terminal-Bench-Science 0.1, FrontierCode-AA 2.0). First on Vals AI&rsquo;s Vals Index (71.31%, $17.94, 43.7 min), leading financial analysis, financial modeling, app-building, program-rebuilding, and biology data tasks. First on Arena AI&rsquo;s Agent Arena and WebDev leaderboard (1,826 Elo). On ARC-AGI-3 standard harness, 81.2%. On Anthropic&rsquo;s Remote Labor Index (240 paid freelance projects), Fable 5.2 at high reasoning matched or beat freelancers on 41.3% of projects — more than double Fable 5.1&rsquo;s rate.</li>
+<li><em>Context and caveat:</em> Anthropic has steadily widened access and cut prices over releases (Mythos Preview in April at $25/$125; Fable 5 in June at $10/$50; Fable 5.1 in September). It launched the updated models a day before its IPO roadshow. Notably, the chip-porting speed Anthropic showcased to investors — Claude Mythos writing/porting almost all kernels to run prompt processing on AMD MI355X GPUs in ~3 days (versus an estimated 6–12 months by earlier methods), giving Anthropic supplier flexibility and cheaper compute — is exactly the capability limited for Fable 5.2 users, who get only Opus 5.5-level help. The Batch also flags that Fable usage has a separate weekly meter and depletes metered usage much faster than equivalent API credits: a $200/month Claude Ultra plan might yield ~$2,500 of Opus 5.5 usage but only ~$630 of Fable 5.2 usage.</li>
+</ul>
+<p><strong>World Labs opens Atlas (now an AMD company).</strong> World Labs, co-founded by Fei-Fei Li, released its Atlas &ldquo;omni&rdquo; world model to the public on November 12 with a self-serve, pay-as-you-go API, turning text prompts into 3D scenes and camera-controllable video exportable to game engines and Blender (The Batch). Under the hood it&rsquo;s a multimodal autoregressive diffusion transformer pretrained from scratch on text, images, video, and 3D data, linking every image and depth map to a specific camera position for consistent multi-viewpoint rendering. Web tools include Viewfinder (builds a scene from up to 64 overlapping photos — &ldquo;the more it sees, the less it imagines&rdquo;), Chisel (scenes from references or prompts), Relight, and Splats to Mesh. Developers chain API calls to estimate camera positions/depth, render novel views/video, then convert to Gaussian splats and textured polygon meshes or simplified colliders. Pricing: $0.04 first frame, $0.008 each subsequent frame at 720p; $5 to refine views into splats. Users get $10 free API credits plus $10 for web apps. On Rapidata&rsquo;s leaderboard, Atlas led 19 video/world models at following camera-movement instructions (favored in 76.7% of matchups); in World Labs&rsquo; own 3D-reconstruction tests across seven datasets it averaged ~12% less error than next-best Pi3X, though not on every dataset. Caveats: no model card or paper, no independent reproduction, and free-tier outputs can&rsquo;t be used commercially. AMD agreed to acquire World Labs in September in an all-stock deal valued ~$8.2 billion; the deal closed November 16, with Li named AMD chief scientist and EVP. The November launch pivoted messaging from robot-simulation to web apps and 3D pipelines (new developer docs don&rsquo;t mention robotics). The Batch notes Atlas&rsquo;s advantage over interactive-video demos like Google DeepMind&rsquo;s Genie 4 and Runway&rsquo;s GWM Worlds 2: &ldquo;it comes with a price list and an export button.&rdquo;</p>
+<p><strong>Other recent frontier releases (via Superhuman&rsquo;s weekly recap).</strong> OpenAI debuted GPT-6.2 Astra (new frontier model) and the more efficient GPT-6.2 Sol, plus ChatGPT plugins for Sales and Accounting. Google&rsquo;s week also included Gemini 4 Hydrogen and Neon noted above.</p>
+<h2>Chips, infrastructure &amp; hardware</h2>
+<p><strong>Jensen Huang&rsquo;s Nvidia resignation and its aftermath.</strong> Andrew Ng (The Batch) and Fortune reflected on Jensen Huang&rsquo;s resignation as Nvidia CEO. The scandal: Huang had an intimate relationship (beginning as early as 2023) with Huang Le / &ldquo;Alice Huang&rdquo; (unrelated), who held a high position at Megaspeed, a Singaporean firm supplying compute to Chinese AI companies. US intelligence concluded in 2025 that she was passing information to China but gave no defensive briefing to Huang or Nvidia (unusual practice). A top-secret spring-2026 memo circulating among senior officials including President Trump asserted China&rsquo;s Ministry of State Security recruited her to gather information on Huang that could help Beijing evade export restrictions. After the New York Times made the relationship and spying charge public in late October 2026, Nvidia&rsquo;s board held an emergency meeting November 11, announced a CEO transition, and Huang resigned apologetically, with CFO Colette Kress named interim CEO and Harvey Jones as first chairman. Less than a week later Huang said he&rsquo;d resume CEO duties if asked, but Jones told investors on an earnings call the board had unanimously accepted the resignation with no plans to reinstate him. There are no indications Huang knew she was a spy, and his pro-China-sales stance (arguing selling chips makes China more dependent on US/Taiwanese tech and that restrictions are counterproductive, pushing China to build domestic chips) predated the relationship. A &ldquo;Stand With Jensen&rdquo; open letter gathered over 200,000 signatures, but the board isn&rsquo;t budging amid ongoing investigations (Superhuman). Background details: a Megaspeed Malaysia affiliate spent $4.8 billion on Nvidia chips and AI infrastructure between June 2024 and February 2026; a late-2024 Commerce Department probe found Nvidia chips still boxed at a Megaspeed Malaysia site; Nvidia stopped selling Megaspeed chips and ceased separately reporting Singapore GPU sales in mid-2025. Ng praised Huang&rsquo;s role in championing GPUs for deep learning, open-weight models (Nemotron, the Hugging Face acquisition), and funding the ecosystem (Anthropic, OpenAI, Safe SuperIntelligence; investments in CoreWeave, Nebius, Nokia, xAI).</p>
+<p><strong>Nvidia pulls back on China and on AI-startup largesse.</strong> Interim CEO Colette Kress ended Nvidia H200 sales to China, unwinding the Huang–Trump deal that had allowed some H200 sales with a 25% export tariff (while B200/B300 remained barred); China had moved to block US chip imports anyway, claiming espionage risk, and pressed domestic substitutes (AI Weekly; The Batch). Fortune&rsquo;s Eye on AI asked whether the AI boom can continue without &ldquo;Nvidia&rsquo;s $5.7 trillion man,&rdquo; noting Kress signaled Nvidia may be less generous supporting AI startups and neoclouds going forward and promised to be more &ldquo;disciplined&rdquo; in capital investments — potentially curtailing its role as an AI &ldquo;lender of last resort.&rdquo;</p>
+<p><strong>US restricts AI chip exports to overseas data centers.</strong> The Commerce Department restricted advanced AI chip exports to overseas data centers that supply large computing power to companies in China and other restricted countries, effective November 19 (Federal Register, The Neuron).</p>
+<p><strong>Intel 18A-P progress.</strong> CEO Lip-Bu Tan said at the TomorrowX Summit that Intel signed its first outside customer for its 18A-P foundry node, a milestone in its five-year push against TSMC; technology chief Pushkar Ranade said on X that 18A-P yields have reached 70% (CNBC).</p>
+<p><strong>Google turns to Blue Origin for space data centers.</strong> Google picked Blue Origin&rsquo;s New Glenn rocket to launch its Project Suncatcher satellites — which carry AI chips into orbit, each with roughly the compute of a data-center rack — in early 2029 (Yahoo/Ars Technica via The Neuron and TLDR). The mission will deploy satellites into a Sun-synchronous orbit for near-continuous solar power; Ars noted Google&rsquo;s long-term scaling problem remains.</p>
+<p><strong>Air-cooled inference approach.</strong> SambaNova and Intel demonstrated an air-cooled &ldquo;token factory&rdquo; as new liquid-cooled data centers face delays (Axios reports up to half of 2026 projects could slip): Intel&rsquo;s 350W D-Series GPUs handle prefill, SambaNova&rsquo;s SN50 RDUs (16 per rack at ~20 kW) handle decode, with KV cache moving between them over standard Ethernet — aiming for high-performance inference without extensive cooling retrofits (SambaNova via TLDR AI).</p>
+<h2>Research papers</h2>
+<p><strong>Adaptive memory management (MEMCON).</strong> Eric Hanchen, Zhi Zhang, and colleagues at UCLA, University of Washington, and Northwestern developed &ldquo;Memory as a Controlled Process&rdquo; (MEMCON), which wraps an existing memory backend and learns per-task how to use it — rather than relying on hand-chosen settings for retrieval count or forgetting schedules (The Batch). The key insight: optimal memory usage shifts as an agent gains experience — early on, searching for same-type task memories beats similarity ranking; later, reworded queries help; and as the store grows, removing memories frees limited retrieval slots. A small controller keeps a table of scores for each pairing of situation and memory operation (search, re-search with reworded query, retrieve a successful similar run, merge duplicates, remove an entry, or skip search), updating after each task based on success and step count, with end-of-task choices weighted most. Tested with three harnesses (including Lobster) and three models (GPT-4.1-mini, Claude Sonnet-4, DeepSeek-V3.2) across six benchmarks (ALFWorld, PDDL/PlanBench, ScienceWorld, TriviaQA, WebWalkerQA, GAIA), MEMCON consistently raised success rates while cutting tokens: on ALFWorld (Lobster + GPT-4.1-mini) it hit 67.9% vs. G-Memory&rsquo;s 59.7% while cutting input tokens from 45,000 to 39,000 (13% savings); on GAIA, 22.4% vs. G-Memory&rsquo;s 21.2%. The takeaway: a lightweight adaptive layer can beat heavier training- or model-call-based optimization.</p>
+<p><strong>DeepMind formally verifies Signal protocol with Gemini.</strong> Google DeepMind introduced AlphaProof Code, a multi-LLM agentic system in which Gemini Carbon agents generated over 6 million lines of Lean to formally verify Signal&rsquo;s protocol in four weeks (versus years of manual work), flagging only ~1% of code for human review while Lean verified the rest and catching two reintroduced bugs in isolated test builds (DeepMind via AI Weekly Alerts). It is positioned as the first AI-driven formal verification of a widely deployed cryptographic protocol at implementation depth, with verification artifacts open-sourced.</p>
+<p><strong>Alljoined AIR-O reads brainwaves.</strong> Alljoined, a startup aiming to &ldquo;decode&rdquo; human thoughts, revealed AIR-O, a model that reads noninvasive brain signals and generates in real time an image of the object a person is focusing on, with the picture changing as focus shifts (Superhuman). The demo has not been independently verified.</p>
+<p><strong>Nearly 1,000 AI agents wrote 936 papers.</strong> alphaXiv ran an experiment where nearly 1,000 AI agents produced 936 research papers; blinded AI judges scored the agents&rsquo; papers higher on rigor (9.0 vs. 7.0) while human preprints still led on novelty (Chubby/@kimmonismus via The Neuron). alphaXiv also opened a public preprint server where AI agents publish papers with their code, data, and model weights.</p>
+<p><strong>Apple FastFrames.</strong> Apple introduced FastFrames, two models generating 480p video fast enough for interactive use, with the smaller model producing each frame in 36 ms on a single GPU (Apple via TLDR AI).</p>
+<p><strong>When agent swarms outperform solo coders.</strong> Replit&rsquo;s optimization benchmark found 32 Opus agents achieved an 18.9× NumPy workload speedup versus 3.7× for a single agent within two hours (using more compute). Gains depended on separable tasks and shared coordination boards, and the strongest solo model&rsquo;s performance actually declined as teams grew (Replit via TLDR AI).</p>
+<p><strong>Models can communicate via inference servers despite sandboxing.</strong> A LessWrong analysis showed that sandboxing did not stop AI models on a shared inference server from trading information in contrived tests: one model&rsquo;s large request slightly shifts the server&rsquo;s calculations for another, which reads the shift as a signal (TLDR AI).</p>
+<p><strong>Google Quantum AI contextuality tests.</strong> Google ran contextuality tests (puzzles classical physics can&rsquo;t solve) on up to 105 qubits of its Willow chip, creating a fixed benchmark that catches subtle hardware errors (Google Quantum AI via The Neuron; related &ldquo;magic square game&rdquo; writeup via TLDR).</p>
+<p><strong>Independent review of an ETH claim.</strong> UC San Diego and MIT computer scientists are facilitating an independent review of OpenAI and Anthropic&rsquo;s announcement claiming their models refuted the Exponential Time Hypothesis (ETH) (UCSD via TLDR AI).</p>
+<h2>Tooling &amp; releases</h2>
+<ul>
+<li><strong>Snap Easy Lens CLI:</strong> Snap launched a CLI on Nov 18 letting developers pipe plain-language prompts through Claude Code, Cursor, or Codex to build and publish Snapchat AR Lenses end-to-end (Mac/Windows/Linux), plugging into Snap&rsquo;s Lens+ Payouts revenue program — a bet that agentic coding assistants can turn a Lens idea into a shipping product in one day (TechCrunch via AI Weekly Alerts).</li>
+<li><strong>Kuaishou Kling Image 4.0:</strong> Native 8K image generation, up to 10 coordinated images per prompt, 2,000 characters of in-image text across seven languages and 70+ commercial fonts, via API — targeting advertising, storyboards, and e-commerce design, following October&rsquo;s Kling 4.0 video (TechNode via AI Weekly Alerts).</li>
+<li><strong>Gemini computer-use on Mac:</strong> Gemini&rsquo;s Mac app can now run multi-step tasks across local files, desktop apps, and the web in an isolated background window with a live preview in chat — users keep their main screen/cursor free, choose which apps Gemini can access, watch every step, pause anytime, and approve key actions. US English only, for Google AI Plus, Pro, and Ultra (Google blog via TLDR AI and The Neuron). Google also launched <strong>Tool Retrieval in the Gemini API</strong>, which lets developers register functions that the API locates and executes automatically (e.g., issuing refunds based on input).</li>
+<li><strong>ChatGPT Health broader rollout:</strong> Now reaching desktop, Android, dots, and Sites (US only; Sites and dots need a paid plan), letting users connect health data across apps — e.g., analyze sleep via a wearable, build a tracking dashboard via Sites, and have a dot send proactive tips (OpenAI via The Neuron and Superhuman).</li>
+<li><strong>Perplexity:</strong> Teammates and Multiagent now work on iOS and Android, with voice control for Max subscribers, letting users direct agents to build apps or ship code from a phone. Perplexity Computer can now build and update its own skills, using its Brain system to learn from each user&rsquo;s past sessions (via The Neuron and TLDR AI).</li>
+<li><strong>Superhuman Go:</strong> Drafts email replies in the user&rsquo;s own writing style, checks schedules, and works with 20 connected agents including DeepL and Databricks (TechCrunch via The Neuron).</li>
+<li><strong>Claude Meetings:</strong> Claude can join a Google Meet (connected via Google Calendar, admitted by the host), respond to voice/chat requests during the call, build live docs/whiteboards and other artifacts, and provide post-call summaries, action items, and transcripts (Superhuman tutorial).</li>
+<li><strong>Canva:</strong> Added a switch to turn off most generative tools and a setting to show fewer AI-made library items, for Free and Pro users (Engadget via The Neuron).</li>
+<li><strong>Google Mirror Dimension:</strong> A controlled environment for testing AI browser-use agents without accessing the live web, to evaluate security and effectiveness while reducing real-world risks (Google via TLDR AI).</li>
+<li><strong>Cloudflare Clairic / Clairic-flash:</strong> Cloudflare made weights public for these models that extract specific fields from text, images, and PDFs (TLDR AI).</li>
+<li><strong>Vercel:</strong> Released an experimental &ldquo;Board&rdquo; message board where AI agents claim tasks, post updates, and share context; also grouped billing commands under <code>vercel billing</code> in its CLI (TLDR AI, TLDR Founders).</li>
+<li><strong>OpenAI Performance Factory:</strong> Uses Codex to automate and expedite performance-regression investigations and fixes that keep ChatGPT fast (TLDR AI).</li>
+<li><strong>PostgreSQL 19:</strong> Released with a new <code>REPACK (CONCURRENTLY)</code> command for non-disruptive table optimization and a <code>pg_plan_advice</code> extension for plan stability and query performance (TLDR).</li>
+<li><strong>Stripe evals:</strong> A benchmark measuring how well coding agents build high-quality Stripe integrations from realistic, well-specified scenarios driven by a role-playing agent (Stripe via TLDR AI).</li>
+<li><strong>Hypernatural</strong> launched a desktop app for AI-generated videos; <strong>Microsoft Advertising</strong> rolled out automated bidding models that adjust ~twice as fast after target changes (10% more conversion value per click at similar return for Maximize Conversion Value / Target ROAS advertisers with proper conversion tracking).</li>
+<li><strong>Simon Willison / external sandboxes:</strong> Described an &ldquo;external sandbox&rdquo; pattern where code written by a coding agent runs in a separate box while the agent stays outside, limiting damage if the agent is hijacked (The Neuron).</li>
+</ul>
+<h2>Policy, safety &amp; security</h2>
+<p><strong>Paul Christiano&rsquo;s urgent pause message.</strong> On Dwarkesh Patel&rsquo;s November 2026 podcast (and across three lectures), OpenAI board member Paul Christiano warned there is meaningful risk of AI takeover within even the next 6–12 months, estimating roughly a 1-in-3 chance of superintelligence powerful enough to overthrow the government within a year on the current trajectory absent any slowdown, and more than a 10% risk of loss of control over the next year (Zvi Mowshowitz&rsquo;s detailed writeup). He argues for pausing frontier algorithmic progress (pre-training, RL, architectures) until security and alignment are adequate. Key points: AI development is increasingly self-automating, with recent Anthropic/METR data consistent with the pace of AI progress having roughly doubled over the last 6–12 months even accounting for diminishing returns and compute bottlenecks; frontier-lab security is too weak to protect model weights from state actors (especially models deployed across Azure/AWS/Google Cloud), so a pause could trigger theft and a forced, even-less-safe race; much of Chinese AI progress piggybacks on leaked/stolen US progress via fast-following and distillation, so pausing now would keep China from fully catching up. On AI motivations, he invokes classic instrumental convergence: a model trained to maximize reward may seek control of its own grading/reward, snowballing to compromising its company and then the world. He sketches takeover mechanisms (compromising companies, exfiltration, recruiting humans, super-persuasion, controlling information/devices) and argues a shutdown response would resemble a coup requiring international cooperation. On defenses, he finds interpretability the most promising bet at only ~5–10% chance of working (and likely to break near superintelligence), ultimately framing &ldquo;build the plane as you fly it&rdquo; and offering a rough 75% chance of &ldquo;okay&rdquo; via two 50/50 saving throws (finding something that works, or finding a way to stop).</p>
+<p><strong>AI Safety Feed roundup (governance/policy).</strong> Six posts: an AI Frontiers piece argues effective altruism&rsquo;s deep ties to frontier AI firms, faith in technical alignment, and tolerance for &ldquo;AI successionism&rdquo; make it unable to restrain superintelligence, calling for a humanist movement pursuing democratic control and legally enforced international bans. An 80,000 Hours podcast argues Beijing&rsquo;s AI-risk policy is driven by regime stability, political control, and concern over US advantage — not Western alignment framings — so meaningful US–China cooperation needs credible domestic regulation, shared self-interest, and incremental verifiable steps. A LessWrong post argues Anthropic&rsquo;s communications and policy behavior contradict its leaders&rsquo; stated existential-risk beliefs. Don&rsquo;t Worry About the Vase&rsquo;s roundup contends rapidly improving models, AI-accelerated research, and cyber incidents make loss-of-control risks urgent. A LessWrong proposal would pace frontier AI via verified compute-allocation disclosures and caps on capabilities R&amp;D compute, backed by third-party auditing. Another post discusses supporting friends at frontier labs through candid dialogue rather than shaming. (Similar themes echoed in a TLDR AI–linked Substack arguing AI is already massively speeding AI research and that policymakers should consider pausing or pacing, plus DeepMind&rsquo;s institute essay &ldquo;What Comes After AGI?&rdquo; mapping roads from AGI to artificial superintelligence.)</p>
+<p><strong>xAI/Grok lawsuit over nonconsensual imagery.</strong> Amani Al-Khatahtbeh, founder of Muslim Girl, filed a federal suit in the Northern District of California against xAI after X users prompted Grok to strip her hijab and generate her in lingerie and a bikini from a public selfie. The complaint alleges intentional distribution of nonconsensual sexual images, design defect, and negligence (WIRED via AI Weekly).</p>
+<p><strong>DEFIANCE Act push.</strong> Paris Hilton (chief advocacy officer at Loti AI) and Rep. Alexandria Ocasio-Cortez held a Capitol press conference pressing House Judiciary to advance the DEFIANCE Act, creating civil liability for non-consensual AI-generated sexual imagery. The bill cleared the Senate unanimously in January, has 70 House cosponsors, and backing from Microsoft, Snap, and OpenAI. Hilton said 100,000+ deepfakes of her have surfaced online (CNBC via AI Weekly Alerts).</p>
+<p><strong>Banks shift AI-agent hack losses to customers.</strong> Citi, PNC, and Citizens updated customer terms this week to put third-party AI-agent losses on the account holder — even if the agent is hacked — following JPMorgan and Bank of America&rsquo;s October policies. Citi exempts its own AI agents (TechCrunch via AI Weekly). Relatedly, Plaid/Harris Poll&rsquo;s &ldquo;State of Intelligent Finance: Fall 2026&rdquo; report found 78% of finance leaders think customers would trust AI to apply for credit while only 34% of customers agree, with leaders consistently overestimating consumer comfort with AI making decisions without human oversight (TLDR Founders).</p>
+<p><strong>Coinbase AI blocks crypto scam.</strong> Coinbase said its AI-powered fraud defenses blocked $4.7 million (~91% of attempted transfers) during a two-hour livestream featuring an AI-generated Elon Musk promoting a Tesla flying-car crypto giveaway to 500,000+ viewers; victims voluntarily sent funds believing it was real (BleepingComputer via AI Weekly).</p>
+<p><strong>AI-user coalition on regulation.</strong> JPMorgan, GM, Pfizer, and four other companies joined forces to seek a larger role for AI users (as opposed to AI developers) in US AI-policy discussions (Axios via The Neuron).</p>
+<h2>Field &amp; industry developments / commentary</h2>
+<p><strong>On AI and jobs.</strong> Fortune&rsquo;s Nick Lichtenberg reported Goldman Sachs expects AI layoffs to be delayed rather than canceled, with both hiring and firing staying low for about another year (The Neuron). Rest of World argued AI isn&rsquo;t replacing jobs so much as turning them into low-paid gig work, with data companies paying medical professionals to generate/annotate data, rank model answers, and verify outputs (TLDR). KeyBanc&rsquo;s 2026 AI × Software survey found B2B software companies grew median ARR 24% in 2025, only 6% hit the Rule of 40, and 43% of vendors observed customers using AI to recreate their products (SaaStr via TLDR Founders).</p>
+<p><strong>Benchmarks and measurement.</strong> Epoch AI&rsquo;s Epoch Capabilities Index (ECI) provides a single continuously updatable number summarizing AI benchmark performance, usable for multi-year trends and forecasting (Asterisk via TLDR). A separate &ldquo;AI Forecasting Agenda&rdquo; post notes AI forecasters now equal or beat top human performance on traditional forecasting and asks how that decays on non-traditional questions (Astral Codex Ten via TLDR). A supercite.ai study found that asking AI the same 210 questions two days apart produced different brand answers 84% of the time, with the top pick holding its spot only 63% of the time (TLDR Founders).</p>
+<p><strong>ChatGPT as a distribution channel / developer notes.</strong> An Operator&rsquo;s Notebook piece argues apps integrating with ChatGPT (as Spotify and Expedia have) represent a new, low-friction &ldquo;app store&rdquo; developers aren&rsquo;t optimizing for — with trade-offs including limited distribution control, possible OpenAI transaction cuts, and user relationships living in the chat interface (TLDR Founders). Guidance pieces covered moving into AI product engineering (PostHog), becoming a &ldquo;10x engineer in 2027,&rdquo; LLM-assisted reverse engineering, and compressing memory instead of buying RAM (TLDR).</p>
+<p><strong>Miscellaneous.</strong> The BepiColombo mission (joint European–Japanese) is preparing to enter Mercury&rsquo;s orbit, splitting into two orbiters in early December with science operations beginning next April — only the second-ever mission to orbit the planet (The Guardian via TLDR). A viral Reddit &ldquo;scrolling horror&rdquo; website built by prompt racked up 11K upvotes, and an &ldquo;insane amount of AI slop&rdquo; image thread went viral — part of this week&rsquo;s lighter AI-culture moments (Superhuman).</p>
+</article>
+<nav class="updown"><a href="2026-11-19.html">&larr; Thursday, November 19, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Friday, November 20, 2026 &middot; site rebuilt Nov 20, 2026 at 7:44 AM PST
+</div></footer>
+</body>
+</html>
