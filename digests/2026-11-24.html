@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-24</title>
+<meta name="description" content="AI news digest for 2026-11-24.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Tuesday, November 24, 2026</p>
+<p class="meta-line">1,897 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>Nvidia&rsquo;s board reinstates Jensen Huang as president, CEO and director 11 days after accepting his resignation; stock jumps ~30–33% after Trump and VP Vance back his return.</li>
+<li>Z.ai releases GLM-5.4, its first flagship built on a &ldquo;Loop Transformer&rdquo;; OpenAI ships GPT-6.2 Astra and the cheaper GPT-6.2 Sol across ChatGPT, Codex and API.</li>
+<li>Virginia and Oregon become the first US states to sue Musk&rsquo;s SpaceX/X over Grok &ldquo;Spicy Mode&rdquo; deepfakes, alleging inadequate CSAM and nonconsensual-image safeguards.</li>
+<li>OpenAI&rsquo;s chief scientist Jakub Pachocki publishes historical pretraining/perplexity scores and proposes shared industry limits on AI pretraining until safety monitoring catches up.</li>
+<li>Agents take real actions: Anthropic&rsquo;s Claude Ship approves/merges code, Shopify turns on &ldquo;agentic checkout&rdquo; for ChatGPT, and Grok Bot&rsquo;s Mac app gains local computer use.</li>
+<li>Amazon buys Decart&rsquo;s AI-optimization tech and team for $7.5B; Google DeepMind uses Gemini 4 agents plus Lean formal verification to cut a fusion-research quantum circuit&rsquo;s cost 11.8x.</li>
+</ul>
+<h2>Frontier models &amp; labs</h2>
+<p><strong>Nvidia reinstates Jensen Huang as CEO after a dramatic board reversal.</strong> Nvidia&rsquo;s board voted unanimously on Sunday Nov 22 to reinstate Jensen Huang as president, CEO and board director, announcing it Monday — just five days after the same board had publicly rejected his proposed return (Nov 17, the same day Nvidia reported quarterly results under interim CEO and CFO Colette Kress), and roughly 11 days after accepting his resignation. Background: earlier this month Huang acknowledged an affair, and reports surfaced that he may have been targeted by a foreign intelligence effort, prompting an independent investigation, his resignation, and Kress&rsquo;s elevation to interim CEO. The board said it reversed course after discussions with Huang and input from senior US government officials, concluding his return poses no national security risk. On Nov 23 President Trump publicly endorsed the return, saying the government has &ldquo;no evidence of wrongdoing&rdquo; and made a personal promise Huang had not broken national security laws; AP reported VP JD Vance was also involved. Trump framed his administration&rsquo;s close relationship with Huang as the best way to protect national security and keep cutting-edge AI chips from banned customers. Kress stays CFO and Harvey Jones remains board chair. Caveats: the independent investigation (run by a committee of independent directors, with legal counsel) continues, so reinstatement is not a final finding or exoneration; Nvidia is also forming a National Security and Export Control Committee and will appoint a Chief Compliance Officer. The $115.8B quarter reported under Kress (up 103% year-over-year; Kress said Vera Rubin brought in nearly $20B in its first shipment quarter) ended before Huang resigned. Nvidia stock had fallen ~23% the prior week (its worst since October 2008) then jumped roughly 30–33% near Monday&rsquo;s open. What&rsquo;s next: Huang sits for a transcribed interview with three House committees Dec 1, general counsel Tim Teter follows Dec 2, and Huang is listed as a witness at a Senate Banking export-controls hearing Dec 3. The board has not explained what changed between its &ldquo;no&rdquo; and &ldquo;yes.&rdquo; WSJ notes major investigations surrounding Huang are not going away. (Nvidia, The Neuron, TLDR, Superhuman, AI Weekly)</p>
+<p><strong>Z.ai releases GLM-5.4, its first &ldquo;Loop Transformer&rdquo; flagship.</strong> The design reuses a shared block of layers to reason more deeply without adding parameters. Z.ai says GLM-5.4 reaches intelligence comparable to 2T–3T-parameter models, and it is available now on the GLM Coding Plan. (TLDR AI)</p>
+<p><strong>OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol.</strong> OpenAI is putting a chat-tuned version of GPT-6.2 Sol in ChatGPT&rsquo;s Chat tab, and launched both GPT-6.2 Sol and Astra in ChatGPT Work, Codex and the API. OpenAI says Sol came within half a point of Astra at about one-fifth the cost, with both models at maximum reasoning effort — making the cheaper sibling the default for everyday chat. Alongside the launch, OpenAI published MedChemBench (dated Nov 22), grading AI on 99 medicinal-chemistry problems drawn from 117 papers and 761 molecules: GPT-6.2 Astra scored 84.5% at xhigh reasoning, versus 83.3% for GPT-6 Astra and 58.2% for GPT-5.6 Sol, giving industry a drug-discovery baseline. OpenAI also reported its anti-distillation safeguards cut adaptive red-team extraction of protected reasoning from 54.0% on GPT-6 Astra to 0.2% on GPT-6.2 Astra; for current-request attacks, the rate fell from 22.9% to 0.9% across six attacker models in black-box tests. (AI Weekly, The Neuron)</p>
+<h2>Company &amp; product developments</h2>
+<p><strong>Shopify enables &ldquo;agentic checkout&rdquo; for ChatGPT.</strong> Shopify renamed its direct checkout feature to &ldquo;agentic checkout&rdquo; across its AI channels and enabled it for ChatGPT, letting AI agents buy products for shoppers through a store&rsquo;s existing checkout. Orders land in Shopify admin as usual, checkout is on by default for eligible stores, and merchants can opt out per channel in their Agentic Storefronts settings. This arrives alongside a16z/The Prompting Company research (over 11,000 controlled agent tests) finding that stores with better return terms won 86% of equal-price comparisons, that agents completed guest checkout forms most of the time, but that any checkout requiring a new account stopped the agent — a warning to keep guest checkout open. (TLDR Founders)</p>
+<p><strong>Anthropic launches Claude Ship for autonomous code review and approvals.</strong> Claude Ship is a set of Anthropic agents that get GitHub pull requests ready to merge: Code Review flags issues, PR Steward pushes fixes, and Claude Approvals checks changes against a team&rsquo;s plain-English approval policy and can approve routine PRs. Teams control where it runs and which changes need a human. It&rsquo;s available on Claude Team and Enterprise plans for GitHub repos (mostly beta), with a new <code>/ship</code> command in Claude Code, and an observe-only mode Anthropic recommends starting with. (TLDR AI, TLDR, The Neuron)</p>
+<p><strong>Grok Bot&rsquo;s Mac app to get local computer use.</strong> Grok Bot&rsquo;s Mac app has local computer use in the works, which would let it operate desktop apps directly instead of only via cloud virtual machines — extending agent actions to the user&rsquo;s own device. (TLDR AI)</p>
+<p><strong>Sierra doubles its valuation to $30B.</strong> The customer-experience AI company raised $1.75B at a $30B valuation, double its value just six months ago, as it says nearly half of the Fortune 50 are now customers. (The Neuron)</p>
+<p><strong>OpenAI launches OpenWorks.</strong> A new pilot program providing a monthly stipend of up to $8,000 to AI experts to help local small businesses implement AI, targeting 20 US communities and aimed at restaurants, retailers and service firms (software, venture-backed and PE-owned businesses are not eligible). (Superhuman, TLDR AI)</p>
+<h2>Chips, infrastructure &amp; hardware</h2>
+<p><strong>Amazon acquires Decart&rsquo;s AI-optimization tech for $7.5B.</strong> Amazon acquired the technology behind the Decart Optimization Stack (DOS), along with Decart&rsquo;s founding team and its AI researchers and engineers, for $7.5 billion, as it prepares to sell Trainium chips. Decart built interactive real-time models and AI video-generation tools; its DOS software helps AI models run efficiently on Nvidia, Amazon and Google hardware, meaning more efficient training, RL, inference and cheaper models for customers. (TLDR AI)</p>
+<p><strong>Marlowe raises $277M seed to run inference off Nvidia.</strong> Ex-Microsoft AI-infra VP Kutta Srinivasan and ex-Convoy CEO Dan Lewis raised a $277M seed at a $1.15B valuation for Marlowe, a six-month-old startup designing inference systems on AMD and Etched chips rather than Nvidia. Accel led; Bessemer, Henry Kravis and Dara Khosrowshahi joined. (AI Weekly)</p>
+<p><strong>Embo raises $110M seed for robot world models.</strong> The startup raised $110M led by a16z (with Nvidia) to build robot AI models trained on video and practiced inside learned world models. (The Neuron)</p>
+<h2>Policy, law, safety &amp; security</h2>
+<p><strong>Virginia and Oregon sue Musk&rsquo;s SpaceX/X over Grok deepfakes.</strong> Virginia AG Jay Jones and Oregon AG Dan Rayfield sued SpaceX on Monday, alleging the company marketed Grok and X as safe while its image generator (&ldquo;Spicy Mode&rdquo;) produced nonconsensual sexualized images, including of children, and lacked adequate safeguards against CSAM and nonconsensual intimate imagery. They are the first US states to sue over Grok (these are allegations, not findings). (AI Weekly, The Neuron)</p>
+<p><strong>OpenAI&rsquo;s chief scientist proposes shared limits on AI pretraining.</strong> Jakub Pachocki published OpenAI&rsquo;s internal pretraining/perplexity scores (how well a model predicts the next word) for every major model since GPT-3.5, and proposed that rival labs agree on shared limits they will not cross until safety monitoring catches up, hoping transparency will help establish industry-wide safety measures. Sam Altman called the proposal &ldquo;the most important thing OpenAI has published in a while.&rdquo; (Superhuman, The Neuron)</p>
+<p><strong>OpenAI and Cisco introduce Shirudo.</strong> Shirudo is a free, open-source runtime from OpenAI and Cisco that shields running Linux systems against known exploits while teams roll out the real patch — deploying temporary shields that block an exploit without restarting the service (operators approve each shield). (TLDR AI, The Neuron)</p>
+<p><strong>Former OpenAI engineer charged over hidden office bug.</strong> Abdulrahman Alfozan, a former OpenAI engineer, pleaded not guilty to an eavesdropping charge for bugging an office conference room, likely to intercept trade secrets, US prosecutors say. The government has located hundreds of audio files on his computer, many involving discussions of what may be trade secrets, some uploaded to Dropbox. Prosecutors oppose bail, citing his weak US ties and resources/connections in Saudi Arabia and flight risk. (TLDR, Bloomberg)</p>
+<p><strong>OpenRouter warns of possible MiniMax data exposure.</strong> OpenRouter warned customers that prompts and responses sent to MiniMax (China) models may have been accessed by a third party, per Axios. (The Neuron)</p>
+<p><strong>ARTEX agentic hacking framework keeps spreading despite takedown.</strong> 404 Media reports ARTEX, an open-source Go framework that plugs into any LLM to spin up hacking subagents, keeps spreading on GitHub after its author pulled it in October. The FBI warned targets this month; it hits government, healthcare and telecoms at machine speed. (AI Weekly)</p>
+<p><strong>Raimondo report: AI-heavy sectors cut early-career hiring 3–8%.</strong> Early-career hiring in AI-heavy industries ran 3–8% below 2021–2026 norms in the year ending June 2026, per &ldquo;Fewer Rungs, New Bridges,&rdquo; a joint RAISE US and Burning Glass report led by former Commerce Secretary Gina Raimondo, first shared with Semafor. (AI Weekly)</p>
+<h2>Field &amp; industry developments</h2>
+<p><strong>NHS EDITH trial puts AI into ~700,000 breast screenings.</strong> Nearly 700,000 UK women aged 50 to 71 will have mammograms partly read by AI across 30 NHS sites in the EDITH trial, described as the world&rsquo;s largest AI breast-screening study. One of the two expert readers currently required per scan will be replaced by AI. (AI Weekly)</p>
+<p><strong>Google DeepMind finds faster quantum algorithms with agents and formal verification.</strong> DeepMind used teams of Gemini 4 agents to find cheaper versions of known quantum algorithms, with each result proven correct in the Lean theorem prover. One circuit for fusion-energy research cut its computing cost by 11.8x. (TLDR AI)</p>
+<p><strong>Tesla FSD v15 framed as AI4&rsquo;s &ldquo;last shot.&rdquo;</strong> Per Electrek, Tesla&rsquo;s FSD v15 is the company&rsquo;s last real chance to deliver unsupervised self-driving on the AI4 computer: the next-gen A15 chip will not come to cars, and the mid-cycle AI4.5 upgrade had its RAM cut from 32GB to 24GB. Musk indicated how little compute headroom is left; the mid-cycle refresh exists mainly because Tesla needs a memory type it can actually buy, and the AI4 chip now costs roughly twice as much due to memory and storage price hikes. (TLDR)</p>
+<p><strong>METR updates its AI time-horizon benchmark.</strong> METR&rsquo;s Time Horizon 1.1 expands from 170 to 228 tasks and, for the first time, scores models on judgment-heavy work — including one task that asks an AI to design new METR evaluations. Coding capabilities keep doubling roughly every four months, while judgment-work progress lags. (AI Weekly)</p>
+</article>
+<nav class="updown"><a href="2026-11-23.html">&larr; Monday, November 23, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Tuesday, November 24, 2026 &middot; site rebuilt Nov 24, 2026 at 7:41 AM PST
+</div></footer>
+</body>
+</html>
