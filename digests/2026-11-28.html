@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Unlisted: the repo is public, so this is the only thing keeping the site
+     out of search results. Remove both if you ever want it indexed. -->
+<meta name="robots" content="noindex,nofollow">
+<title>AI Daily Digest &amp;mdash; 2026-11-28</title>
+<meta name="description" content="AI news digest for 2026-11-28.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#fbfaf8; --surface:#fff; --border:#e6e2db; --text:#1c1b19;
+  --muted:#6c6862; --accent:#b8502a; --accent-soft:#f4ebe6; --code:#f2efea;
+  --shadow:0 1px 2px rgba(28,27,25,.05),0 4px 14px rgba(28,27,25,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --bg:#16151a; --surface:#1e1d23; --border:#312f38; --text:#eceaf0;
+    --muted:#a09caa; --accent:#f0855c; --accent-soft:#2c2229; --code:#26242c;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:16px/1.65 ui-serif,Georgia,'Iowan Old Style','Times New Roman',serif;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+header.site{border-bottom:1px solid var(--border);background:var(--surface)}
+header.site .wrap{padding-top:2.25rem;padding-bottom:2rem}
+.brand{
+  font:600 1.55rem/1.2 ui-sans-serif,-apple-system,'Segoe UI',system-ui,sans-serif;
+  letter-spacing:-.02em;margin:0;
+}
+.brand a{color:var(--text)}
+.tagline{color:var(--muted);margin:.5rem 0 0;font-size:.95rem}
+.meta-line{
+  color:var(--muted);margin:.85rem 0 0;font-size:.8rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+
+.tools{display:flex;gap:.6rem;margin:1.4rem 0 0;flex-wrap:wrap}
+#q{
+  flex:1 1 12rem;min-width:0;padding:.6rem .85rem;border:1px solid var(--border);
+  border-radius:8px;background:var(--bg);color:var(--text);font-size:.95rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+
+main{padding:2.25rem 0 4rem}
+.count{
+  color:var(--muted);font-size:.8rem;margin:0 0 1.1rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+  text-transform:uppercase;letter-spacing:.07em;
+}
+.card{
+  display:block;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:1.15rem 1.3rem;margin:0 0 .85rem;
+  box-shadow:var(--shadow);transition:transform .12s ease,border-color .12s ease;
+}
+.card:hover{transform:translateY(-1px);border-color:var(--accent);text-decoration:none}
+.card h2{
+  margin:0;font:600 1.08rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  color:var(--text);letter-spacing:-.01em;
+}
+.card .when{
+  color:var(--muted);font-size:.76rem;margin:.3rem 0 0;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.card ul{margin:.75rem 0 0;padding-left:1.05rem;color:var(--muted);font-size:.9rem}
+.card li{margin:.28rem 0}
+.card li::marker{color:var(--accent)}
+.today{border-color:var(--accent);background:var(--accent-soft)}
+.badge{
+  display:inline-block;background:var(--accent);color:#fff;font-size:.62rem;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  padding:.16rem .48rem;border-radius:99px;margin-left:.5rem;vertical-align:.14em;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+.empty{color:var(--muted);text-align:center;padding:2.5rem 0;display:none}
+
+article h2{
+  font:600 1.28rem/1.35 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  letter-spacing:-.01em;margin:2.4rem 0 .9rem;padding-bottom:.45rem;
+  border-bottom:1px solid var(--border);
+}
+article h3{
+  font:600 1.05rem/1.4 ui-sans-serif,-apple-system,system-ui,sans-serif;
+  margin:1.8rem 0 .6rem;
+}
+article p{margin:0 0 1.05rem}
+article ul,article ol{padding-left:1.3rem;margin:0 0 1.05rem}
+article li{margin:.45rem 0}
+article li::marker{color:var(--accent)}
+article strong{font-weight:700}
+article code{
+  background:var(--code);padding:.13em .38em;border-radius:4px;
+  font:.87em/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+article pre{background:var(--code);padding:1rem;border-radius:8px;overflow-x:auto}
+article pre code{background:none;padding:0}
+article blockquote{
+  margin:0 0 1.05rem;padding:.2rem 0 .2rem 1rem;
+  border-left:3px solid var(--border);color:var(--muted);
+}
+article hr{border:0;border-top:1px solid var(--border);margin:2rem 0}
+article table{width:100%;border-collapse:collapse;margin:0 0 1.05rem;font-size:.9rem}
+article th,article td{border:1px solid var(--border);padding:.5rem .65rem;text-align:left}
+article th{background:var(--code);font-weight:600}
+.scroller{overflow-x:auto;margin:0 0 1.05rem}
+
+nav.updown{
+  display:flex;justify-content:space-between;gap:1rem;margin:3rem 0 0;
+  padding-top:1.4rem;border-top:1px solid var(--border);font-size:.9rem;
+  font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+nav.updown span{color:var(--muted)}
+footer.site{
+  border-top:1px solid var(--border);padding:1.6rem 0 2.5rem;color:var(--muted);
+  font-size:.78rem;font-family:ui-sans-serif,-apple-system,system-ui,sans-serif;
+}
+@media (max-width:600px){
+  body{font-size:15.5px}
+  header.site .wrap{padding-top:1.6rem;padding-bottom:1.4rem}
+  .brand{font-size:1.3rem}
+  main{padding:1.6rem 0 3rem}
+}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1 class="brand"><a href="../index.html">AI Daily Digest</a></h1>
+<p class="tagline">Saturday, November 28, 2026</p>
+<p class="meta-line">1,394 words &middot; <a href="../index.html">All issues</a></p>
+</div></header>
+<main><div class="wrap">
+<article>
+<h2>Top items</h2>
+<ul>
+<li>SAP weighs 10,000+ job cuts (~9% of staff) in an &ldquo;AI-first&rdquo; restructuring, and separately confirms a cyberattack in which source code was reportedly altered on GitHub.</li>
+<li>Google ships two new Gemini 4 models — Hydrogen and Neon — plus &ldquo;Orchestrator,&rdquo; which switches models mid-task within a single coding agent.</li>
+<li>Google will require any AI agent touching Gmail, Drive, or Calendar to go through its Workspace MCP servers starting February 2027.</li>
+<li>Congress&rsquo;s push for frontier AI regulation stalls amid committee turf fights.</li>
+<li>Citi and JPMorgan are shopping AI data-center loan portfolios to investors as underwriters rush to shed risk.</li>
+<li>Yandex releases AliceAI, an 80B/3B-active MoE model, under Apache 2.0.</li>
+</ul>
+<h2>Company &amp; product developments</h2>
+<p><strong>SAP weighs 10,000+ job cuts in an AI-first restructuring.</strong> According to Bloomberg (Nov 26), SAP is preparing to cut at least 10,000 positions — roughly 9% of its 110,000-strong workforce — as CEO Christian Klein pushes an &ldquo;AI-first&rdquo; restructuring. Product, engineering and sales are expected to take the heaviest hit. CNBC carried the same figure on Thursday, and the newsletter notes that ongoing labor talks could still move the number. This is one of the larger concrete examples to date of a major enterprise software vendor explicitly reshaping its headcount around an AI-first operating model, making it a story worth tracking as negotiations unfold.</p>
+<h2>Frontier models &amp; labs</h2>
+<p><strong>Google ships Gemini 4 Hydrogen and Neon, plus Orchestrator for mid-task model switching.</strong> Google added two new Gemini 4 models and a new coding-agent capability. On November 12 it released <strong>Gemini 4 Hydrogen</strong>, built to run coding and other agentic tasks quickly and more cheaply than the flagship Gemini 4 Carbon; on November 18 it added <strong>Gemini 4 Neon</strong>, which rivals Carbon&rsquo;s performance at an intermediate speed and cost. Both are adapted from Gemini 4 Carbon (architecture details, parameter counts, and training methods undisclosed) and are proprietary. They accept text, images, audio and video in and output text, with up to 1 million combined input/output tokens and 64,000 output tokens by default. Per Artificial Analysis, Hydrogen runs at 173 tokens/second at its highest setting and Neon at 99 tokens/second. Pricing: Hydrogen is $1.50/$7.50 per million input/output tokens; Neon is $3.00/$15.00. On the Artificial Analysis Intelligence Index, Hydrogen at high reasoning scored 51 (roughly matching Gemini 4 Argon&rsquo;s 50); at &ldquo;xhigh&rdquo; it scored 54, taking 14.9 minutes and costing $3.16 per task. Neon at xhigh scored 61 at $6.44/task and 25.8 minutes, while Carbon at high scored 60 at $5.48/task and 32 minutes. Notably, Hydrogen&rsquo;s lower price doesn&rsquo;t always mean fewer tokens — set to extra-high it generated 304 million output tokens across the Index tests versus Carbon&rsquo;s 205 million. Google&rsquo;s naming loosely tracks elemental weight (Hydrogen light/fast, Carbon heavier/more capable), though Neon is faster than Carbon and Argon is now the least capable despite being heaviest.</p>
+<p>Alongside the models, Google&rsquo;s Antigravity coding agent (its counterpart to OpenAI&rsquo;s Codex and Anthropic&rsquo;s Claude Code) gained <strong>Orchestrator</strong>, which splits a task between a planner and an executor while keeping a single agent in a single context window and switching the underlying model. A planner (Carbon, Neon, or Argon) studies the code without changing it and writes a plan; Hydrogen then carries it out — editing code, building, testing, and confirming results — and hands control back to the planner when it hits trouble (e.g., a check that fails twice), prompting a plan rewrite. Google says Carbon-planner-plus-Hydrogen-actor nearly matches Carbon alone; on Terminal-Bench the pairing came close to Carbon&rsquo;s success rate while finishing 19% faster and using 24% less of its token quota. The approach echoes Anthropic&rsquo;s Claude Code &ldquo;advisor&rdquo; option, OpenAI&rsquo;s Codex subagents, and Sakana&rsquo;s Fugu orchestrator, all pointing to multi-model collaboration as the emerging pattern for coding agents.</p>
+<p><strong>Yandex releases AliceAI, an 80B/3B-active MoE model, under Apache 2.0.</strong> Yandex posted a technical report and weights for AliceAI-Foundation-80B-A3B-Base on arXiv: an 80-billion-parameter mixture-of-experts model with roughly 3 billion active parameters per token, trained from scratch and released permissively under Apache 2.0. The base checkpoint reports 88.7% pass@8 on IMO-AnswerBench and 82.9% on LiveCodeBench v5–v6.</p>
+<h2>Policy, law, safety &amp; security</h2>
+<p><strong>Congress&rsquo;s frontier AI regulation push stalls on committee turf fights.</strong> The New York Times (Nov 27) reports that months of hearings have produced no consensus frontier AI bill, with committees fighting over who leads. Sen. Ruben Gallego&rsquo;s S. 918 would create a Senate select committee on AI with subpoena power, while a revised House FRONTIER Act would add an Office of AI Security at the Commerce Department. The deadlock is itself the story: despite sustained attention, jurisdictional disputes are preventing any unified legislative vehicle from advancing, an ongoing situation worth watching.</p>
+<p><strong>SAP confirms a cyberattack with source code reportedly altered on GitHub.</strong> On November 27, SAP confirmed it detected suspicious activity in its development infrastructure. Der Spiegel reported that attackers obtained employee authentication tokens and used them to copy and modify source code stored on GitHub. SAP says it has found no evidence customer business data was accessed, and has responded by replacing signing keys, restricting GitHub access, and pausing automated development operations. Insiders told reporters the attackers may have used agentic AI tools, and Germany&rsquo;s BSI has issued warnings about autonomous attack frameworks including ARTEX, CAIRN, and PentAGI. The possible involvement of autonomous AI attack tooling against a major enterprise vendor&rsquo;s source code is the notable element here, and the incident is likely to develop further.</p>
+<h2>Chips, infrastructure &amp; hardware</h2>
+<p><strong>Citi and JPMorgan shop AI data-center loan portfolios to investors.</strong> Semafor reports that Citi and JPMorgan are marketing portfolios of AI data-center loans to investors, in some cases via synthetic risk transfers that keep the loans on-balance-sheet while shifting loss risk to third parties. The move comes as AI-related debt issuance has &ldquo;crowded out Treasurys&rdquo; and investors begin signaling fatigue. The scramble by underwriters to offload AI-infrastructure credit risk is an early signal of stress in the financing that underpins the data-center buildout — a thread that connects to broader concerns about an AI financing bubble.</p>
+<h2>Tooling &amp; releases</h2>
+<p><strong>Google will require AI agents to use its Workspace MCP servers.</strong> Per Techstackups, Google moved its eight Workspace MCP (Model Context Protocol) servers to general availability on November 24 and added a new API term: starting February 1, 2027, any tool &ldquo;driven by an AI Agent&rdquo; must reach Gmail, Drive, and Calendar through those servers or face Standard-tier quota caps and potential account suspension. A wrinkle flagged in the coverage is that the Gmail MCP server reportedly can&rsquo;t send email. The policy matters because it centralizes and gates how third-party AI agents access Google&rsquo;s core productivity data — a significant move in the emerging fight over agent access to user accounts and services.</p>
+<p><strong>llama.cpp reaches version 1.0.</strong> The open-source package that lets users run language models locally — and that powers apps like Ollama and LM Studio — hit 1.0 after more than three years of development, signaling its developers consider it mature and stable. The Hugging Face-based team released v1.0.0 of both llama.cpp and ggml (the underlying math library), adding support for new models including Kimi-K3.1 Pro, a text-to-speech feature for its built-in server, and a redesigned chat interface. Georgi Gerganov started llama.cpp in March 2023, about a week after Meta&rsquo;s first LLaMA model leaked, writing it as a dependency-free C/C++ program that runs directly on a processor — unlike Meta&rsquo;s own code, which required Python, PyTorch, CUDA, and an Nvidia GPU. The project now supports &ldquo;more than 150 architecture variants,&rdquo; runs across servers, laptops, and edge machines, loads models in the fast-loading GGUF format, relies heavily on quantization (e.g., 4-bit weights), and interacts with hardware through backends including CUDA (Nvidia), Metal (Apple), Vulkan (cross-vendor), and CPU. Its bundled server mimics OpenAI&rsquo;s and Anthropic&rsquo;s API formats so many cloud-targeted apps can swap in a local model. GitHub&rsquo;s Octoverse report ranked llama.cpp fifth among independent open-source projects for contributor growth this year and third in overall engagement; the project published 50 nightly builds over November 15–16 alone. Hugging Face (which the ggml team joined in February 2026) provides sustainable resources, and Nvidia, AMD, Qualcomm, Arm, IBM, and Intel supply hardware for test runners. The milestone matters because so many tools build on llama.cpp, making its continued health relevant to the whole local-AI ecosystem that keeps data on users&rsquo; own machines and off cloud providers.</p>
+</article>
+<nav class="updown"><a href="2026-11-27.html">&larr; Friday, November 27, 2026</a><span>Latest issue &rarr;</span></nav>
+</div></main>
+<footer class="site"><div class="wrap">
+Issue of Saturday, November 28, 2026 &middot; site rebuilt Nov 28, 2026 at 7:41 AM PST
+</div></footer>
+</body>
+</html>
